@@ -8,14 +8,6 @@
 [layermode color="0x05080d" opacity="165" time="100" wait="true"]
 [iscript]
 (function openTitleConfigScreen() {
-    window.__hlConfigOverlayOnClose = function () {
-        TYRANO.kag.ftag.startTag("jump", { storage: "title_config.ks", target: "*title_config_close" });
-    };
-    if (window.__hlOpenConfigOverlay) window.__hlOpenConfigOverlay();
-    else TYRANO.kag.ftag.startTag("jump", { storage: "title_config.ks", target: "*title_config_close" });
-})();
-[endscript]
-(function openTitleConfigScreen() {
     if (!window.__hlOpenConfigOverlay) {
         TYRANO.kag.ftag.startTag("jump", { storage: "title_config.ks", target: "*title_config_close" });
         return;
