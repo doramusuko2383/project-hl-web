@@ -71,7 +71,7 @@ how much longer would this go on?
 [font speed=40]
 
 Trapped in a reality I couldn’t escape,[r]
-I felt like my chest might split open.
+I didn't know how much more I could take.
 [p]
 [wait time=1000]
 
@@ -87,7 +87,7 @@ The chime announced lunch break. I dreaded that sound.
 
 I’d been ordered to go to the school rooftop every lunch break.[p]
 
-This “routine” took place where neither teachers nor classmates could see,[r]and I couldn’t tell anyone about it.[p]
+This “routine” took place out of sight of both teachers and classmates,[r]and I couldn’t tell anyone about it.[p]
 [wait time=1000]
 
 ...[p]
@@ -124,16 +124,16 @@ I climbed the dim stairwell to the rooftop.[p]
 [playse storage=se/wind_rooftop.ogg volume=30]
 [playbgm storage="tension_low.ogg" loop=true volume=100 fadein=true time=1500]
 [wait time=2000]
-九月だというのに外は蒸し暑い。
+Even though it was September, the air outside was hot and humid.
 [p]
 
-屋上のコンクリートには朝方の雨が染み込み、まだ少し湿っていた。[p]
+The morning rain had soaked into the rooftop concrete, leaving it slightly damp.[p]
 
 [wait time=1000]
 
-いつもの三人は、今日は地面に座らず、フェンスにもたれかかっている。[l]
+Instead of sitting on the ground, the usual three were leaning against the fence today.[l]
 
-雨が染みて濡れるのを嫌がったのだろう。[p]
+They probably didn't want the rainwater soaking through their clothes.[p]
 
 *ch1_training
 
@@ -143,94 +143,94 @@ I climbed the dim stairwell to the rooftop.[p]
 [playse storage=se/foot.ogg volume=100]
 
 [wait time=1000]
-「来たか」[p]
+“There you are.”[p]
 
-三人の中でも一番背の高い、リーダー格の龍也が拓海を見て言う。[p]
+Ryuya, the tallest of the three and their de facto leader, looked at me.[p]
 
-声は淡々としているが、その視線は鋭い。[p]
+His voice was flat, but his gaze was piercing.[p]
 
-名前を呼ばれたわけでもないのに、拓海の足はそこで止まった。[p]
+He hadn't even called my name, but I stopped in my tracks.[p]
 
-返事をすれば声が震える。[l][r]
-黙っていれば、それを理由に機嫌を損ねるかもしれない。[p]
+If I answered, my voice would shake.[l][r]
+If I stayed quiet, he might take offense at that instead.[p]
 
-迷った末に小さく頭を下げる。[l][r]
-いつからか、それが三人の前での返事になっていた。[p]
+After a moment's hesitation, I gave a slight bow.[l][r]
+At some point, that had become the only way I answered them.[p]
 
 [wait time=500]
 
 [bg storage="bg_rooftop_day_ch1.webp" time=600]
 [auto_chara name="龍也" face="normal" left=50 time=700]
-「じゃあ、いつものやつやろうぜ」[p]
+“All right. Let's do the usual.”[p]
 
-龍也は、どこから手に入れたのかわからないボクシンググローブを手にはめながら言った。[p]
+Ryuya said this as he pulled on a pair of boxing gloves. I had no idea where he'd gotten them.[p]
 
-それで拓海をサンドバッグにするのが、龍也たちの「トレーニング」だった。[p]
-
-[wait time=500]
-
-拓海は無言のまま、用意されたグローブを手に取る。[p]
+Using me as a punching bag was what Ryuya and the others called “training.”[p]
 
 [wait time=500]
 
-これが日常になってしまっている自分が情けない。[p]
+Without a word, I picked up the gloves they'd left for me.[p]
+
+[wait time=500]
+
+I hated myself for letting this become routine.[p]
 
 [auto_chara name="翔太" face="nastysmile" left=180 time=500]
-「三分で次、俺に交代してよ」[l]
+“Switch with me after three minutes.”[l]
 
-悪友の翔太がニヤニヤと笑いながら言う。[p]
+Shota, his smirking partner in crime, chimed in.[p]
 
 [auto_chara name="綾香" face="normal" left=300 time=500]
-「やめなよ、かわいそうじゃーん」[l]
+“Come on, leave him alone. Poor guy.”[l]
 
-仲間の綾香が、薄ら笑いを浮かべながら口にする。[p]
+Ayaka, the third member of the group, spoke with a faint smile.[p]
 
 [chara_hide name="綾香"]
 
-綾香はこの「遊び」には参加しなかった。[l]
-それは、拓海を憐れんでいるわけではない。[p]
+Ayaka never joined in this “game.”[l]
+Not because she felt sorry for me.[p]
 
 [wait time=500]
 
-自分が汗をかくのも嫌だし、何かあったときに責任を負いたくないからだ。[p]
+She didn't want to work up a sweat, and she didn't want any blame if something went wrong.[p]
 
-それでも一瞬だけ、拓海の指はグローブの留め具の上で止まった。[p]
+Even so, my fingers paused on the glove strap for just a moment.[p]
 
-「かわいそう」という言葉に、体が勝手に反応してしまったのだ。[p]
+My body had reacted on its own to the words “poor guy.”[p]
 
-綾香の薄い笑いを見て、喉元まで出かかった助けを求める声が萎む。[l][r]
-ここには、自分の痛みを痛みとして受け取る人間はいない。[p]
+One look at Ayaka's thin smile killed the plea rising in my throat.[l][r]
+There was no one here who saw my pain for what it was.[p]
 
-「トレーニング」と称されたこのボクシングの真似事のルールはこうだ。[p]
-
-[wait time=500]
-
-一ラウンド三分[l][r]
-顔は殴らない[l][r]
-グローブを着用すること[p]
-こんな体裁が整えられている。[p]
-
-だが、ルールは都合よく変わるものだ。[p]
+This mock boxing match they called “training” had rules.[p]
 
 [wait time=500]
 
-以前、拓海が余りに何も打ち返さないので、[l]
-龍也が「少しは打ってこいよ」と煽ってくることがあった。[p]
+Three minutes per round.[l][r]
+No punches to the face.[l][r]
+Gloves were mandatory.[p]
+Just enough structure to make it look legitimate.[p]
 
-そのとき言われるがまま打ったパンチは、運が悪いことに龍也のみぞおちに、[r]
-吸い込まれるように入っていった。[p]
+But the rules changed whenever it suited them.[p]
 
 [wait time=500]
 
-思わぬ痛みに顔を歪めた龍也は、それがよっぽど気に食わなかったのか、[l][r]
-脚を大きく振り上げ、拓海の腹を蹴りつけた。[p]
+Once, when I wasn't fighting back at all,[l]
+Ryuya had goaded me to “at least throw a punch.”[p]
+
+The punch I threw as ordered had, through sheer bad luck, landed squarely in Ryuya's solar plexus.[r]
+It was as though his body had drawn my fist in.[p]
+
+[wait time=500]
+
+Ryuya's face twisted at the unexpected pain. Apparently furious,[l][r]
+he raised his leg high and drove his foot into my stomach.[p]
 
 [wait time=1000]
 
-こんな調子だから、ルールなどあってないようなものだ。[p]
+That was how it went. The rules may as well not have existed.[p]
 
 [auto_chara name="龍也" face="normal" left=50]
-今日の「トレーニング」も一方的なものだった。[p]
+Today's “training” was just as one-sided.[p]
 
 [playse storage=se/punch1.ogg volume=100]
 [wait time=500]
@@ -239,29 +239,28 @@ I climbed the dim stairwell to the rooftop.[p]
 [playse storage=se/punch1.ogg volume=100]
 [wait time=500]
 [chara_hide_all time=300]
-打ち返すとさらにやり返されることがわかってからは、[l]
-拓海は避けたり、ガードを固めたりすることに徹していた。[p]
+Once I learned that fighting back only brought worse retaliation,[l]
+I devoted myself to dodging and keeping my guard up.[p]
 
 [wait time=500]
 
-痛みには決して慣れなかった。[p]
+I never got used to the pain.[p]
 
-蓄積していく痛みは、いつだって拓海の気持ちをへし折っていく。[p]
+The way it built with every blow always broke down what little resolve I had.[p]
 
-三分経った。[p]
+Three minutes passed.[p]
 [auto_chara name="翔太" face="normal" left=180]
-龍也からグローブを受けとった翔太が、パーマのかかった茶髪を揺らしながら、
-その場でトントンと軽くジャンプをする。[p]
+Shota took the gloves from Ryuya and bounced lightly in place, his permed brown hair bobbing with him.[p]
 
 [wait time=500]
 
-ボクサーの真似事だ。[l]翔太のパンチは龍也ほど重くはない。[p]
+He was playing boxer.[l]His punches weren't as heavy as Ryuya's.[p]
 
 [wait time=500]
 
-だが、こちらのガードのタイミングをずらすようなフェイントを入れて来たり、[l][r]
-的確に急所を狙ってきたりと、とにかく意地が悪い。[p]
-翔太のずる賢い性格を反映したような立ち回りだった。[p]
+But he used feints to throw off my guard,[l][r]
+and he knew exactly where to hit to hurt the most. Everything he did was vicious.[p]
+The way he fought reflected his sly nature perfectly.[p]
 
 [wait time=500]
 
@@ -272,328 +271,327 @@ I climbed the dim stairwell to the rooftop.[p]
 [playse storage=se/punch2.ogg volume=100]
 [wait time=500]
 
-人を三分間殴り続けるのも、かなり疲れるものなのだろう。[p]
+Pummeling someone for three straight minutes must have been tiring.[p]
 
-時間が経つにつれて、大振りになって打撃が雑になるのがわかる。[p]
-もう……そろそろ三分経つのだろうか。[p]
+As time passed, his swings grew wider and sloppier.[p]
+It had to be... almost three minutes by now.[p]
 
 [wait time=1000]
 
 [auto_chara name="翔太" face="nastysmile" left=180]
-「おっと、もう三分だ。これで終わりだ……よっと！」[l][r]
+“Oh, three minutes already. This'll be the last... one!”[l][r]
 [playse storage=se/punch3.ogg volume=100]
 [wait time=500]
 
-最後にフェイントを交えた一撃を放ってきた。[l]
-これが油断していた拓海の腹に炸裂する。[p]
+He finished with one last feint.[l]
+The punch slammed into my stomach while my guard was down.[p]
 
 [wait time=1000]
-「くっ――」[l]
+“Gah—”[l]
 [playse storage=se/fall_down.ogg volume=100]
-拓海は体をくの字に曲げて、膝を着いた。[p]
+I doubled over and dropped to one knee.[p]
 
 [wait time=500]
 
 [auto_chara name="綾香" face="serious" left=300]
-「あんた弱いねえ。私でも勝てちゃいそう」[l][r]
+“You really are weak. Even I could probably beat you.”[l][r]
 
-綾香が黒髪のロングヘアを指でいじりながら吐き捨てる。[p]
+Ayaka sneered, twirling a strand of her long black hair around one finger.[p]
 
-拓海は腹を押さえたまま、屋上の扉へ目を向けた。[p]
+Still clutching my stomach, I looked toward the rooftop door.[p]
 
-授業へ戻る生徒が、誰か一人でも扉を開けてくれないか。[l][r]
-そんな期待をした自分が、ひどく惨めだった。[p]
+Maybe just one student returning to class would open it.[l][r]
+I felt pathetic for letting myself hope.[p]
 
-扉は閉じたまま、湿った風に蝶番を鳴らすだけだった。[p]
+The door stayed shut, its hinges creaking in the damp wind.[p]
 
 [wait time=500]
 
 [auto_chara name="龍也" face="normal" left=50]
-「明日も昼休み来いよ」[l]
+“Be here at lunch tomorrow, too.”[l]
 
-と龍也が言って屋上から出ようとすると、[r]残りの二人もぞろぞろと従っていく。[p]
+Ryuya headed for the exit,[r]and the other two trailed after him.[p]
 [playse storage=se/three_walk.ogg volume=100]
 [wait time=500]
 
-「グローブ……いつものとこにしまっとけ」[p]
+“Put the gloves... back in the usual place.”[p]
 
-そう言い残して、三人は去っていった。[p]
+With that parting order, the three of them left.[p]
 [fadeoutbgm time=3000]
 [chara_hide_all time=300]
 
 [wait time=2000]
 
 [playse storage=se/throw_globe.ogg volume=100]
-一人取り残された拓海は、グローブを乱暴に外して傍らに放った。[p]
+Left alone, I yanked off the gloves and threw them aside.[p]
 
 [wait time=500]
 [playse storage=se/heartbeat.ogg loop=true volume=100]
-自分が受けた仕打ちへの怒りが、急速に膨らんでいく。[l][r]
-そしてそれは、自分自身の無力さに対する怒りでもあった。[p]
+My anger at what they'd done to me swelled rapidly.[l][r]
+And some of that anger was aimed at my own helplessness.[p]
 
 [wait time=1000]
 
-だが、ぶつける相手はもうここにいない。[p]
+But there was no one left to take it out on.[p]
 
 [wait time=1000]
 
-三人の足音が消えると、風と自分の心音だけが残った。[p]
-行き場を失った怒りが、今度は自分へ刃を向ける。[p]
+When their footsteps faded, only the wind and my heartbeat remained.[p]
+With nowhere else to go, my anger turned inward.[p]
 
 [wait time=1000]
 
-ふと、フェンスへ視線を向ける。[l][r]
-転落を防ぐための、最低限の高さしかないフェンスだ。[p]
+My gaze drifted to the fence.[l][r]
+It was only high enough to prevent an accidental fall.[p]
 
 [wait time=500]
 
-自らよじ登ろうとする人間まで阻む造りではなく、[l][r]
-その気になれば簡単に越えられる。[p]
+It wasn't built to stop anyone determined to climb it.[l][r]
+If I wanted to, I could get over it easily.[p]
 
 [wait time=1000]
 *ch1_jump
 
-拓海は以前から、屋上から飛び降りたらどうなるのか気になっていた。[p]
+I'd wondered before what would happen if I jumped from the rooftop.[p]
 
 [wait time=500]
 
-実際に調べたこともある。[p]
+I'd even looked it up.[p]
 
 [wait time=500]
 
-この屋上は地上から約十メートルあり、[l]
-ここから固い地面に衝突すれば、高い確率で助からないだろう。[p]
+The rooftop was about ten meters above the ground.[l]
+If I hit the hard pavement from this height, I probably wouldn't survive.[p]
 
 [wait time=500]
 
-仮に助かったとしても、重度の障害が残り、[l]
-死ぬより苦しい地獄が待っているかもしれない。[p]
+Even if I did, I might be left severely disabled,[l]
+facing an existence worse than death.[p]
 
 [wait time=1000]
 
-気づくと拓海はフェンスに手をかけてよじ登っていた。[p]
+Before I knew it, my hands were on the fence and I was climbing.[p]
 [playse storage=se/fence_creak.ogg volume=100]
 [wait time=500]
 
-そしてフェンスをまたぎ、[l]
-屋上のふちにゆっくりと足を降ろした。[p]
+I swung a leg over,[l]
+then slowly lowered my feet onto the edge of the roof.[p]
 
 [wait time=500]
 [playse storage=se/wind_rooftop.ogg volume=20]
 [cg storage="ch01_sc01_jumping_off.webp"]
 [bg storage="ch01_sc01_jumping_off.webp" time=600]
-雨で少し滑りやすくなった足場を、風が制服ごと揺さぶる。[p]
-視線を下へ向けると、色鮮やかに花が咲く正門前の花壇が見える。[p]
+The wind tugged at my uniform as I stood on the rain-slick ledge.[p]
+Looking down, I could see the brightly colored flower bed by the front gate.[p]
 
 [wait time=500]
 
-もうすぐ昼休みも終わり、[l]
-5限目が始まる。[p]
+Lunch break would end soon,[l]
+and fifth period would begin.[p]
 
 [wait time=500]
 
-生徒たちは皆教室に戻ったようで人の気配はない。[p]
+Everyone seemed to have returned to class. There wasn't a soul around.[p]
 
 [wait time=500]
-拓海は、[l]まるで子供が親の胸に飛び込むような自然な動作で、[l]両足をそろえて[p]
+As naturally as a child[l]leaping into a parent's arms,[l]I brought my feet together.[p]
 [delay speed="130"]
-跳んだ――。[p]
+I jumped—[p]
 [resetdelay]
 [bg storage="black.png" time=0 wait=false]
 [stopse]
 [stopbgm]
 [wait time=1000]
 [delay speed="90"]
-ジェットコースターのような浮遊感が一瞬あり、[p]
+For an instant, I felt the weightlessness of a roller coaster.[p]
 
 [wait time=500]
 
-すぐにものすごい勢いで地面に向かって加速する――[l]はずだった。[p]
+Then I should have accelerated toward the ground at terrifying speed.[l]But I didn't.[p]
 
 [wait time=1000]
 
-しかし、[p]
+Instead—[p]
 
 [wait time=500]
 
-周りの景色がスローモーションになって、[l]
-ゆっくりと落ちていくように感じる。[p]
+the world around me slipped into slow motion,[l]
+and I felt myself falling at a crawl.[p]
 
 [wait time=1000]
 [playbgm storage="tension_low.ogg" loop=true volume=100 fadein=true time=1500]
 
-これが走馬灯か。[p]
-拓海は冷静に受け止めていた。[p]
+So this was my life flashing before my eyes.[p]
+The thought came with strange calm.[p]
 
 [wait time=1000]
 
-足から地面に衝突する。[p]
-衝撃という言葉では、まったく足りなかった。[p]
+My feet struck the ground first.[p]
+“Impact” wasn't nearly enough to describe it.[p]
 
 [wait time=1000]
 
-足の裏から、嫌な音が響いた。[p]
-自分の脚ではないみたいに、[l]
-膝から下が崩れていく。[p]
+A sickening sound traveled up from the soles of my feet.[p]
+Below the knees, my legs gave way[l]
+as if they belonged to someone else.[p]
 
 [wait time=1000]
 
-まだ、止まらない。[p]
+And it still wasn't over.[p]
 
 [wait time=700]
 
-折れた太ももの奥から、[l]
-体の内側を突き破られる感覚が走った。[p]
+From deep inside my broken thigh came the sensation[l]
+of something tearing through me from within.[p]
 
 [wait time=1000]
 
-腹の奥で、何かが潰れた。[p]
-熱いものが喉まで込み上げてくる。[p]
+Something collapsed deep in my abdomen.[p]
+Something hot surged up my throat.[p]
 
 [wait time=1000]
 
-胸が折り畳まれる。[p]
-息を吸おうとしても、[l]
-体がもう、その動きを忘れていた。[p]
+My chest folded in on itself.[p]
+I tried to breathe,[l]
+but my body had forgotten how.[p]
 
 [wait time=1000]
 
-すると、[l]地面がどんどん近づいてくるように感じた。[p]
+Then[l]the ground seemed to rush closer.[p]
 
 [wait time=500]
 
-そう、[l]顔面が地面に激突しようとしていた。[p]
+Yes—[l]my face was about to slam into it.[p]
 
 [wait time=1000]
 
-顎が砕ける。[p]
-歯が散る。[p]
+My jaw shattered.[p]
+My teeth scattered.[p]
 
 [wait time=700]
 
-視界いっぱいに、[l]
-濡れたコンクリートが広がった。[p]
+Wet concrete[l]filled my vision.[p]
 
 [wait time=700]
 
-――そこで、[l]
-衝撃は終わった。[p]
+—And then,[l]
+the impact ended.[p]
 
 [fadeoutbgm time=1000]
 [stopse fadeout=1000]
 [wait time=1800]
 
-世界が、[l]
+The world[l]
 [resetdelay]
 [delay speed="120"]
-切れた。[p]
+cut out.[p]
 [resetdelay]
 [delay speed="90"]
 
 [wait time=1200]
 
-「これが死というものか」と拓海は思った――。[p]
+So this is death, I thought—[p]
 
 [wait time=2000]
 
-……。[p]
+...[p]
 
 [resetdelay]
 [playse storage=se/wind_rooftop.ogg volume=20]
 [bg storage="bg_rooftop_day.webp"]
-風が聞こえた。[p]
+I heard the wind.[p]
 
-眩しい。[p]
+It was bright.[p]
 
-視界が戻る。[p]
+My vision returned.[p]
 
-拓海は自分の体を確認した。[p]
+I looked over my body.[p]
 
-血もついていなければ、壊れてもいない。[p]
+There was no blood. Nothing was broken.[p]
 
-隣を見ると放り投げたグローブが見える。[p]
+Beside me lay the gloves I'd thrown away.[p]
 
 [wait time=500]
 [playbgm storage="tension_low.ogg" loop=true volume=100 fadein=true time=1500]
-さっきいた屋上から一歩も動いていないのだ。[p]
+I hadn't moved a single step from where I'd been on the rooftop.[p]
 
 [wait time=500]
 
-時計の針を見る限り、時間は経っていないようだった。[p]
+Judging by the clock, no time had passed.[p]
 
-夢を見て寝ていたわけでもないらしい。[p]
-
-[wait time=500]
-
-「幻」を見たのだろうかと思考を巡らせているうちに、
-混乱が少し和らいできた。[p]
+And I hadn't fallen asleep and dreamed it.[p]
 
 [wait time=500]
 
-無傷の脚へ目を落とした瞬間、砕けた感触だけが鮮明に蘇った。[p]
+As I tried to make sense of whether I'd seen some kind of “vision,”
+my confusion began to ease a little.[p]
+
+[wait time=500]
+
+The moment I looked down at my uninjured legs, the sensation of them shattering came back in vivid detail.[p]
 [fadeoutbgm time=1000]
 [playse storage=se/heartbeat.ogg loop=true volume=100]
 [wait time=1000]
 
-体がガタガタと震えだす。[l]
-額から汗が流れ出る。[p]
+My whole body began to shake.[l]
+Sweat streamed down my forehead.[p]
 
 [wait time=1000]
 
-脚が崩れていく感覚や、[l]
-腹の奥が潰れるような痛みを、[l]
-体が知っているように感じた。[p]
+My body seemed to remember my legs collapsing,[l]
+and the pain of something being crushed[l]
+deep inside me.[p]
 
 [wait time=1000]
 
-本当に体験してきたかのようだった。[p]
+It felt as if I'd truly lived through it.[p]
 [stopse fadeout=3000]
 [wait time=1000]
 [bg storage="black.png"]
-そのあとのことはよく覚えていない。[p]
+I didn't remember much of what happened after that.[p]
 
-気づけば学校を飛び出していた。[p]
+The next thing I knew, I had fled the school.[p]
 
-誰とすれ違ったのか、どうやって駅まで歩いたのかも思い出せない。[p]
+I couldn't remember who I'd passed or how I'd walked all the way to the station.[p]
 
-靴を脱いだ記憶さえ曖昧だった。[p]
+Even my memory of taking off my shoes was hazy.[p]
 
 [playse storage=se/room_noise.ogg loop=true volume=70 fadein=true time=2000]
 [wait time=1000]
 
-次に意識がはっきりした時には、[l]
-自宅のベッドに座り込んでいた。[p]
+When my mind finally cleared again,[l]
+I was sitting on my bed at home.[p]
 
-制服も脱がないまま、何時間も動けなかった。[p]
+I sat there for hours, unable to move or even take off my uniform.[p]
 
-何度も膝に手を伸ばしては、途中で止めた。[p]
+Again and again, I reached toward my knees only to stop short.[p]
 
-傷一つない。[l][r]
-それなのに、あの時の感覚だけが、まだ体に残っている気がした。[p]
+Not a scratch.[l][r]
+And yet the sensations from that moment still seemed to linger in my body.[p]
 
-階下で食器の触れ合う音がした。[l][r]
-いつもと同じ夕食の時間を知らせる音だった。[p]
+I heard dishes clinking downstairs.[l][r]
+The same sound that always told me dinner was ready.[p]
 
-呼びかける家族の声に返事をしようとして、喉が塞がる。[p]
+My family called to me. I tried to answer, but my throat closed up.[p]
 
-今ここにいる自分と、[l]
-あの屋上で見たものの、どちらを信じればいいのかわからなかった。[p]
+I didn't know which to trust:[l]
+the person sitting here now, or what I'd seen on that rooftop.[p]
 
-夢だったとは思えない。[p]
+It couldn't have been a dream.[p]
 
-何度も自分の腕をつねった。[p]
+I pinched my arm over and over.[p]
 
-鏡で顔を見た。[p]
+I looked at my face in the mirror.[p]
 
-心臓の鼓動を確かめた。[p]
+I checked my heartbeat.[p]
 
-それでも――。[p]
+Even then—[p]
 
-自分が本当に生きているのか。[p]
+Was I really alive?[p]
 
-その答えだけは、最後までわからなかった。[p]
+That was the one question I could never answer.[p]
 
-その夜は、朝まで部屋の明かりを消すことができなかった。[p]
+That night, I couldn't turn off my bedroom light until morning.[p]
 
 [stopse fadeout=3000]
 [wait time=1500]
@@ -602,7 +600,7 @@ I climbed the dim stairwell to the rooftop.[p]
 [playse storage=se/school_chime.mp3 volume=80]
 [wait time=3000]
 
-「お前、なに学校休んでんだよっ！」[p]
+“Where the hell have you been?”[p]
 
 [playse storage=se/kabedon.ogg volume=100]
 [cg storage="ch1_rooftop_shota_threat.webp"]
@@ -610,225 +608,225 @@ I climbed the dim stairwell to the rooftop.[p]
 [playbgm storage="tension_low.ogg" loop=true volume=100 fadein=true time=1500]
 [wait time=1200]
 
-三日ぶりに姿を見せた拓海を見るなり、[l]
-龍也は怒鳴り声を上げた。[p]
+The moment Ryuya saw me at school for the first time in three days,[l]
+he started shouting.[p]
 
-あの日から、拓海は二日間学校を休んでいた。[p]
+I had missed two days of school after what happened.[p]
 
-その間、クラスメイトから連絡は一件もなかった。[p]
+Not one of my classmates had contacted me.[p]
 
-誰にも怪しまれずに済んだことには安堵した。[l][r]
-その一方で、誰にも気づかれなかったことが、少しだけ胸に残った。[p]
+I was relieved no one had grown suspicious.[l][r]
+But the fact that no one had noticed at all still stung a little.[p]
 
-そして、ようやく戻ってきた学校で、[l]
-最初に自分へ向けられた言葉がこれだった。[p]
+And now that I'd finally returned,[l]
+these were the first words anyone said to me.[p]
 
-「グローブ片付けずに帰ったろ。雨で濡れてんじゃねえかっ」[p]
+“You left without putting the gloves away. They got soaked in the rain!”[p]
 
 [bg storage="bg_rooftop_day.webp" time=600]
 [auto_chara name="龍也" face="angry" left=50]
 
-そう怒鳴ると、拓海のふくらはぎに回し蹴りを入れた。[p]
+He shouted, then landed a roundhouse kick on my calf.[p]
 [playse storage=se/punch3.ogg volume=100]
-龍也は以前サッカー部だったのだ。[l]
-そのせいだろうか、手より足が先に出るタイプだ。[p]
+Ryuya used to be on the soccer team.[l]
+Maybe that was why he was quicker to use his feet than his fists.[p]
 [auto_chara name="翔太" face="normal" left=180]
-「今日は『トレーニング』できないね」[p]
+“Guess we can't ‘train’ today.”[p]
 
-翔太がくわえタバコでシャドーボクシングをする。[p]
+With a cigarette between his lips, Shota shadowboxed.[p]
 [auto_chara name="綾香" face="serious" left=300]
-「ちょっとやだこれ！グローブ生乾きで絶対臭くなってるよ」[p]
+“Oh, gross! These gloves are still damp. They're definitely going to stink.”[p]
 
-綾香が濡れたグローブをしゃがんで覗き込みながら、余計なことを言う。[p]
+Ayaka crouched to inspect the wet gloves and offered her unsolicited opinion.[p]
 [auto_chara name="龍也" face="angry" left=50]
-「お前どうすんだよ！グローブ付けずにやるか？」[p]
+“What are you gonna do about this? Want us to go without gloves?”[p]
 
-龍也がこちらに向かって凄んでくる。[l]グローブが使えないことで機嫌を損ねている。[p]
+Ryuya loomed over me.[l]Not being able to use the gloves had put him in a foul mood.[p]
 
-蹴られたふくらはぎよりも、「グローブを付けずに」という言葉の方が冷たく残った。[p]
+The words “without gloves” left a deeper chill than the kick to my calf.[p]
 
-龍也にとって問題なのは、拓海が二日間消えていたことではない。[l][r]
-殴るための道具が濡れたことだけなのだ。[p]
+To Ryuya, the problem wasn't that I'd disappeared for two days.[l][r]
+It was only that the tools he used to hit me had gotten wet.[p]
 [auto_chara name="翔太" face="nastysmile" left=180]
-「まあ、そう怒らないで。別の遊びでもしよう」[p]
+“Hey, don't get so worked up. We can play something else.”[p]
 
-翔太が提案をもちかけた。[p]
-「誰に一番根性があるか試そうよ」[p]
+Shota made a suggestion.[p]
+“Let's see who's got the most guts.”[p]
 
-どうやら名案を思い付いたようで、ほくそ笑んでいる。[p]
+He grinned, apparently pleased with his brilliant idea.[p]
 [auto_chara name="龍也" face="normal" left=50]
-「なんだよそれ」[p]
+“What do you mean?”[p]
 [auto_chara name="翔太" face="normal" left=180]
-「これだよ、これ」[p]
+“This. Right here.”[p]
 
-翔太はそう言って、タバコの箱を指さした。[p]
-高校生の翔太がどうやってタバコを手に入れているのか、以前の拓海は不思議に思っていた。[p]
-だが、翔太が手間賃を渡して綾香から受け取っているところを見て、謎が解けた。[p]
-綾香がバイト先のコンビニから調達しているらしい。[p]
+Shota pointed to his pack of cigarettes.[p]
+I used to wonder how a high school student like him got hold of them.[p]
+Then I saw him pay Ayaka a fee when she handed some over, and the mystery was solved.[p]
+Apparently, she got them from the convenience store where she worked.[p]
 [auto_chara name="綾香" face="anxiety" left=300]
-「タバコで根性を試すって、もしかして根性焼き？[l]
-私、嫌だよ。跡が残るし」[l]綾香が勘付いた。[p]
+“Test our guts with a cigarette? You mean burn ourselves?[l]
+No way. That leaves a scar.”[l]Ayaka had caught on.[p]
 [auto_chara name="翔太" face="nastysmile" left=180]
-「さすが綾香、察しがいいね。その通り！[l]
-これを何秒耐えられるか、順番に勝負していこう」[p]
-正気とは思えない提案だった。[p]
+“Sharp as ever, Ayaka. That's exactly it![l]
+We'll take turns and see how many seconds each of us can stand it.”[p]
+The suggestion was insane.[p]
 [auto_chara name="綾香" face="serious" left=300]
-「はあ？私絶対やらないからね」[p]
+“What? I'm not doing that. No chance.”[p]
 
-綾香は黒のロングヘアを揺らしながら首を振った。[p]
+Ayaka shook her head, her long black hair swaying.[p]
 [auto_chara name="翔太" face="sulk" left=180]
-「全員でやらないと勝負にならないだろ」[p]
+“It's not a contest unless everyone does it.”[p]
 
-翔太は悲しそうにして見せる。[p]
+Shota pretended to look hurt.[p]
 [auto_chara name="龍也" face="smile" left=50]
-「面白そうだなそれ」[p]
+“Sounds fun.”[p]
 
-龍也も賛同した。好奇心からくるものなのか、[l]
-よほど自信があるのか。[p]
+Ryuya was on board too. Maybe he was curious,[l]
+or maybe he was simply that confident.[p]
 [auto_chara name="綾香" face="serious" left=300]
-「ちょっと、勝手に話進めないでよ。私はやんないよ」[p]
+“Hey, don't decide this without me. I said I'm not doing it.”[p]
 
-このまま多数決で負けてしまうことを恐れて、綾香は断固拒否する。[p]
-「私、思いついたんだけど、こいつが何秒声を出さずに耐えられるか、みんなで予想するのはどう？」[p]
-とんでもないことを言い出す綾香。[p]
-「こいつ」というのは当然、拓海のことを指している。[p]
+Afraid she'd be outvoted, Ayaka refused to budge.[p]
+“Wait, I've got it. Why don't we all guess how many seconds this loser can last without making a sound?”[p]
+Ayaka's alternative was appalling.[p]
+Naturally, “this loser” meant me.[p]
 [auto_chara name="翔太" face="nastysmile" left=180]
-「それは、面白いかもね」[p]
+“Now that could be fun.”[p]
 
-翔太が賛成する。[p]
+Shota agreed.[p]
 [auto_chara name="龍也" face="smile" left=50]
-「ああ、それでいいな」[p]
+“Yeah. Let's do that.”[p]
 
-龍也も賛成し、三人の間では全会一致となる。[p]
+Ryuya agreed as well, making it unanimous among the three of them.[p]
 
-三人の視線は一度も拓海へ向かなかった。[p]
+Not one of them looked at me.[p]
 
-本人の目の前で、本人の皮膚を焼く相談をしている。[l][r]
-それなのに拓海だけが、その話し合いの外に置かれていた。[p]
+They were discussing burning my skin right in front of me.[l][r]
+And yet I was the only one excluded from the conversation.[p]
 [auto_chara name="綾香" face="serious" left=300]
-「私が勝ったら、タバコを買う手間賃、値上げするからね。[l]大変なのよ、店長が見てない隙に会計するの」[p]
+“If I win, I'm raising my fee for buying your cigarettes.[l]Ringing them up while the manager isn't looking is a pain.”[p]
 [auto_chara name="翔太" face="sulk" left=180]
-「おいおい、何て冷たいことを言うんだよ」[p]
+“Come on. How can you be so cold?”[p]
 
-翔太は不貞腐れた。[p]
-「じゃあ俺が勝ったら、お前その店長をデートに誘えよ」[p]
+Shota sulked.[p]
+“Then if I win, you have to ask that manager out.”[p]
 [auto_chara name="綾香" face="serious" left=300]
-「それだけはホントに無理！あいつマジで臭いし、キモすぎるから！」[p]
+“Absolutely not! He reeks, and he's seriously disgusting!”[p]
 
-綾香は思いっきり顔をしかめて嫌がった。[p]
+Ayaka grimaced in open revulsion.[p]
 [auto_chara name="龍也" face="normal" left=50]
-「無駄話はいいから早く始めようぜ」[p]
+“Enough talking. Let's get started.”[p]
 
-龍也が痺れを切らした。[p]
-「賭けの内容はどうすんだよ」[p]
+Ryuya was losing patience.[p]
+“What are we betting on?”[p]
 [auto_chara name="綾香" face="serious" left=300]
-「そうね……タバコを当ててから、声を出すまでの秒数が一番近い人の勝ちでいいでしょ」[p]
+“Let's see... Whoever gets closest to how many seconds it takes him to make a sound wins.”[p]
 
-綾香がルールをまとめ始めた。[p]
-「私は当てたら直ぐに声を出す。[l]『一秒も持たない』に賭けるわ」[p]
+Ayaka began laying out the rules.[p]
+“He'll cry out as soon as it touches him.[l]I'm betting he won't last even one second.”[p]
 
-彼女は右手の人差し指を立てて、そう宣言する。[p]
+She raised her right index finger as she declared her bet.[p]
 [auto_chara name="龍也" face="normal" left=50]
-「さすがに二秒くらいは我慢できるんじゃないか？」[p]
+“He can probably hold out for two seconds, can't he?”[p]
 
-龍也は真剣に考えているようだ。[p]
+Ryuya seemed to be giving it serious thought.[p]
 [auto_chara name="翔太" face="normal" left=180]
-「じゃあ俺は、五秒に賭けよう」[p]
+“Then I'll bet on five seconds.”[p]
 
-翔太は逆張りをする性分らしい。[p]
-ここまで黙っていた拓海だったが、[l]
-このままでは体に火傷を負わされることがわかったので、何とか止める方法を懸命に考えていた。[p]
+Shota seemed to enjoy betting against the favorite.[p]
+I had stayed silent until now,[l]
+but with a burn imminent, I desperately searched for some way to stop them.[p]
 [auto_chara name="拓海" face="level1_normal" left=120]
-「ちょっと待ってくれ」[p]
+“Wait.”[p]
 
-そのとき、拓海は賭けを成立させない方法を思いついた。[p]
-「これじゃあ、賭けにならないだろ」[p]
+Then it came to me: a way to make the bet impossible.[p]
+“This bet doesn't work.”[p]
 [auto_chara name="龍也" face="angry" left=50]
-「なんだよお前急に、うるせえな」[p]
+“What's with you all of a sudden? Shut up.”[p]
 
-龍也が吠える。[p]
+Ryuya snapped.[p]
 [auto_chara name="拓海" face="level1_normal" left=120]
-「このまま俺がタバコの火を当てられたとして、すぐに声を出せば綾香の勝ちになる。[l]
-そこで賭けは終わりになるだろ」[p]
-三人は納得したように黙って聞いている。[p]
-「俺に我慢するメリットがないから、すぐに声を出すよ。[l]
-だから、勝負にならない。[l][r]こんなこと、意味がないからやめてくれ！」[p]
+“If you burn me and I make a sound right away, Ayaka wins.[l]
+Then the bet's over.”[p]
+The three listened in silence, apparently following my logic.[p]
+“There's no reason for me to hold out, so I'll make a sound immediately.[l]
+That means there is no contest.[l][r]This is pointless, so just stop!”[p]
 
-言い終えると、三人の間に短い沈黙が落ちた。[p]
+When I finished, a brief silence fell between them.[p]
 
-拓海は胸の奥で、何度も「気づけ」と繰り返した。[l][r]
-理屈の穴ではなく、自分が本気で怯えていることに。[p]
+Notice, I pleaded silently, over and over.[l][r]
+Not the flaw in the logic. Notice how terrified I really am.[p]
 [auto_chara name="翔太" face="normal" left=180]
-「なるほど、頭いいね！その通りだ」[p]
+“Oh, good point! You're absolutely right.”[p]
 
-翔太が感心している。[p]
-しばらく天を仰ぎ見て考える。[p]
+Shota sounded impressed.[p]
+He looked up at the sky and thought for a moment.[p]
 
-「じゃあ我慢するメリットを別に用意すればいいんだよね」[p]
+“Then we just need to give you a reason to hold out.”[p]
 [auto_chara name="龍也" face="normal" left=50]
-「どういうことだ？」[p]
+“What do you mean?”[p]
 
-龍也が質問する。[p]
+Ryuya asked.[p]
 [auto_chara name="翔太" face="nastysmile" left=180]
-「拓海が声を出してしまったら、もう1回タバコを当てることにしたらいいんだよ」[p]
+“If Takumi makes a sound, we burn him again.”[p]
 
-何てことを言い出すんだ、と拓海は思った。[p]
+How could he even suggest that?[p]
 
-助かるために絞り出した言葉が、翔太の中で別の形に組み直されていく。[l][r]
-拓海は自分の口で二本目の火を呼び込んだような気がした。[p]
-「拓海としては、もう一度火を当てられたくないから、[l]
-なるべく声を出さずに1回で終わりにしたいと思うでしょ」[p]
-翔太はみんなの理解を確認する。[p]
-「拓海は声を出さないように頑張るはずだから、すぐに綾香の勝ちで終わることはない。[l]
-これなら賭けが成立する」[p]
+Shota was reshaping the words I'd forced out in hopes of saving myself.[l][r]
+It felt as if I'd invited the second cigarette with my own mouth.[p]
+“Takumi won't want to get burned again,[l]
+so he'll try not to make a sound and get it over with in one go. Right?”[p]
+Shota looked around to make sure everyone understood.[p]
+“He'll do his best to stay quiet, so Ayaka won't just win instantly.[l]
+Now we've got a real bet.”[p]
 [auto_chara name="綾香" face="normal" left=300]
-「あんた天才じゃん！」[p]
+“You're a genius!”[p]
 
-綾香が大げさに翔太のことを褒める。[p]
-二人はお互いをののしり合ったりはするが、何だかんだ仲が良い。[p]
+Ayaka showered Shota with exaggerated praise.[p]
+The two traded insults, but underneath it all, they got along well.[p]
 [auto_chara name="龍也" face="smile" left=50]
-「ちょっと待ってくれ！[l]じゃあ俺も、五秒に変えたい」[p]
+“Hold on![l]Then I'm changing mine to five seconds too.”[p]
 
-龍也の機嫌はいつの間にか直ったようだ。[p]
+At some point, Ryuya's mood had recovered.[p]
 [auto_chara name="綾香" face="normal" left=300]
-「はあ？ずるーい」[p]
+“What? That's cheating.”[p]
 
-綾香も笑いながら抗議のフリをする。[p]
+Ayaka laughed as she made a show of protesting.[p]
 [chara_hide_all time=300]
 [wait time=500]
-拓海はこの賭けをやめさせることに失敗した。[l]
-むしろ状況を悪化させたようだった。[p]
-どうしようもない。このままじゃ、本当に焼かれる――。[p]
+I'd failed to stop the bet.[l]
+If anything, I'd made things worse.[p]
+There was no reasoning with them. They were really going to burn me—[p]
 
-扉までは数歩。[l][r]
-フェンス際には人一人が抜けられる隙間がある。[l][r]
-綾香だけなら、体格は自分とさほど変わらない。[p]
+The door was only a few steps away.[l][r]
+There was a gap by the fence wide enough for one person.[l][r]
+Ayaka was about my size.[p]
 
-拓海は三人の足の向きと、開いた空間を必死に見比べた。[p]
+Desperately, I compared where each of them was facing with the open routes between them.[p]
 
-どうするべきか――。
+What should I do—?
 [choice_start count=3]
-[choice name="choice_ch1_rooftop_run" text="出口へ走る" target="*run"]
-[choice name="choice_ch1_rooftop_fight" text="龍也に挑む" target="*fight"]
-[choice name="choice_ch1_rooftop_ayaka" text="綾香の横を抜ける" target="*ayaka"]
+[choice name="choice_ch1_rooftop_run" text="Run for the exit" target="*run"]
+[choice name="choice_ch1_rooftop_fight" text="Take on Ryuya" target="*fight"]
+[choice name="choice_ch1_rooftop_ayaka" text="Slip past Ayaka" target="*ayaka"]
 [s]
 
 *run
 [cm]
 
 [auto_chara name="拓海" face="level1_normal" left=120]
-拓海は翔太の横をすり抜け、一気に出口へ駆け出した。[p]
+I slipped past Shota and sprinted for the exit.[p]
 
 [auto_chara name="翔太" face="normal" left=180]
-「おっ！逃げる気か？」[p]
+“Oh! Trying to run?”[p]
 
 [auto_chara name="龍也" face="angry" left=50]
 
 [playbgm storage="tension_high.ogg" loop=true volume=60 fadein=true time=1500]
 
-「おっと」[p]
+“Not so fast.”[p]
 
-龍也は素早く回り込み、逃げようとした拓海の腕を掴んだ。[p]
+Ryuya quickly cut me off and grabbed my arm.[p]
 
 [jump target="*caught"]
 
@@ -837,21 +835,21 @@ I climbed the dim stairwell to the rooftop.[p]
 [cm]
 
 [auto_chara name="拓海" face="level1_normal" left=120]
-拓海は覚悟を決め、龍也へ拳を振り上げた。[p]
+Steeling myself, I swung at Ryuya.[p]
 
 [auto_chara name="龍也" face="normal" left=50]
-しかし龍也は軽く首を傾けるだけでかわした。[p]
+But Ryuya dodged with a slight tilt of his head.[p]
 
-「やっと反抗する気になったか」[p]
+“Finally decided to fight back?”[p]
 
 [auto_chara name="拓海" face="level1_normal" left=120]
-敵わないと思った拓海は、諦めてそこから逃走を図る。[p]
+Knowing I couldn't beat him, I gave up and tried to flee.[p]
 
 [auto_chara name="龍也" face="angry" left=50]
 
-「おっと」[p]
+“Not so fast.”[p]
 
-龍也は一瞬で拓海との距離を詰め、その腕を掴んだ。[p]
+Ryuya closed the distance in an instant and grabbed my arm.[p]
 
 [playbgm storage="tension_high.ogg" loop=true volume=60 fadein=true time=1500]
 
@@ -862,16 +860,16 @@ I climbed the dim stairwell to the rooftop.[p]
 [cm]
 
 [auto_chara name="拓海" face="level1_normal" left=120]
-拓海は綾香を押しのけ、その隙に逃げようと踏み出した。[p]
+I shoved Ayaka aside and lunged for the opening.[p]
 
 [auto_chara name="綾香" face="serious" left=300]
-しかし綾香は一歩下がっただけだった。[p]
+But Ayaka only took one step back.[p]
 
-「龍也」[p]
+“Ryuya.”[p]
 
-その一言だけ。[p]
+That was all she said.[p]
 
-次の瞬間には龍也が腕を掴んでいた。[p]
+The next instant, Ryuya had my arm.[p]
 
 [auto_chara name="龍也" face="angry" left=50]
 
@@ -882,114 +880,115 @@ I climbed the dim stairwell to the rooftop.[p]
 
 *caught
 
-「何逃げようとしてんだよ……お前」[p]
+“And where do you think you're going...?”[p]
 
 [playse storage="se/hold_down.ogg" volume=80]
 
-そう言って龍也は、拓海を背後から締め上げ、そのまま地面に押さえつけた。[p]
+Ryuya caught me from behind and forced me down onto the ground.[p]
 
 [auto_chara name="拓海" face="level1_shout" left=120]
 
-拓海は凄まじい力で抵抗したが、体格の違いからか、身動きがほとんど取れなかった。[p]
+I fought with everything I had, but the difference in our builds left me almost unable to move.[p]
 
 [auto_chara name="翔太" face="serious" left=180]
-「よし、じゃあ龍也はそのまま押さえてね」[p]
+“Okay, Ryuya. Keep holding him just like that.”[p]
 
-と言って翔太は、暴れる拓海の腕を押さえ、腕時計を外した。[p]
+Shota pinned my struggling arm and removed my watch.[p]
 [playse storage=se/watch_take_off.ogg volume=100]
 [auto_chara name="綾香" face="normal" left=300]
-「何してんのそれ」[p]
+“What are you doing?”[p]
 
-と綾香が素朴な質問をする。[p]
+Ayaka asked with genuine curiosity.[p]
 [auto_chara name="翔太" face="normal" left=180]
-「火傷の痕が目立っちゃうと思ってさ。[l]腕時計の位置なら隠れるんじゃないかな」[p]
+“I figured the burn would stand out.[l]If we put it where his watch goes, he can hide it.”[p]
 [auto_chara name="綾香" face="normal" left=300]
-「へえ……あんたそんなとこにまで頭が回るのね」[p]
+“Huh... You actually thought that far ahead.”[p]
 
-綾香はしきりに感心している。[p]
+Ayaka sounded thoroughly impressed.[p]
 [auto_chara name="拓海" face="level1_shout" left=120]
-「やめろっ！[l]クズ野郎っ！」[p]
+“Stop it![l]You piece of shit!”[p]
 
-拓海は必死で抵抗している。[p]
+I struggled desperately.[p]
 [auto_chara name="翔太" face="nastysmile" left=180]
-「酷いことを言うじゃんか」[p]
+“Wow. That's a pretty awful thing to say.”[p]
 
-翔太は箱から新しいタバコを一本取り出すと、[l]
-慣れた手つきでタバコに火をつけた。[p]
+Shota pulled a fresh cigarette from the pack[l]
+and lit it with practiced ease.[p]
 [playse storage=se/writer.ogg volume=100]
-先端に鮮やかな火が灯る。[p]
-「よーし……それじゃあ、根性見せてくれよ。[l]
-拓海くーん」[p]
-翔太がゆっくりと、[l]
-タバコの火を近づけてくる。[p]
+A bright ember flared at its tip.[p]
+“All right... Time to show us some guts,[l]
+Takumi.”[p]
+Slowly, Shota brought[l]
+the burning cigarette closer.[p]
 
 [wait time=1000]
 
-赤い火が、[l]
-少しずつ近づく。[p]
+The red ember[l]
+crept closer.[p]
 
 [wait time=1000]
 
-龍也はさらに強い力で拓海を押さえつけた。[p]
+Ryuya bore down on me even harder.[p]
 [wait time=1000]
-タバコの先端が[l]拓海の皮膚を焼いた。[p]
+The tip of the cigarette[l]
+seared my skin.[p]
 [playse storage=se/fire.ogg volume=100]
 [auto_chara name="拓海" face="level1_shout" left=120]
-「ああっ！」[p]
+“Aagh!”[p]
 
-あまりの痛みに、拓海は思わず大きな声を上げた。[p]
+The pain tore a cry from me.[p]
 
-肉の焦げる臭いが鼻へ届く。[l][r]
-ほんの一瞬なのに、その臭いだけは自分の体から切り離せなかった。[p]
+The smell of burning flesh reached my nose.[l][r]
+It had only been an instant, but I couldn't separate that smell from my own body.[p]
 
-龍也の腕に押さえられているはずなのに、[r]
-焼かれた手首だけが遠く、誰か別の人間のもののように感じられた。[p]
-その瞬間、拓海が激しく暴れたため、タバコは一瞬触れただけで地面に落ちた。[p]
+Though Ryuya's arm still held me down,[r]
+my burned wrist felt distant, as if it belonged to someone else.[p]
+I thrashed so violently that the cigarette touched me for only an instant before falling to the ground.[p]
 [auto_chara name="翔太" face="normal" left=180]
-「あーあ。もったいない」[p]
+“What a waste.”[p]
 
-翔太はタバコの方が気掛かりなようだ。[p]
+Shota seemed more concerned about the cigarette.[p]
 [auto_chara name="綾香" face="normal" left=300]
-「どうやら私の勝ちだね」[p]
+“Looks like I win.”[p]
 
-綾香は賭けに勝って嬉しそうだ。[p]
-「やっぱり、一秒も持たなかった」[p]
+Ayaka looked delighted to have won the bet.[p]
+“Just like I said. Not even one second.”[p]
 [auto_chara name="翔太" face="serious" left=180]
-「ちょっと待てよ、今のは暴れたからノーカンだろ」[p]
+“Hold on. He knocked it away, so that one doesn't count.”[p]
 
-翔太が訂正を求める。[p]
+Shota demanded a correction.[p]
 [auto_chara name="龍也" face="angry" left=50]
-「どちらにしても、声を出したからもう一回だ」[p]
+“Either way, he made a sound. We do it again.”[p]
 
-龍也は拓海を押さえつけながら言う。[p]
-「翔太、もう一回やれよ」[p]
+Ryuya spoke without letting me up.[p]
+“Shota. Do it again.”[p]
 
-そう顎で指示を出す。[p]
+He jerked his chin in command.[p]
 [auto_chara name="拓海" face="level1_shout" left=120]
-「もうやめろっ！[l]離せっ！」[p]
+“Stop it![l]Let me go!”[p]
 
-拓海は叫んだ。[p]
-もう、うんざりだった。[l]
-またあの痛みがくることも耐え難いが、[l]
-何より、体の自由を奪われていることが、こんなにも屈辱的なことだと初めて知った。[p]
-自分の無力さを嫌というほど思い知らされる。[p]
-こいつらは絶対に許さない。[l]
+I screamed.[p]
+I'd had enough.[l]
+The thought of that pain coming again was unbearable,[l]
+but worse was discovering how deeply humiliating it was to have all control over my body taken away.[p]
+It forced me to confront my helplessness in the cruelest way.[p]
+I would never forgive them.[l]
 ;ここで挿絵入れたい。復讐を誓うシーン
-同じ目に、[l]いやもっと酷い目に遭わせてやる。[l][r]
-拓海はそう誓った。[p]
+I'd make them suffer the same thing—[l]no, something worse.[l][r]
+I swore it.[p]
 
-叫んだ拍子に、火傷したばかりの手首が床へ擦れた。[p]
+As I shouted, my freshly burned wrist scraped against the ground.[p]
 
-痛みに視界が白くなる。その向こうで三人が笑っている。[p]
+My vision went white with pain. Beyond it, the three of them were laughing.[p]
 
-助けを求めたい気持ちは、もう浮かばなかった。[l][r]
-代わりに三人の顔だけを忘れまいと、一人ずつ睨み返した。[p]
+The thought of asking for help no longer crossed my mind.[l][r]
+Instead, I glared at them one by one, determined never to forget their faces.[p]
 [auto_chara name="翔太" face="nastysmile" left=180]
-「よし、それじゃあ二本目いきまーす」[p]
+“Okay, here comes number two.”[p]
 
-翔太が火をつけた新しいタバコを、再び近づけてくる。[p]
-今度はもう手を振り払われないように、[l]
-利き腕で拓海の腕を力強く握った。[p]
+Shota brought another freshly lit cigarette toward me.[p]
+This time, to keep me from knocking it away,[l]
+he gripped my arm tightly with his dominant hand.[p]
 *ch1_illusion
 [playse storage=se/tinnitus.ogg volume=100 buf="0"]
 [chara_hide_all]
@@ -999,59 +998,58 @@ I climbed the dim stairwell to the rooftop.[p]
 [bg storage="black.png" time=300]
 [fadeoutbgm time=3000]
 [delay speed="120"]
-その瞬間、[l]世界から音が消えた――。[p]
+At that moment,[l]all sound vanished from the world—[p]
 [resetdelay]
 [wait time=1000]
-拓海は屋上での出来事のあと、あの「幻」についてずっと考えていた。[p]
-わからないことばかりだったが、なぜか一つだけ確信していることがあった。[p]
+Ever since the incident on the rooftop, I had been thinking about that “vision.”[p]
+Almost none of it made sense, yet for some reason, there was one thing I felt certain of.[p]
 [playbgm storage="tension_low.ogg" loop=true volume=100 fadein=true time=1500]
-あの「妙に現実味のある幻」は、誰かによって[l][r]「見させられている」ものだと感じていた。[p]
-もっと言えば、拓海自身の力によるものではないか。[p]
-うまく説明できなかったが、昂ぶった感情によって、自ら「見せた」ものではないか。[p]
-そんな確信があった。[p]
-多少なりとも根拠はあった。[p]
-一つは「幻」が拓海の認識の範囲内の出来事だったことだ。[p]
-あの日の帰り道、正門の前の花壇に目をやると、[l]
-整備のためか、朝の登校時にはなかったブルーシートで覆われていたのだ。[p]
-「幻」の中で見下ろした場所には、[l]
-拓海が見慣れた色鮮やかな花壇があった。[p]
-現実の風景と、思い込みで作られた景色との矛盾。[l]
-あの「幻」は拓海が思い込んだ景色でできていた。[p]
-二つ目は、飛び降り自殺について調べたときの記憶だ。[l]
-拓海は落下の様子や、地面に衝突した人間の体がどのように崩壊していくかを調べたことがあった。[p]
-あの「幻」は、その時調べたネットの記事に酷似していた。[p]
-これらのことから、拓海はあの「幻」を自分の力で起こしたのではないかと考えた。[p]
-そして、意図して引き起こすこともできるかもしれないと仮説を立てていた。[p]
+That strangely realistic vision had felt like something I was being[l][r]“made to see.”[p]
+More specifically, it might have been caused by a power of my own.[p]
+I couldn't explain it well, but maybe my heightened emotions had made me “show” it to myself.[p]
+Somehow, I was sure of that.[p]
+And I did have a little evidence.[p]
+First, everything in the vision had fallen within the limits of what I knew.[p]
+On my way home that day, I glanced at the flower bed by the front gate.[l]
+It had been covered by a blue tarp, presumably for maintenance—a tarp that hadn't been there that morning.[p]
+But when I looked down in the vision,[l]
+I'd seen the familiar bed full of colorful flowers.[p]
+Reality contradicted the scene constructed from my assumptions.[l]
+That vision had been made from the world as I believed it to be.[p]
+The second piece of evidence was what I remembered from researching death by falling.[l]
+I'd looked up what happened during a fall and how the human body broke down when it struck the ground.[p]
+The vision closely resembled the online articles I'd read then.[p]
+From all this, I suspected that I had created the vision with some power of my own.[p]
+And I had formed a hypothesis: perhaps I could trigger it deliberately.[p]
 [fadeoutbgm time=3000]
 [bg storage="bg_rooftop_day_hallucination.webp" time=300]
 [stopse fadeout=1000]
 [wait time=1000]
 [font color="#CFE8FF"]
 [playbgm storage="ability_theme.ogg" loop=true volume=80 fadein=true time=1500]
-時が止まったと感じるほど、すべてがゆっくりと動いている。[l]
-翔太は目を見開いたままその場で固まったように見える。[p]
-そして、翔太に触れられた手を通して、[l]
-拓海の思考が翔太に流れ込んでいく。[p]
-次の瞬間、拓海の意識は翔太の視点と重なった。[p]
-翔太は、目の前の組み合う二人を見ている。[p]
-すると、龍也は拓海を押さえつけるのをやめて、[l]
-マネキンのようになった翔太に飛びかかった。[p]
+Everything moved so slowly that time seemed to have stopped.[l]
+Shota stood frozen in place, his eyes wide.[p]
+Through the hand touching Shota,[l]
+my thoughts flowed into him.[p]
+The next instant, my awareness overlapped with Shota's point of view.[p]
+Through his eyes, I saw the two figures grappling in front of him.[p]
+Then Ryuya released Takumi[l]
+and lunged at Shota, who stood rigid as a mannequin.[p]
 [playse storage=se/pushdown.ogg volume=100]
 [cg storage="ch01_cg_shota_nightmare.webp"]
 [bg storage="ch01_cg_shota_nightmare.webp" time=200]
-そのまま肩を掴んで押し倒し、[l]
-ゆっくりと馬乗りになる。[p]
-翔太は何も抵抗ができない。[p]
-龍也は翔太の手に持っていたタバコを奪う。[p]
-左手で顔を押さえつけて、[l]
-右手に持ったタバコを上から近づけてくる。[p]
-一体何をする気だろうか。[p]
-そのタバコは段々と大きく、[l]
-ピントが合わないほど顔に近づいてくる。[p]
-目に当てようとしているのだと、[l]
-翔太は気づく。[p]
-だが、抵抗も、目を閉じることさえも、[l]
-ついにできなかった。[p]
+He seized Shota by the shoulders and shoved him down,[l]
+then slowly straddled him.[p]
+Shota couldn't resist at all.[p]
+Ryuya took the cigarette from Shota's hand.[p]
+He pinned Shota's face with his left hand[l]
+and lowered the cigarette in his right.[p]
+What was he going to do?[p]
+The cigarette grew larger and larger,[l]
+coming too close for Shota's eyes to focus on it.[p]
+He realized[l]Ryuya was aiming for his eye.[p]
+But he could neither fight back nor even close his eyes.[l]
+In the end, he was completely helpless.[p]
 [playse storage=se/fire.ogg volume=100]
 [bg storage="white.png" time=50]
 [wait time=500]
@@ -1060,49 +1058,49 @@ I climbed the dim stairwell to the rooftop.[p]
 [bg storage="white.png" time=30]
 [wait time=500]
 [bg storage="black.png" time=300]
-目玉焼きを作るとき、[l]
-熱したフライパンに生卵を割り落とす。[p]
-卵の透明な部分は、熱で固くなり白くなる。[l]
-タンパク質が熱で変性し、白く凝固するためだ。[p]
-そして、それは不可逆的な変化であり、[l]
-一度白くなった部分は元に戻らない。[p]
-目の角膜は主にタンパク質で構成されている。[l]
-熱されたタバコの先端は900度にまで達するそうだ。[p]
+To fry an egg,[l]
+you crack a raw egg into a hot pan.[p]
+The clear part hardens and turns white in the heat.[l]
+The proteins denature and coagulate.[p]
+And the change is irreversible.[l]
+Once the egg turns white, it never becomes clear again.[p]
+The cornea is made primarily of protein.[l]
+The lit end of a cigarette can apparently reach nine hundred degrees Celsius.[p]
 [wait time=1000]
-「うぐぅぅぅ――」[p]
+“Nnngh—”[p]
 
-脳天を突き抜けるような痛みが翔太を襲った。[p]
-角膜は体の中でも、特に痛みを感じやすい組織である。[p]
-「痛み」という感覚に、体のすべてが支配されていく。[p]
-痛い、[l]辛い、[l]苦しい。[p]
-言葉にならないうめき声が口から洩れていく。[p]
-何も考えられない。[p]
+Pain tore through Shota's skull.[p]
+The cornea is among the body's most pain-sensitive tissues.[p]
+Every part of him was consumed by the sensation of pain.[p]
+It hurt.[l]It was agony.[l]He couldn't bear it.[p]
+An incoherent moan escaped his lips.[p]
+He couldn't think.[p]
 [bg storage="bg_rooftop_day_hallucination.webp" time=300]
-突然、目の前が明るくなった。[p]
-龍也が翔太の顔面を押さえつけていた左手が、顔から離れたのだ。[p]
-助かったのだろうか。[p]
-龍也は翔太に馬乗りになったまま、[l]
-新しいタバコをくわえて、それにライターで火をつけた。[p]
+Suddenly, his vision brightened.[p]
+Ryuya had lifted the left hand pinning Shota's face.[p]
+Was it over?[p]
+Still straddling Shota,[l]
+Ryuya put a fresh cigarette between his lips and lit it.[p]
 [playse storage=se/writer.ogg volume=100]
-大きく息を吸い込み、天に向かって息を吐く。[p]
-すると今度は反対の手で、[l]
-翔太の濁った目の方を押さえつけた。[p]
-龍也がこちらを見て、何かを口にしている。[p]
-翔太は、見える方の目で、[p]
-それを読み解いた。[p]
+He drew a deep breath and exhaled toward the sky.[p]
+Then, with his other hand,[l]
+he covered Shota's clouded eye.[p]
+Ryuya looked down and mouthed something.[p]
+With his remaining good eye,[p]
+Shota read his lips.[p]
 [bg storage="white.png" time=80]
 [wait time=500]
 [bg storage="black.png" time=300]
 [delay speed="120"]
 [font size=40 color="#B8DFFF"]
-コエヲ……[p]
+YOU MADE...[p]
 [wait time=500]
 [font size=46 color="#B8DFFF"]
-ダシタカラ……[p]
+A SOUND...[p]
 [wait time=500]
 [font size=52 color="#B8DFFF"]
 [quake time=300 hmax=2 vmax=10]
-モウイッカイ[p]
+SO ONE MORE TIME.[p]
 [resetdelay]
 [resetfont]
 [wait time=500]
@@ -1110,53 +1108,53 @@ I climbed the dim stairwell to the rooftop.[p]
 [bg storage="bg_rooftop_day.webp" time=600]
 [playse storage=se/wind_rooftop.ogg volume=100]
 [wait time=500]
-「うわあああああああああああああああああ」[l][r]
+“AAAAAAAAAAAAAAAAAAAAAAAGH!”[l][r]
 [quake time=1200 hmax=8 vmax=30]
 [playbgm storage="tension_low.ogg" loop=true volume=100 fadein=true time=1500]
-その瞬間、翔太が両目を押さえながら、[l]
-凄まじい絶叫を上げて、その場で転がり回った。[p]
-拓海を押さえつけていた龍也も思わず立ち上がり、近づいていく。[p]
+At that moment, Shota clutched both eyes,[l]
+let out a terrible scream, and rolled across the ground.[p]
+Startled, Ryuya released me, stood, and moved toward him.[p]
 
 [auto_chara name="龍也" face="impatience" left=50]
-「おい、どうしたんだよ！[l]どこか怪我したのか？」[p]
-龍也は怪訝そうな顔をした。[p]
+“Hey, what's wrong?[l]Are you hurt?”[p]
+Ryuya frowned in confusion.[p]
 [chara_hide_all time=300]
-龍也の声を聞くなり、「ひいっ」と声を出し、[l]
-恐怖にひきつった顔で後ずさりする翔太。[p]
-よく見ると、翔太がいた場所の床が濡れている。[l]
-翔太は失禁していた。[p]
-あまりの状況に声を失う龍也。[l]
+At the sound of Ryuya's voice, Shota yelped and scrambled backward,[l]
+his face contorted with fear.[p]
+Looking closer, I saw that the ground where he'd been was wet.[l]
+Shota had wet himself.[p]
+Ryuya was speechless.[l]
 
 [auto_chara name="綾香" face="anxiety" left=300]
-「翔太――」[p]
+“Shota—”[p]
 
-綾香も、それ以上は言葉が出なかった。[p]
+Ayaka couldn't manage another word.[p]
 [chara_hide_all time=300]
 
-ついさっきまで笑っていた三人の間に、沈黙が生まれた。[p]
+A silence fell among the three who had been laughing moments ago.[p]
 
-誰も拓海を見ていない。[l][r]
-それでも今度の沈黙だけは、自分が作ったものだった。[p]
+No one was looking at me.[l][r]
+But this time, I was the one who had created the silence.[p]
 
-その一方で、拓海の胸は激しく高鳴っていた。[p]
+My heart, meanwhile, was pounding.[p]
 [fadeoutbgm time=3000]
 [playse storage=se/heartbeat.ogg loop=true volume=100]
 [wait time=1000]
-一瞬だけ想像した、最も起きてほしくない未来。[p]
-目を焼かれる――最も恐れていた事態。[p]
-それが起こったのは幻とはいえ、[l]
-自分ではなく翔太だった。[p]
-怯える翔太を前にしても、胸を満たしたのは罪悪感より成功の実感だった。[p]
+For one instant, I'd imagined the future I feared most.[p]
+Having my eyes burned—the worst thing that could happen.[p]
+But even if it was only a hallucination,[l]
+it had happened to Shota instead of me.[p]
+Even with him cowering before me, what filled my chest was not guilt, but the thrill of success.[p]
 
-焼かれた手首はまだ脈打つように痛んでいる。[l][r]
-だが、その痛みさえ、もう一方的に与えられたものではないように思えた。[p]
+My burned wrist still throbbed.[l][r]
+Yet even that pain no longer felt like something I could only endure.[p]
 
-初めて三人を止めた。[l][r]
-その事実が、恐怖と同じ速さで拓海の中へ染み込んでいく。[p]
+For the first time, I had stopped them.[l][r]
+That realization spread through me as quickly as the fear.[p]
 
-床を転げる翔太から目を逸らせないまま、[r]
-拓海は自分の口元がわずかに緩んでいることに気づかなかった。[p]
-拓海は自分の「異能」についての仮説が正しいという確信を得たのだった。[p]
+Unable to look away from Shota writhing on the ground,[r]
+I didn't notice the faint smile forming on my lips.[p]
+Now I knew my theory about my “ability” was correct.[p]
 [stopse fadeout=3000]
 [wait time=1000]
 [playse storage=se/wind_rooftop.ogg volume=20]
