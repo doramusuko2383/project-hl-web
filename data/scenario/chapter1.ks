@@ -1,7 +1,7 @@
 
 *ch1_start
 *chapter1
-[scene_title title="第1章"]
+[scene_title title="Chapter 1"]
 
 ;第1章
 
@@ -18,18 +18,18 @@ $("#new-game-opening-fade").stop(true, true).remove();
 [endscript]
 
 [font speed=80]
-「こんな奴、飛び降りて死んでしまえばいい」
+“Someone like me should just jump and die.”
 [p]
 
 [wait time=2000]
 
 [font speed=50]
-それは――
+And that—
 [p]
 
 [wait time=500]
 
-自分自身に対して思う。
+was what I thought of myself.
 [p]
 
 [wait time=1000]
@@ -38,42 +38,40 @@ $("#new-game-opening-fade").stop(true, true).remove();
 
 [bg storage="bg_classroom_day_ch1.webp" time=800]
 [playbgm storage="classroom_buzzing.ogg" loop=true volume=100 fadein=true]
-教室の窓から見上げる空は、
-重く、禍々しく、
+The sky beyond the classroom window looked heavy and ominous,
 [p]
 
-拓海の心をゆっくりと押し潰していく。
+slowly bearing down on me.
 [p]
 
 [wait time=1000]
 
-高校二年になった頃から、
-いつの間にか始まったいじめ。
+The bullying had started sometime around the beginning of my second year of high school.
 [p]
 
 [font speed=60]
 
-現状を変えられない心の弱さ、[r]
-不甲斐なさに何度も辟易した。
+Again and again, I’d grown sick of my own weakness—[r]
+of being unable to change anything.
 [p]
 
 [wait time=500]
 
 [font speed=80]
-一体――
+How long—
 [p]
 
 [wait time=500]
 
-いつまでこんな苦しみが続くのか――。
+how much longer would this go on?
 [p]
 
 [wait time=1000]
 
 [font speed=40]
 
-逃れられない現実に、[r]
-胸が張り裂けそうだった。
+Trapped in a reality I couldn’t escape,[r]
+I felt like my chest might split open.
 [p]
 [wait time=1000]
 
@@ -82,23 +80,23 @@ $("#new-game-opening-fade").stop(true, true).remove();
 
 [wait time=1000]
 
-お昼を知らせる、憂鬱なチャイム。
+The chime announced lunch break. I dreaded that sound.
 [p]
 
 [wait time=500]
 
-昼休みになると、校舎の屋上に来るように命じられている。[p]
+I’d been ordered to go to the school rooftop every lunch break.[p]
 
-教師にもクラスメイトにも見えないところで行われるこの「日課」を、[r]誰にも相談することができない。[p]
+This “routine” took place where neither teachers nor classmates could see,[r]and I couldn’t tell anyone about it.[p]
 [wait time=1000]
 
-……[p]
+...[p]
 
-行くしかない。
+I had no choice but to go.
 [fadeoutbgm time=3000]
 [wait time=1000]
 [choice_start count=1 y=360]
-[choice name="choice_ch1_go_rooftop" text="屋上へ向かう" target="*next"]
+[choice name="choice_ch1_go_rooftop" text="Head to the rooftop" target="*next"]
 [s]
 
 *next
@@ -108,12 +106,12 @@ $("#new-game-opening-fade").stop(true, true).remove();
 [wait time=500]
 [playse storage=se/footstep_stairs.ogg volume=100]
 [wait time=3000]
-屋上までの暗い階段を上がる。[p]
+I climbed the dim stairwell to the rooftop.[p]
 [wait time=500]
 [bg storage="black.png" time=600]
 [wait time=500]
 ; 章タイトルは無音で表示し、屋上の環境音は次の屋上シーン開始時にだけ再生する。
-[chapter_title number="第一章" title="覚醒"]
+[chapter_title number="Chapter One" title="Awakening"]
 [playse storage=se/roof_door.ogg volume=30]
 [wait time=500]
 *ch1_rooftop
