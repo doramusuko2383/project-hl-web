@@ -9,6 +9,14 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "Source Sans 3";
+    src: url("./font/SourceSans3-Regular.ttf") format("truetype");
+    font-display: block;
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 /* =========================
    テキストボックス背景（シュタゲ風）
@@ -46,7 +54,7 @@
 .message_inner .current_span,
 .message_inner .char {
 
-    font-family: "GenMin", serif !important;
+    font-family: "Source Sans 3", sans-serif !important;
 
     font-size: 26px !important;
     line-height: 1.9 !important;
@@ -67,7 +75,7 @@
 ========================= */
 .message_inner.serif,
 .message_inner.serif * {
-    font-family: "Noto Sans JP", sans-serif !important;
+    font-family: "Source Sans 3", sans-serif !important;
     font-size: 28px !important;
     font-weight: 500 !important;
 }
