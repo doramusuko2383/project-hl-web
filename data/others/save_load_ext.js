@@ -609,7 +609,7 @@
             if (!$("#hl-config-overlay-style").length) {
                 $("head").append(
                     '<style id="hl-config-overlay-style">' +
-                    '#hl-config-overlay{position:absolute;inset:0;z-index:2147483647;pointer-events:auto;font-family:GenMin,serif;color:rgba(238,244,248,.94)}' +
+                    '#hl-config-overlay{position:absolute;inset:0;z-index:2147483647;pointer-events:auto;font-family:"Source Sans 3",sans-serif;color:rgba(238,244,248,.94)}' +
                     '#hl-config-overlay .hl-config-backdrop{position:absolute;inset:0;background:rgba(0,0,0,.78)}' +
                     '#hl-config-overlay .hl-config-panel{position:absolute;left:250px;top:96px;width:940px;min-height:520px;box-sizing:border-box;padding:36px 54px;border:1px solid rgba(220,235,245,.24);border-radius:8px;background:linear-gradient(180deg,rgba(5,8,13,.96),rgba(0,0,0,.92));box-shadow:0 24px 70px rgba(0,0,0,.55),0 0 30px rgba(120,160,190,.08)}' +
                     '#hl-config-overlay h1{margin:0 0 28px;font-size:24px;letter-spacing:.18em;font-weight:600}' +
