@@ -81,12 +81,15 @@ Fixed romanization:
 
 永山拓海 → Takumi Nagayama
 菊池恵 → Megumi Kikuchi
+菊池響子 → Kyoko Kikuchi
 北川龍也 → Ryuya Kitagawa
 佐田翔太 → Shota Sada
 上田綾香 → Ayaka Ueda
 高田隆二 → Ryuji Takada
 
 Do not change romanization without explicit instruction.
+
+Always use `Kyoko` for 菊池響子. Do not use alternative spellings such as `Kyōko` or `Kyouko`. Kyoko Kikuchi is Megumi Kikuchi's mother.
 
 Note:
 If the Japanese source contains inconsistent kanji spellings of a character name, do not invent different English names. Use the fixed English name above.
@@ -468,10 +471,10 @@ Ryuya, Shota, and Ayaka may use rougher language than Takumi or Megumi, but thei
 
 Do NOT modify TyranoScript functionality while translating.
 
-Never alter without explicit instruction:
+Do not translate or alter anything that defines TyranoScript structure, control, or technical behavior, including:
 
-- tags
-- macros
+- tag names
+- macro names
 - labels
 - variables
 - expressions
@@ -481,11 +484,10 @@ Never alter without explicit instruction:
 - filenames
 - character IDs
 - face IDs
-- BGM filenames
-- sound-effect filenames
-- image filenames
+- BGM, sound-effect, and image file references
 - JavaScript
 - scenario control flow
+- technical arguments
 
 Examples of elements that must remain technically intact include:
 
@@ -499,9 +501,33 @@ Examples of elements that must remain technically intact include:
 [if ...]
 [endif]
 
-Translate only player-visible Japanese text unless explicitly instructed otherwise.
+However, translate player-visible text even when it appears as a value inside a tag. This includes:
 
-If it is unclear whether a string is player-visible or program data, DO NOT translate it. Flag it for review.
+- `text` values used by choices, `glink`, and similar tags
+- chapter-display `number` values
+- chapter-display `title` values
+- text displayed on screen by `ptext`
+- any other player-facing UI text stored in tag arguments
+
+The rule is not "do not change tags." The rule is: **do not change tag structure or control values, but do translate player-visible strings.**
+
+Example:
+
+Before:
+
+```tyranoscript
+[glink text="助けに入る" target="*help"]
+```
+
+After:
+
+```tyranoscript
+[glink text="Step in" target="*help"]
+```
+
+In this example, keep the `glink` tag name, the `text=` and `target=` argument names, and the `*help` jump target unchanged. Translate only the player-visible string `助けに入る`.
+
+If it is unclear whether a value is a player-visible string or control data, DO NOT change it. Flag it for review.
 
 
 ## 23. Line Breaks and TyranoScript Text Flow
@@ -610,7 +636,8 @@ Literal wording is the lowest priority when preserving it would create unnatural
 Before considering a translated scenario complete, check:
 
 - No unintended Japanese player-visible text remains.
-- TyranoScript tags are intact.
+- TyranoScript tag structure and control values are intact.
+- Player-visible text inside tag arguments has been translated.
 - Labels and jump targets are unchanged.
 - Filenames and storage paths are unchanged.
 - Character names follow the glossary.
