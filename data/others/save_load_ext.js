@@ -517,10 +517,10 @@
             var root = $("#tyrano_base");
             var currentBgm = parseInt(config.defaultBgmVolume || 100, 10);
             var currentSe = parseInt(config.defaultSeVolume || 100, 10);
-            var currentText = parseInt(config.chSpeed || 30, 10);
+            var currentText = parseInt(config.chSpeed || 20, 10);
             var currentAuto = parseInt(config.autoSpeed || 3000, 10);
             var unreadSkip = config.unReadTextSkip === "true";
-            var DEFAULT_CONFIG = { bgm: 60, se: 60, text: 42, auto: 1000, skip: false };
+            var DEFAULT_CONFIG = { bgm: 60, se: 60, text: 20, auto: 1000, skip: false };
 
             $("#hl-config-overlay").remove();
             function playClick() {
@@ -671,7 +671,7 @@
 
             addOptions("bgm", [0, 20, 40, 60, 80, 100], setBgm, function (value) { return value === 0 ? "MUTE" : String(value); });
             addOptions("se", [0, 20, 40, 60, 80, 100], setSe, function (value) { return value === 0 ? "MUTE" : String(value); });
-            addOptions("text", [100, 70, 50, 42, 30, 20, 10], setText);
+            addOptions("text", [60, 40, 30, 20, 15, 10, 5], setText);
             addOptions("auto", AUTO_SPEED_VALUES, setAuto, autoSpeedLabel);
             addOptions("skip", [0, 1], function (value) { setUnreadSkip(value === 1); }, function (value) { return value === 1 ? "ON" : "OFF"; });
             addOptions("display", [0, 1], function (value) { setDisplayMode(value === 1); }, function (value) { return value === 1 ? "FULLSCREEN" : "WINDOW"; });
