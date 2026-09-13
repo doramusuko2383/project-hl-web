@@ -1,9 +1,25 @@
 /* =========================
-   フォント（源ノ明朝）
+   フォント（Source Sans 3）
 ========================= */
 @font-face {
-    font-family: "GenMin";
-    src: url("./font/SourceHanSerif-Regular.otf") format("opentype");
+    font-family: "Source Sans 3";
+    src: url("./font/SourceSans3-Regular.ttf") format("truetype");
+    font-display: block;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Source Sans 3";
+    src: url("./font/SourceSans3-Regular.ttf") format("truetype");
+    font-display: block;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Source Sans 3";
+    src: url("./font/SourceSans3-Regular.ttf") format("truetype");
     font-display: block;
     font-weight: normal;
     font-style: normal;
@@ -141,7 +157,7 @@
     background:
         radial-gradient(circle at 50% 18%, rgba(47, 63, 82, 0.22), transparent 46%),
         linear-gradient(135deg, rgba(0, 0, 0, 0.72) 0%, rgba(4, 8, 14, 0.72) 48%, rgba(10, 18, 30, 0.72) 100%) !important;
-    font-family: "GenMin", serif;
+    font-family: "Source Sans 3", serif;
 }
 
 #menu_menu_wrapper .img_bg_base,
@@ -234,7 +250,7 @@
     display: grid;
     place-items: center;
     color: rgba(235, 242, 246, 0.86);
-    font-family: "GenMin", serif;
+    font-family: "Source Sans 3", serif;
     font-size: 10px;
     letter-spacing: 0.14em;
 }
@@ -255,7 +271,7 @@
     display: none !important;
     align-items: center;
     color: rgba(235, 242, 246, 0.72);
-    font-family: "GenMin", serif;
+    font-family: "Source Sans 3", serif;
     font-size: 10px;
     letter-spacing: 0.16em;
     opacity: 0;
@@ -295,7 +311,7 @@ body.demo-ending-active .demo_ending_thanks,
 body.demo-ending-active .demo_ending_message,
 body.demo-ending-active .demo_ending_release {
     box-sizing: border-box;
-    font-family: "GenMin", "Yu Mincho", "Hiragino Mincho ProN", serif !important;
+    font-family: "Source Sans 3", "Yu Mincho", "Hiragino Mincho ProN", serif !important;
     font-weight: 400;
     line-height: 1.65;
     text-shadow: 0 2px 12px rgba(0, 0, 0, 0.96), 0 0 24px rgba(0, 0, 0, 0.58);
@@ -303,13 +319,13 @@ body.demo-ending-active .demo_ending_release {
 }
 
 body.demo-ending-active .demo_ending_title {
-    font-family: "GenMin", "Times New Roman", serif !important;
+    font-family: "Source Sans 3", "Times New Roman", serif !important;
     letter-spacing: 0.46em;
     opacity: 0.76;
 }
 
 body.demo-ending-active .demo_ending_demo {
-    font-family: "GenMin", "Times New Roman", serif !important;
+    font-family: "Source Sans 3", "Times New Roman", serif !important;
     font-weight: 600;
     letter-spacing: 0.5em;
     text-indent: 0.5em;
@@ -338,7 +354,7 @@ body.demo-ending-active .glink_button.demo_ending_quit {
     padding: 0 !important;
     text-decoration: none !important;
     background-image: none !important;
-    font-family: "GenMin", "Yu Mincho", "Hiragino Mincho ProN", serif !important;
+    font-family: "Source Sans 3", "Yu Mincho", "Hiragino Mincho ProN", serif !important;
     text-shadow: 0 1px 8px rgba(0, 0, 0, 0.8) !important;
     transition: color 180ms ease, border-color 180ms ease, background-color 180ms ease, opacity 180ms ease !important;
 }
@@ -406,7 +422,7 @@ body.demo-ending-active .glink_button.demo_ending_quit:focus-visible {
     color: rgba(232, 238, 243, 0.86) !important;
     background: rgba(0, 0, 0, 0.26) !important;
     background-image: url("../image/title_logo.png") !important;
-    font-family: "GenMin", serif !important;
+    font-family: "Source Sans 3", serif !important;
     font-size: 13px !important;
     letter-spacing: 0.12em !important;
     line-height: 24px !important;
@@ -502,7 +518,7 @@ body.demo-ending-active .glink_button.demo_ending_quit:focus-visible {
         linear-gradient(135deg, rgba(0, 0, 0, 0.68), rgba(4, 9, 18, 0.76) 52%, rgba(8, 16, 28, 0.68)),
         radial-gradient(circle at 50% 18%, rgba(54, 73, 96, 0.2), transparent 46%) !important;
     color: rgba(240, 246, 250, 0.9) !important;
-    font-family: "GenMin", serif !important;
+    font-family: "Source Sans 3", serif !important;
 }
 
 #menu_menu_wrapper button,
@@ -758,7 +774,7 @@ body.demo-ending-active .glink_button.demo_ending_quit:focus-visible {
     background: linear-gradient(180deg, rgba(5, 8, 13, 0.9), rgba(0, 0, 0, 0.78)) !important;
     color: rgba(240, 246, 250, 0.9) !important;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.48) !important;
-    font-family: "GenMin", serif !important;
+    font-family: "Source Sans 3", serif !important;
     text-shadow: none !important;
 }
 
@@ -869,7 +885,7 @@ body.demo-ending-active .glink_button.demo_ending_quit:focus-visible {
 
 .config_label_text {
     color: rgba(238, 244, 248, 0.88) !important;
-    font-family: "GenMin", serif !important;
+    font-family: "Source Sans 3", serif !important;
     font-size: 16px !important;
     letter-spacing: 0.16em !important;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.72) !important;
@@ -879,7 +895,7 @@ body.demo-ending-active .glink_button.demo_ending_quit:focus-visible {
 .config_help_text,
 .config_value_text,
 .config_scale_line {
-    font-family: "GenMin", serif !important;
+    font-family: "Source Sans 3", serif !important;
     letter-spacing: 0.12em !important;
     text-shadow: 0 0 8px rgba(0, 0, 0, 0.7) !important;
     opacity: 0.82 !important;
@@ -1293,7 +1309,7 @@ img.se_mute_on::after { display: none !important; }
     color: #ffffff;
     opacity: 0;
     pointer-events: none;
-    font-family: "GenMin", serif;
+    font-family: "Source Sans 3", serif;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -1487,7 +1503,7 @@ img.se_mute_on::after { display: none !important; }
     background-image: linear-gradient(90deg, transparent 0%, rgba(0, 0, 0, 0.10) 22%, rgba(0, 0, 0, 0.18) 50%, rgba(0, 0, 0, 0.10) 78%, transparent 100%) !important;
     box-shadow: none !important;
     filter: none !important;
-    font-family: "GenMin", "Yu Mincho", "Hiragino Mincho ProN", serif !important;
+    font-family: "Source Sans 3", "Yu Mincho", "Hiragino Mincho ProN", serif !important;
     font-size: 28px !important;
     font-weight: 400 !important;
     line-height: 1.5 !important;
@@ -1554,7 +1570,7 @@ img.se_mute_on::after { display: none !important; }
     background: transparent !important;
     box-shadow: none !important;
     color: rgba(248, 250, 255, 0.94) !important;
-    font-family: "GenMin", "Times New Roman", serif !important;
+    font-family: "Source Sans 3", "Times New Roman", serif !important;
     font-size: 18px !important;
     font-weight: 700 !important;
     letter-spacing: 0.34em !important;
@@ -1570,7 +1586,7 @@ img.se_mute_on::after { display: none !important; }
     background-image: none !important;
     box-shadow: 0 0 18px rgba(160, 190, 230, 0.16) !important;
     color: rgba(248, 250, 255, 0.94) !important;
-    font-family: "GenMin", "Times New Roman", serif !important;
+    font-family: "Source Sans 3", "Times New Roman", serif !important;
     font-size: 18px !important;
     font-weight: 600 !important;
     letter-spacing: 0.28em !important;
@@ -1650,7 +1666,7 @@ body.badend-active .glink_button.quiet_system_button {
     align-items: center !important;
     justify-content: center !important;
     gap: 24px !important;
-    font-family: "GenMin", serif !important;
+    font-family: "Source Sans 3", serif !important;
     font-size: 18px !important;
     line-height: 1 !important;
     letter-spacing: 0.38em !important;
@@ -1678,7 +1694,7 @@ body.badend-active .glink_button.quiet_system_button {
     position: relative !important;
     z-index: 1000001 !important;
     pointer-events: none !important;
-    font-family: "GenMin", "Yu Mincho", "Hiragino Mincho ProN", serif !important;
+    font-family: "Source Sans 3", "Yu Mincho", "Hiragino Mincho ProN", serif !important;
     font-weight: 400 !important;
     font-size: 54px !important;
     letter-spacing: 0.17em !important;
@@ -1717,7 +1733,7 @@ body.badend-active .glink_button.quiet_system_button {
     background-image: linear-gradient(90deg, transparent 0%, rgba(0, 0, 0, 0.10) 22%, rgba(0, 0, 0, 0.18) 50%, rgba(0, 0, 0, 0.10) 78%, transparent 100%) !important;
     box-shadow: none !important;
     filter: none !important;
-    font-family: "GenMin", "Yu Mincho", "Hiragino Mincho ProN", serif !important;
+    font-family: "Source Sans 3", "Yu Mincho", "Hiragino Mincho ProN", serif !important;
     font-weight: 400 !important;
     line-height: 1.5 !important;
     letter-spacing: 0.03em !important;
@@ -1902,7 +1918,7 @@ body.hl-choice-active .button_menu {
     background: linear-gradient(180deg, rgba(5, 8, 13, 0.9), rgba(0, 0, 0, 0.78));
     color: rgba(240, 246, 250, 0.92);
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.48), inset 0 0 24px rgba(74, 188, 255, 0.1);
-    font-family: "GenMin", serif;
+    font-family: "Source Sans 3", serif;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.18em;
@@ -1924,7 +1940,7 @@ body.hl-choice-active .button_menu {
 }
 
 /* EXTRA archive: subdued charcoal, hairline silver and generous spacing. */
-#hl-extra { position:absolute; inset:0; z-index:1000000001; box-sizing:border-box; overflow:hidden; padding:42px 72px 30px; color:#edf2f5; background:radial-gradient(circle at 50% 15%,#17202a 0,#090c11 54%,#050608 100%); font-family:GenMin,'Times New Roman',serif; letter-spacing:.12em; }
+#hl-extra { position:absolute; inset:0; z-index:1000000001; box-sizing:border-box; overflow:hidden; padding:42px 72px 30px; color:#edf2f5; background:radial-gradient(circle at 50% 15%,#17202a 0,#090c11 54%,#050608 100%); font-family:"Source Sans 3",'Times New Roman',serif; letter-spacing:.12em; }
 #hl-extra header { height:82px; border-bottom:1px solid rgba(210,225,235,.25); display:flex; align-items:baseline; gap:28px; }
 #hl-extra header span { color:#82909b; font-size:13px; letter-spacing:.42em; }
 #hl-extra h1 { margin:0; font-size:28px; font-weight:400; letter-spacing:.25em; }
