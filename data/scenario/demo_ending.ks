@@ -5,12 +5,12 @@
 tf.demo_ending_text = {
     title: "HALLUCINATION",
     demo: "DEMO",
-    thanks: "体験版をプレイしていただき、ありがとうございました。",
-    message: "物語は、ここから動き始める。",
-    release: "2026年10月27日 発売予定",
-    wishlist: "Steamでウィッシュリストに追加",
-    back_to_title: "タイトルへ戻る",
-    quit_game: "ゲームを終了"
+    thanks: "Thank you for playing the demo.",
+    message: "The story is only just beginning.",
+    release: "Coming October 27, 2026",
+    wishlist: "Wishlist on Steam",
+    back_to_title: "Back to Title",
+    quit_game: "Quit Game"
 };
 tf.demo_steam_url = "https://store.steampowered.com/app/5045390/";
 sf.demo_completed = true;
