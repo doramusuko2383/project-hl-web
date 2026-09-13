@@ -9,6 +9,22 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "Source Sans 3";
+    src: url("./font/SourceSans3-Regular.ttf") format("truetype");
+    font-display: block;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Noto Sans JP";
+    src: url("./font/NotoSansJP-Regular.ttf") format("truetype");
+    font-display: block;
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 /* =========================
    テキストボックス背景（シュタゲ風）
@@ -40,13 +56,18 @@
 /* =========================
    地の文（デフォルト）
 ========================= */
-.message_inner,
-.message_inner span,
-.message_inner p,
-.message_inner .current_span,
-.message_inner .char {
+.message0_fore .message_inner,
+.message0_fore .message_inner span,
+.message0_fore .message_inner p,
+.message0_fore .message_inner .current_span,
+.message0_fore .message_inner .char,
+.message1_fore .message_inner,
+.message1_fore .message_inner span,
+.message1_fore .message_inner p,
+.message1_fore .message_inner .current_span,
+.message1_fore .message_inner .char {
 
-    font-family: "GenMin", serif !important;
+    font-family: "Source Sans 3", "Noto Sans JP", sans-serif !important;
 
     font-size: 26px !important;
     line-height: 1.9 !important;
@@ -65,9 +86,11 @@
 /* =========================
    セリフ（将来用）
 ========================= */
-.message_inner.serif,
-.message_inner.serif * {
-    font-family: "Noto Sans JP", sans-serif !important;
+.message0_fore .message_inner.serif,
+.message0_fore .message_inner.serif *,
+.message1_fore .message_inner.serif,
+.message1_fore .message_inner.serif * {
+    font-family: "Source Sans 3", "Noto Sans JP", sans-serif !important;
     font-size: 28px !important;
     font-weight: 500 !important;
 }
