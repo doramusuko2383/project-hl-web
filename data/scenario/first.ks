@@ -63,8 +63,8 @@
     }
 
     if (document.fonts && document.fonts.load) {
-        document.fonts.load('600 16px \'Source Sans 3\'');
-        document.fonts.load('400 60px \'Source Sans 3\'');
+        document.fonts.load('600 16px GenMin');
+        document.fonts.load('400 60px GenMin');
     }
 
     $("#proyama-splash").remove();
@@ -152,7 +152,7 @@
         borderRadius: "0",
         boxShadow: "0 0 18px rgba(160, 190, 230, 0.16)",
         color: "rgba(248, 250, 255, 0.94)",
-        fontFamily: "'Source Sans 3', 'Times New Roman', serif",
+        fontFamily: "GenMin, 'Times New Roman', serif",
         fontWeight: "600",
         letterSpacing: "0.28em",
         textShadow: "0 0 8px rgba(255,255,255,0.28), 0 0 14px rgba(0,0,0,0.85)",
@@ -220,7 +220,7 @@
         $("head").append(
             '<style id="title-menu-initial-font-style">' +
             '.glink_button.title-choice{' +
-            "font-family: 'Source Sans 3', 'Times New Roman', serif !important;" +
+            "font-family: GenMin, 'Times New Roman', serif !important;" +
             'font-synthesis: none;' +
             '}' +
             '</style>'
@@ -271,7 +271,7 @@
         "transform": "translateX(-50%)",
         "z-index": "99999999",
         "color": "rgba(248, 250, 255, 0.82)",
-        "font-family": "'Source Sans 3', 'Times New Roman', serif",
+        "font-family": "GenMin, 'Times New Roman', serif",
         "font-size": "28px",
         "font-weight": "600",
         "letter-spacing": "0.5em",
@@ -290,7 +290,7 @@
         "background": "transparent",
         "background-image": "none",
         "box-shadow": "none",
-        "font-family": "'Source Sans 3', 'Times New Roman', serif",
+        "font-family": "GenMin, 'Times New Roman', serif",
         "position": "absolute",
         "overflow": "visible",
         "opacity": "1",

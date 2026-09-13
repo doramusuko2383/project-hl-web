@@ -1,25 +1,9 @@
 /* =========================
-   フォント（Source Sans 3）
+   フォント
 ========================= */
 @font-face {
-    font-family: "Source Sans 3";
-    src: url("./font/SourceSans3-Regular.ttf") format("truetype");
-    font-display: block;
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Source Sans 3";
-    src: url("./font/SourceSans3-Regular.ttf") format("truetype");
-    font-display: block;
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Source Sans 3";
-    src: url("./font/SourceSans3-Regular.ttf") format("truetype");
+    font-family: "GenMin";
+    src: url("./font/SourceHanSerif-Regular.otf") format("opentype");
     font-display: block;
     font-weight: normal;
     font-style: normal;
