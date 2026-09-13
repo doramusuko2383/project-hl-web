@@ -83,7 +83,7 @@
 	tf.config_num_auto; // オート速度
 
 	// テキスト速度のサンプルテキストとして表示する文字列（お好みに合わせて変更してください）
-	tf.text_sample = 'テストメッセージです。このスピードでテキストが表示されます。';
+	tf.text_sample = 'This sample text will appear at the selected speed.';
 
 	// サンプルテキストを表示しておく時間（テキストを表示し終わってから700ミリ秒で消去させています）
 	tf.text_sample_speed;

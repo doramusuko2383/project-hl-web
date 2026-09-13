@@ -1,6 +1,6 @@
 ;一番最初に呼び出されるファイル
  
-[title name="ハルシネーション 体験版"]
+[title name="HALLUCINATION Demo"]
 
 [stop_keyconfig]
 
@@ -138,7 +138,7 @@
 })();
 [endscript]
 [glink name="audio-start-button" color="black" size="18" x="440" y="326" width="400" height="44" text="CLICK / TAP TO START" target="*title_menu" clickse="se/click.ogg" exp="TYRANO.kag.readyAudio(); if(window.Howler && Howler.ctx && Howler.ctx.state === 'suspended'){ Howler.ctx.resume(); }"]
-[ptext layer="fix" fix="true" name="audio-start-note" text="音声を有効にして開始" x="440" y="382" width="400" align="center" size="12" color="0xb8c2c9"]
+[ptext layer="fix" fix="true" name="audio-start-note" text="Enable Audio & Start" x="440" y="382" width="400" align="center" size="12" color="0xb8c2c9"]
 [iscript]
 (function styleAudioStartGate() {
     var button = $(".glink_button.audio-start-button").last();
@@ -230,7 +230,7 @@
     var titleLayer = $(".glink_button.title-choice").last().parent();
     var logo = titleLayer.children(".title-logo").last();
     if (!logo.length) {
-        logo = $("<div></div>").addClass("title-logo").attr("aria-label", "ハルシネーション").appendTo(titleLayer);
+        logo = $("<div></div>").addClass("title-logo").attr("aria-label", "Hallucination").appendTo(titleLayer);
     }
     var demoBadge = titleLayer.children(".title-demo-badge").last();
     if (!demoBadge.length) {
@@ -313,7 +313,7 @@
         if (text === "CONTINUE" && !canContinue) {
             button.addClass("title-choice-disabled");
             button.attr("aria-disabled", "true");
-            button.attr("title", "セーブデータがありません");
+            button.attr("title", "No save data available.");
         }
         important(button, $.extend({}, baseTextStyle, {
             "color": text === "CONTINUE" && !canContinue ? "rgba(248, 250, 255, 0.34)" : "rgba(248, 250, 255, 0.94)",

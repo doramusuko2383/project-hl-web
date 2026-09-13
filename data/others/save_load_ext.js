@@ -288,7 +288,7 @@
             $overlay = $('<div class="hl_save_busy_overlay" role="status" aria-live="polite"><div class="hl_save_busy_panel"><span class="hl_save_busy_spinner"></span><span class="hl_save_busy_message"></span></div></div>');
             $parent.append($overlay);
         }
-        $overlay.find(".hl_save_busy_message").text(message || "セーブ中");
+        $overlay.find(".hl_save_busy_message").text(message || "Saving…");
         $overlay.addClass("is-visible");
         return $overlay;
     }
@@ -1205,7 +1205,7 @@
         menu.setQuickSave = function () {
             var that = this;
             var saveTitle = that.kag.stat.current_save_str;
-            var $overlay = showSaveBusyOverlay("クイックセーブ中");
+            var $overlay = showSaveBusyOverlay("Quick Saving…");
 
             return that.snapSave(saveTitle, function () {
                 var data = that.snap;
@@ -1244,7 +1244,7 @@
         menu.doSave = function (num, cb) {
             var that = this;
             var save_obj = normalizeSaveData(that);
-            var j_busy_overlay = showSaveBusyOverlay("セーブ中");
+            var j_busy_overlay = showSaveBusyOverlay("Saving…");
 
             function finishBusy() {
                 hideSaveBusyOverlay(j_busy_overlay);
@@ -1364,7 +1364,7 @@
                         var target = array[num];
                         if (target && target.save_date) {
                             $.confirm(
-                                '<span class="save_overwrite_confirm_title">このスロットに上書きしますか？</span><span class="save_overwrite_confirm_note">上書きすると、以前のセーブデータは復元できません。</span>',
+                                '<span class="save_overwrite_confirm_title">Overwrite this save slot?</span><span class="save_overwrite_confirm_note">The previous save data cannot be restored after overwriting.</span>',
                                 function () { saveToSlot(num); }
                             );
                         } else {
