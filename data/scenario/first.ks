@@ -594,7 +594,7 @@ if (f.save_scene_title === undefined) f.save_scene_title = "";
 [button fix="true" name="system_skip quiet_system_button quiet_skip" role="skip" graphic="" width="54" height="24" x="982" y="520"]
 [button fix="true" name="system_config quiet_system_button quiet_config" role="menu" graphic="" width="72" height="24" x="1042" y="520"]
 
-[configdelay speed="42"]
+[configdelay speed="20"]
 
 ; NEW GAME は第1章の冒頭から開始する。
 @jump storage="chapter1.ks" target="*ch1_start"
