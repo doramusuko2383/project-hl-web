@@ -1,6 +1,6 @@
 {
-  "name": "HALLUCINATION Demo",
-  "short_name": "HALLUCINATION Demo",
+  "name": "HALLUCINATION",
+  "short_name": "HALLUCINATION",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#000000",
