@@ -1,6 +1,6 @@
 ;一番最初に呼び出されるファイル
  
-[title name="HALLUCINATION Demo"]
+[title name="HALLUCINATION"]
 
 [stop_keyconfig]
 
@@ -202,10 +202,13 @@
 ; [stopbgm] / [fadeoutbgm] で制御できる通常BGMとして再生する。
 [playbgm storage="nature_wind.ogg" loop=true volume=90 fadein=true time=300]
 
-[glink name="title-choice title-start title-primary" color="black" size="18" x="520" y="490" width="240" height="32" text="NEW GAME" target="*title_newgame"]
-[glink name="title-choice" color="black" size="18" x="520" y="540" width="240" height="32" text="CONTINUE" target="*title_continue"]
-[glink name="title-choice" color="black" size="18" x="520" y="590" width="240" height="32" text="LOAD" target="*title_load" cm="false"]
-[glink name="title-choice" color="black" size="18" x="520" y="640" width="240" height="32" text="CONFIG" target="*title_config" cm="false"]
+[glink name="title-choice title-start title-primary" color="black" size="18" x="520" y="465" width="240" height="32" text="NEW GAME" target="*title_newgame"]
+[glink name="title-choice" color="black" size="18" x="520" y="510" width="240" height="32" text="CONTINUE" target="*title_continue"]
+[glink name="title-choice" color="black" size="18" x="520" y="555" width="240" height="32" text="LOAD" target="*title_load" cm="false"]
+[if exp="sf.extra_unlocked === true"]
+[glink name="title-choice title-extra" color="black" size="18" x="520" y="600" width="240" height="32" text="EXTRA" target="*title_extra" cm="false"]
+[endif]
+[glink name="title-choice" color="black" size="18" x="520" y="645" width="240" height="32" text="CONFIG" target="*title_config" cm="false"]
 [iscript]
 (function normalizeTitleMenuClasses() {
     function important(element, styles) {
@@ -231,10 +234,6 @@
     var logo = titleLayer.children(".title-logo").last();
     if (!logo.length) {
         logo = $("<div></div>").addClass("title-logo").attr("aria-label", "Hallucination").appendTo(titleLayer);
-    }
-    var demoBadge = titleLayer.children(".title-demo-badge").last();
-    if (!demoBadge.length) {
-        demoBadge = $("<div></div>").addClass("title-demo-badge").text("DEMO").appendTo(titleLayer);
     }
     important(titleLayer, {
         "z-index": "1000000000",
@@ -264,21 +263,6 @@
         "opacity": "1",
         "visibility": "visible"
     });
-    important(demoBadge, {
-        "position": "absolute",
-        "left": "50%",
-        "top": "382px",
-        "transform": "translateX(-50%)",
-        "z-index": "99999999",
-        "color": "rgba(248, 250, 255, 0.82)",
-        "font-family": "GenMin, 'Times New Roman', serif",
-        "font-size": "28px",
-        "font-weight": "600",
-        "letter-spacing": "0.5em",
-        "text-shadow": "0 0 8px rgba(0, 0, 0, 0.9)",
-        "pointer-events": "none"
-    });
-
     var baseTextStyle = {
         "display": "flex",
         "align-items": "center",
@@ -306,7 +290,7 @@
 
     var canContinue = typeof window.__hlHasContinuableData === "function" && window.__hlHasContinuableData();
 
-    ["NEW GAME", "CONTINUE", "LOAD", "CONFIG"].forEach(function (text, index) {
+    ["NEW GAME", "CONTINUE", "LOAD", "EXTRA", "CONFIG"].forEach(function (text, index) {
         var button = findTitleButton(text);
         button.addClass(index === 0 ? "title-choice title-start title-primary" : "title-choice");
         button.removeClass("black");
@@ -508,6 +492,10 @@
 
 *title_config
 @jump storage="title_config.ks" target="*title_config"
+
+*title_extra
+[fadeoutbgm time=300]
+[jump storage="extra.ks" target="*start"]
 
 *title_quit
 [iscript]
