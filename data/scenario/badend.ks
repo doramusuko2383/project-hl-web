@@ -88,10 +88,7 @@ $(".bad_end_title").updatePText(f.bad_end_title || "");
 
 *bad_end_retry
 [iscript]
-clearInterval(window.__badEndGlitchTimer);
-window.__badEndGlitchTimer = null;
-$("body").removeClass("badend-active");
-$(".button_menu, .role_button, .quiet_system_button").show();
+window.__hlCleanupBadEnd();
 [endscript]
 [showmenubutton]
 [free layer="fix" name="bad_end_bg"]
@@ -107,10 +104,7 @@ $(".button_menu, .role_button, .quiet_system_button").show();
 
 *bad_end_to_title
 [iscript]
-clearInterval(window.__badEndGlitchTimer);
-window.__badEndGlitchTimer = null;
-$("body").removeClass("badend-active");
-$(".button_menu, .role_button, .quiet_system_button").show();
+window.__hlCleanupBadEnd();
 [endscript]
 [showmenubutton]
 [free layer="fix" name="bad_end_bg"]
