@@ -417,7 +417,17 @@
         $(".layer_event_click").hide();
     }
 
+    function cleanupBadEnd() {
+        if (!window.__badEndGlitchTimer && !$("body").hasClass("badend-active")) return;
+        clearInterval(window.__badEndGlitchTimer);
+        window.__badEndGlitchTimer = null;
+        $("body").removeClass("badend-active");
+        $(".badend-title-glitch").removeClass("badend-glitching");
+        $(".button_menu, .role_button, .quiet_system_button").show();
+    }
+
     function resetRuntimeBeforeSceneSwitch() {
+        cleanupBadEnd();
         stopTransientAudio();
         clearTransientVisuals();
     }
@@ -1178,6 +1188,11 @@
         installChoiceTags();
         installEndingTag();
         installScenarioTags();
+        window.__hlCleanupBadEnd = cleanupBadEnd;
+        if (!TYRANO.kag.__hl_bad_end_cleanup_installed) {
+            TYRANO.kag.__hl_bad_end_cleanup_installed = true;
+            TYRANO.kag.on("load-beforemaking", cleanupBadEnd, { system: true });
+        }
 
         if (!TYRANO.kag.menu) {
             setTimeout(install, 50);
@@ -1221,11 +1236,30 @@
         if (TYRANO.kag.backTitle && !TYRANO.kag.__hl_original_backTitle) {
             TYRANO.kag.__hl_original_backTitle = TYRANO.kag.backTitle;
             TYRANO.kag.backTitle = function () {
-                hideChoiceBackdrop(true);
-                if (TYRANO.kag.menu && TYRANO.kag.menu.flushLastPlayedSnapshot) {
-                    TYRANO.kag.menu.flushLastPlayedSnapshot();
+                function prepareForTitle() {
+                    cleanupBadEnd();
+                    hideChoiceBackdrop(true);
+                    if (TYRANO.kag.menu && TYRANO.kag.menu.flushLastPlayedSnapshot) {
+                        TYRANO.kag.menu.flushLastPlayedSnapshot();
+                    }
                 }
-                return TYRANO.kag.__hl_original_backTitle.apply(this, arguments);
+                if (!window.__badEndGlitchTimer && !$("body").hasClass("badend-active")) {
+                    prepareForTitle();
+                    return TYRANO.kag.__hl_original_backTitle.apply(this, arguments);
+                }
+
+                var originalConfirm = $.confirm;
+                $.confirm = function (title, onConfirm, onCancel) {
+                    return originalConfirm.call(this, title, function () {
+                        prepareForTitle();
+                        return onConfirm.apply(this, arguments);
+                    }, onCancel);
+                };
+                try {
+                    return TYRANO.kag.__hl_original_backTitle.apply(this, arguments);
+                } finally {
+                    $.confirm = originalConfirm;
+                }
             };
         }
 
