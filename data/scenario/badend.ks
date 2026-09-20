@@ -81,17 +81,14 @@ $(".bad_end_title").updatePText(f.bad_end_title || "");
     window.__badEndGlitchTimer = setInterval(pulse, 3800);
 })();
 [endscript]
-[glink name="bad_end_retry,badend-choice,badend-choice--first" text="この選択肢からやり直す" target="*bad_end_retry" x="240" y="450" width="800" height="72" size="30" clickse="se/click.ogg"]
+[glink name="bad_end_retry,badend-choice,badend-choice--first" text="RETRY FROM THIS CHOICE" target="*bad_end_retry" x="240" y="450" width="800" height="72" size="30" clickse="se/click.ogg"]
 [ptext layer="fix" name="bad_end_divider,badend-choice-divider" text=" " x="440" y="540" width="400" height="1" size="1" color="0xffffff" time="500"]
-[glink name="bad_end_title_return,badend-choice,badend-choice--second" text="タイトルへ戻る" target="*bad_end_to_title" x="240" y="540" width="800" height="72" size="30" clickse="se/click.ogg"]
+[glink name="bad_end_title_return,badend-choice,badend-choice--second" text="BACK TO TITLE" target="*bad_end_to_title" x="240" y="540" width="800" height="72" size="30" clickse="se/click.ogg"]
 [s]
 
 *bad_end_retry
 [iscript]
-clearInterval(window.__badEndGlitchTimer);
-window.__badEndGlitchTimer = null;
-$("body").removeClass("badend-active");
-$(".button_menu, .role_button, .quiet_system_button").show();
+window.__hlCleanupBadEnd();
 [endscript]
 [showmenubutton]
 [free layer="fix" name="bad_end_bg"]
@@ -107,10 +104,7 @@ $(".button_menu, .role_button, .quiet_system_button").show();
 
 *bad_end_to_title
 [iscript]
-clearInterval(window.__badEndGlitchTimer);
-window.__badEndGlitchTimer = null;
-$("body").removeClass("badend-active");
-$(".button_menu, .role_button, .quiet_system_button").show();
+window.__hlCleanupBadEnd();
 [endscript]
 [showmenubutton]
 [free layer="fix" name="bad_end_bg"]
