@@ -1126,9 +1126,9 @@ After a long silence, Megumi murmured quietly.[p]
 [auto_chara name="拓海" face="level2_depressed"]
 “...Yeah.”[p]
 
-“We need to apologize to her properly.”[p]
+“I need to apologize to her properly.”[p]
 
-“After what we did, I don't think we can move forward without saying anything.”[p]
+“After what I did, I don't think I can move forward without saying anything.”[p]
 
 Though still somewhat hesitant, Takumi nodded, as if Megumi's determination had given him the push he needed.[p]
 [jump target="*ch5_visit_ayaka_common"]
