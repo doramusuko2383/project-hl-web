@@ -3,14 +3,14 @@
 
     var endings = [
         ["end_true", "TRUE END"],
-        ["end_bad1", "BAD END 1　What Am I?"],
-        ["end_bad2", "BAD END 2　A Life Left Unchanged"],
-        ["end_bad3", "BAD END 3　手遅れ"],
-        ["end_bad4", "BAD END 4　孤立"],
-        ["end_bad5", "BAD END 5　見て見ぬふり"],
-        ["end_bad6", "BAD END 6　警戒された標的"],
-        ["end_bad7", "BAD END 7　救われなかった未来"],
-        ["end_bad8", "BAD END 8　地獄を見せた者"]
+        ["end_bad1", "BAD END 1: What Am I?"],
+        ["end_bad2", "BAD END 2: A Life Left Unchanged"],
+        ["end_bad3", "BAD END 3: Too Late"],
+        ["end_bad4", "BAD END 4: Isolation"],
+        ["end_bad5", "BAD END 5: Turning a Blind Eye"],
+        ["end_bad6", "BAD END 6: A Wary Target"],
+        ["end_bad7", "BAD END 7: A Future Left Unsaved"],
+        ["end_bad8", "BAD END 8: The One Who Showed Them Hell"]
     ];
     var cgs = [
         "ch01_sc01_rooftop_wait.webp", "ch01_sc01_jumping_off.webp", "ch1_rooftop_shota_threat.webp",

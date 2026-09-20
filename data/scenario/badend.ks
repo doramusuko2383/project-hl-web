@@ -1,5 +1,5 @@
-; BAD END 共通演出。
-; 呼び出し元で以下を設定してから *bad_end に jump する。
+; Shared BAD END sequence.
+; Set the following values in the calling scenario before jumping to *bad_end.
 ; - f.bad_end_no
 ; - f.bad_end_title
 ; - f.bad_end_retry_storage
