@@ -836,7 +836,7 @@ Takumi let out a quiet breath and headed home.[p]
 
 [chara_hide_all time=300]
 
-[stopse fadeout=2000]
+[stopse fadeout=2000][wait time=500]
 
 [wait time=500]
 
@@ -878,7 +878,7 @@ Was there any way to save Kyoko without using his power?[p]
 
 No matter how much he thought about it, he couldn't find an answer.[p]
 
-[wait time=500]
+No matter how much he thought about it, he couldn't find an answer.[p][wait time=500]
 
 He saw Megumi at school every day.[p]
 
