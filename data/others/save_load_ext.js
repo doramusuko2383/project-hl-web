@@ -1,6 +1,18 @@
 (function () {
     "use strict";
 
+    function cleanupBadEnd() {
+        window.clearInterval(window.__badEndGlitchTimer);
+        window.__badEndGlitchTimer = null;
+        $("body").removeClass("badend-active");
+        $(".badend-title-glitch").removeClass("badend-glitching");
+        $(".bad_end_number").removeClass("badend-kicker-ready");
+        $(".button_menu, .role_button, .quiet_system_button").show();
+    }
+
+    // badend.ks can run before the asynchronous menu installer is ready.
+    window.__hlCleanupBadEnd = cleanupBadEnd;
+
     var MANUAL_SLOT_COUNT = 100;
     var AUTO_SLOT_COUNT = 10;
     var AUTO_SPEED_VALUES = [5000, 4000, 3000, 2000, 1000, 500];
@@ -418,6 +430,7 @@
     }
 
     function resetRuntimeBeforeSceneSwitch() {
+        cleanupBadEnd();
         stopTransientAudio();
         clearTransientVisuals();
     }
@@ -1179,6 +1192,11 @@
         installEndingTag();
         installScenarioTags();
 
+        if (!TYRANO.kag.__hl_bad_end_load_cleanup_installed) {
+            TYRANO.kag.__hl_bad_end_load_cleanup_installed = true;
+            TYRANO.kag.on("load-beforemaking", cleanupBadEnd, { system: true });
+        }
+
         if (!TYRANO.kag.menu) {
             setTimeout(install, 50);
             return;
@@ -1217,17 +1235,6 @@
                 that.kag.layer.getMenuLayer().hide();
             });
         };
-
-        if (TYRANO.kag.backTitle && !TYRANO.kag.__hl_original_backTitle) {
-            TYRANO.kag.__hl_original_backTitle = TYRANO.kag.backTitle;
-            TYRANO.kag.backTitle = function () {
-                hideChoiceBackdrop(true);
-                if (TYRANO.kag.menu && TYRANO.kag.menu.flushLastPlayedSnapshot) {
-                    TYRANO.kag.menu.flushLastPlayedSnapshot();
-                }
-                return TYRANO.kag.__hl_original_backTitle.apply(this, arguments);
-            };
-        }
 
         menu.getSaveData = function () {
             return normalizeSaveData(this);
