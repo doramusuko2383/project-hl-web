@@ -1236,12 +1236,30 @@
         if (TYRANO.kag.backTitle && !TYRANO.kag.__hl_original_backTitle) {
             TYRANO.kag.__hl_original_backTitle = TYRANO.kag.backTitle;
             TYRANO.kag.backTitle = function () {
-                cleanupBadEnd();
-                hideChoiceBackdrop(true);
-                if (TYRANO.kag.menu && TYRANO.kag.menu.flushLastPlayedSnapshot) {
-                    TYRANO.kag.menu.flushLastPlayedSnapshot();
+                function prepareForTitle() {
+                    cleanupBadEnd();
+                    hideChoiceBackdrop(true);
+                    if (TYRANO.kag.menu && TYRANO.kag.menu.flushLastPlayedSnapshot) {
+                        TYRANO.kag.menu.flushLastPlayedSnapshot();
+                    }
                 }
-                return TYRANO.kag.__hl_original_backTitle.apply(this, arguments);
+                if (!window.__badEndGlitchTimer && !$("body").hasClass("badend-active")) {
+                    prepareForTitle();
+                    return TYRANO.kag.__hl_original_backTitle.apply(this, arguments);
+                }
+
+                var originalConfirm = $.confirm;
+                $.confirm = function (title, onConfirm, onCancel) {
+                    return originalConfirm.call(this, title, function () {
+                        prepareForTitle();
+                        return onConfirm.apply(this, arguments);
+                    }, onCancel);
+                };
+                try {
+                    return TYRANO.kag.__hl_original_backTitle.apply(this, arguments);
+                } finally {
+                    $.confirm = originalConfirm;
+                }
             };
         }
 
