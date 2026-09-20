@@ -338,7 +338,7 @@ Before he knew it, the other student had fled too.[p]
 
 He left without a word, as if avoiding even the chance of eye contact.[p]
 
-Takumi hadn't expected to be thanked.[l][r]
+It wasn't that Takumi wanted to be thanked.[l][r]
 But his heart sank as he watched the boy's back disappear through the closing door without once turning around.[p]
 
 The face in the mirror above the sink was even paler than Ryuya's.[l][r]
@@ -1200,7 +1200,7 @@ the scattered points connected into a single line in his mind.[p]
 
 *ch2_store_south
 [cm]
-Takumi opened the store by the south exit.[p]
+Takumi opened the information for the store by the south exit.[p]
 
 It really was close to her home.[p]
 
