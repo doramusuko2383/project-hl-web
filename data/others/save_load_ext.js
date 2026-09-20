@@ -426,6 +426,19 @@
         $(".button_menu, .role_button, .quiet_system_button").show();
     }
 
+    function prepareForTitle() {
+        cleanupBadEnd();
+        hideChoiceBackdrop(true);
+        if (window.TYRANO && TYRANO.kag.menu && TYRANO.kag.menu.flushLastPlayedSnapshot) {
+            TYRANO.kag.menu.flushLastPlayedSnapshot();
+        }
+    }
+
+    // Scenario labels and the title confirmation patch can run independently of
+    // the asynchronous menu-extension installer, so publish these immediately.
+    window.__hlCleanupBadEnd = cleanupBadEnd;
+    window.__hlPrepareForTitle = prepareForTitle;
+
     function resetRuntimeBeforeSceneSwitch() {
         cleanupBadEnd();
         stopTransientAudio();
@@ -1188,7 +1201,6 @@
         installChoiceTags();
         installEndingTag();
         installScenarioTags();
-        window.__hlCleanupBadEnd = cleanupBadEnd;
         if (!TYRANO.kag.__hl_bad_end_cleanup_installed) {
             TYRANO.kag.__hl_bad_end_cleanup_installed = true;
             TYRANO.kag.on("load-beforemaking", cleanupBadEnd, { system: true });
@@ -1232,36 +1244,6 @@
                 that.kag.layer.getMenuLayer().hide();
             });
         };
-
-        if (TYRANO.kag.backTitle && !TYRANO.kag.__hl_original_backTitle) {
-            TYRANO.kag.__hl_original_backTitle = TYRANO.kag.backTitle;
-            TYRANO.kag.backTitle = function () {
-                function prepareForTitle() {
-                    cleanupBadEnd();
-                    hideChoiceBackdrop(true);
-                    if (TYRANO.kag.menu && TYRANO.kag.menu.flushLastPlayedSnapshot) {
-                        TYRANO.kag.menu.flushLastPlayedSnapshot();
-                    }
-                }
-                if (!window.__badEndGlitchTimer && !$("body").hasClass("badend-active")) {
-                    prepareForTitle();
-                    return TYRANO.kag.__hl_original_backTitle.apply(this, arguments);
-                }
-
-                var originalConfirm = $.confirm;
-                $.confirm = function (title, onConfirm, onCancel) {
-                    return originalConfirm.call(this, title, function () {
-                        prepareForTitle();
-                        return onConfirm.apply(this, arguments);
-                    }, onCancel);
-                };
-                try {
-                    return TYRANO.kag.__hl_original_backTitle.apply(this, arguments);
-                } finally {
-                    $.confirm = originalConfirm;
-                }
-            };
-        }
 
         menu.getSaveData = function () {
             return normalizeSaveData(this);

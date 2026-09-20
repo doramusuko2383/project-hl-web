@@ -99,12 +99,15 @@
     function restoreAfterTitleCancel() {
         var kag = getKag();
         if (!kag) return false;
-        kag.cancelStrongStop();
-        kag.cancelWeakStop();
-        kag.stat.is_stop = false;
-        kag.stat.is_wait = false;
-        kag.stat.is_skip = false;
-        kag.stat.is_auto = false;
+        var isBadEnd = $("body").hasClass("badend-active");
+        if (!isBadEnd) {
+            kag.cancelStrongStop();
+            kag.cancelWeakStop();
+            kag.stat.is_stop = false;
+            kag.stat.is_wait = false;
+            kag.stat.is_skip = false;
+            kag.stat.is_auto = false;
+        }
         $(".remodal-wrapper, .remodal-overlay").hide();
         kag.layer.getMenuLayer().show();
         $(".button_menu").hide();
@@ -129,15 +132,18 @@
         kag.backTitle = function () {
             unlockAudio();
             if ("appJsInterface" in window) {
+                window.__hlPrepareForTitle();
                 appJsInterface.finishGame();
                 return;
             }
             if (typeof TyranoPlayer === "function") {
+                window.__hlPrepareForTitle();
                 webkit.messageHandlers.backHandler.postMessage("endgame");
                 return;
             }
             $.confirm($.lang("go_title"), function () {
                 var currentKag = getKag();
+                window.__hlPrepareForTitle();
                 currentKag.layer.getMenuLayer().hide().empty();
                 $(".button_menu").hide();
                 currentKag.stat.visible_menu_button = false;
