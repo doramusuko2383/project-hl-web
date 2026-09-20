@@ -1,5 +1,5 @@
-; BAD END 共通演出。
-; 呼び出し元で以下を設定してから *bad_end に jump する。
+; Shared BAD END sequence.
+; Set the following values in the calling scenario before jumping to *bad_end.
 ; - f.bad_end_no
 ; - f.bad_end_title
 ; - f.bad_end_retry_storage
@@ -81,9 +81,9 @@ $(".bad_end_title").updatePText(f.bad_end_title || "");
     window.__badEndGlitchTimer = setInterval(pulse, 3800);
 })();
 [endscript]
-[glink name="bad_end_retry,badend-choice,badend-choice--first" text="RETRY FROM THIS CHOICE" target="*bad_end_retry" x="240" y="450" width="800" height="72" size="30" clickse="se/click.ogg"]
+[glink name="bad_end_retry,badend-choice,badend-choice--first" text="Retry from This Choice" target="*bad_end_retry" x="240" y="450" width="800" height="72" size="30" clickse="se/click.ogg"]
 [ptext layer="fix" name="bad_end_divider,badend-choice-divider" text=" " x="440" y="540" width="400" height="1" size="1" color="0xffffff" time="500"]
-[glink name="bad_end_title_return,badend-choice,badend-choice--second" text="BACK TO TITLE" target="*bad_end_to_title" x="240" y="540" width="800" height="72" size="30" clickse="se/click.ogg"]
+[glink name="bad_end_title_return,badend-choice,badend-choice--second" text="Back to Title" target="*bad_end_to_title" x="240" y="540" width="800" height="72" size="30" clickse="se/click.ogg"]
 [s]
 
 *bad_end_retry

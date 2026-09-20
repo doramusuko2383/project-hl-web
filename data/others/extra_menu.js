@@ -3,14 +3,14 @@
 
     var endings = [
         ["end_true", "TRUE END"],
-        ["end_bad1", "BAD END 1　俺は縺薙％"],
-        ["end_bad2", "BAD END 2　変えられなかった日常"],
-        ["end_bad3", "BAD END 3　手遅れ"],
-        ["end_bad4", "BAD END 4　孤立"],
-        ["end_bad5", "BAD END 5　見て見ぬふり"],
-        ["end_bad6", "BAD END 6　警戒された標的"],
-        ["end_bad7", "BAD END 7　救われなかった未来"],
-        ["end_bad8", "BAD END 8　地獄を見せた者"]
+        ["end_bad1", "BAD END 1: What Am I?"],
+        ["end_bad2", "BAD END 2: A Life Left Unchanged"],
+        ["end_bad3", "BAD END 3: Too Late"],
+        ["end_bad4", "BAD END 4: Isolation"],
+        ["end_bad5", "BAD END 5: Turning a Blind Eye"],
+        ["end_bad6", "BAD END 6: A Wary Target"],
+        ["end_bad7", "BAD END 7: A Future Left Unsaved"],
+        ["end_bad8", "BAD END 8: The One Who Showed Them Hell"]
     ];
     var cgs = [
         "ch01_sc01_rooftop_wait.webp", "ch01_sc01_jumping_off.webp", "ch1_rooftop_shota_threat.webp",
@@ -25,7 +25,7 @@
     // Add future chapters here; the menu and jump destination are generated from this list.
     var chapters = [
         { number: 1, title: "覚醒", thumbnail: "bg_rooftop_day_ch1.webp", storage: "chapter1.ks", target: "*ch1_start" },
-        { number: 2, title: "報復", thumbnail: "bg_convenience_store_night.webp", storage: "chapter2.ks", target: "*ch2_start" },
+        { number: 2, title: "Retaliation", thumbnail: "bg_convenience_store_night.webp", storage: "chapter2.ks", target: "*ch2_start" },
         { number: 3, title: "邂逅", thumbnail: "bg_karaoke.webp", storage: "chapter3.ks", target: "*ch3_start" },
         { number: 4, title: "共犯", thumbnail: "bg_mansion_night.webp", storage: "chapter4.ks", target: "*ch4_start" },
         { number: 5, title: "代償", thumbnail: "bg_station_cafe.webp", storage: "chapter5.ks", target: "*ch5_start" },
