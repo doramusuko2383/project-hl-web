@@ -180,13 +180,13 @@ About ten minutes had passed.[p]
 Only one other customer remained in the store.[p]
 [wait time=500]
 A man in a suit placed two cans of chuhai[r]
-_ and a small slice of strawberry shortcake on the counter.[p]
+_ and a small piece of cake on the counter.[p]
 [wait time=500]
 He looked to be in his early thirties.[r][l]
 _ His face was tired, but there was a certain lightness in his step.[p]
 [wait time=500]
 
-Maybe he was going to have a drink with his girlfriend.[p]
+Maybe he was going to have a drink with his partner.[p]
 
 He was taking home alcohol and cake for an evening with someone.[l][r]
 _ That kind of ordinary life now seemed like another world to Takumi.[p]
@@ -321,7 +321,7 @@ Ayaka answered mechanically and began placing the items into a plastic bag.[p]
 [wait time=500]
 Every natural movement of her hands made Takumi's heart beat faster.[p]
 
-There was no trace in the slender fingers straightening the top of the bag of the girl who had mocked his burns.[l][r]
+There was no trace in the slender fingers straightening the top of the bag of the girl who had mocked his burn scar.[l][r]
 _ She looked like nothing more than a tired high school student trying to finish her shift.[p]
 
 Takumi averted his eyes toward the donation box beside the register.[l][r]
@@ -888,7 +888,7 @@ He wanted to tell her everything and be free of it.[p]
 [wait time=1000]
 
 [auto_chara name="拓海" face="level2_depressed"]
-“I did it.[l]_ It's exactly what you think.”[p]
+“I did it.[l] It's exactly what you think.”[p]
 
 The instant the words left his mouth,[r]
 _ the air in the room seemed to go still.[p]
@@ -912,8 +912,7 @@ Her tone held no accusation.[p]
 Megumi's shoulders lowered ever so slightly.[l][r]
 _ She looked relieved to have an answer, yet also as if she'd just confirmed the one she'd braced herself for.[p]
 
-If anything,
-her voice sounded like she was confirming something for herself.[p]
+If anything, her voice sounded like she was confirming something for herself.[p]
 
 “But how did you do it?”[p]
 
@@ -921,26 +920,19 @@ her voice sounded like she was confirming something for herself.[p]
 
 It was a perfectly reasonable question.[p]
 
-Takumi lowered his head slightly,
-then slowly began to speak.[p]
+Takumi lowered his head slightly, then slowly began to speak.[p]
 [auto_chara name="拓海" face="level2_normal"]
 “At first, I didn't understand what was happening either.”[p]
 [chara_hide_all time=300]
 He told her about the hallucination he'd made himself see on the rooftop.[p]
 
-How he had jumped,
-and vividly experienced
-the sensation of slamming into the ground.[p]
+How he had jumped and vividly experienced the sensation of slamming into the ground.[p]
 
-How afterward,
-the instant he touched Shota,
-it seemed like time had stopped.[p]
+How afterward, the instant he touched Shota, it seemed like time had stopped.[p]
 
 And then—[p]
 
-Takumi
-began, little by little,
-to tell her everything that had happened to him.[p]
+Little by little, Takumi began to tell her everything that had happened to him.[p]
 
 How they had summoned him to the rooftop.[p]
 
@@ -960,37 +952,27 @@ Megumi's quiet voice slipped out.[p]
 
 Takumi gave a humorless smile.[p]
 
-“But
-I guess they didn't want to get involved.”[p]
+“But I guess they didn't want to get involved.”[p]
 
 Silence lingered for a moment.[p]
 
-Only the light on the karaoke remote
-glowed dimly.[p]
+Only the light on the karaoke remote glowed dimly.[p]
 
 “It's hard to explain...”[p]
 
-Searching for the words,
-Takumi lowered his gaze to the table.[p]
+Searching for the words, Takumi lowered his gaze to the table.[p]
 
-“Every day,
-it happened a little at a time.”[p]
+“Every day, it happened a little at a time.”[p]
 
-“So
-at some point, I stopped knowing
-what was normal anymore.”[p]
+“So at some point, I stopped knowing what was normal anymore.”[p]
 
-To his own surprise,
-the words came naturally.[p]
+To his own surprise, the words came naturally.[p]
 
-Maybe it was because
-he had never told anyone before.[p]
+Maybe it was because he had never told anyone before.[p]
 
-Megumi never made light of it
-or questioned him.[p]
+Megumi never made light of it or questioned him.[p]
 
-She simply listened
-quietly to Takumi's story.[p]
+She simply listened quietly to Takumi's story.[p]
 
 Whenever Takumi faltered, Megumi waited without urging him to continue.[l][r]
 _ Her silence helped Takumi put into words, one by one, memories even he had tried not to touch.[p]
@@ -998,7 +980,7 @@ _ Her silence helped Takumi put into words, one by one, memories even he had tri
 [auto_chara name="恵" face="pain"]
 “They really did terrible things to you...”[l]
 
-Megumi had no more words.[p]
+_ Megumi had no more words.[p]
 
 [wait time=500]
 
@@ -1048,7 +1030,7 @@ Then she looked Takumi straight in the eye and spoke.[p]
 [auto_chara name="恵" face="sad"]
 “My mom.”[l]
 
-After saying that, Megumi paused for a moment.[p]
+_ After saying that, Megumi paused for a moment.[p]
 
 “It seems like her boss at work has been doing awful things to her for a long time...”[p]
 
@@ -1059,11 +1041,9 @@ Takumi frowned.[p]
 
 Megumi did not answer right away.[p]
 
-From one of the other rooms,
-an off-key ballad could be heard.[p]
+An off-key ballad drifted in from another room.[p]
 
-Megumi toyed with the straw in her iced coffee,
-then let out a quiet breath.[p]
+Megumi toyed with the straw in her iced coffee, then let out a quiet breath.[p]
 
 [auto_chara name="恵" face="sad"]
 “He's been pressuring her to sleep with him.”[p]
@@ -1076,8 +1056,7 @@ Takumi was speechless.[p]
 
 [chara_hide_all time=300]
 *ch3_retry_context_help_megumi
-Megumi took out her phone
-and gently placed it on the table.[p]
+Megumi took out her phone and gently placed it on the table.[p]
 
 Takumi lowered his gaze to the screen.[p]
 The messages from Ryuji Takada were more than mere advances.[p]
@@ -1132,8 +1111,7 @@ Megumi murmured as she stared at the phone screen.[p]
 [auto_chara name="恵" face="sad"]
 “But if this keeps up, I feel like she's really going to break...”[p]
 [chara_hide_all time=300]
-Her voice was so quiet,
-it seemed ready to fade away at any moment.[p]
+Her voice was so quiet it seemed ready to fade away at any moment.[p]
 
 Takumi lowered his gaze to the phone again[r]
 _ and felt a heavy anger building deep in his chest.[p]
@@ -1155,7 +1133,7 @@ Her gaze was unwavering.[p]
 “I want to save my mom.”
 [resetdelay]
 
-As Megumi finished speaking, her fingers pressed hard against the phone's dark screen.[p]
+_ As Megumi finished speaking, her fingers pressed hard against the phone's dark screen.[p]
 
 When she noticed Takumi watching, she quickly eased the pressure.[l][r]
 _ She seemed to realize how frightening her request was only after saying it aloud.[p]
