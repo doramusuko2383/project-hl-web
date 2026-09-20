@@ -256,7 +256,7 @@ Wondering what she needed, Takumi replied with a simple, “Sure.”[p]
 After sending the brief reply, Takumi looked again at the word “usual.”[p]
 
 Three weeks ago, that word hadn't existed between them.[l][r]
-Even after he closed the screen, its sound lingered in his mind.[p]
+Even after he closed the screen, the word lingered in his mind.[p]
 
 [fadeoutbgm time=3000]
 [bg storage="black.png" time=1000]
@@ -428,7 +428,7 @@ After a deep breath, he offered an idea.
 *ch4_enter_return
 “Okay, how about this?”[p]
 
-“What if I show up as a guy friend on Saturday and insist on coming in?”[p]
+“What if I come over with you on Saturday as a guy friend and insist on going inside?”[p]
 
 [auto_chara name="恵" face="private_serious"]
 “Huh?”[p]
@@ -439,8 +439,8 @@ Megumi looked surprised, then gave a quiet laugh.[p]
 
 [auto_chara name="拓海" face="private_normal"]
 “I'm completely serious.”[p]
-“Your mom probably wants you out because she doesn't want to put you in danger,[l]
-but she might not worry as much if you're with me.”[p]
+“Your mom probably wants you out because she doesn't want to put you in danger.[l]
+But if you're with me... maybe she won't have to worry as much.”[p]
 
 The moment he finished, his words sounded more intimate than he had intended.[l][r]
 Takumi reached for his coffee and pretended not to watch Megumi's reaction.[p]
@@ -575,25 +575,25 @@ Takumi pulled a small canister from his bag.[p]
 “Then we can't use it.”[p]
 
 [auto_chara name="拓海" face="private_normal"]
-“Not on a normal person.[l] But if we ever need this, whoever we're using it on no longer qualifies.”[p]
+“Not on a normal person.[l] But if we ever have to use it on someone, I don't think they count as human anymore.”[p]
 
 [auto_chara name="恵" face="private_laugh"]
 “That's some impressive logic.[l] ...But I do feel a little safer.”[p]
 
 Megumi laughed, but she didn't put the spray back on the table.[l][r]
-She checked the safety with her thumb, then slipped it into her coat pocket.[p]
+She checked the safety catch with her thumb, then slipped it into her coat pocket.[p]
 
 At the sight, Takumi's smile grew slightly tense.[p]
 
 [auto_chara name="拓海" face="private_smile"]
 “Hopefully you won't need it at all.”[p]
 
-Takumi returned her light laugh, but his smile soon faded as he glanced at the clock.[p]
+Takumi gave a small laugh in return, but his smile soon faded as he glanced at the clock.[p]
 It was already past five thirty.[p]
 
 [wait time=500]
 [auto_chara name="拓海" face="private_normal"]
-It's that late already...[p]
+It's this late already...[p]
 
 Takumi thought to himself.[p]
 Time seemed to pass quickly when he was talking to Megumi.[p]
@@ -725,7 +725,7 @@ Despite her words, Megumi smiled.[p]
 For that brief moment, the tension seemed to leave her body.[p]
 
 [auto_chara name="拓海" face="private_normal"]
-“He didn't look like some obvious villain.[r][l] The two of them seemed distant.”[p]
+“He didn't exactly look like a bad guy.[r][l] The two of them seemed distant.”[p]
 
 [auto_chara name="恵" face="private_serious"]
 “Really?”[p]
@@ -874,7 +874,7 @@ Takumi held his breath and waited for sounds from the living room to reach him t
 [bg storage="bg_megumi_living_night.webp" time=2000]
 Megumi's greeting came through.[p]
 [auto_chara name="恵" face="private_normal" left=0]
-“Hello. I'm sorry to introduce myself so suddenly. I'm Megumi, her daughter. Thank you for always looking after my mother.”[p]
+“Hello. I'm sorry to introduce myself so suddenly. I'm her daughter, Megumi. Thank you for always looking after my mother.”[p]
 [auto_chara name="高田" face="normal" time=700]
 Takada answered in a deep, resonant voice.[p]
 “No, I should apologize for visiting on your day off. Your mother does excellent work for us.”[p]
@@ -972,7 +972,7 @@ The other end of the call went abruptly silent.[p]
 [wait time=800]
 Takumi and Megumi held their breath as they waited for the next voice.[p]
 [delay speed="120"]
-“If you do as I say, I'd be happy to leave her alone.”[p]
+“If you do what I ask... I'd like to leave her out of this.”[p]
 [resetdelay]
 
 Megumi's nails dug into Takumi's sleeve.[l][r]
@@ -1026,7 +1026,7 @@ Prying might worry her unnecessarily and even damage her relationship with Megum
 What should I do...?
 [choice_start count=2]
 [choice name="choice_ch4_takada_tail" text="Follow him myself" target="*ch4_takada_tail_return"]
-[choice name="choice_ch4_takada_ask_kyoko_bad" text="Have Kyoko ask his address" target="*ch4_takada_ask_kyoko_bad"]
+[choice name="choice_ch4_takada_ask_kyoko_bad" text="Have Kyoko ask for his address" target="*ch4_takada_ask_kyoko_bad"]
 [s]
 
 *ch4_takada_tail_choice_retry
@@ -1108,7 +1108,7 @@ She seemed about to add something, but let go without saying it.[l][r]
 The faint tug left in the fabric stopped Takumi's hurried steps for just a moment.[p]
 
 [auto_chara name="拓海" face="private_smile"]
-“I'm off.”[p]
+“See you.”[p]
 
 He put on a smile and gave a small wave.[p]
 [stopse fadeout=1000]
@@ -1193,7 +1193,7 @@ He has children?[p]
 For a moment, Takumi was speechless.[p]
 Did Kyoko know?[p]
 
-He started to message Megumi, but his hand stopped around the phone.[p]
+He started to message Megumi, but his fingers stopped over the screen.[p]
 It was already late.[p]
 Not now... I'll tell her tomorrow.[p]
 
@@ -1245,7 +1245,7 @@ Takada seemed to change the way he communicated with her as well.[p]
 Calm on the surface.[p]
 But never leaving himself exposed.[p]
 
-They were on their guard—[p]
+We'd tipped him off—[p]
 
 Takumi knew it instinctively.[p]
 
