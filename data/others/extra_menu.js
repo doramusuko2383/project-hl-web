@@ -25,7 +25,7 @@
     // Add future chapters here; the menu and jump destination are generated from this list.
     var chapters = [
         { number: 1, title: "覚醒", thumbnail: "bg_rooftop_day_ch1.webp", storage: "chapter1.ks", target: "*ch1_start" },
-        { number: 2, title: "報復", thumbnail: "bg_convenience_store_night.webp", storage: "chapter2.ks", target: "*ch2_start" },
+        { number: 2, title: "Retaliation", thumbnail: "bg_convenience_store_night.webp", storage: "chapter2.ks", target: "*ch2_start" },
         { number: 3, title: "邂逅", thumbnail: "bg_karaoke.webp", storage: "chapter3.ks", target: "*ch3_start" },
         { number: 4, title: "共犯", thumbnail: "bg_mansion_night.webp", storage: "chapter4.ks", target: "*ch4_start" },
         { number: 5, title: "代償", thumbnail: "bg_station_cafe.webp", storage: "chapter5.ks", target: "*ch5_start" },

@@ -308,6 +308,8 @@ speaking as if it were all a joke.[p]
 [auto_chara name="拓海" face="level1_normal"]
 “It... doesn't look that way.”[p]
 
+Takumi looked away and lowered his voice.[p]
+
 The moment he finished, a flash of regret told him he should have run.[p]
 
 But the other student's indoor shoes trembled as he stared at the floor.[l][r]
