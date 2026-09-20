@@ -42,7 +42,7 @@ Feeling as if even that protective gesture was being watched, Takumi quickened h
 [fadeoutse time=2000]
 [bg storage="bg_classroom_day.webp" time=700]
 [playbgm storage="classroom_buzzing.ogg" loop=true volume=100 fadein=true]
-Kuromori Academy High School, which Takumi attended, was a mid-tier private school in the prefecture.[p]
+Kuromori Academy was a mid-tier private school in the prefecture.[p]
 
 It offered a combined junior and senior high school program,[r]
 but students could also take the standard entrance exam to enroll at the high school level.[p]
@@ -307,13 +307,6 @@ speaking as if it were all a joke.[p]
 
 [auto_chara name="拓海" face="level1_normal"]
 “It... doesn't look that way.”[p]
-
-The moment he finished, a flash of regret told him he should have run.[p]
-
-But the other student's indoor shoes trembled as he stared at the floor.[l][r]
-Once Takumi saw that, he couldn't take back what he'd said.[p]
-
-He looked away and lowered his voice.[p]
 
 The moment he finished, a flash of regret told him he should have run.[p]
 
@@ -590,7 +583,7 @@ when he hadn't been able to move at all?[p]
 Ryuya couldn't figure out how.[p]
 
 All he knew was that, in that moment,[r]
-Shota had suddenly lost his mind as he brought the cigarette toward Takumi's arm.[p]
+Shota had suddenly started acting like he'd lost his mind as he brought the cigarette toward Takumi's arm.[p]
 
 That was all.[p]
 
