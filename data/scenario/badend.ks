@@ -1,5 +1,5 @@
-; BAD END 共通演出。
-; 呼び出し元で以下を設定してから *bad_end に jump する。
+; Shared BAD END sequence.
+; Set the following values in the calling scenario before jumping to *bad_end.
 ; - f.bad_end_no
 ; - f.bad_end_title
 ; - f.bad_end_retry_storage
@@ -88,10 +88,7 @@ $(".bad_end_title").updatePText(f.bad_end_title || "");
 
 *bad_end_retry
 [iscript]
-clearInterval(window.__badEndGlitchTimer);
-window.__badEndGlitchTimer = null;
-$("body").removeClass("badend-active");
-$(".button_menu, .role_button, .quiet_system_button").show();
+window.__hlCleanupBadEnd();
 [endscript]
 [showmenubutton]
 [free layer="fix" name="bad_end_bg"]
@@ -107,10 +104,7 @@ $(".button_menu, .role_button, .quiet_system_button").show();
 
 *bad_end_to_title
 [iscript]
-clearInterval(window.__badEndGlitchTimer);
-window.__badEndGlitchTimer = null;
-$("body").removeClass("badend-active");
-$(".button_menu, .role_button, .quiet_system_button").show();
+window.__hlCleanupBadEnd();
 [endscript]
 [showmenubutton]
 [free layer="fix" name="bad_end_bg"]
