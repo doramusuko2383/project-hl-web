@@ -99,6 +99,15 @@
     function restoreAfterTitleCancel() {
         var kag = getKag();
         if (!kag) return false;
+        if ($("body").hasClass("badend-active")) {
+            $(".remodal-wrapper, .remodal-overlay").hide();
+            kag.layer.getMenuLayer().show();
+            $(".button_menu, .role_button, .quiet_system_button").hide();
+            kag.restoreFocusable && kag.restoreFocusable();
+            window.__hlSuppressNextScenarioClick = Date.now() + SUPPRESS_CLICK_MS;
+            unlockAudio();
+            return false;
+        }
         kag.cancelStrongStop();
         kag.cancelWeakStop();
         kag.stat.is_stop = false;
@@ -138,6 +147,10 @@
             }
             $.confirm($.lang("go_title"), function () {
                 var currentKag = getKag();
+                if (currentKag.menu && currentKag.menu.flushLastPlayedSnapshot) {
+                    currentKag.menu.flushLastPlayedSnapshot();
+                }
+                if (window.__hlCleanupBadEnd) window.__hlCleanupBadEnd();
                 currentKag.layer.getMenuLayer().hide().empty();
                 $(".button_menu").hide();
                 currentKag.stat.visible_menu_button = false;
