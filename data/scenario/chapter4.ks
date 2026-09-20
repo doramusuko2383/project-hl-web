@@ -1145,7 +1145,7 @@ Being thanked isn't so bad...[p]
 [bg storage="bg_train_inside_night.webp" time=600]
 
 [playse storage=se/traindoor.ogg volume=100]
-The train slid into the station, and Takumi boarded a different car from Takada.[p]
+The train slid into the station, and Takumi boarded the same car through a door some distance from where Takada got on.[p]
 [wait time=1000]
 [playse storage=se/train_running.ogg volume=100]
 
