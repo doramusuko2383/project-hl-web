@@ -29,8 +29,8 @@ _ “I'm going out to study,” and left.[p]
 
 Just before he closed the front door, laughter from the TV drifted out of the brightly lit living room.[p]
 
-Normally, he would not have given it a second thought.[l][r]
-_ But tonight, it sounded as though he alone were being cut off from the ordinary life inside his home.[p]
+Normally, he wouldn't have given it a second thought.[l][r]
+_ But tonight, it sounded like he alone was being shut out of the ordinary life inside his home.[p]
 
 The night air was crisp and cold,[r]
 _ and Takumi's heart began to pound faster.[p]
@@ -50,15 +50,15 @@ By the time he reached the convenience store near the north exit where Ayaka wor
 _ it was already past eight.[p]
 
 The small convenience store in the residential neighborhood[r]
-_ stood out strangely against the dim streetlights.[p]
+_ stood out starkly against the dim streetlights.[p]
 
 [wait time=500]
 [auto_chara name="拓海" face="convenience"]
 [playse storage=se/megane_and_hat.ogg volume=100]
-He put on the deep bucket hat he had brought and slipped on his sunglasses.[p]
+He pulled the bucket hat he had brought low over his head and put on his sunglasses.[p]
 
 For a moment, he wondered if wearing a mask too might look unnatural,[r][l]
-_ but he intended to adjust as the situation required.[p]
+_ but he planned to adjust as needed.[p]
 
 Rather than entering right away, Takumi pretended to use his phone as he watched the store.[p]
 
@@ -67,7 +67,7 @@ _ he could see Ayaka standing behind the register.[p]
 
 “There she is...”[p]
 
-So far, everything was as expected.[r][l]It had been relatively easy to work out Ayaka's shifts.[p]
+So far, everything was going as expected.[r][l]It had been relatively easy to figure out Ayaka's shifts.[p]
 
 She always worked the same days of the week.[p]
 
@@ -75,16 +75,16 @@ At Kuromori Academy, a college-preparatory school, even having a part-time job w
 _ Maybe there was something she wanted to buy.[p]
 
 [auto_chara name="綾香" face="convenience"]
-Ayaka was expressionless, looking vaguely listless.[p]
+Ayaka wore a blank, vaguely listless expression.[p]
 
 She showed the customers no warmth, mechanically placing their purchases into bags.[p]
 [wait time=500]
-Come to think of it, he could not remember ever seeing Ayaka smile anywhere but the rooftop.[p]
+Come to think of it, he couldn't remember ever seeing Ayaka smile anywhere but the rooftop.[p]
 
-The thought occurred to him suddenly.[p]
+The thought came to him suddenly.[p]
 
 The face she wore while looking down on people from the rooftop, and the face she wore standing at the register without even trying to hide her exhaustion.[l][r]
-_ Takumi did not know which one was the real Ayaka.[p]
+_ Takumi didn't know which one was the real Ayaka.[p]
 
 It would probably be easier if he never found out.[l][r]
 _ Takumi stopped thinking about it.[p]
@@ -96,7 +96,7 @@ Takumi felt relieved.[p]
 
 [wait time=500]
 
-It did not look as though he had to worry about being recognized.[p]
+It didn't look like he had to worry about being recognized.[p]
 [chara_hide_all time=300]
 [playse storage=se/convenience_door.ogg volume=100]
 [wait time=500]
@@ -109,22 +109,22 @@ _ but lingering too long might draw suspicion and make him stand out.[p]
 
 He moved to a spot outside the register's line of sight and calmed himself.[p]
 [wait time=1000]
-At the magazine rack in front of him, he reached for a book that did not particularly interest him.[p]
+At the magazine rack in front of him, he reached for a book that didn't particularly interest him.[p]
 [wait time=1000]
 He decided to wait for the right moment, when all the other customers had left.[p]
 
 [wait time=500]
 
-Just then, an obese middle-aged man emerged from the back room.[p]
+Just then, a heavyset middle-aged man emerged from the back room.[p]
 
 “There he is.”[p]
 
 Takumi knew who he was.[p]
 
 He was the manager of this convenience store.[p]
-In a sense, the manager was a key figure in Takumi's plan, so Takumi had needed to familiarize himself thoroughly with the man's appearance.[p]
+The manager was a key figure in Takumi's plan, so Takumi had needed to familiarize himself thoroughly with the man's appearance.[p]
 
-He had visited the convenience store several times to scout it out on days when Ayaka was not working.[p]
+He had visited the convenience store several times to scout it out on days when Ayaka wasn't working.[p]
 
 The manager carried out a basket full of products and began restocking the shelves.[p]
 
@@ -150,7 +150,7 @@ He was in his forties and probably around five foot seven.[p]
 
 His hair was short, thin, and sparse, with his scalp visible between the strands.[p]
 
-The arms protruding from his uniform were densely covered in coarse hair.[p]
+His exposed forearms were covered in thick hair.[p]
 
 [wait time=500]
 
@@ -167,7 +167,7 @@ Ayaka had complained that it was creepy how the manager constantly came out onto
 Apparently, she was his favorite.[p]
 
 Keeping the manager at the edge of his vision,[r][l]
-_ Takumi further developed the image of the “hallucination” he would show Ayaka.[p]
+_ Takumi continued refining the “hallucination” he would show Ayaka.[p]
 
 [wait time=500]
 
@@ -183,13 +183,13 @@ A man in a suit placed two cans of chuhai[r]
 _ and a small slice of strawberry shortcake on the counter.[p]
 [wait time=500]
 He looked to be in his early thirties.[r][l]
-_ His face was tired, but there was a certain lightness to his step.[p]
+_ His face was tired, but there was a certain lightness in his step.[p]
 [wait time=500]
 
 Maybe he was going to have a drink with his girlfriend.[p]
 
 He was taking home alcohol and cake for an evening with someone.[l][r]
-_ That kind of ordinary life seemed to Takumi now like something from another world.[p]
+_ That kind of ordinary life now seemed like another world to Takumi.[p]
 
 As the man put away his wallet, Takumi stared down at his fingertips from behind the shelves.[l][r]
 _ Once this customer left, there would be no more excuses.[p]
@@ -263,7 +263,7 @@ Ayaka's eyes fixed squarely on Takumi.[p]
 [chara_hide_all time=300]
 [wait time=500]
 [auto_chara name="拓海" face="convenience"]
-Takumi could not answer.[p]
+Takumi couldn't answer.[p]
 
 He had been too cautious.[p]
 
@@ -281,7 +281,7 @@ A brief message from Ryuya appeared on the screen.[p]
 “Come to the rooftop tomorrow.”[p]
 
 The instant Takumi read that one sentence,[r]
-_ he understood that it was all over.[p]
+_ he knew it was all over.[p]
 
 [eval exp="f.bad_end_no = 'BAD END 03'"]
 [eval exp="f.bad_end_title = 'Too Late'"]
@@ -297,13 +297,13 @@ _ and the atmosphere inside the store was heavy.[p]
 
 Carrying a bottle of tea and two rice balls, he got in line at the register.[p]
 
-He did not actually need any of them,[r][l]
+He didn't actually need any of them,[r][l]
 _ but he had tried to choose the products he thought would be least memorable.[p]
 
 One of the rice balls had the same filling as the one Ayaka had eaten on the rooftop before.[p]
 
 Realizing he had chosen it unconsciously, he nearly put it back and picked something else.[l][r]
-_ But turning back to the shelf would look unnatural, so he took it to the register as it was.[p]
+_ But turning back to the shelf would look unnatural, so he took it to the register anyway.[p]
 
 Watching Ayaka continue her work mechanically with her slender arms,[r]
 _ Takumi made up his mind.[p]
@@ -317,12 +317,12 @@ He spoke quietly, his voice lower than usual.[p]
 “Certainly.”[p]
 [playse storage=se/in_plastic_bag.ogg volume=100]
 [wait time=500]
-Ayaka answered in a mechanical voice and began placing the items into a plastic bag.[p]
+Ayaka answered mechanically and began placing the items into a plastic bag.[p]
 [wait time=500]
 Every natural movement of her hands made Takumi's heart beat faster.[p]
 
 There was no trace in the slender fingers straightening the top of the bag of the girl who had mocked his burns.[l][r]
-_ She looked like nothing more than a tired high school student trying to finish her work.[p]
+_ She looked like nothing more than a tired high school student trying to finish her shift.[p]
 
 Takumi averted his eyes toward the donation box beside the register.[l][r]
 _ He felt that if he kept looking at her face, his resolve would waver.[p]
@@ -336,7 +336,7 @@ This was different from what had happened with Shota.[p]
 [wait time=500]
 That had been an accident.[p]
 [wait time=500]
-But this time, he would do it of his own volition.[p]
+But this time, he was choosing to do it.[p]
 [wait time=500]
 He hesitated slightly,[r][l]
 _ but this was necessary to protect himself.[p]
@@ -357,7 +357,7 @@ He had no choice—he had to do it.
 
 [wait time=1000]
 
-Takumi focused every nerve.[p]
+Takumi focused all his attention on what he was about to do.[p]
 
 He knew what would happen after he touched her.[l][r]
 _ Even so, the few inches to her outstretched hand felt farther away than the fence on the rooftop.[p]
@@ -387,19 +387,19 @@ I did it... It worked.[p]
 Takumi felt the same sensation as when he had shown it to Shota, and knew he had succeeded.[p]
 
 He could still feel the contact on his fingertips.[p]
-The sight of the manager alone moving beyond the frozen Ayaka sent heat surging through his entire body.[p]
+The sight of the manager alone moving while Ayaka remained frozen sent heat surging through his entire body.[p]
 [playbgm storage="ability_theme.ogg" loop=true volume=80 fadein=true time=1500]
 [cg storage="ch3_convenience_touch.webp"]
 [bg storage="ch3_convenience_touch.webp" time=900]
 Ayaka stopped moving and stood frozen, eyes wide,[r][l]
-_ as though time itself had stopped.[p]
+_ as if time itself had stopped.[p]
 
 [wait time=1000]
 
 Then, within that silent world,[r][l]
 _ the manager slowly began approaching Ayaka.[p]
 
-This was a world containing only Ayaka and the manager.[p]
+In this world, only Ayaka and the manager remained.[p]
 
 [wait time=1000]
 
@@ -419,8 +419,8 @@ There was no reason to stay any longer.[p]
 Takumi took the bag,[r][l]
 _ then checked Ayaka's face one last time.[p]
 
-She was not looking at Takumi in front of her,[r]
-_ but at something that did not exist, and she made no attempt to move.[p]
+She wasn't looking at Takumi in front of her,[r]
+_ but at something that didn't exist, and she made no attempt to move.[p]
 
 [fadeoutbgm time=3000]
 [chara_hide_all time=300]
@@ -440,13 +440,13 @@ His feet nearly stopped.[l][r]
 _ Even so, he faced forward, feeling that if he looked back, he would be admitting what he had done.[p]
 
 But the fear he had felt before entering the store[r]
-_ had changed into something else without his realizing it.[p]
+_ had changed into something else before he realized it.[p]
 
 It worked.[p]
 
-This time, it had not been an accident.[p]
+This time, it hadn't been an accident.[p]
 
-He had used the power of his own volition.[p]
+He had chosen to use the power.[p]
 
 Without looking back even once, Takumi walked away[r]
 _ from the brightly lit convenience store.[p]
@@ -463,12 +463,12 @@ _ from the brightly lit convenience store.[p]
 [playbgm storage="classroom_buzzing.ogg" loop=true volume=100 fadein=true time=1000]
 Several days passed after that, and October arrived.[p]
 
-The cold autumn wind had begun to sweep across the school grounds.[p]
+A cold autumn wind had begun to sweep across the school grounds.[p]
 
-The mornings and evenings had grown cool enough to require a jacket,[r][l]
+The mornings and evenings had grown cool enough for a jacket,[r][l]
 _ and the leaves on the trees outside the classroom windows were gradually changing color.[p]
 
-Ayaka had not appeared at school since that day.[p]
+Ayaka hadn't been to school since that day.[p]
 
 [wait time=500]
 
@@ -479,12 +479,12 @@ That was different from what had happened with Shota.[p]
 [wait time=500]
 
 Ryuya still summoned Takumi as usual,[r][l]
-_ but he lacked his former energy and seemed somehow dispirited.[p]
+_ but he had lost his usual energy and seemed dispirited.[p]
 
 Ayaka's absence might have been affecting him.[p]
 
 Sure enough, Ryuya had grilled Takumi about why Ayaka was not coming to school,[r][l]
-_ but naturally, there could not possibly be any evidence.[p]
+_ but naturally, there was no evidence.[p]
 
 Takumi smirked inwardly.[p]
 
@@ -496,19 +496,19 @@ _ There's no problem.[p]
 His left hand, resting at the edge of his desk, trembled faintly.[l][r]
 _ Takumi held it still with his right hand and hid it in his lap where no one could see.[p]
 
-If there was no problem, there should have been no reason for him to tremble.[p]
+If there was no problem, he had no reason to tremble.[p]
 
 [wait time=500]
 
 Takumi sensed that something inside him had changed.[p]
 
 Gaining the power had restored his confidence,[r][l]
-_ and he had become better able to communicate with his classmates than before.[p]
+_ and he had become better at talking to his classmates than before.[p]
 
 His classmates seemed to think Takumi was “hanging out” with Ryuya and the others,[r][l]
-_ and had not realized that he was being bullied.[p]
+_ and hadn't realized that he was being bullied.[p]
 
-Even so, perhaps reassured by the recent improvement in Takumi's demeanor,[r][l]
+Even so, perhaps reassured by the recent change in Takumi's demeanor,[r][l]
 _ his classmates had begun speaking to him more readily than before.[p]
 
 [wait time=500]
@@ -517,12 +517,12 @@ This isn't so bad...[p]
 
 When he accepted a handout passed back from the desk in front of him, a classmate casually said, “Thanks.”[p]
 
-He was slow to answer those two simple words.[l][r]
-_ Something he had never once been shown on the rooftop existed here in the classroom as if it were nothing unusual.[p]
+Even that simple “thanks” caught him off guard.[l][r]
+_ Here in the classroom, the kind of courtesy he'd never received on the rooftop was offered without a second thought.[p]
 
 [wait time=500]
 
-For a moment, Takumi felt as though he might finally have a place in the class.[p]
+For a moment, Takumi felt he might finally have a place in the class.[p]
 
 But his rational side quickly dismissed the thought.[p]
 
@@ -533,7 +533,7 @@ As long as he had no idea what Ryuya might do next, he needed to make the first 
 He had to learn more about him.[p]
 
 But he couldn't think of a single person[r]
-_ who seemed likely to know anything about Ryuya's circumstances.[p]
+_ who might know anything about Ryuya's circumstances.[p]
 
 He was leaning on his desk during the break, wondering what to do, when it happened.[p]
 
@@ -559,12 +559,12 @@ What could she want?[p]
 [auto_chara name="恵" face="serious"]
 “There's something I want to ask you about Ayaka.”[p]
 
-The warmth he had felt moments ago went cold deep in his chest.[p]
+The warmth he had felt moments ago turned cold in his chest.[p]
 
 Megumi's gaze briefly dropped to his left hand on the desk.[l][r]
 _ Takumi adjusted his watch as if to hide what she had seen.[p]
 [fadeoutbgm time=4000]
-Megumi's usual gentle air was gone,[r][l]
+Megumi's usual warmth was gone,[r][l]
 _ replaced by an expression that suggested she had made up her mind about something.[p]
 
 “Let's meet at the karaoke place by the station after school.”[p]
@@ -607,8 +607,8 @@ _ he couldn't completely shake his unease.[p]
 They entered a private room at a karaoke place near the station[r]
 _ and sat down without a word.[p]
 
-Megumi made no move to choose a song,[r]
-_ instead staring at Takumi with a grave expression.[p]
+Megumi made no move to choose a song.[r]
+_ She just stared at Takumi, her expression serious.[p]
 
 [auto_chara name="恵" face="serious"]
 “The other day, I saw you go into the convenience store where Ayaka works.”[p]
@@ -629,7 +629,7 @@ Her unexpected words echoed through his mind.[p]
 
 She saw me...?[p]
 
-More than having his disguise exposed, what frightened him was that she had remembered the way he walked.[p]
+More than having his disguise exposed, what frightened him was that she had recognized him by the way he walked.[p]
 
 He had always thought he was the kind of person who left no impression on anyone.[l][r]
 _ One casual remark from Megumi quietly shattered that assumption.[p]
@@ -649,7 +649,7 @@ Megumi continued without a trace of doubt.[p]
 [chara_hide_all time=300]
 It was true. At the time, he hadn't had the presence of mind to watch his surroundings.[p]
 
-Megumi's observation pierced sharply into Takumi's chest.[p]
+Megumi's observation hit Takumi hard.[p]
 
 [wait time=500]
 
@@ -729,13 +729,13 @@ _ That cleared the manager of suspicion...”[p]
 Megumi spoke matter-of-factly,[r]
 _ but Takumi's mind had gone completely blank.[p]
 
-He had never imagined things would grow this serious.[p]
+He had never imagined things would get this serious.[p]
 
 He had thought it would end once he frightened Ayaka.[l][r]
-_ He hadn't considered that beyond that lay suspicion of the manager, the police, and Megumi's fear.[p]
+_ He hadn't considered what would come after: suspicion of the manager, the police, and Megumi's fear.[p]
 
-What he had shown her was a lie, but the people moved by that lie were real.[l][r]
-_ The weight of that realization settled belatedly on Takumi's chest.[p]
+What he had shown her was a lie, but the people who had acted on it were real.[l][r]
+_ The weight of that realization finally settled on Takumi's chest.[p]
 
 [auto_chara name="恵" face="sad"]
 “I think the police suspected for a while that we might have been trying to frame the manager...[l]
@@ -805,7 +805,7 @@ As a result, he never joined forces with Megumi, and he couldn't stop Takada.[p]
 
 Ryuya's violence never ended either.[p]
 
-Only the same unchanging days continued.[p]
+And every day stayed exactly the same.[p]
 
 [eval exp="f.bad_end_no = 'BAD END 04'"]
 [eval exp="f.bad_end_title = 'Isolation'"]
@@ -827,7 +827,7 @@ Faced with Megumi's earnest gaze, Takumi could only answer with silence.[p]
 Just then, someone knocked on the door,[r]
 _ and a staff member came in and set the iced coffee they had ordered on the table.[p]
 
-The cold coffee seemed to have no taste at all.[p]
+The iced coffee tasted like nothing.[p]
 
 An off-key ballad from somewhere nearby[r][l]
 _ echoed through the quiet room.[p]
@@ -849,7 +849,7 @@ _ his voice sounded strangely hollow.[p]
 “Yeah. I'm sorry I couldn't do anything to help.”[p]
 
 Megumi lowered her gaze apologetically,[r]
-_ then grew solemn again and continued.[p]
+_ then grew serious again and continued.[p]
 
 Takumi searched for a response, but he could find neither words of blame nor forgiveness.[p]
 
@@ -877,8 +877,8 @@ Because she had seen him that day, she had even connected it to what happened to
 
 Takumi had already resigned himself to it.[p]
 
-Someone had understood that he was being bullied.[p]
-The realization eased the tension from his shoulders.[p]
+There was someone who knew he was being bullied.[p]
+That realization eased the tension from his shoulders.[p]
 
 It had become too painful to keep making excuses.[p]
 
@@ -898,7 +898,7 @@ Megumi didn't say anything right away.[p]
 She neither denied it nor condemned him.[l][r]
 _ The silence was more frightening than either, and Takumi clasped both hands tightly in his lap.[p]
 
-His chest should have felt lighter after revealing his secret, but now the weight of how she might see him sank into it instead.[p]
+His chest should have felt lighter after revealing his secret, but now the weight of how she might see him settled there instead.[p]
 
 With one fist resting against her lips,[r]
 _ she stared intently at Takumi.[p]
@@ -910,10 +910,10 @@ A karaoke promo video played on a loop, its sound filling the quiet room.[p]
 Her tone held no accusation.[p]
 
 Megumi's shoulders lowered ever so slightly.[l][r]
-_ She looked both relieved to have an answer and shaken to have confirmed the answer she had braced herself for.[p]
+_ She looked relieved to have an answer, yet also as if she'd just confirmed the one she'd braced herself for.[p]
 
 If anything,
-her voice sounded as though she were confirming something.[p]
+her voice sounded like she was confirming something for herself.[p]
 
 “But how did you do it?”[p]
 
@@ -926,7 +926,7 @@ then slowly began to speak.[p]
 [auto_chara name="拓海" face="level2_normal"]
 “At first, I didn't understand what was happening either.”[p]
 [chara_hide_all time=300]
-He told her how he had shown himself a hallucination on the rooftop.[p]
+He told her about the hallucination he'd made himself see on the rooftop.[p]
 
 How he had jumped,
 and vividly experienced
@@ -934,7 +934,7 @@ the sensation of slamming into the ground.[p]
 
 How afterward,
 the instant he touched Shota,
-it seemed as though time had stopped.[p]
+it seemed like time had stopped.[p]
 
 And then—[p]
 
@@ -961,7 +961,7 @@ Megumi's quiet voice slipped out.[p]
 Takumi gave a humorless smile.[p]
 
 “But
-I guess they didn't want to get involved in the trouble.”[p]
+I guess they didn't want to get involved.”[p]
 
 Silence lingered for a moment.[p]
 
@@ -993,7 +993,7 @@ She simply listened
 quietly to Takumi's story.[p]
 
 Whenever Takumi faltered, Megumi waited without urging him to continue.[l][r]
-_ Supported by that silence, Takumi gave voice, one by one, to memories even he had tried not to touch.[p]
+_ Her silence helped Takumi put into words, one by one, memories even he had tried not to touch.[p]
 
 [auto_chara name="恵" face="pain"]
 “They really did terrible things to you...”[l]
@@ -1016,7 +1016,7 @@ Takumi instinctively pulled his hand back from the table.[p]
 Megumi was close enough for him to reach out and touch.[l][r]
 _ For the first time, he became aware of that closeness as something dangerous.[p]
 
-She said something terrifying with remarkable ease.[p]
+She'd said something terrifying so casually.[p]
 
 [auto_chara name="拓海" face="level2_panic"]
 “No, no.[l]
@@ -1026,7 +1026,7 @@ _ If they hadn't put me through all that, I don't think I would've used it on th
 He added that there was still a lot he didn't understand about it.[p]
 
 [chara_hide_all time=300]
-After that, as they compared their questions and tried to make sense of them,[r]
+After that, as they talked through the questions they each had,[r]
 _ Takumi finally came to the heart of the matter.[p]
 
 [auto_chara name="拓海" face="level2_normal"]
@@ -1034,7 +1034,7 @@ _ Takumi finally came to the heart of the matter.[p]
 _ I doubt playing detective is your hobby.”[p]
 
 [auto_chara name="恵" face="laugh"]
-“I might like it more than you'd think,” Megumi said, putting on an exaggerated laugh.[p]
+“I might like it more than you'd think,” Megumi said with a theatrical laugh.[p]
 
 [wait time=500]
 [auto_chara name="恵" face="serious"]
@@ -1066,13 +1066,13 @@ Megumi toyed with the straw in her iced coffee,
 then let out a quiet breath.[p]
 
 [auto_chara name="恵" face="sad"]
-“He’s been pressuring her to sleep with him.”[p]
+“He's been pressuring her to sleep with him.”[p]
 [playbgm storage="suspense.ogg" loop=true volume=80 fadein=true time=1000]
 [auto_chara name="拓海" face="level2_surprise"]
 Takumi was speechless.[p]
 
 [auto_chara name="恵" face="serious"]
-“She keeps turning him down, but he won’t stop... Lately, it sounds like he’s even started threatening her.”[p]
+“She keeps turning him down, but he won't stop... Lately, it sounds like he's even started threatening her.”[p]
 
 [chara_hide_all time=300]
 *ch3_retry_context_help_megumi
@@ -1084,31 +1084,31 @@ The messages from Ryuji Takada were more than mere advances.[p]
 
 “Ignoring me again?”[p]
 
-“You’re going to regret this.”[p]
+“You're going to regret this.”[p]
 
-“It’s about time you gave in.”[p]
+“It's about time you gave in.”[p]
 
-They were steeped in a clinging malice that exploited his position[r]
-_ and closed off every avenue of escape.[p]
+There was a persistent, calculated malice behind them—Takada was using his position[r]
+_ to cut off every avenue of escape.[p]
 
-Takumi clenched his back teeth.[p]
+Takumi clenched his jaw.[p]
 [auto_chara name="拓海" face="level2_normal"]
 “...What about the police?”[p]
 [auto_chara name="恵" face="serious"]
-“I don’t think that would work.”[p]
+“I don't think that would work.”[p]
 
 Megumi shook her head.[p]
 
-“He seems to have a lot of influence in the company, and I don’t think Mom wants to make a big deal out of it.”[p]
+“He seems to have a lot of influence in the company, and I don't think Mom wants to make a big deal out of it.”[p]
 [auto_chara name="拓海" face="level2_normal"]
 “Why has she put up with it for so long?”[p]
 [auto_chara name="恵" face="serious"]
-“Because she can’t quit her job, I guess...”[p]
+“Because she can't quit her job, I guess...”[p]
 [auto_chara name="恵" face="troubled_smile"]
 Megumi gave a slightly troubled smile.[p]
 [fadeoutbgm time=4000]
 [playbgm storage="airconditioner.ogg" loop=true volume=50 fadein=true time=1000]
-“It’s just me and my mom.”[p]
+“It's just me and my mom.”[p]
 [auto_chara name="拓海" face="level2_depressed"]
 “...Oh.”[p]
 
@@ -1116,7 +1116,7 @@ Takumi reflexively looked away.[p]
 
 “Sorry.”[p]
 [auto_chara name="恵" face="normal"]
-“No, it’s okay. Don’t worry about it.”[p]
+“No, it's okay. Don't worry about it.”[p]
 
 Megumi smiled gently.[p]
 
@@ -1126,11 +1126,11 @@ Megumi smiled gently.[p]
 
 The ice clinked softly.[p]
 
-“It’s thanks to her that I can go to Kuromori Academy, too. So... I understand why she’s pushing herself so hard.”[p]
+“It's thanks to her that I can go to Kuromori Academy, too. So... I understand why she's pushing herself so hard.”[p]
 
 Megumi murmured as she stared at the phone screen.[p]
 [auto_chara name="恵" face="sad"]
-“But if this keeps up, I feel like she’s really going to break...”[p]
+“But if this keeps up, I feel like she's really going to break...”[p]
 [chara_hide_all time=300]
 Her voice was so quiet,
 it seemed ready to fade away at any moment.[p]
@@ -1147,7 +1147,7 @@ Megumi quietly raised her head.[p]
 Takumi did not answer right away. He looked at the phone resting between them.[p]
 
 Their faces were reflected side by side in the dark screen.[l][r]
-_ The one asking for help and the one being asked. Only Takada’s words remained between them.[p]
+_ The one asking for help and the one being asked. Only Takada's words remained between them.[p]
 
 Her gaze was unwavering.[p]
 
@@ -1155,10 +1155,10 @@ Her gaze was unwavering.[p]
 “I want to save my mom.”
 [resetdelay]
 
-As Megumi finished speaking, her fingers pressed hard against the phone’s dark screen.[p]
+As Megumi finished speaking, her fingers pressed hard against the phone's dark screen.[p]
 
 When she noticed Takumi watching, she quickly eased the pressure.[l][r]
-_ It was as though only after saying it aloud had she realized how frightening her request was.[p]
+_ She seemed to realize how frightening her request was only after saying it aloud.[p]
 
 For a moment, Takumi waited for Megumi to say, “Forget I said that.”[l][r]
 _ But she did not look away.[p]
@@ -1174,19 +1174,19 @@ What should he do...?
 *ch3_help_megumi
 [cm]
 [chara_hide_all time=300]
-After hearing her words, Takumi looked back at the screen.[p]
+Takumi looked back at the screen as her words sank in.[p]
 
-He considered what he could do to save Megumi’s mother.[p]
+He considered what he could do to save Megumi's mother.[p]
 
-Shota’s scream and Ayaka’s motionless face flashed through his mind in succession.[l][r]
-_ Not once had his power saved anyone yet.[p]
+Shota's scream came back to him, followed by the sight of Ayaka's motionless face.[l][r]
+_ His power had never saved anyone before.[p]
 
 Even so, Megumi had asked him for help, not anyone else.[l][r]
-_ He did not want to brush aside the hand she had extended merely because he was afraid.[p]
-There was someone who did not fear his power, but needed it.[l][r]
-_ The realization unsettled him, yet a warmth kindled deep in his chest.[p]
+_ He did not want to brush aside the hand she had extended just because he was afraid.[p]
+Here was someone who wasn't afraid of his power—someone who needed it.[l][r]
+_ The realization unsettled him, yet warmth stirred deep in his chest.[p]
 
-Not using his power out of vengeance, as he had before,[r]
+This time, he wouldn't use his power for revenge,[r]
 _ but to help someone.[p]
 
 [fadeoutbgm time=4000]
@@ -1202,15 +1202,15 @@ Then he slowly opened his mouth.[p]
 [bg storage="ch3_karaoke_determination.webp" time=900]
 
 [delay speed="110"]
-“All right.[l] Let’s save your mom.”[p]
+“All right.[l] Let's save your mom.”[p]
 [resetdelay]
 
 The moment he said those words,[r]
 _ he realized for the first time that his power could be used not only for revenge, but to save people.[p]
 
-A new resolve quietly filled Takumi’s chest.[p]
+A new sense of resolve quietly took hold of Takumi.[p]
 
-Across from him, Megumi exhaled and finally lifted her tense fingers from the phone.[p]
+Across from him, Megumi exhaled and finally relaxed her grip on the phone.[p]
 
 Seeing that small change, Takumi realized that, for the first time, his answer had put someone at ease.[p]
 
@@ -1219,13 +1219,13 @@ Seeing that small change, Takumi realized that, for the first time, his answer h
 *ch3_refuse_megumi_bad
 [cm]
 [auto_chara name="拓海" face="level2_depressed"]
-“...I’m sorry.”[p]
+“...I'm sorry.”[p]
 
 Takumi gave a small shake of his head.[p]
 
-“I can’t do this anymore.”[p]
+“I can't do this anymore.”[p]
 
-“I don’t want to use this power to hurt someone... Not anymore.”[p]
+“I don't want to use this power to hurt someone... Not anymore.”[p]
 
 [auto_chara name="恵" face="surprise"]
 Megumi looked slightly surprised, but soon gave him a faint smile.[p]
@@ -1237,7 +1237,7 @@ Megumi looked slightly surprised, but soon gave him a faint smile.[p]
 There was something lonely in her smile.[p]
 
 [auto_chara name="恵" face="troubled_smile"]
-“I’m sorry. That was a strange thing to ask.”[p]
+“I'm sorry. That was a strange thing to ask.”[p]
 
 [chara_hide_all time=300]
 Megumi put away her phone and quietly rose from her seat.[p]
@@ -1299,7 +1299,7 @@ By the time they left the karaoke place, it was completely dark outside.[p]
 
 The lights from the shops in front of the station dimly illuminated the sidewalk.[p]
 
-Perhaps because they had spent so long discussing something so heavy in that cramped room,[r]
+Maybe because they had spent so long discussing something so heavy in that cramped room,[r]
 _ the cool air outside felt almost pleasant.[p]
 
 [auto_chara name="恵" face="normal"]
@@ -1308,7 +1308,7 @@ _ the cool air outside felt almost pleasant.[p]
 
 [auto_chara name="拓海" face="level2_normal"]
 
-“Yeah.[l] I didn’t think we’d talk that long.”[p]
+“Yeah.[l] I didn't think we'd talk that long.”[p]
 
 [auto_chara name="恵" face="smile"]
 
@@ -1323,7 +1323,7 @@ _ so seeing that expression helped Takumi relax a little, too.[p]
 
 [auto_chara name="拓海" face="level2_smile"]
 
-“But you’re surprisingly bold, Kikuchi.”[p]
+“But you're surprisingly bold, Kikuchi.”[p]
 
 [auto_chara name="恵" face="surprise"]
 
@@ -1331,8 +1331,8 @@ _ so seeing that expression helped Takumi relax a little, too.[p]
 
 [auto_chara name="拓海" face="level2_normal"]
 
-“Most people wouldn’t suddenly ask a classmate,[r]
-_ ‘Use your mysterious power to save my mother.’”[p]
+“Most people wouldn't suddenly ask a classmate,[r]
+_ ‘Use your mysterious power to save my mom.’”[p]
 
 [auto_chara name="恵" face="laugh"]
 
@@ -1340,11 +1340,11 @@ _ ‘Use your mysterious power to save my mother.’”[p]
 
 [auto_chara name="拓海" face="level2_smile"]
 
-“And I could’ve been lying about the whole thing.”[p]
+“And I could've been lying about the whole thing.”[p]
 
 [auto_chara name="恵" face="normal"]
 
-“Hmm... But you didn’t seem like you were lying.”[p]
+“Hmm... But you didn't seem like you were lying.”[p]
 
 [auto_chara name="拓海" face="level2_surprise"]
 
@@ -1355,14 +1355,14 @@ _ ‘Use your mysterious power to save my mother.’”[p]
 “Just a feeling.”[p]
 
 “Besides, Nagayama,[r]
-_ you didn’t seem like the type who could do something bad and feel no shame about it.”[p]
+_ you didn't seem like the type who could do something bad without feeling guilty about it.”[p]
 
 [wait time=500]
 
-Takumi was not quite sure how to respond.[p]
+Takumi wasn't quite sure how to respond.[p]
 
 It sounded almost like a compliment,[r]
-_ but then again, maybe it was not.[p]
+_ though he wasn't entirely sure it was.[p]
 
 [auto_chara name="拓海" face="level2_smile"]
 
@@ -1378,14 +1378,14 @@ They both laughed a little.[p]
 
 Then they slowly walked side by side to the station entrance.[p]
 
-Considering what they had just been discussing,[r]
-_ it would not have been surprising if things had felt more awkward.[p]
+Given what they'd just talked about,[r]
+_ it would've been understandable if things had felt more awkward.[p]
 
-But strangely, they did not.[p]
+But strangely, they didn't.[p]
 
 [auto_chara name="恵" face="normal"]
 
-“Well, this is where we part ways today.”[p]
+“Well, I guess we should call it a day.”[p]
 
 [auto_chara name="拓海" face="level2_normal"]
 
@@ -1405,14 +1405,14 @@ But strangely, they did not.[p]
 
 Megumi gave a small wave and walked into the station.[p]
 
-As Takumi watched her retreating figure,[r]
+As Takumi watched her walk away,[r]
 _ he repeated her words in his mind.[p]
 
 See you at school.[p]
 
 It was just a casual goodbye.[p]
 
-And yet, for some reason, the words lingered in his ears.[p]
+And yet, for some reason, the words stayed with him.[p]
 
 [wait time=700]
 
