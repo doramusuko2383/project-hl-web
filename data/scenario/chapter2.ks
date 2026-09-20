@@ -65,7 +65,7 @@ That said, the school's overall university placement record, including its regul
 
 [wait time=500]
 
-Still, its uniform had a good reputation because it was supposedly designed by someone famous,[r]
+Still, its uniform had a good reputation because it was supposedly designed by a famous designer,[r]
 and that popularity seemed to make admissions more competitive than the school's academics warranted.[p]
 
 To Takumi, it didn't seem much better than any other school's:[r]
@@ -133,8 +133,8 @@ Apparently, they had started hanging out in their first year.[p]
 Ryuya hadn't always been a troublemaker, either.[r]
 When he first enrolled, he had trained seriously as a promising ace on the soccer team.[p]
 
-He had a bad attitude,[r]
-but apparently not enough to be called a delinquent.[p]
+He wasn't always well-behaved,[r]
+but apparently he wasn't bad enough to be called a delinquent.[p]
 
 Blessed with a strong build and natural athletic ability,[r]
 he quickly earned a spot in the starting lineup.[p]
@@ -263,7 +263,7 @@ And yet he couldn't take his eyes off the ten-thousand-yen bill in Ryuya's hand.
 [chara_hide_all time=0]
 What should I do?
 [choice_start count=2]
-[choice name="choice_ch2_call_tatsuya" text="Confront Ryuya" target="*ch2_call_tatsuya"]
+[choice name="choice_ch2_call_tatsuya" text="Speak up to Ryuya" target="*ch2_call_tatsuya"]
 [choice name="choice_ch2_ignore_tatsuya" text="Pretend you saw nothing" target="*ch2_ignore_tatsuya"]
 [s]
 
@@ -338,7 +338,7 @@ Before he knew it, the other student had fled too.[p]
 
 He left without a word, as if avoiding even the chance of eye contact.[p]
 
-Takumi hadn't expected to be thanked.[l][r]
+It wasn't that Takumi wanted to be thanked.[l][r]
 But his heart sank as he watched the boy's back disappear through the closing door without once turning around.[p]
 
 The face in the mirror above the sink was even paler than Ryuya's.[l][r]
@@ -352,7 +352,7 @@ Takumi wondered if he had interfered where he shouldn't have.[p]
 From then on, the bullying shifted from that student to Takumi.[p]
 
 By acting on his sense of justice,[r]
-he had sacrificed himself to save someone else.[p]
+he had put himself in harm's way to save someone else.[p]
 
 [fadeoutbgm time=4000]
 [wait time=1000]
@@ -428,7 +428,7 @@ And with that pain came the memory[r]
 of why Shota had started avoiding the other two.[p]
 
 The hallucination he had shown Shota that day.[r]
-Their relationship had never recovered.[p]
+The relationship among the three of them had never gone back to what it was.[p]
 
 [stopse fadeout=3000]
 [wait time=1000]
@@ -445,8 +445,8 @@ If anything, he seemed to be avoiding them.[p]
 
 [wait time=500]
 
-No matter where Takumi looked around school, Shota was never beside the other two.[p]
-Each time he confirmed it, breathing became a little easier.[p]
+Whenever Takumi saw them around school, Shota was never with the other two.[p]
+Each time he saw that, he could breathe a little easier.[p]
 
 Maybe this would put an end to the bullying—[p]
 
@@ -466,7 +466,7 @@ But it was soon crushed.[p]
 [auto_chara name="龍也" face="angry"]
 “What... did you do to Shota?”[p]
 
-It was the usual rooftop after lunch.[p]
+The rooftop, as usual, in the early afternoon.[p]
 
 Ryuya's fingers dug into the collar of Takumi's uniform.[p]
 
@@ -475,7 +475,7 @@ His clenched teeth made a faint grinding sound.[p]
 [auto_chara name="綾香" face="angry"]
 “Shota stopped coming up here!”[p]
 
-Ayaka stormed up from behind, eyebrows raised.[p]
+Ayaka closed in from behind, her brows drawn tight.[p]
 
 [auto_chara name="拓海" face="level1_pain"]
 “I've told you over and over. I didn't do anything.”[p]
@@ -587,7 +587,7 @@ Shota had suddenly started acting like he'd lost his mind as he brought the ciga
 
 That was all.[p]
 
-“Was he on some kind of weird drug...?”[p]
+“Was he on something...?”[p]
 
 Ryuya thought it over.[p]
 
@@ -595,7 +595,7 @@ But in all the time he had spent with Shota,[r]
 he'd never noticed any sign of it.[p]
 
 [auto_chara name="綾香" face="anxiety"]
-“What really happened to Shota...?”[p]
+“What's gotten into Shota...?”[p]
 
 Ayaka murmured softly, staring at her feet.[p]
 
@@ -626,9 +626,9 @@ As he stared at the screen,[r]
 Takumi replayed the events of that day in his mind.[p]
 
 The “hallucination” he had shown Shota[r]
-proved that the effect worked on other people, not just Takumi himself.[p]
+showed that the effect worked on other people, not just Takumi himself.[p]
 
-It wasn't a mere coincidence. It was a definite power.[p]
+It wasn't just a coincidence. This was something real.[p]
 
 And he knew he could control it to some extent[r]
 through his own knowledge and imagination.[p]
@@ -738,8 +738,8 @@ He would only show them a cruel lie.[p]
 
 Then Takumi remembered something.[p]
 
-In the early days of AI, there was a phenomenon where it would give an answer that contradicted the facts[r]
-as though it were correct.[p]
+In the early days of AI, systems sometimes gave answers that contradicted the facts[r]
+while presenting them as correct.[p]
 
 It was called a “hallucination.”[p]
 
@@ -756,7 +756,7 @@ Takumi typed a title into a note on his computer:[r]
 He stared at the white letters on the screen for a while,[r]
 then quietly closed the computer.[p]
 
-The moment he gave it a name, it stopped being a random anomaly and became something that belonged to him.[p]
+The moment he gave it a name, it stopped being some inexplicable phenomenon and became something that belonged to him.[p]
 
 The dark screen reflected a face that might have been hopeful or afraid. He couldn't tell which.[p]
 
@@ -923,7 +923,7 @@ Megumi looked up with a bright smile.[p]
 Her smile caught Takumi a little off guard.[p]
 
 There was no probing look and no irritated pause.[l][r]
-Suddenly, the excuse he'd prepared began to feel shameful instead.[p]
+Suddenly, he felt guilty about the excuse he'd prepared.[p]
 
 Megumi wasn't the type to stand out,[r]
 but Takumi knew she was popular with the boys.[p]
@@ -935,7 +935,7 @@ Though shaken for a moment, Takumi quickly refocused.[p]
 [auto_chara name="拓海" face="level2_smile"]
 “I was wondering if you went to a cram school or anything.”[p]
 
-Schoolwork was a natural subject for two high school students.[p]
+Talking about schoolwork was normal enough between classmates.[p]
 
 He could hear the stiffness in his voice,[r]
 but tried not to let it show on his face.[p]
@@ -988,7 +988,7 @@ His classmates almost never complimented him this way.[p]
 [wait time=400]
 
 [auto_chara name="拓海" face="level2_smile"]
-“No, it's nothing like that.[l] I panic before every test and only scrape by after staying up all night.”[p]
+“No, it's nothing like that.[l] I panic before every test and pull all-nighters just to get through it.”[p]
 
 [auto_chara name="恵" face="surprise"]
 “What?[l] You never look stressed at all.”[p]
@@ -1025,7 +1025,7 @@ If Megumi listened seriously, he felt as though he might end up telling her ever
 “Well, if I'm thinking about cram school, maybe I've finally reached the limit of what I can do alone.”[p]
 
 [auto_chara name="恵" face="laugh"]
-“Come on, there's nothing wrong with going to cram school, you know?”[p]
+“There's nothing wrong with going to cram school, you know?”[p]
 
 [stopse fadeout=700]
 [chara_hide_all time=300]
@@ -1200,7 +1200,7 @@ the scattered points connected into a single line in his mind.[p]
 
 *ch2_store_south
 [cm]
-Takumi opened the store by the south exit.[p]
+Takumi opened the information for the store by the south exit.[p]
 
 It really was close to her home.[p]
 
@@ -1304,7 +1304,7 @@ After that, Takumi couldn't keep the conversation going naturally.[p]
 Ayaka's middle school, where she lived, any clue about her workplace—[r]
 time passed without him learning a single thing.[p]
 
-His plan for revenge stopped there.[p]
+That was as far as his plan for revenge went.[p]
 
 Ryuya and the others would never stop bullying him.[p]
 
