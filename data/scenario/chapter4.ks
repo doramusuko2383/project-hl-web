@@ -5,215 +5,215 @@
 
 *ch4_start
 *chapter4
-[scene_title title="第4章"]
+[scene_title title="Chapter 4"]
 
 [cm]
 [chara_hide_all]
 [clearfix]
 [start_keyconfig]
 [showmenubutton]
-[chapter_title number="第四章" title="共犯"]
+[chapter_title number="Chapter Four" title="Accomplices"]
 [font speed=50]
 
 [bg storage="black.png" time=2000]
 [wait time=500]
 [bg storage="bg_classroom_day.webp" time=800]
 [playbgm storage="classroom_buzzing.ogg" loop=true volume=100 fadein=true time=1000]
-あのカラオケでの出来事から、すでに三週間が過ぎようとしていた。[p]
+It had been almost three weeks since the incident at the karaoke place.[p]
 
-拓海は、恵と協力関係を結び、恵の助けを借りて龍也の身辺調査を進めていた。[p]
+Takumi had started working with Megumi, and with her help, he had been looking into Ryuya's background.[p]
 
-恵の母親・響子の件については、高田が何者なのか、まだ掴めていないため、[r]
-まずは龍也の問題を片づけることにしたのだった。[p]
+They still had no idea what kind of man Takada was in the matter involving Megumi's mother, Kyoko,[r]
+so they had decided to deal with Ryuya's problem first.[p]
 
-綾香の調査は拓海一人で行ったため苦労した。[p]
+Investigating Ayaka on his own had been difficult.[p]
 
-だが今回は違う。[p]
+This time was different.[p]
 
-この三週間、放課後になると二人で情報を持ち寄り、[r]
-少しずつ龍也の周辺を調べていた。[p]
+For the past three weeks, they had met after school to compare what they had learned,[r]
+slowly piecing together the details of Ryuya's life.[p]
 
 [wait time=500]
 
-その日の放課後も、二人は教室に残っていた。[p]
+That afternoon, the two of them once again stayed behind in the classroom.[p]
 
-机の上には、拓海のノートと二人のスマホが並んでいる。[p]
-
-[auto_chara name="恵" face="normal"]
-「新しい情報、入ったよ」[p]
-
-[auto_chara name="拓海" face="level2_normal"]
-「本当に？」[p]
+Takumi's notebook and both of their phones lay on the desk.[p]
 
 [auto_chara name="恵" face="normal"]
-「北川君、三歳上にお兄さんがいるみたい」[p]
-
-「黒森学園の卒業生で、サッカー部だったんだって」[p]
+“I found something new.”[p]
 
 [auto_chara name="拓海" face="level2_normal"]
-「よくそんなことまで分かったね」[p]
+“You did?”[p]
+
+[auto_chara name="恵" face="normal"]
+“It sounds like Kitagawa has a brother who's three years older.”[p]
+
+“He graduated from Kuromori Academy and played on the soccer team.”[p]
+
+[auto_chara name="拓海" face="level2_normal"]
+“How did you manage to find out all that?”[p]
 
 [auto_chara name="恵" face="smile"]
-「友達の友達のお姉さんが、北川君のお兄さんと同級生だったの」[p]
+“A friend of a friend's older sister was in the same class as his brother.”[p]
 
 [wait time=400]
 
 [auto_chara name="拓海" face="level2_normal"]
-「……遠いな」[p]
+“...That's a long chain.”[p]
 
 [auto_chara name="恵" face="surprise"]
-「何が？」[p]
+“What is?”[p]
 
 [auto_chara name="拓海" face="level2_smile"]
-「友達の友達のお姉さんって。[r]
-そこまで繋がるんだなと思って」[p]
+“A friend of a friend's older sister.[r]
+I'm impressed your connections reach that far.”[p]
 
 [auto_chara name="恵" face="laugh"]
-「あはは。女子のネットワークを甘く見ない方がいいよ」[p]
+“Ahaha. Never underestimate the girls' network.”[p]
 
 [auto_chara name="拓海" face="level2_smile"]
-「怖いな」[p]
+“Scary.”[p]
 
 [auto_chara name="恵" face="normal"]
-「失礼ね」[p]
+“That's rude.”[p]
 
 [wait time=500]
 
-恵はスマホの画面を指でスクロールした。[p]
+Megumi scrolled through her phone.[p]
 
 [auto_chara name="恵" face="normal"]
-「それで、お兄さんは今もサッカー続けてるみたい。[r]
-大学も結構有名なところだって」[p]
+“Anyway, his brother still plays soccer.[r]
+And apparently he goes to a pretty prestigious university.”[p]
 
 [auto_chara name="拓海" face="level2_normal"]
-「なるほど……」[p]
+“Interesting...”[p]
 
-拓海はノートに情報を書き足していく。[p]
+Takumi added the information to his notebook.[p]
 
 [auto_chara name="恵" face="normal"]
-「あとは、お父さんが大手企業の役員って話も聞いた」[p]
+“I also heard their father is an executive at a major company.”[p]
 
 [auto_chara name="拓海" face="level2_surprise"]
-「父親も？」[p]
+“His father too?”[p]
 
 [auto_chara name="恵" face="normal"]
-「これは噂だから、本当かどうかまでは分からないけどね」[p]
+“That part's only a rumor, so I don't know if it's true.”[p]
 
 [auto_chara name="拓海" face="level2_normal"]
-「兄は有名大学でサッカー、父親は大手企業の役員か……」[p]
+“His brother plays soccer at a prestigious university, and his father's a corporate executive...”[p]
 
-「家族がみんな優秀なんだな」[p]
+“Everyone in his family is accomplished.”[p]
 
 [wait time=500]
 
-恵が、拓海の手元を覗き込んだ。[p]
+Megumi leaned over to look at Takumi's notes.[p]
 
 [auto_chara name="恵" face="normal"]
-「永山君、意外と字きれいだね」[p]
+“You have surprisingly neat handwriting, Nagayama.”[p]
 
 [auto_chara name="拓海" face="level2_surprise"]
-「意外と？」[p]
+“Surprisingly?”[p]
 
 [auto_chara name="恵" face="smile"]
-「もっとこう……細かい字で、びっしり書くタイプかと思ってた」[p]
+“I don't know... I pictured you covering the whole page in tiny writing.”[p]
 
 [auto_chara name="拓海" face="level2_normal"]
-「どんなイメージなの、それ」[p]
+“What kind of person do you think I am?”[p]
 
 [auto_chara name="恵" face="laugh"]
-「あはは。なんとなく」[p]
+“Ahaha. No reason.”[p]
 
-拓海は自分のノートを見下ろした。[p]
+Takumi looked down at his notebook.[p]
 
-龍也の名前を中心に、家族、サッカー部、交友関係と、[r]
-調べた情報が項目ごとに整理されている。[p]
+With Ryuya's name at the center, everything they had learned was organized by category:[r]
+family, the soccer team, friends and acquaintances.[p]
 
 [auto_chara name="拓海" face="level2_smile"]
-「菊池さんの情報が多いから、整理しとかないと追いつかないんだよ」[p]
+“You bring me so much information that I have to organize it just to keep up.”[p]
 
 [auto_chara name="恵" face="smile"]
-「ちゃんと役に立ってる？」[p]
+“So I really am helping?”[p]
 
 [auto_chara name="拓海" face="level2_normal"]
-「かなり」[p]
+“A lot.”[p]
 
-「一人だったら、たぶんまだ兄がいることすら分かってない」[p]
+“On my own, I probably still wouldn't even know he had a brother.”[p]
 
-口にしてから、拓海は自分でも少し驚いた。[l][r]
-誰かの助けを必要としていたと、こんなに素直に認めたのは初めてだった。[p]
+The admission surprised Takumi as soon as he said it.[l][r]
+He had never so openly acknowledged that he needed someone's help before.[p]
 
 [auto_chara name="恵" face="laugh"]
-「それなら良かった」[p]
+“I'm glad, then.”[p]
 
 [wait time=600]
 
-何気ない返事だったが、恵は少し嬉しそうだった。[p]
+It was a casual reply, but Megumi looked a little pleased.[p]
 
-拓海も、誰かと一緒にこんなことをするのは不思議な感覚だった。[p]
+Doing something like this with someone else still felt strange to Takumi.[p]
 
-最初はただ、必要な情報を集めるための協力関係だった。[p]
+At first, they had only joined forces to gather the information they needed.[p]
 
-けれどこの三週間、何度も話しているうちに、[r]
-恵と二人でいることにもすっかり慣れてきていた。[p]
+But after talking so many times over the past three weeks,[r]
+he had grown completely used to being alone with Megumi.[p]
 
 [wait time=500]
 
 [auto_chara name="恵" face="normal"]
-「そういえば永山君、最近ちょっと変わったよね」[p]
+“You know, Nagayama, you've changed a little lately.”[p]
 
 [auto_chara name="拓海" face="level2_surprise"]
-「俺？」[p]
+“Me?”[p]
 
 [auto_chara name="恵" face="normal"]
-「うん。[l]前よりクラスの人と喋るようになった」[p]
+“Yeah.[l] You talk to people in class more than you used to.”[p]
 
 [auto_chara name="拓海" face="level2_normal"]
-「そうかな」[p]
+“Do I?”[p]
 
 [auto_chara name="恵" face="smile"]
-「そうだよ。[l]前は話しかけたら迷惑なのかなって思うくらい、いつも一人だったし」[p]
+“You do.[l] You used to be alone so much that I wondered if talking to you would bother you.”[p]
 
 [wait time=500]
 
-拓海は少し返事に困った。[p]
+Takumi wasn't quite sure how to answer.[p]
 
-一人でいることには慣れていた。[p]
+He was used to being alone.[p]
 
-けれど最近は、以前ほどそれが当たり前ではなくなっている気もする。[p]
+But lately, it no longer felt as natural as it once had.[p]
 
 [auto_chara name="拓海" face="level2_smile"]
-「菊池さんが喋らせすぎなんじゃない？」[p]
+“Maybe you make me talk too much.”[p]
 
 [auto_chara name="恵" face="laugh"]
-「人のせいにしないでよ」[p]
+“Don't blame me for that.”[p]
 
-二人で小さく笑った。[p]
+They shared a quiet laugh.[p]
 
 [wait time=600]
 
 [auto_chara name="恵" face="normal"]
-「でも……北川君のこと、少し見えてきた気がするね」[p]
+“Still... I feel like we're starting to understand Kitagawa a little better.”[p]
 
 [auto_chara name="拓海" face="level2_normal"]
-「うん」[p]
+“Yeah.”[p]
 
-拓海はノートに書かれた「兄」「父親」という文字を見つめた。[p]
+Takumi stared at the words “brother” and “father” in his notebook.[p]
 
-優秀な兄と父親。[p]
+An accomplished brother and father.[p]
 
-かつては自分もサッカー部で活躍していた龍也。[p]
+And Ryuya, once a star of the soccer team himself.[p]
 
-その二つを並べると、何かが繋がりそうな気がした。[p]
+Putting the two together, he felt as though something might click.[p]
 
 [auto_chara name="拓海" face="level2_normal"]
-「もう少し考えてみるよ。[r]
-ここに何か、龍也を理解する手掛かりがある気がする」[p]
+“I'll think about it some more.[r]
+I have a feeling there's something here that can help us understand Ryuya.”[p]
 
 [auto_chara name="恵" face="normal"]
-「うん。[l]また何か分かったら連絡するね」[p]
+“Okay.[l] I'll let you know if I find anything else.”[p]
 
 [auto_chara name="拓海" face="level2_smile"]
-「ありがとう」[p]
+“Thanks.”[p]
 
 [chara_hide_all time=300]
 
@@ -221,42 +221,42 @@
 
 [playse storage=se/pencil.ogg volume=100]
 [wait time=500]
-授業中、ノートにペンを走らせながらも、拓海は龍也のことを考えていた。[p]
-そんな家で育てば、見えないプレッシャーもあるのかもしれない。[p]
-かつてはサッカー部で人気者だったが、退部してからは攻撃的になり、周囲との距離が広がっている。[p]
+Even as his pen moved across his notebook during class, Takumi kept thinking about Ryuya.[p]
+Growing up in a family like that might have put him under pressures no one could see.[p]
+He had once been popular and successful on the soccer team, but after quitting, he became aggressive and pushed everyone away.[p]
 
 [wait time=500]
-龍也も、自分の「こうありたい姿」と現実とのギャップに苦しんでいるのだろうか……。[p]
+Was Ryuya also suffering from the gap between the person he wanted to be and the reality he lived in...?[p]
 
-やがて、自然と三つ隣の席に座る恵へ視線が移った。[p]
+Before long, Takumi's gaze drifted naturally toward Megumi, three seats away.[p]
 [wait time=500]
 [auto_chara name="恵" face="normal"]
-その瞬間、なぜかわからないが、恵と目が合った。[p]
+For some reason, their eyes met at that exact moment.[p]
 [wait time=500]
-恵はすぐに目を逸らしたが、わずかに口元をほころばせた。[p]
+Megumi quickly looked away, though the faintest smile touched her lips.[p]
 
-拓海のペン先がノートの上で止まり、黒い点を一つ作った。[l][r]
-目を戻しても、その点ばかりが妙に気になる。[p]
+Takumi's pen stopped on the page, leaving a single black dot.[l][r]
+Even after looking down again, he found that dot strangely distracting.[p]
 [wait time=500]
 [auto_chara name="拓海" face="level2_shysmile"]
 [wait time=500]
-拓海は再びノートに目を戻し、授業に集中しようと努めた。[p]
+Takumi returned his attention to his notebook and tried to focus on the lesson.[p]
 [playse storage=se/smartphone_vibrate.ogg volume=100]
 [wait time=500]
 [chara_hide_all time=300]
-「今日、放課後時間ある？」[p]
+“Are you free after school today?”[p]
 
-恵からスマホにメッセージが届いた。[p]
+A message from Megumi appeared on his phone.[p]
 
-拓海は何の用だろうと思いつつ、「大丈夫」とだけ返信した。[p]
+Wondering what she needed, Takumi replied with a simple, “Sure.”[p]
 
-「じゃあ、いつものファミレスで」[p]
-「了解」[p]
+“Then meet me at our usual family restaurant.”[p]
+“Got it.”[p]
 
-短く返してから、拓海はもう一度「いつもの」という文字を見た。[p]
+After sending the brief reply, Takumi looked again at the word “usual.”[p]
 
-三週間前には存在しなかった言葉だ。[l][r]
-画面を閉じても、その響きだけが胸の内に残った。[p]
+Three weeks ago, that word hadn't existed between them.[l][r]
+Even after he closed the screen, its sound lingered in his mind.[p]
 
 [fadeoutbgm time=3000]
 [bg storage="black.png" time=1000]
@@ -264,81 +264,81 @@
 [bg storage="bg_family_restaurant_night.webp" time=900]
 [playbgm storage="restaurant_ambience.ogg" loop=true volume=30 fadein=true time=1000]
 
-二人が連絡先を交換してから気づいたことだが、実は互いの家は意外と近かった。[p]
-最寄り駅こそ違うものの、私鉄の並走区間にあり、[r][l]二人の自宅は1キロほどしか離れていなかった。[p]
-そのため、一度帰宅してから、中間地点にあるファミレスで落ち合うのが恒例になっていた。[p]
-正確には、少しだけ恵の自宅に近いのだが。[p]
+After exchanging contact information, they had discovered that they lived surprisingly close to each other.[p]
+Their nearest stations were different but sat along a shared stretch of two private railway lines,[r][l]and their homes were only about a kilometer apart.[p]
+Meeting at the family restaurant halfway between them after going home had become a regular habit.[p]
+Strictly speaking, it was a little closer to Megumi's home.[p]
 
-最初に来た日は、調査の話だけで二時間が過ぎた。[l][r]
-二度目には恵が拓海の頼むコーヒーを覚えていて、三度目には拓海が先に窓際の席を取った。[p]
+Their first visit had passed in two hours of nothing but discussing the investigation.[l][r]
+On the second, Megumi remembered Takumi's coffee order. On the third, Takumi arrived first and claimed a window seat.[p]
 
-いつから「いつもの」と呼び始めたのかは、二人とも覚えていない。[p]
-
-[auto_chara name="恵" face="private_normal"]
-「ごめんね、呼び出しておいて遅れちゃって」[p]
-
-ファミレスに到着した恵は、すでに私服に着替えていた。[p]
-薄手のカットソーの袖を直す拍子に、[p]
-恵の白い肌がちらりと見え、拓海はさっと目をそらした。[p]
-
-[auto_chara name="拓海" face="private_smile"]
-「いや、全然大丈夫だよ」[p]
-
-拓海はダークグレーのパーカにジーンズといういつもの格好だ。[p]
-恵との服装の違いを気にしていたことに気づき、心の中で苦笑する。[p]
+Neither of them remembered when they had begun calling it “our usual place.”[p]
 
 [auto_chara name="恵" face="private_normal"]
-「永山君は、いつものコーヒーでいい？」[p]
+“Sorry. I'm the one who asked you here, and I'm still late.”[p]
+
+Megumi had already changed into casual clothes by the time she reached the restaurant.[p]
+As she adjusted the sleeve of her light top,[p]
+Takumi caught a glimpse of her pale skin and quickly looked away.[p]
 
 [auto_chara name="拓海" face="private_smile"]
-「……もう覚えられてるんだ」[p]
+“No, it's fine. Really.”[p]
+
+Takumi wore his usual dark gray hoodie and jeans.[p]
+Realizing he had been comparing his clothes to hers, he gave a wry smile to himself.[p]
+
+[auto_chara name="恵" face="private_normal"]
+“Your usual coffee, Nagayama?”[p]
+
+[auto_chara name="拓海" face="private_smile"]
+“...You already remember?”[p]
 
 [auto_chara name="恵" face="private_laugh"]
-「何回も来てるしね」[p]
+“We've been here a few times now.”[p]
 
 [auto_chara name="拓海" face="private_smile"]
-「まあ、そうか」[p]
+“I guess we have.”[p]
 
-二人は手早く注文を済ませた。[p]
+They quickly placed their orders.[p]
 
 [auto_chara name="恵" face="private_serious"]
-「どう、『計画』の進み具合は？」[p]
+“So, how is the ‘plan’ coming along?”[p]
 
-タッチパネルから顔を上げた恵が、テーブル越しに拓海を見つめる。[p]
-恵の真剣な視線を受けて、拓海は軽くため息をついた。[p]
+Megumi looked up from the touchscreen and studied Takumi across the table.[p]
+Under her serious gaze, Takumi let out a small sigh.[p]
 
 [auto_chara name="拓海" face="private_normal"]
-「情報は集まってきてるけど、また詰まってるんだよね」[p]
+“We're gathering information, but I've hit another wall.”[p]
 [auto_chara name="恵" face="private_serious"]
-「どういうこと？」[p]
+“What do you mean?”[p]
 [auto_chara name="拓海" face="private_normal"]
-「なんていうか……決定打に欠けるというか、弱点が見当たらないんだ。[r]
-家のことも本人の性格も、簡単には崩せなさそうでさ」[p]
+“It's hard to explain... We don't have anything decisive. I can't find a weakness.[r]
+Neither his family situation nor his personality seems easy to break through.”[p]
 
-拓海は、思考を整理しながら続けた。[p]
+Takumi continued as he arranged his thoughts.[p]
 
-「幻を見せても、ビクともしないかもしれない」[p]
+“He might not even flinch at a hallucination.”[p]
 
 [auto_chara name="恵" face="private_anxiety"]
-「まあ、先輩に殴り掛かるような人だもんね……」[p]
+“He did attack an older student, after all...”[p]
 
-恵は、停学処分の一件を思い出しながら呟く。[p]
+Megumi murmured, remembering the incident that led to Ryuya's suspension.[p]
 
 [auto_chara name="拓海" face="private_normal"]
-「でも、やらない選択肢はない。今さら後戻りできないし」[p]
+“But doing nothing isn't an option. It's too late to turn back now.”[p]
 
-拓海は、決断が揺らがないよう、自分自身に言い聞かせるように語気を強めた。[p]
+Takumi made his voice firm, as if reinforcing his own resolve.[p]
 
 [auto_chara name="恵" face="private_serious"]
-「そうね。確かに、これからの計画も慎重に考えないとね」[p]
+“Right. We'll have to be careful about what we do next.”[p]
 [playse storage=se/iced_cofee.ogg volume=100]
-恵は頷きながら、注文したドリンクを一口飲んだ。[p]
+Megumi nodded and took a sip of her drink.[p]
 
 [auto_chara name="拓海" face="private_normal"]
-「こっちの計画については、何か進展があったらまた連絡するよ。[r][l]
-それより……今日呼び出したのには、別の理由があるんでしょ？」[p]
+“I'll let you know if I make any progress with that plan.[r][l]
+But... you had another reason for asking me here today, didn't you?”[p]
 
-拓海はテーブルに置かれたコーヒーを見つめながら、本題に入るよう促した。[p]
+Takumi looked at the coffee on the table, prompting her to get to the point.[p]
 
 [wait time=500]
 [fadeoutbgm time=4000]
@@ -346,51 +346,51 @@
 [stopse fadeout=700]
 
 [auto_chara name="恵" face="private_serious"]
-「高田の件なんだけど、力を使うには、ターゲットに触れないといけないって言ってたよね？」[p]
+“It's about Takada. You said you have to touch the target to use your power, right?”[p]
 
 [auto_chara name="拓海" face="private_normal"]
-「そうだね、直接手を触れないといけないみたいなんだ」[p]
+“Yeah. It looks like I have to make direct contact.”[p]
 
 [auto_chara name="恵" face="private_serious"]
-「実はね、本人と接触できそうなの」[p]
+“I think we might have a chance to meet him.”[p]
 
 [auto_chara name="拓海" face="private_surprise"]
-「本当に？一体どうやって？」[p]
+“Really? How?”[p]
 
 [auto_chara name="恵" face="private_serious"]
-「お母さんが、今週の土曜日に会社の人を家に呼ぶって言うの」[p]
-「だから、その日は家にいるなって、[r][l]外でご飯を食べてきなさいって言われたの」[p]
+“My mom said she's having someone from work over this Saturday.”[p]
+“She told me not to be home that day.[r][l] She wants me to eat dinner somewhere else.”[p]
 
-話しながら、恵は紙ナプキンの端を何度も折っていた。[p]
+As she spoke, Megumi repeatedly folded the edge of a paper napkin.[p]
 
-やがて折り目が破れ、小さな紙片が指先へ残る。[l][r]
-恵はそれを見て初めて、自分が手を動かしていたことに気づいたようだった。[p]
+Eventually the crease tore, leaving a tiny scrap between her fingers.[l][r]
+Only then did she seem to notice what her hands had been doing.[p]
 [auto_chara name="拓海" face="private_normal"]
-「それが高田だっていう確証は？」[p]
+“How sure are you that it's Takada?”[p]
 [auto_chara name="恵" face="private_serious"]
-「100％じゃないけど、確率は高いと思う」[p]
-「お母さん、すごくピリピリしてるし、部屋の片付けも全然進んでないんだよ」[p]
-「おもてなしって感じじゃなくて……何かが違うの」[p]
+“Not a hundred percent, but I think there's a good chance.”[p]
+“Mom's been on edge, and she hasn't made any progress cleaning the apartment.”[p]
+“It doesn't feel like she's getting ready to entertain a guest... Something's off.”[p]
 [auto_chara name="拓海" face="private_normal"]
-「なるほど……確かに不自然だな」[p]
-「それで、土曜日はどうするつもり？」[p]
+“You're right... That is strange.”[p]
+“So what are you planning to do on Saturday?”[p]
 [auto_chara name="恵" face="private_serious"]
-「正直、危険かもしれないけど、お母さんが外にいろって言うし」[p]
+“Honestly, it might be dangerous, but Mom told me to stay out...”[p]
 
-「どうしたらいいか迷ってて……」[p]
+“I don't know what I should do.”[p]
 
 [wait time=500]
 [auto_chara name="拓海" face="private_think"]
-「……」[p]
+“...”[p]
 [wait time=2000]
-拓海はしばらく腕を組んで考え込んだ。[p]
+Takumi folded his arms and thought for a while.[p]
 
-深く息を吐いて、一つの案を口にする。
+After a deep breath, he offered an idea.
 
 [choice_start count=3]
-[choice name="ch4_enter_as_friend" text="男友達として上がり込む" target="*ch4_enter_as_friend"]
-[choice name="ch4_enter_as_delivery" text="宅配業者のフリをする" target="*ch4_enter_as_delivery"]
-[choice name="ch4_enter_as_water" text="水道局の点検員になる" target="*ch4_enter_as_water"]
+[choice name="ch4_enter_as_friend" text="Go in as her guy friend" target="*ch4_enter_as_friend"]
+[choice name="ch4_enter_as_delivery" text="Pretend to be a deliveryman" target="*ch4_enter_as_delivery"]
+[choice name="ch4_enter_as_water" text="Pose as a plumbing inspector" target="*ch4_enter_as_water"]
 [s]
 
 *ch4_enter_as_friend
@@ -399,205 +399,205 @@
 
 *ch4_enter_as_delivery
 [auto_chara name="拓海" face="private_normal"]
-「宅配業者のフリをして行くのはどうかな」[p]
+“What if I go disguised as a deliveryman?”[p]
 [auto_chara name="恵" face="private_normal"]
-「宅配業者って……玄関で荷物渡して終わりじゃない？」[p]
-「部屋にどうやって入るの？」[p]
+“A deliveryman...? You'd hand over a package at the door, and that would be it.”[p]
+“How would you get inside?”[p]
 [auto_chara name="拓海" face="private_normal"]
-「あ……」[p]
-「段ボールの中に俺が入って、侵入するとか」[p]
+“Oh...”[p]
+“Maybe I could hide in a cardboard box and sneak in.”[p]
 [auto_chara name="恵" face="private_laugh"]
-「その段ボールを誰が持ってくるのよ」[p]
+“And who's supposed to carry that box?”[p]
 [auto_chara name="拓海" face="private_normal"]
-「……確かに」[p]
+“...Good point.”[p]
 [jump target="*ch4_enter_return"]
 
 *ch4_enter_as_water
 [auto_chara name="拓海" face="private_normal"]
-「水道局の点検員として行くのはどうかな」[p]
+“What if I pretend I'm there to inspect the plumbing?”[p]
 [auto_chara name="恵" face="private_normal"]
-「制服も身分証もないのに？」[p]
+“With no uniform or ID?”[p]
 [auto_chara name="拓海" face="private_normal"]
-「……点検に来ました、って言えば」[p]
+“...I could tell them I'm there for an inspection.”[p]
 [auto_chara name="恵" face="private_laugh"]
-「永山君、たまに真面目に変なこと言うよね」[p]
+“Nagayama, sometimes you say the strangest things with a completely straight face.”[p]
 [auto_chara name="拓海" face="private_normal"]
-「……否定できない」[p]
+“...I can't deny that.”[p]
 [jump target="*ch4_enter_return"]
 
 *ch4_enter_return
-「わかった、こうしよう」[p]
+“Okay, how about this?”[p]
 
-「俺が男友達として、土曜日に無理やり家に上がり込むってのはどう？」[p]
+“What if I show up as a guy friend on Saturday and insist on coming in?”[p]
 
 [auto_chara name="恵" face="private_serious"]
-「え？」[p]
+“Huh?”[p]
 
-恵は少し驚いてから、くすっと笑った。[p]
+Megumi looked surprised, then gave a quiet laugh.[p]
 [auto_chara name="恵" face="private_laugh"]
-「なんかキャラに合わないこと言うね」[p]
+“That doesn't sound like you at all.”[p]
 
 [auto_chara name="拓海" face="private_normal"]
-「いたって真剣だよ」[p]
-「お母さんは、娘を危険な目に遭わせたくないから外にいろって言ってるんだろうけど、[l]
-俺と一緒なら、その心配も減るんじゃない？」[p]
+“I'm completely serious.”[p]
+“Your mom probably wants you out because she doesn't want to put you in danger,[l]
+but she might not worry as much if you're with me.”[p]
 
-言い切った途端、自分の言葉が思った以上に近しいものへ聞こえた。[l][r]
-拓海はコーヒーへ手を伸ばし、恵の反応を見ないふりをした。[p]
+The moment he finished, his words sounded more intimate than he had intended.[l][r]
+Takumi reached for his coffee and pretended not to watch Megumi's reaction.[p]
 
 [auto_chara name="恵" face="private_serious"]
-「確かに……」[p]
+“That makes sense...”[p]
 
-恵は大きく頷いた。[p]
+Megumi nodded firmly.[p]
 
 [auto_chara name="拓海" face="private_normal"]
-「そのまま家に上がり込めたら、高田と接触できる可能性が高い。[r]
-それに、もし本当に高田なら、その場で状況を見極められる」[p]
+“If we can get inside, there's a good chance I'll be able to make contact with Takada.[r]
+And if it really is him, we can assess the situation for ourselves.”[p]
 
 [auto_chara name="恵" face="private_serious"]
-「私たちの計画が進むってことね」[p]
+“And move our plan forward.”[p]
 
 [auto_chara name="拓海" face="private_normal"]
-「その通り」[p]
+“Exactly.”[p]
 
-拓海は人差し指を立てた。[r][l]
-「でも、その場では『力』は使わない」[p]
+Takumi raised one finger.[r][l]
+“But I won't use my power while we're there.”[p]
 
 [auto_chara name="恵" face="private_serious"]
-「どうして？」[p]
+“Why not?”[p]
 
 [auto_chara name="拓海" face="private_normal"]
-「相手が本当に敵かどうかを見極める必要がある」[p]
+“We need to find out if he's really our enemy first.”[p]
 
 [auto_chara name="恵" face="private_serious"]
-「なるほど」[p]
+“I see.”[p]
 
-その言葉に少し引っ掛かったが恵はそのまま流した。[p]
+Something about that wording bothered Megumi, but she let it pass.[p]
 
-恵の眉がわずかに寄り、唇が「敵」と小さく言葉をなぞった。[p]
+Her brow tightened slightly, her lips silently tracing the word “enemy.”[p]
 
-何かを尋ねようとしたようだったが、恵は結局、口を閉じた。[l][r]
-そのためらいに気づかないまま、拓海は説明を続けた。[p]
+She looked as though she wanted to ask something, but ultimately kept quiet.[l][r]
+Takumi continued his explanation without noticing her hesitation.[p]
 
 [auto_chara name="拓海" face="private_normal"]
-「それに、その場で使ったら俺がやったってバレちゃうだろ」[p]
+“Besides, if I used it right there, they'd know it was me.”[p]
 
 [auto_chara name="恵" face="private_normal"]
-「そっか！」[p]
+“Oh, of course!”[p]
 
-恵は感心した表情を浮かべた。[p]
-「永山君って本当に頭がいいね」[p]
+Megumi looked impressed.[p]
+“You're really smart, Nagayama.”[p]
 
-恵は感心したまま、まっすぐ拓海を見ていた。[p]
+Still impressed, Megumi looked directly at him.[p]
 
-からかいも打算もない視線に耐えきれず、拓海はストローの袋を意味もなく折り畳む。[p]
+Unable to bear a gaze free of teasing or ulterior motives, Takumi pointlessly folded his straw wrapper.[p]
 
-褒め言葉を疑わずに受け取るには、まだ少し練習が必要だった。[p]
+He still needed practice accepting a compliment without doubting it.[p]
 
 [auto_chara name="拓海" face="private_smile"]
-「いや、自分の身を守るために必死なだけだよ」[p]
+“I'm just desperate to protect myself.”[p]
 
-拓海は謙遜しながらも、少し心地よさを覚えていた。[p]
+He played it down, though the praise felt a little nice.[p]
 
 [auto_chara name="拓海" face="private_normal"]
-「だから、やるのは後日でいい。土曜日は、まず高田と適当に会話して、[r]
-住所とかの情報をさりげなく聞き出したいんだ」[p]
+“So we can save the power for later. On Saturday, I want to talk to Takada first[r]
+and casually draw out information like his address.”[p]
 
 [auto_chara name="恵" face="private_normal"]
-「うん、そうだね。それなら、シミュレーションしておいた方がいいね」[p]
+“That makes sense. We should rehearse beforehand, then.”[p]
 
 [auto_chara name="拓海" face="private_normal"]
-「うん、あらゆる可能性を考えて、どんな展開になっても対応できるようにしておこう」[p]
+“Yeah. Let's consider every possibility so we're ready for whatever happens.”[p]
 [fadeoutbgm time=4000]
 [chara_hide_all time=300]
 [playbgm storage="restaurant_ambience.ogg" loop=true volume=30 fadein=true time=1000]
 [bg storage="black.png" time=2000]
 [wait time=500]
-結局、その日は夜遅くまで作戦会議が続いた。[p]
-店員がラストオーダーを告げに来なければ、もっと長引いていただろう。[p]
+Their strategy session continued late into the night.[p]
+If a server hadn't announced last call, it might have gone on even longer.[p]
 [wait time=2000]
 [fadeoutbgm time=4000]
 [stopse fadeout=4000]
 [playse storage=se/shower.ogg volume=100]
-帰宅後、湯船に浸かりながら、拓海は久々に心地よい疲れを感じていた。[p]
-全てが善行だとは決して思ってはいけないのだけれど、[r][l]
-誰かのためになるかもしれないことが嬉しく、[r][l]
-そして楽しくもあった。[p]
+After returning home, Takumi soaked in the bath and felt pleasantly tired for the first time in ages.[p]
+He couldn't let himself believe that everything he was doing was good,[r][l]
+but the thought that it might help someone made him happy.[r][l]
+He had even enjoyed it.[p]
 
-湯の中で開いた右手を見つめる。[l][r]
-誰かを救えるかもしれない喜びと、力を試す機会への高揚は、よく似た熱を持っていた。[p]
+He stared at his open right hand beneath the water.[l][r]
+The joy of perhaps saving someone and the thrill of a chance to test his power carried a very similar warmth.[p]
 
-その二つを取り違えていないかと考えた瞬間、温かな湯の中で背筋だけが冷えた。[p]
+The moment he wondered if he was confusing the two, a chill ran down his back despite the warm water.[p]
 [wait time=2000]
 [fadeoutbgm time=3000]
 [stopse fadeout=800]
 
 [playse storage=se/bag_zipper.ogg volume=80]
-土曜日の17時頃、拓海は護身用に刃渡り5センチの園芸用バサミをカバンに入れ、[r]
-いつものファミレスに向かった。[p]
+At around five on Saturday afternoon, Takumi put a pair of gardening shears with two-inch blades into his bag for protection[r]
+and headed to their usual family restaurant.[p]
 [bg storage="bg_family_restaurant_evening.webp" time=800]
 [playbgm storage="tension_low.ogg" loop=true volume=100 fadein=true time=1200]
-今日は恵の方が先に着いていた。[p]
-恵の母親が、上司を駅まで迎えに行くのが18時だというので、まだ一時間の余裕がある。[p]
+Megumi had arrived first today.[p]
+Her mother was due to meet her boss at the station at six, leaving them about an hour.[p]
 
 [auto_chara name="恵" face="private_anxiety"]
-「何か緊張してきちゃった」[p]
+“I'm starting to get nervous.”[p]
 
 [auto_chara name="拓海" face="private_normal"]
-「しっかり準備したし、大丈夫だよ」[p]
+“We've prepared for this. It'll be okay.”[p]
 
-拓海も平静を装ってはいるが、内心は恵と同じ心境だった。[p]
-カバンの中の園芸用バサミがやけに気になる。[p]
-普段なら意識もしない軽い道具が、今はひどく重く感じられた。[p]
+Takumi acted calm, but inside, he felt the same way Megumi did.[p]
+He was acutely aware of the gardening shears in his bag.[p]
+The light tool he normally wouldn't have noticed now felt terribly heavy.[p]
 
-家を出る前、ファスナーを閉める手は一度止まった。[l][r]
-刃物を持っていくことを恵にはまだ伝えていない。[p]
+Before leaving home, his hand had paused on the zipper.[l][r]
+He still hadn't told Megumi he was bringing a blade.[p]
 
-それでも置いていく決心はつかず、拓海は金属の輪郭をバッグの底へ押し込んだ。[p]
+Even so, he couldn't bring himself to leave it behind, so he pressed the hard metal shape into the bottom of his bag.[p]
 
-「念のため、これを渡しておくよ」[p]
+“Here. Take this, just in case.”[p]
 
-拓海はカバンから小さなスプレーを取り出した。[p]
+Takumi pulled a small canister from his bag.[p]
 
 [auto_chara name="恵" face="private_serious"]
-「何これ、怪しいパッケージね」[p]
+“What's this? The label looks suspicious.”[p]
 
 [auto_chara name="拓海" face="private_normal"]
-「クマ撃退用スプレーだよ。[l]父親の山道具から拝借してきたんだ」[p]
+“Bear spray.[l] I borrowed it from my dad's hiking gear.”[p]
 
 [auto_chara name="恵" face="private_serious"]
-「ちょっと、こんなの人に使って大丈夫なの？」[p]
+“Wait. Is it safe to use this on a person?”[p]
 
 [auto_chara name="拓海" face="private_normal"]
-「ダメだと思う。[l]ちゃんと『人に向けて使うな』って書いてあるし」[p]
+“Probably not.[l] It specifically says, ‘Do not use on humans.’”[p]
 
 [auto_chara name="恵" face="private_serious"]
-「じゃあ、使えないじゃない」[p]
+“Then we can't use it.”[p]
 
 [auto_chara name="拓海" face="private_normal"]
-「普通の人にはね。[l]でも、これを使う必要がある相手なら、もう人じゃない」[p]
+“Not on a normal person.[l] But if we ever need this, whoever we're using it on no longer qualifies.”[p]
 
 [auto_chara name="恵" face="private_laugh"]
-「すごい屁理屈。[l]……でも、ちょっとだけ安心した」[p]
+“That's some impressive logic.[l] ...But I do feel a little safer.”[p]
 
-恵は笑いながらも、スプレーをテーブルへ戻さなかった。[l][r]
-安全装置の位置を親指で確かめ、そのままコートのポケットへしまう。[p]
+Megumi laughed, but she didn't put the spray back on the table.[l][r]
+She checked the safety with her thumb, then slipped it into her coat pocket.[p]
 
-その動作を見て、拓海の笑みもわずかに硬くなった。[p]
+At the sight, Takumi's smile grew slightly tense.[p]
 
 [auto_chara name="拓海" face="private_smile"]
-「役に立たないのが一番だけどね」[p]
+“Hopefully you won't need it at all.”[p]
 
-拓海も軽く笑い返したが、その笑みはすぐに消え、時計の針に目をやる。[p]
-気がつくと、17時30分を過ぎていた。[p]
+Takumi returned her light laugh, but his smile soon faded as he glanced at the clock.[p]
+It was already past five thirty.[p]
 
 [wait time=500]
 [auto_chara name="拓海" face="private_normal"]
-もうこんな時間か……。[p]
+It's that late already...[p]
 
-拓海は心の中で呟いた。[p]
-恵と話していると、時間が過ぎるのを早く感じる。[p]
-この後に待ち構えている事態を考えて、拓海は気を引き締めた。[p]
+Takumi thought to himself.[p]
+Time seemed to pass quickly when he was talking to Megumi.[p]
+Thinking of what awaited them, he pulled himself together.[p]
 [fadeoutbgm time=2000]
 [chara_hide_all time=300]
 [wait time=500]
@@ -607,142 +607,142 @@
 [wait time=2000]
 [playse storage=se/city_ambience.ogg volume=50 loop=true fadein=true time=1000  buf="0"]
 
-二人は会計を済ませ、店を出た。[p]
-外はすでに暗くなり、空気がひんやりしている。[p]
+They paid the bill and left the restaurant.[p]
+It was already dark outside, and the air had turned chilly.[p]
 
-拓海は恵と別れ、マンションのエントランスが見える場所に向かい、[r]
-恵はマンション近くの公園に待機することとなった。[p]
+Takumi parted ways with Megumi and headed to a spot overlooking her apartment building's entrance,[r]
+while she waited in a nearby park.[p]
 
-顔が割れていない拓海が、響子と高田の到着を確認する役割だ。[p]
-響子の顔は事前に恵から見せてもらった写真で確認済みなので、見間違えることはないだろう。[p]
+Since Takada had never seen him, Takumi was responsible for confirming when Kyoko and Takada arrived.[p]
+Megumi had shown him a picture of Kyoko beforehand, so he was confident he would recognize her.[p]
 
-恵の住むマンションを見るのはこれが初めてだった。[p]
-駅からはそれなりに距離があるが、緩やかな登り坂の先に位置するため、周りに視界を遮るものがない。[p]
-築年数は10年くらいだろうか。[p]
-とてもモダンなデザインで、エントランスには重厚感がある。[p]
+This was Takumi's first time seeing Megumi's apartment building.[p]
+It was some distance from the station, but its position at the top of a gentle slope gave him an unobstructed view.[p]
+It looked about ten years old.[p]
+The design was very modern, with an imposing entrance.[p]
 
-拓海がエントランスを見張っている間、何人か住人の出入りがあったが、[r]
-皆どこか品が感じられる気がした。[p]
-扉が開くたびに身構え、違う住人だと分かるたび肩の力を抜いた。[p]
+Several residents came and went as Takumi watched the entrance,[r]
+and every one of them somehow struck him as refined.[p]
+Each time the doors opened, he tensed, then relaxed when he saw it was another resident.[p]
 
-ポケットのスマホが一度だけ震えた。[l][r]
-恵から届いたのは、「まだ？」という二文字だった。[p]
+The phone in his pocket buzzed once.[l][r]
+Megumi's message consisted of one word: “Anything?”[p]
 
-「まだ」と返すだけなのに、冷えた指では何度も文字を打ち間違えた。[p]
+His fingers were so cold that he mistyped “Nothing” several times before sending it.[p]
 
 [wait time=1000]
 [playse storage=se/wind_rooftop.ogg volume=20 buf="1"]
-じっと待っていると、夜風が冷たく感じ始めた。[p]
+As he stood waiting, the night wind began to bite.[p]
 
-肌寒いな……。[p]
+It's getting cold...[p]
 
-拓海は手をこすり合わせながら、考える。[p]
-高田が車で来る可能性も考えたが、徒歩でも車でも、必ずマンションのエントランスは通るはずだ。[p]
-ここで待つのが正しいはずだ。[p]
+Takumi rubbed his hands together and considered the situation.[p]
+Takada might arrive by car, but either way, he would have to pass through the building's entrance.[p]
+Waiting here had to be the right choice.[p]
 
 [wait time=1000]
-でも、こんな待ち伏せをしなくても、適当な時間に家へ上がり込めば良かったのかもしれない。[p]
-18時を過ぎてから、強引にでも訪問すれば済む話だ。[p]
+Then again, maybe they didn't need an ambush at all. They could have simply shown up at an appropriate time.[p]
+They could have forced their way in after six, and that would have been that.[p]
 
-だが……もし高田が酔っていたり、様子が妙だったら……。[p]
-すぐに動かなければならない。[p]
-そのためには、このタイミングを見計らうしかないんだ。[p]
+But... what if Takada was drunk, or something seemed wrong...?[p]
+They would need to act immediately.[p]
+That was why they had to choose their moment carefully.[p]
 
-拓海は、万が一の場合に備えるため、慎重に周囲を観察していた。[p]
-しかし、心の奥では別の懸念がくすぶっていた。[p]
+Takumi kept a close watch on his surroundings in case anything happened.[p]
+Yet another concern smoldered deep inside him.[p]
 
 [auto_chara name="拓海" face="private_think"]
-恵の勘違いってこともあるんじゃないか？[p]
-響子さんは本当は高田を嫌がっていないのかもしれない。[p]
-ただの部下と上司以上の関係で、大人の事情で会っているだけかもしれない。[p]
+What if Megumi is mistaken?[p]
+Maybe Kyoko doesn't actually dislike Takada.[p]
+Maybe they're more than an employee and her boss, meeting for reasons that only adults understand.[p]
 [chara_hide_all time=300]
 
-もし二人が親しげに手をつないで現れでもしたら……それを見たら、恵にとっては辛いだろう。[p]
-拓海はその可能性を考えつつも、感情的に動くことなく、冷静に状況を見極めるべきだと自らに言い聞かせた。[p]
+If they appeared holding hands like a couple... seeing that would hurt Megumi.[p]
+Even as he considered the possibility, Takumi reminded himself to stay calm and judge the situation without letting emotion sway him.[p]
 
-まずは状況を把握して、行動するしかないな……。[p]
-拓海は腕組みをしながら、次第に強くなる冷たい風を感じていた。[p]
+I have to understand what's happening before I can do anything...[p]
+Takumi folded his arms against the steadily strengthening wind.[p]
 
 [wait time=1000]
 
-時刻はもう18時30分を回っていた。[p]
-予定よりもかなり遅れている。[p]
+It was already past six thirty.[p]
+They were much later than planned.[p]
 [stopse fadeout=3000]
 [playse storage=se/heartbeat.ogg loop=true volume=100 fadein=true time=800]
 
-どこかに寄り道でもしたのか……それとも、急に予定を変更して、車で別の場所に出かけたのか。[p]
-エントランスの扉が開く気配もなく、時計を見る回数だけが増えていく。[p]
+Did they stop somewhere...? Or change their plans at the last minute and drive somewhere else?[p]
+The entrance remained still, and Takumi found himself checking the time more and more often.[p]
 
 [wait time=1000]
-だがその瞬間――二人の姿がエントランスに現れた。[p]
+Then, at that very moment—two figures appeared at the entrance.[p]
 [stopse fadeout=3000]
 [playse storage=se/leather_shoes_walk.ogg volume=100]
 [wait time=1000]
 [cg storage="ch4_kyoko_takada.webp"]
 [bg storage="ch4_kyoko_takada.webp" time=1000]
 
-響子が先導するように歩き、その後ろを恰幅の良い男が追いかける。[p]
-あれが高田か……。[p]
-拓海はじっと二人を見つめた。[p]
+Kyoko walked in front, followed by a heavyset man.[p]
+That must be Takada...[p]
+Takumi studied them intently.[p]
 
-響子は、誰にも見られたくないのか、やや急いでいるように見える。[p]
-二人の間には、仲の良さそうな雰囲気は全く感じられなかった。[p]
+Kyoko walked slightly faster than normal, as if she didn't want anyone to see her.[p]
+There was no trace of intimacy between them.[p]
 
-高田が距離を詰めるたび、その歩幅だけが不自然に速くなった。[p]
+Every time Takada closed the distance, her pace quickened unnaturally.[p]
 
-写真では分からなかった拒絶が、遠目にもはっきり見えた。[p]
+Even from far away, Takumi could clearly see the rejection that no photograph had captured.[p]
 
-高田は駅前のスーパーのビニール袋を持っている。[p]
-途中でスーパーに寄り、何か買ってきたのだろう。[p]
+Takada carried a plastic bag from the supermarket by the station.[p]
+They must have stopped there to buy something along the way.[p]
 
 [playse storage=se/auto_door.ogg volume=100]
-響子がエントランスのパネルにキーをかざすと、自動ドアが開き、[r]
-二人はマンションの中に消えていった。[p]
+Kyoko held her key to the entrance panel. The automatic doors opened,[r]
+and the two disappeared inside.[p]
 [wait time=1000]
 [bg storage="bg_mansion_night.webp" time=1000]
-拓海はその光景を見届けて、すぐに恵に連絡を取る。[p]
+After watching them enter, Takumi immediately contacted Megumi.[p]
 
-しばらくして、息を切らしながら恵が現れた。[p]
+A short while later, Megumi appeared, out of breath.[p]
 [playse storage=se/city_ambience.ogg volume=50 loop=true fadein=true time=1000]
 [auto_chara name="恵" face="private_serious" time=150]
-「どんな男だった？」[p]
+“What was he like?”[p]
 
-慌てて尋ねる。[p]
+she asked hurriedly.[p]
 
 [auto_chara name="拓海" face="private_normal"]
-「うーん、遠巻きにしか見えなかったから、あまりよくわからなかったな。ちょっと太ってて……」[p]
+“I only saw him from a distance, so I couldn't tell much. He's a little heavyset...”[p]
 
-「ああ、そうだ」[p]
+“Oh, right.”[p]
 
 [auto_chara name="拓海" face="private_smile"]
-拓海は少し考える素振りをしてから、「クマではなかったかな」と冗談を飛ばした。[p]
+Takumi paused as if considering it, then joked, “I don't think he's a bear.”[p]
 
 [auto_chara name="恵" face="private_laugh"]
-「こんな時に冗談言わないでよ」[p]
+“Don't joke around right now.”[p]
 
-恵は言いながらも、笑みを浮かべた。[p]
+Despite her words, Megumi smiled.[p]
 
-その一瞬、身体のこわばりが緩んだようだった。[p]
+For that brief moment, the tension seemed to leave her body.[p]
 
 [auto_chara name="拓海" face="private_normal"]
-「極端に悪人面ってわけじゃなさそうだったよ。[r][l]二人の仲は、よそよそしいように見えた」[p]
+“He didn't look like some obvious villain.[r][l] The two of them seemed distant.”[p]
 
 [auto_chara name="恵" face="private_serious"]
-「本当に？」[p]
+“Really?”[p]
 
-恵は一瞬ホッとしたように見えたが、すぐにまた張りつめた顔に戻った。[p]
+Megumi looked relieved for an instant, but her expression quickly tightened again.[p]
 
-手の中のスプレーが、かすかに鳴った。無意識に握り締めていたらしい。[p]
+The spray made a faint sound in her hand. She must have been gripping it without realizing.[p]
 
-恵は指を一本ずつ開き、白くなった掌をコートで隠した。[p]
+Megumi opened her fingers one at a time, then hid her whitened palm against her coat.[p]
 
-拓海はそれに気づいたが、「怖いならやめよう」とは言えなかった。[l][r]
-ここまで来たのは、ほかならぬ彼女の覚悟を信じたからだ。[p]
+Takumi noticed, but he couldn't tell her they should stop if she was afraid.[l][r]
+They had come this far because he trusted her resolve.[p]
 
 [auto_chara name="拓海" face="private_normal"]
-「少しここで待機して、呼吸を整えてから上に行こう」[p]
+“Let's wait here for a little while, catch our breath, and then go up.”[p]
 
-二人はできるだけ冷静になるよう努めて、次の行動を考え始めた。[p]
+They tried to calm themselves as they worked out their next move.[p]
 
 [chara_hide_all time=300]
 [wait time=1000]
@@ -750,236 +750,236 @@
 [bg storage="bg_apartment_hallway_night.webp" time=800]
 [playse storage=se/elevator_ding.ogg volume=100]
 [playse storage=se/air_noise.ogg volume=20 loop=true fadein=true time=1000  buf="0"]
-十分後、恵がエントランスのオートロックを解除し、二人は静かに五階の玄関前まで上がった。[p]
-互いに顔を見合わせ、無言のまま覚悟を確認する。[p]
-拓海は軽く息を吸い込み、気持ちを整えた。[p]
+Ten minutes later, Megumi unlocked the building entrance, and they quietly made their way to her front door on the fifth floor.[p]
+They exchanged a look, silently confirming that they were ready.[p]
+Takumi took a small breath and steeled himself.[p]
 
 [auto_chara name="恵" face="private_serious"]
-恵がインターホンを押す。[p]
+Megumi pressed the intercom button.[p]
 [playse storage=se/interphone.ogg volume=100 buf="1"]
 [wait time=800]
 
-返事はすぐには来なかった。[p]
+No one answered immediately.[p]
 
-廊下は静まり返り、遠くでエレベーターの動く低い音だけが響いている。[p]
+The hallway was silent except for the distant hum of the elevator.[p]
 [wait time=1000]
 
-もし高田が出てきたら――。[p]
+What if Takada answers—?[p]
 
-拓海と恵は、無言で目を合わせた。[p]
+Takumi and Megumi looked at each other without a word.[p]
 [wait time=500]
 
-「はい」[p]
+“Hello?”[p]
 
-響子の声が応え、二人の肩から少しだけ力が抜けた。[p]
+Kyoko's voice answered, and some of the tension left their shoulders.[p]
 
-「お母さん、ちょっと来客中に悪いんだけど、玄関まで来てくれる？」[p]
+“Mom, sorry to interrupt while you have a guest, but could you come to the door?”[p]
 
-「今行くわ」[p]
+“I'll be right there.”[p]
 
 [wait time=500]
 [playse storage=se/door_lock_open.ogg volume=100 buf="2"]
 
-しばらくして、玄関のドアが静かに開いた。[p]
+After a moment, the front door quietly opened.[p]
 [auto_chara name="響子" face="confuse" time=500]
-「恵、どうしたの。外にいなさいって言ったでしょ」[p]
+“Megumi, what are you doing here? I told you to stay out.”[p]
 
-響子は若干眉をひそめたが、すぐに拓海と目が合った。[p]
+Kyoko frowned slightly, but then her eyes met Takumi's.[p]
 
-恵はお母さん似なんだな……。[p]
-写真よりも若く見える響子に、拓海は思わず見入った。[p]
+Megumi takes after her mother...[p]
+Kyoko looked younger than she had in the photograph, and Takumi found himself staring.[p]
 [auto_chara name="恵" face="private_serious"]
-「ごめん。同じクラスの永山君に勉強を教えてもらってたんだけど、[r]
-どうしても私の部屋の机が見たいって言うの」[p]
+“Sorry. Nagayama from my class was helping me study,[r]
+and he kept saying he had to see the desk in my room.”[p]
 
-恵は、緊張を隠しながら、用意していた言い訳を口にする。[p]
-恵の部屋には、珍しい昇降式の学習机がある。[p]
-拓海も、話を合わせるためにそのことを教えてもらっていた。[p]
+Megumi delivered their prepared excuse while hiding her nerves.[p]
+She had an unusual height-adjustable study desk in her room.[p]
+She had told Takumi about it so he could play along.[p]
 [auto_chara name="恵" face="private_laugh"]
-「どうしても一度見てみたいって聞かなくて……」[p]
+“He just wouldn't give up until he saw it once...”[p]
 
-恵は笑いながら、右の耳たぶへ一度触れた。[l][r]
-昨夜の打ち合わせで決めた、「話を合わせて」という合図だった。[p]
+Megumi laughed and briefly touched her right earlobe.[l][r]
+It was the signal they had agreed on the night before: Play along.[p]
 
-拓海は小さく息を吸い、用意していた謝罪を口へ出した。[p]
+Takumi drew a quiet breath and gave the apology he had prepared.[p]
 
-恵は笑いながら肩をすくめた。[p]
+Megumi laughed and shrugged.[p]
 
 [auto_chara name="拓海" face="private_smile"]
-「すみません、ご迷惑をおかけして」[p]
+“I'm sorry for the trouble.”[p]
 
-拓海が被せるように言った。[p]
+Takumi spoke quickly, overlapping her.[p]
 
-少しぎこちなかったかもしれないが、なんとか場の空気に溶け込もうと努めた。[p]
-「菊池さんと同じクラスの永山です。初めまして」[p]
+It might have sounded a little awkward, but he did his best to blend naturally into the situation.[p]
+“I'm Nagayama, from Kikuchi's class. It's nice to meet you.”[p]
 
-響子は一瞬戸惑ったが、すぐに柔らかい笑顔を見せた。[p]
+Kyoko looked confused for a moment, then gave him a gentle smile.[p]
 [auto_chara name="響子" face="normal"]
 
-「永山くんね、初めまして」[p]
+“Nagayama. It's nice to meet you too.”[p]
 
-拓海はその笑顔に安心しかけたが、響子の視線にはわずかな鋭さがあった。[p]
+Her smile almost put Takumi at ease, but there was a faint sharpness in her gaze.[p]
 
-娘を守ろうとする母親の目だった。[l][r]
-その相手へ嘘をついて家へ入ろうとしていることが、拓海の胸に遅れて刺さった。[p]
+They were the eyes of a mother protecting her daughter.[l][r]
+The guilt of lying to her so he could enter her home struck Takumi a moment too late.[p]
 [auto_chara name="響子" face="confuse"]
-「恵たちは部屋にいなさいね」[p]
+“You two stay in Megumi's room, all right?”[p]
 
-響子は困惑した様子を見せつつも、了承してくれた。[p]
+Though still somewhat bewildered, Kyoko let them inside.[p]
 [auto_chara name="拓海" face="private_smile"]
-「お邪魔します」[p]
+“Thank you.”[p]
 
-拓海は心の中で息をつきながら、恵の後に続いた。[p]
+Takumi breathed a silent sigh of relief and followed Megumi.[p]
 
 [chara_hide_all time=300]
 [bg storage="bg_megumi_room_night.webp" time=800]
 [playse storage=se/door_close.ogg volume=100]
 [playse storage=se/room_ambient_megumi.ogg volume=100 loop=true fadein=true time=1000]
-恵の部屋は玄関のすぐ横にあった。[p]
-広さはさほどではないが、整然と片付けられていて、家具の配置にも工夫が見られる。[p]
-カーテンが薄いピンク色でなければ、どこか男の部屋を思わせるようなシンプルさがあった。[p]
+Megumi's room was right beside the entrance.[p]
+It wasn't especially large, but everything was neatly arranged and the furniture had been placed with care.[p]
+If not for the pale pink curtains, its simplicity might have made it look like a boy's room.[p]
 
-机には使い込まれた参考書と、二人で調べた内容を写した小さなメモが置かれていた。[p]
+A worn study guide and a small sheet of notes from their research sat on her desk.[p]
 
-自分の知らないところでも、恵はこの計画を続けていた。[l][r]
-部屋へ入れたこと以上に、その痕跡を見せてもらったことへ責任を感じた。[p]
+Megumi had kept working on the plan even when Takumi wasn't around.[l][r]
+Seeing that evidence made him feel even more responsible than being allowed into her room did.[p]
 
 [auto_chara name="拓海" face="private_normal"]
-「とりあえず入れたね」[p]
+“At least we made it inside.”[p]
 
-拓海は小声で言った。[p]
+Takumi kept his voice low.[p]
 
 [auto_chara name="恵" face="private_serious"]
-「うん、じゃあ何か飲み物取ってくるわ」[p]
+“Yeah. I'll go get us something to drink.”[p]
 
-恵はそう言って、スマホを取り出して拓海に電話をかけると、マイク部分を外側に向けた。[p]
-拓海はイヤホンを装着して自分のマイクをミュートにし、恵のスマホが拾う音に耳を澄ませた。[p]
-スマホを盗聴器代わりにするのは、拓海の発案だった。[p]
+Megumi took out her phone and called Takumi, holding its microphone outward.[p]
+Takumi put in his earphones, muted his own microphone, and listened to the sounds her phone picked up.[p]
+Using her phone as a listening device had been Takumi's idea.[p]
 
 [auto_chara name="拓海" face="private_normal"]
-「よろしく」[p]
+“Good luck.”[p]
 
-拓海は小さくうなずき、恵が部屋を出て行くのを見送った。[p]
+Takumi nodded and watched Megumi leave the room.[p]
 [chara_hide_all time=300]
 [stopse fadeout=1000]
 [playse storage=se/door_close.ogg volume=100]
-扉が閉まると、部屋の中は急に静かになった。[p]
-拓海はイヤホンを耳の奥へ押し込む。[p]
-聞こえるのは、自分の呼吸だけだった。[p]
-高田はリビングにいるんだろうが、ここからじゃ何も見えない……。[p]
-拓海は息を殺し、イヤホンの向こうからリビングの音が届くのを待った。[p]
+When the door closed, the room abruptly fell silent.[p]
+Takumi pressed the earphones deeper into his ears.[p]
+All he could hear was his own breathing.[p]
+Takada must be in the living room, but I can't see anything from here...[p]
+Takumi held his breath and waited for sounds from the living room to reach him through the earphones.[p]
 
 [wait time=1000]
 [playbgm storage="tension_low.ogg" loop=true volume=100 fadein=true time=1500]
 [bg storage="bg_megumi_living_night.webp" time=2000]
-イヤホンから、恵の挨拶が聞こえてきた。[p]
+Megumi's greeting came through.[p]
 [auto_chara name="恵" face="private_normal" left=0]
-「こんにちは。突然ご挨拶してしまって、すみません。私、娘の恵と言います。いつも母がお世話になっております」[p]
+“Hello. I'm sorry to introduce myself so suddenly. I'm Megumi, her daughter. Thank you for always looking after my mother.”[p]
 [auto_chara name="高田" face="normal" time=700]
-高田の低く響く声が返ってきた。[p]
-「いや、こちらこそお休みの日にすまんね。お母さんはよく働いてくれてるよ」[p]
+Takada answered in a deep, resonant voice.[p]
+“No, I should apologize for visiting on your day off. Your mother does excellent work for us.”[p]
 
-高田の声は予想に反して落ち着いており、拓海が思い描いていた「悪人」のイメージとは違った。[p]
+Against Takumi's expectations, Takada sounded calm—nothing like the “villain” he had imagined.[p]
 
-拓海はイヤホンを片耳から少し浮かせ、もう一度押し込んだ。[l][r]
-聞き間違えたのではないかと思うほど、声には威圧も下卑た響きもなかった。[p]
+Takumi lifted one earphone slightly, then pressed it back in.[l][r]
+His voice held so little menace or vulgarity that Takumi wondered if he had misheard.[p]
 
-画面で見た脅迫の言葉と穏やかな声が、同じ人物の中でうまく重ならなかった。[p]
+He couldn't reconcile the threats he had read on the screen with this mild voice coming from the same man.[p]
 [auto_chara name="恵" face="private_normal" left=0]
-「ありがとうございます。娘の私が言うのも何ですが、家でも良き母です」[p]
+“Thank you. I know I'm biased as her daughter, but she's a wonderful mother at home too.”[p]
 
-恵は会話を続けるが、その声色には微妙な固さが混じっていた。[p]
+Megumi kept the conversation going, though a subtle stiffness had entered her voice.[p]
 [auto_chara name="高田" face="normal"]
-「あはは。そのようだね。恵ちゃんは高校生かな？」[p]
+“Ha ha. I can see that. Are you in high school, Megumi?”[p]
 
-高田の声は、どこかフレンドリーに響くが、その裏に何があるのか、拓海は注意深く耳を澄ませた。[p]
+Takada sounded friendly enough, but Takumi listened carefully for what might lie beneath it.[p]
 [auto_chara name="恵" face="private_normal" left=0]
-「はい、黒森学園の二年生です」[p]
+“Yes, I'm a second-year at Kuromori Academy.”[p]
 [auto_chara name="高田" face="normal"]
-「知ってるよ、サッカー部が強いとこだよね。偏差値も高いし、優秀だね」[p]
+“I know it. Strong soccer team, right? And it's academically competitive. You must be very bright.”[p]
 
-彼のトーンは終始穏やかだ。[p]
+His tone remained mild throughout.[p]
 [auto_chara name="恵" face="private_serious" left=0]
-「いえいえ、皆についていくため、必死で勉強しています」[p]
+“Not at all. I have to study hard just to keep up with everyone.”[p]
 
-恵は、淡々と返しながらも、会話を引き延ばしているのが拓海にも分かった。[p]
-高田の様子をもう少し探る必要がある。[p]
+Megumi's answers were measured, but Takumi could tell she was drawing out the conversation.[p]
+They needed more time to assess Takada.[p]
 
 [wait time=500]
 [auto_chara name="高田" face="normal"]
-「そうか、勉強に励んでいて偉いね」[p]
+“I see. Good for you, working so hard at your studies.”[p]
 
-高田は口調をさらに和らげたが、何となく気持ち悪い。[p]
-それに、このままでは情報が足りない……もう少し何か引き出せないか？[p]
+Takada softened his tone even more, but there was something vaguely unpleasant about it.[p]
+And they still didn't have enough information... Was there any way to draw out more?[p]
 [auto_chara name="恵" face="private_normal" left=0]
-「今日はゆっくりしていってください」[p]
+“Please, make yourself at home today.”[p]
 [chara_hide_all time=300]
-その言葉から、恵が会話を切り上げたがっているのが分かった。[p]
+Takumi could tell from those words that Megumi wanted to end the conversation.[p]
 
 [bg storage="bg_megumi_room_night.webp" time=800]
 [auto_chara name="拓海" face="private_normal"]
-それでも情報が足りず、拓海は焦った。[p]
+They still knew too little, and Takumi grew anxious.[p]
 
-すごいな……だけど、まだ足りない。[p]
-高田の本当の狙いは何なのか……もっと時間が欲しい。[p]
+She's doing great... but it still isn't enough.[p]
+What is Takada really after...? We need more time.[p]
 
-そう思いながら、拓海は恵に次の動きを託すことにした。[p]
+With that thought, Takumi left the next move to Megumi.[p]
 [chara_hide_all time=300]
 
 [cg storage="ch4_smartphone.webp"]
 [bg storage="ch4_smartphone.webp" time=2000]
-恵は自分と拓海の分のホットコーヒーを準備しながら、扉のない食器棚に手を伸ばす瞬間、スマホをさりげなく食器の裏に隠して設置した。[p]
-背中に視線が刺さっている気がして、指先の動きがわずかにぎこちなくなる。[p]
-それでも食器の位置を直すふりをして、恵は何事もなかったように手を引いた。[p]
+While preparing hot coffee for herself and Takumi, Megumi reached toward the open cupboard and discreetly hid her phone behind the dishes.[p]
+She felt eyes boring into her back, making her fingers move a little stiffly.[p]
+Still, she pretended to adjust the dishes and calmly withdrew her hand.[p]
 
-急ぎ足で部屋に戻ってきた恵は、背後を気にしながら扉を閉めた。[p]
+Megumi hurried back to her room and closed the door while glancing behind her.[p]
 [playse storage=se/door_close.ogg volume=100]
 [bg storage="bg_megumi_room_night.webp" time=800]
-扉が閉まりきってから、恵は拓海のイヤホンの片耳を受け取った。[p]
-二人は声を出さず、再びイヤホンの向こうに集中した。[p]
+Only once it was fully shut did she take one of Takumi's earphones.[p]
+Without speaking, they focused again on the voices coming through.[p]
 
 [wait time=1000]
-「あんな大きい娘さんがいたんだね」[p]
+“I had no idea you had such a grown-up daughter.”[p]
 
-高田の声が、しっかりとスマホに拾われてイヤホンから聞こえてくる。[p]
+Takada's voice came clearly through the earphones, picked up by the phone.[p]
 
-「ええ、17歳になります。夫が亡くなってからずっと一人で育ててきました」[p]
+“Yes, she's seventeen. I've raised her alone ever since my husband passed away.”[p]
 
-響子の声は遠く、かすかにしか聞こえない。[p]
-スマホを設置した位置がテーブルから遠いのだろう。[p]
+Kyoko's voice was distant and barely audible.[p]
+The phone must have been too far from the table.[p]
 
 [playse storage=se/heartbeat.ogg loop=true volume=100 fadein=true time=700]
 
-「君によく似ている。美人な娘だね」[p]
+“She looks a lot like you. She's a beautiful girl.”[p]
 [auto_chara name="恵" face="private_confuse"]
-その瞬間、恵が顔をしかめた。[p]
-こんな相手に褒められたくなんかない……。[p]
-恵の指がイヤホンにかかり、今にも外しそうになる。[p]
+Megumi grimaced at once.[p]
+I don't want a compliment from someone like him...[p]
+Her fingers went to the earphone, ready to pull it out.[p]
 
-外せば楽になる。[l][r]
-それでも恵はイヤホンを押し戻し、膝の上でもう片方の手を強く握った。[p]
+It would be easier not to listen.[l][r]
+But Megumi pushed it back into her ear and clenched her other hand in her lap.[p]
 
 [auto_chara name="拓海" face="private_surprise"]
-拓海は隣の恵を見て、奥歯を噛み締めた。[p]
-まるで、娘でさえも……性的な目で見ているのか？[p]
-そんな思いが胸をかき乱した。[p]
+Takumi looked at Megumi beside him and gritted his teeth.[p]
+Is he looking at Megumi... that way too?[p]
+The thought churned inside him.[p]
 
-「娘には絶対に手を出さないでくださいよ！」[p]
+“Don't you dare lay a hand on my daughter!”[p]
 
-響子の声色が、今度は強く響く。[p]
+This time, Kyoko's voice rang out sharply.[p]
 
-イヤホンの向こうが、ふっと静かになった。[p]
+The other end of the call went abruptly silent.[p]
 [wait time=800]
-拓海も恵も、息を止めたまま次の声を待った。[p]
+Takumi and Megumi held their breath as they waited for the next voice.[p]
 [delay speed="120"]
-「君が僕の言うことを聞いてくれるなら、そうしたいと思う」[p]
+“If you do as I say, I'd be happy to leave her alone.”[p]
 [resetdelay]
 
-恵の爪が拓海の袖へ食い込んだ。[l][r]
-掴んだことに本人は気づいていないようだった。[p]
+Megumi's nails dug into Takumi's sleeve.[l][r]
+She didn't seem to realize she had grabbed him.[p]
 
-拓海も動かなかった。[l][r]
-声をかければ、イヤホンの向こうへ聞こえてしまいそうな気がした。[p]
+Takumi didn't move either.[l][r]
+It felt as though even speaking to her might carry his voice through the earphones.[p]
 [chara_hide_all time=300]
 [stopse fadeout=600]
 [fadeoutbgm time=3000]
@@ -987,46 +987,46 @@
 
 [cg storage="ch4_takumi_megumi.webp"]
 [bg storage="ch4_takumi_megumi.webp" time=2000]
-高田の言葉が耳に届いた瞬間、拓海の思考が止まった。[p]
+The moment Takada's words reached him, Takumi's mind went blank.[p]
 
 [delay speed="90"]
-これが証拠だ……。[p]
+There's our proof...[p]
 [resetdelay]
 
-横目で恵を見ると、恵も血の気の引いた顔で固まっていた。[p]
-二人とも、しばらく何も考えられなかった。[p]
+He glanced at Megumi. She had gone pale and sat frozen.[p]
+For a while, neither of them could think at all.[p]
 
-先ほどまで高田を「敵」と呼ぶことに迷いがあった。[l][r]
-だが今は、その言葉を訂正する理由が一つも見つからなかった。[p]
+Until moments ago, Takumi had hesitated to call Takada their “enemy.”[l][r]
+Now he couldn't find a single reason to take the word back.[p]
 
-同時に、隣で震える恵を見て安堵した自分に気づく。[l][r]
-疑いが当たったことを喜ぶには、証拠の代償は重すぎた。[p]
+At the same time, he realized that the sight of Megumi trembling beside him had brought him relief.[l][r]
+The price of that proof was far too high for him to be glad his suspicion was right.[p]
 
 [wait time=1000]
 
 *ch4_retry_context_takada_address
-その後もスマホからは断片的な会話が続くが、二人の耳にはほとんど入ってこない。[p]
-頭の中は高田の言葉で埋め尽くされていた。[p]
+Fragments of conversation continued to come through the phone, but neither of them absorbed much of it.[p]
+Takada's words filled their minds.[p]
 
-だが、漏れ聞こえる言葉から、どうやら高田はそろそろ帰る準備をしていることがわかった。[p]
+From what little they caught, however, it sounded like Takada was preparing to leave.[p]
 
 [playbgm storage="tension_low.ogg" loop=true volume=80 fadein=true time=1000]
-このままだと、住所が聞けないな……。[p]
+At this rate, we won't get his address...[p]
 [bg storage="bg_megumi_room_night.webp" time=800]
-拓海は冷静さを取り戻し、恵に目配せした。[p]
-恵は無言で頷いたが、まだどこか落ち着きを取り戻せない様子だった。[p]
+Takumi recovered his composure and glanced meaningfully at Megumi.[p]
+She nodded without speaking, though she still looked shaken.[p]
 
-プランB。つまり高田を尾行して家の居所を突き止めるのだ。
-その頷きを、拓海は許可ではなく託された責任として受け取った。[p]
+Plan B: follow Takada and find out where he lived.
+Takumi took her nod not as permission, but as a responsibility she had entrusted to him.[p]
 
-後から響子に住所を尋ねてもらう手もあるが、不自然だ。[p]
-詮索すれば余計な心配をかけ、親子関係にも影響しかねない。[p]
+They could ask Kyoko for his address later, but that would seem suspicious.[p]
+Prying might worry her unnecessarily and even damage her relationship with Megumi.[p]
 
 *ch4_takada_tail_choice
-どうするべきだろう……。
+What should I do...?
 [choice_start count=2]
-[choice name="choice_ch4_takada_tail" text="俺が尾行する" target="*ch4_takada_tail_return"]
-[choice name="choice_ch4_takada_ask_kyoko_bad" text="響子さんに住所を聞いてもらう" target="*ch4_takada_ask_kyoko_bad"]
+[choice name="choice_ch4_takada_tail" text="Follow him myself" target="*ch4_takada_tail_return"]
+[choice name="choice_ch4_takada_ask_kyoko_bad" text="Have Kyoko ask his address" target="*ch4_takada_ask_kyoko_bad"]
 [s]
 
 *ch4_takada_tail_choice_retry
@@ -1035,173 +1035,173 @@
 @jump target="*ch4_retry_context_takada_address"
 
 *ch4_takada_tail_return
-拓海はスマホから聞こえる物音に耳を澄ませた。[p]
-高田の声は、先ほどよりも明らかに上機嫌になっていた。[p]
-酔いが回っているなら、こちらに気づくことはないかもしれない……。[p]
+Takumi listened closely to the sounds coming through the phone.[p]
+Takada was clearly in a better mood than before.[p]
+If the alcohol had gone to his head, he might not notice Takumi following him...[p]
 
-時計を見ると、すでに9時を回っていた。[p]
-高田の家が遠かったら、終電を逃すかもしれないな……。[p]
-そんな不安も頭をよぎったが、今はまず自然にこの家を出る必要があった。[p]
+The clock showed that it was already past nine.[p]
+If Takada lives far away, I might miss the last train...[p]
+The concern crossed his mind, but first he needed to leave the apartment without arousing suspicion.[p]
 
 [chara_hide_all time=300]
 [wait time=600]
-響子の見送りの声が聞こえ、高田が玄関を出た。[p]
+They heard Kyoko see Takada off, and then the front door closed behind him.[p]
 
 [auto_chara name="恵" face="private_anxiety"]
-「……帰ったよ」[p]
+“...He's gone.”[p]
 
-恵が部屋に戻り、小声で告げた。[p]
-拓海はイヤホンを外し、頷く。[p]
+Megumi returned to the room and whispered the news.[p]
+Takumi removed his earphones and nodded.[p]
 
 [auto_chara name="拓海" face="private_normal"]
-「じゃあ、俺もそろそろ」[p]
+“I should get going too.”[p]
 [chara_hide_all time=300]
-二人は部屋を出て、リビングへ向かった。[p]
+They left her room and headed into the living room.[p]
 [wait time=1000]
 [bg storage="bg_megumi_living_night.webp" time=600]
 [auto_chara name="拓海" face="private_normal"]
-「今日は突然お邪魔してすみませんでした」[p]
+“I'm sorry for dropping by so suddenly today.”[p]
 
 [auto_chara name="響子" face="normal"]
-「ううん。またいつでも遊びに来てね」[p]
+“It's fine. You're welcome to come over anytime.”[p]
 
-響子は何も疑っていない様子で、穏やかに微笑んでいた。[p]
+Kyoko smiled gently, apparently suspecting nothing.[p]
 
 [auto_chara name="恵" face="private_normal"]
-「途中まで送るね」[p]
+“I'll walk you part of the way.”[p]
 
-恵は自然な調子で言い、拓海と一緒に玄関を出た。[p]
+Megumi said it naturally and left the apartment with Takumi.[p]
 
 [playse storage=se/door_close.ogg volume=100]
-玄関の扉が、背後で静かに閉まった。[p]
+The front door quietly closed behind them.[p]
 
 [chara_hide_all time=300]
 [bg storage="bg_apartment_hallway_night.webp" time=700]
 [playse storage=se/air_noise.ogg volume=20 loop=true fadein=true time=1000  buf="0"]
-マンションの共用廊下はひっそりとしていた。[p]
-二人は足音を抑え、エレベーターへ向かう。[p]
+The building's shared hallway was deserted.[p]
+They muffled their footsteps as they headed for the elevator.[p]
 
 [playse storage=se/elevator_ding.ogg volume=100 buf="1"]
-エレベーターの扉が開き、短い沈黙のまま一階へ降りた。[p]
+The elevator doors opened, and they rode down to the first floor in a brief silence.[p]
 
 [bg storage="bg_mansion_night.webp" time=700]
-エントランスを抜け、人目がなくなったところで、恵がようやく口を開いた。[p]
+After they passed through the entrance and were out of sight, Megumi finally spoke.[p]
 
 [auto_chara name="恵" face="private_anxiety"]
-「本当に尾行するの？」[p]
+“Are you really going to follow him?”[p]
 
 [auto_chara name="拓海" face="private_normal"]
-「うん。今なら顔も知られてないし。やつは酔ってる」[p]
+“Yeah. He doesn't know my face, and he's drunk.”[p]
 
 [auto_chara name="恵" face="private_anxiety"]
-「危ないと思ったら逃げてね」[p]
+“If it gets dangerous, run.”[p]
 
 [auto_chara name="拓海" face="private_normal"]
-「大丈夫。無理はしない」[p]
+“I'll be fine. I won't take any risks.”[p]
 
 [auto_chara name="恵" face="private_anxiety"]
-「……気を付けて」[p]
+“...Be careful.”[p]
 
-恵の手が一度だけ伸び、拓海のコートの袖をつまんだ。[p]
+Megumi reached out once and pinched the sleeve of Takumi's coat.[p]
 
-何か言い足そうとして、結局そのまま手を離す。[l][r]
-布に残ったわずかな引力が、急ぐ拓海の足を一瞬だけ留めた。[p]
+She seemed about to add something, but let go without saying it.[l][r]
+The faint tug left in the fabric stopped Takumi's hurried steps for just a moment.[p]
 
 [auto_chara name="拓海" face="private_smile"]
-「行ってくる」[p]
+“I'm off.”[p]
 
-笑顔を作り、軽く手を振った。[p]
+He put on a smile and gave a small wave.[p]
 [stopse fadeout=1000]
 
 [chara_hide_all time=300]
 [bg storage="bg_station_night.webp" time=900]
-駅までは一本道。[p]
-幸い、拓海の顔は高田に割れていない。[p]
-一定の距離を保てば気づかれることはないだろう。[p]
+The station lay at the end of a straight road.[p]
+Fortunately, Takada didn't know Takumi's face.[p]
+As long as he kept his distance, Takada shouldn't notice him.[p]
 
 [playse storage=se/train_coming.ogg volume=100 buf="0"]
-高田が改札を抜け、上り電車のホームに並んだ。[p]
-夜も遅く、ホームにはほとんど人がいない。[p]
+Takada passed through the ticket gate and lined up on the inbound platform.[p]
+It was late, and almost no one else was there.[p]
 
-拓海は少し離れた位置に並び、慎重に尾行を続けた。[p]
+Takumi stood some distance away and continued his careful pursuit.[p]
 
 [playse storage=se/smartphone_vibrate.ogg volume=100 buf="1"]
-「尾行、大丈夫そう？」[p]
+“Everything okay?”[p]
 
-恵からメッセージが届いた。[p]
+A message from Megumi appeared.[p]
 
-「問題ないよ。お母さん、俺たちのことについて何か言ってた？」[p]
+“No problems. Did your mom say anything about us?”[p]
 
-拓海は、恵が響子にどんな反応をされたか気になった。[p]
+Takumi wondered how Kyoko had reacted after he left.[p]
 
-「特に何も。部屋で何してたかは聞かれなかったよ」[p]
+“Nothing in particular. She didn't ask what we were doing in my room.”[p]
 
-恵の返事が続く。[p]
-「今日は本当にありがとう」[p]
+Another message followed.[p]
+“Thank you for everything today.”[p]
 
-そのメッセージを読んで、拓海は少し嬉しくなった。[p]
-感謝されるのも、悪くないな……。[p]
+Reading it made Takumi a little happy.[p]
+Being thanked isn't so bad...[p]
 
 [bg storage="bg_train_inside_night.webp" time=600]
 
 [playse storage=se/traindoor.ogg volume=100]
-電車がホームに滑り込み、拓海は高田から離れた車両に乗った。[p]
+The train slid into the station, and Takumi boarded a different car from Takada.[p]
 [wait time=1000]
 [playse storage=se/train_running.ogg volume=100]
 
-空いた車内で、高田は優先席に腰掛け、スマホをいじっている。[p]
-酔いのせいか、こちらに気づく様子はない。[p]
+In the nearly empty train, Takada sat in a priority seat, looking at his phone.[p]
+Perhaps because he was drunk, he showed no sign of noticing Takumi.[p]
 
-拓海は視界の外になるような位置に座り、斜め向かいから様子を見守った。[p]
+Takumi sat outside his field of view and watched him from across the aisle.[p]
 
-高田が別の路線に乗り換えた。[p]
-拓海は見失わない様に気を付けながら後を追う。[p]
+Takada transferred to another line.[p]
+Takumi followed carefully, making sure not to lose him.[p]
 [wait time=1200]
 [stopse fadeout=2000]
-やがて高田は、住宅街のある駅で降りた。[p]
+Eventually, Takada got off at a station in a residential neighborhood.[p]
 
 [bg storage="bg_residential_night.webp" time=900]
-どうやら住宅街らしい。人通りは少ないが、距離を取れば家まで追えそうだ。[p]
-そう判断した拓海は、気づかれないように足音を殺しながら静かに尾行を続けた。[p]
+It looked like a residential area. There were few pedestrians, but with enough distance, Takumi could follow him home.[p]
+With that decided, Takumi silenced his footsteps and continued after him without being noticed.[p]
 
-何度か角を曲がられたが、幸い見失わずに済んだ。[p]
+Takada turned several corners, but fortunately, Takumi never lost sight of him.[p]
 
-駅から10分以上歩いただろうか。[p]
-似たような一軒家が並ぶ分譲地の奥で、高田は縦に長い二階建ての家に入っていった。[p]
+They must have walked for over ten minutes from the station.[p]
+Deep in a development of similar detached houses, Takada entered a narrow two-story home.[p]
 [bg storage="bg_takada_house.webp" time=900]
-拓海は歩く速度をさらに落とし、家の前を通り過ぎる際に表札を確認した。[p]
-そこには「高田」と書かれていた。[p]
+Takumi slowed down further and checked the nameplate as he passed the house.[p]
+It read “Takada.”[p]
 
-間違いない、高田の家だ。[p]
+There was no mistake. This was Takada's home.[p]
 
-駐車場には、ミニバンが停められている。[p]
-その隅に、子供用の自転車が二台並んでいた。[p]
+A minivan was parked in the driveway.[p]
+Two children's bicycles stood together in one corner.[p]
 
-片方のかごには、色あせたサッカーボールが押し込まれている。[l][r]
-もう片方のハンドルには、小さな反射板が街灯を返していた。[p]
+A faded soccer ball had been stuffed into one bike's basket.[l][r]
+A small reflector on the other's handlebars caught the streetlight.[p]
 
-高田の帰りを待つ子供が、この家の中にいる。[l][r]
-その事実が、表札の名前よりも生々しく拓海へ迫った。[p]
+Children were inside this house, waiting for Takada to come home.[l][r]
+That fact struck Takumi more vividly than the name on the plate.[p]
 
 [wait time=800]
 [bg storage="black.png" time=900]
-高田には家族が……[l]
+Takada has a family...[l]
 [delay speed="90"]
-子供もいるのか？[p]
+He has children?[p]
 [resetdelay]
 
-拓海は一瞬、言葉を失った。[p]
-響子はこのことを知っているのだろうか？[p]
+For a moment, Takumi was speechless.[p]
+Did Kyoko know?[p]
 
-恵に連絡を入れようとして、スマホを握る手が止まる。[p]
-時刻はもう遅い。[p]
-今はやめておこう……明日にしよう。[p]
+He started to message Megumi, but his hand stopped around the phone.[p]
+It was already late.[p]
+Not now... I'll tell her tomorrow.[p]
 
-今知らせれば、恵は今夜一人でこの事実を抱えることになる。[l][r]
-送信欄に打った「子供がいる」という文字を、拓海は一文字ずつ消した。[p]
+If he told her now, Megumi would have to carry the knowledge alone all night.[l][r]
+Takumi erased the words “He has children” from the message box, one character at a time.[p]
 
-そう決めると、拓海は来た道を引き返した。[p]
-夜の住宅街を乱さないように、静かに駅へ戻っていった。[p]
+With his decision made, Takumi turned back the way he had come.[p]
+He quietly returned to the station, careful not to disturb the sleeping neighborhood.[p]
 
 [fadeoutbgm time=3000]
 [stopse fadeout=800]
@@ -1212,52 +1212,52 @@
 [cm]
 [fadeoutbgm time=3000]
 [auto_chara name="拓海" face="private_normal"]
-「……いや、俺が尾行するより、後から響子さんに聞いてもらった方が確実かもしれない」[p]
+“...No. It might be more reliable to have Kyoko ask him later than for me to follow him.”[p]
 
 [auto_chara name="恵" face="private_anxiety"]
-「お母さんに？」[p]
+“My mom?”[p]
 
 [auto_chara name="拓海" face="private_normal"]
-「うん。高田の住所をそれとなく聞ければ、一番安全だと思う」[p]
+“Yeah. If she can casually ask for Takada's address, that would be safest.”[p]
 
 [auto_chara name="恵" face="private_normal"]
-「……わかった。聞いてみる」[p]
+“...Okay. I'll ask her.”[p]
 [chara_hide_all time=300]
 
 [bg storage="black.png" time=2000]
 [wait time=500]
-翌日――。[p]
+The next day—[p]
 
-恵からのメッセージは、短かった。[p]
+Megumi's message was brief.[p]
 
-「だめだった」[p]
+“It didn't work.”[p]
 
-響子は、不思議そうな顔をしたという。[p]
+Kyoko had looked puzzled.[p]
 
-「どうして急に高田さんの住所なんて知りたいの？」[p]
+“Why do you suddenly want to know Mr. Takada's address?”[p]
 
-恵はうまくごまかしたつもりだった。[p]
+Megumi thought she had covered herself well.[p]
 
-だが、その日を境に、響子は高田の話をほとんどしなくなった。[p]
+But from that day on, Kyoko almost never spoke about Takada.[p]
 
-高田も、響子とのやり取りを変えたようだった。[p]
+Takada seemed to change the way he communicated with her as well.[p]
 
-表面上は穏やかに。[p]
-けれど、決して隙を見せないように。[p]
+Calm on the surface.[p]
+But never leaving himself exposed.[p]
 
-警戒された――。[p]
+They were on their guard—[p]
 
-拓海はそう直感した。[p]
+Takumi knew it instinctively.[p]
 
-住所は最後まで分からなかった。[p]
+They never learned his address.[p]
 
-接触する機会も、二度と訪れなかった。[p]
+And another chance to make contact never came.[p]
 
-一番近くにあった手掛かりは、[r]
-自分たちの判断で静かに遠ざかっていった。[p]
+The best lead they had ever found[r]
+quietly slipped away because of their own decision.[p]
 
 [eval exp="f.bad_end_no = 'BAD END 06'"]
-[eval exp="f.bad_end_title = '警戒された標的'"]
+[eval exp="f.bad_end_title = 'A Wary Target'"]
 [eval exp="f.bad_end_retry_storage = 'chapter4.ks'"]
 [eval exp="f.bad_end_retry_target = '*ch4_takada_tail_choice_retry'"]
 [eval exp="f.bad_end_retry_bg = 'bg_megumi_room_night.webp'"]
