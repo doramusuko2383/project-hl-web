@@ -39,6 +39,7 @@
         TYRANO.kag.readyAudio();
         window.__hlExtraClick = window.__hlExtraClick || new Howl({ src: [$.parseStorage("se/click.ogg", "sound")], volume: 0.7 });
         window.__hlExtraClick.stop();
+        window.__hlExtraClick.volume(0.7 * ($.parseVolume(TYRANO.kag.config.defaultSeVolume)));
         window.__hlExtraClick.play();
     }
     function button(text, className) { return $("<button type='button'></button>").addClass(className || "").text(text); }
