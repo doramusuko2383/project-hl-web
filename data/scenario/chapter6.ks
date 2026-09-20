@@ -2043,7 +2043,7 @@
 [bg storage="black.png" time=1000]
 
 [eval exp="f.bad_end_no = 'BAD END 07'"]
-[eval exp="f.bad_end_title = '救われなかった未来'"]
+[eval exp="f.bad_end_title = 'A Future Left Unsaved'"]
 [eval exp="f.bad_end_retry_storage = 'chapter6.ks'"]
 [eval exp="f.bad_end_retry_target = '*ch6_show_illusion_choice_retry'"]
 [eval exp="f.bad_end_retry_bg = 'bg_rooftop_day.webp'"]
@@ -2180,7 +2180,7 @@
 [bg storage="black.png" time=1000]
 
 [eval exp="f.bad_end_no = 'BAD END 08'"]
-[eval exp="f.bad_end_title = '地獄を見せた者'"]
+[eval exp="f.bad_end_title = 'The One Who Showed Them Hell'"]
 [eval exp="f.bad_end_retry_storage = 'chapter6.ks'"]
 [eval exp="f.bad_end_retry_target = '*ch6_show_illusion_choice_retry'"]
 [eval exp="f.bad_end_retry_bg = 'bg_rooftop_day.webp'"]
