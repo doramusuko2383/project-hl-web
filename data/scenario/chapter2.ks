@@ -338,7 +338,7 @@ Before he knew it, the other student had fled too.[p]
 
 He left without a word, as if avoiding even the chance of eye contact.[p]
 
-Takumi hadn't expected to be thanked.[l][r]
+It wasn't that Takumi wanted to be thanked.[l][r]
 But his heart sank as he watched the boy's back disappear through the closing door without once turning around.[p]
 
 The face in the mirror above the sink was even paler than Ryuya's.[l][r]
@@ -466,7 +466,7 @@ But it was soon crushed.[p]
 [auto_chara name="龍也" face="angry"]
 “What... did you do to Shota?”[p]
 
-It was the usual rooftop after lunch.[p]
+The rooftop, as usual, in the early afternoon.[p]
 
 Ryuya's fingers dug into the collar of Takumi's uniform.[p]
 
@@ -475,7 +475,7 @@ His clenched teeth made a faint grinding sound.[p]
 [auto_chara name="綾香" face="angry"]
 “Shota stopped coming up here!”[p]
 
-Ayaka stormed up from behind, eyebrows raised.[p]
+Ayaka closed in from behind, her brows drawn tight.[p]
 
 [auto_chara name="拓海" face="level1_pain"]
 “I've told you over and over. I didn't do anything.”[p]
@@ -626,9 +626,9 @@ As he stared at the screen,[r]
 Takumi replayed the events of that day in his mind.[p]
 
 The “hallucination” he had shown Shota[r]
-proved that the effect worked on other people, not just Takumi himself.[p]
+showed that the effect worked on other people, not just Takumi himself.[p]
 
-It wasn't a mere coincidence. It was a definite power.[p]
+It wasn't just a coincidence. This was something real.[p]
 
 And he knew he could control it to some extent[r]
 through his own knowledge and imagination.[p]
@@ -935,7 +935,7 @@ Though shaken for a moment, Takumi quickly refocused.[p]
 [auto_chara name="拓海" face="level2_smile"]
 “I was wondering if you went to a cram school or anything.”[p]
 
-Schoolwork was a natural subject for two high school students.[p]
+Talking about schoolwork was normal enough between classmates.[p]
 
 He could hear the stiffness in his voice,[r]
 but tried not to let it show on his face.[p]
@@ -988,7 +988,7 @@ His classmates almost never complimented him this way.[p]
 [wait time=400]
 
 [auto_chara name="拓海" face="level2_smile"]
-“No, it's nothing like that.[l] I panic before every test and only scrape by after staying up all night.”[p]
+“No, it's nothing like that.[l] I panic before every test and pull all-nighters just to get through it.”[p]
 
 [auto_chara name="恵" face="surprise"]
 “What?[l] You never look stressed at all.”[p]
@@ -1200,7 +1200,7 @@ the scattered points connected into a single line in his mind.[p]
 
 *ch2_store_south
 [cm]
-Takumi opened the store by the south exit.[p]
+Takumi opened the information for the store by the south exit.[p]
 
 It really was close to her home.[p]
 
@@ -1304,7 +1304,7 @@ After that, Takumi couldn't keep the conversation going naturally.[p]
 Ayaka's middle school, where she lived, any clue about her workplace—[r]
 time passed without him learning a single thing.[p]
 
-His plan for revenge stopped there.[p]
+That was as far as his plan for revenge went.[p]
 
 Ryuya and the others would never stop bullying him.[p]
 
