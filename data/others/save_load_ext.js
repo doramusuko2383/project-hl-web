@@ -106,17 +106,6 @@
         return String(value).replace(/<[^>]*>/g, "").replace(/\s+/g, " ").trim();
     }
 
-    function toJapaneseNumber(num) {
-        var ones = ["", "一", "二", "三", "四", "五", "六", "七", "八", "九"];
-        num = parseInt(num, 10);
-        if (!num) return "";
-        if (num < 10) return ones[num];
-        if (num === 10) return "十";
-        if (num < 20) return "十" + ones[num - 10];
-        if (num < 100) return ones[Math.floor(num / 10)] + "十" + ones[num % 10];
-        return String(num);
-    }
-
     function chapterInfoFromText(value) {
         var text = safeText(value);
         var match = text.match(/^第([0-9０-９一二三四五六七八九十百千]+)章\s*/);
@@ -124,7 +113,9 @@
         var rawNumber = match[1].replace(/[０-９]/g, function (ch) {
             return String.fromCharCode(ch.charCodeAt(0) - 0xFEE0);
         });
-        var chapter = /^\d+$/.test(rawNumber) ? "第" + toJapaneseNumber(rawNumber) + "章" : "第" + rawNumber + "章";
+        var legacyChapterNumbers = { "一": 1, "二": 2, "三": 3, "四": 4, "五": 5, "六": 6, "七": 7, "八": 8, "九": 9, "十": 10 };
+        var chapterNumber = /^\d+$/.test(rawNumber) ? parseInt(rawNumber, 10) : legacyChapterNumbers[rawNumber];
+        var chapter = chapterNumber ? "Chapter " + chapterNumber : "Chapter";
         return {
             chapter: chapter,
             rest: text.slice(match[0].length).replace(/^[\s　]+/, "")
@@ -243,7 +234,7 @@
     }
 
     function showNoContinueNotice() {
-        var message = "まだ続きから再開できるデータがありません。\nNEW GAMEから物語を始めてください。";
+        var message = "There is no save data to continue from yet.\nPlease start the story with NEW GAME.";
         if ($.inform) {
             $.inform(message);
             return;
@@ -1017,16 +1008,16 @@
                     { storage: "ch7_ending.webp", hold: 14500, sepia: true, final: true }
                 ];
                 var credits = [
-                    ["Scenario", "プロ山"],
-                    ["Direction", "プロ山"],
-                    ["Programming", "プロ山"],
+                    ["Scenario", "Puroyama"],
+                    ["Direction", "Puroyama"],
+                    ["Programming", "Puroyama"],
                     ["Illustration", "ChatGPT"],
-                    ["Music", "BGMer：http://bgmer.net"]
+                    ["Music", "BGMer: http://bgmer.net"]
                 ];
                 var ending = $("<div></div>").attr("id", "hl-ending");
                 var photo = $("<img>").addClass("hl-ending-photo").attr("alt", "");
                 var shade = $("<div></div>").addClass("hl-ending-shade");
-                var introText = $("<div></div>").addClass("hl-ending-intro").text("思い出アルバム");
+                var introText = $("<div></div>").addClass("hl-ending-intro").text("MEMORIES");
                 var credit = $("<div></div>").addClass("hl-ending-credit");
                 var endText = $("<div></div>").addClass("hl-ending-end").text("END");
                 var timers = [];
