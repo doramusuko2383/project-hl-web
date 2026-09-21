@@ -289,7 +289,7 @@ The punch slammed into my stomach while my guard was down.[p]
 [wait time=1000]
 “Gah—” [l]
 [playse storage=se/fall_down.ogg volume=100]
-_ I doubled over and dropped to one knee.[p]
+I doubled over and dropped to one knee.[p]
 
 [wait time=500]
 
@@ -486,7 +486,7 @@ the impact ended.[p]
 The world [l]
 [resetdelay]
 [delay speed="120"]
-_ cut out.[p]
+cut out.[p]
 [resetdelay]
 [delay speed="90"]
 
