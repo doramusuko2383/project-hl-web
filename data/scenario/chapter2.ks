@@ -308,12 +308,12 @@ speaking as if it were all a joke.[p]
 [auto_chara name="拓海" face="level1_normal"]
 “It... doesn't look that way.”[p]
 
-Takumi looked away and lowered his voice.[p]
-
 The moment he finished, a flash of regret told him he should have run.[p]
 
 But the other student's indoor shoes trembled as he stared at the floor.[l][r]
 Once Takumi saw that, he couldn't take back what he'd said.[p]
+
+Takumi looked away and lowered his voice.[p]
 
 [wait time=500]
 
@@ -468,7 +468,7 @@ But it was soon crushed.[p]
 [auto_chara name="龍也" face="angry"]
 “What... did you do to Shota?”[p]
 
-The rooftop, as usual, in the early afternoon.[p]
+Another afternoon on the rooftop.[p]
 
 Ryuya's fingers dug into the collar of Takumi's uniform.[p]
 

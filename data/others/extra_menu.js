@@ -24,13 +24,13 @@
     ];
     // Add future chapters here; the menu and jump destination are generated from this list.
     var chapters = [
-        { number: 1, title: "覚醒", thumbnail: "bg_rooftop_day_ch1.webp", storage: "chapter1.ks", target: "*ch1_start" },
+        { number: 1, title: "Awakening", thumbnail: "bg_rooftop_day_ch1.webp", storage: "chapter1.ks", target: "*ch1_start" },
         { number: 2, title: "Retaliation", thumbnail: "bg_convenience_store_night.webp", storage: "chapter2.ks", target: "*ch2_start" },
-        { number: 3, title: "邂逅", thumbnail: "bg_karaoke.webp", storage: "chapter3.ks", target: "*ch3_start" },
-        { number: 4, title: "共犯", thumbnail: "bg_mansion_night.webp", storage: "chapter4.ks", target: "*ch4_start" },
-        { number: 5, title: "代償", thumbnail: "bg_station_cafe.webp", storage: "chapter5.ks", target: "*ch5_start" },
-        { number: 6, title: "赦し", thumbnail: "bg_hospital_room_day.webp", storage: "chapter6.ks", target: "*ch6_start" },
-        { number: 7, title: "未来", thumbnail: "bg_classroom_graduation_evening.webp", storage: "chapter7.ks", target: "*ch7_start" }
+        { number: 3, title: "Encounter", thumbnail: "bg_karaoke.webp", storage: "chapter3.ks", target: "*ch3_start" },
+        { number: 4, title: "Accomplices", thumbnail: "bg_mansion_night.webp", storage: "chapter4.ks", target: "*ch4_start" },
+        { number: 5, title: "The Price", thumbnail: "bg_station_cafe.webp", storage: "chapter5.ks", target: "*ch5_start" },
+        { number: 6, title: "Forgiveness", thumbnail: "bg_hospital_room_day.webp", storage: "chapter6.ks", target: "*ch6_start" },
+        { number: 7, title: "The Future", thumbnail: "bg_classroom_graduation_evening.webp", storage: "chapter7.ks", target: "*ch7_start" }
     ];
 
     function sf() { return TYRANO.kag.variable.sf; }
@@ -81,7 +81,7 @@
             item.on("click", function () { jumpToChapter(chapter); });
             main.append(item);
         });
-        root().find("footer").append(button("戻る / BACK", "extra-back").on("click", function () { clickSound(); home(); }));
+        root().find("footer").append(button("BACK", "extra-back").on("click", function () { clickSound(); home(); }));
     }
 
     function jumpToChapter(chapter) {
@@ -102,7 +102,7 @@
             var unlocked = state[ending[0]] === true;
             if (unlocked) count++;
             main.append($("<div></div>").addClass("extra-end-row " + (unlocked ? "is-unlocked" : "is-locked"))
-                .append($("<span></span>").text(String(index + 1).padStart(2, "0")), $("<strong></strong>").text(unlocked ? ending[1] : "？？？")));
+                .append($("<span></span>").text(String(index + 1).padStart(2, "0")), $("<strong></strong>").text(unlocked ? ending[1] : "???")));
         });
         root().find("footer").append(button("BACK", "extra-back").on("click", function () { clickSound(); home(); }), $("<output></output>").text(completion(count, endings.length)));
     }
