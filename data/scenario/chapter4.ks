@@ -1187,7 +1187,7 @@ That fact struck Takumi more vividly than the name on the plate.[p]
 [bg storage="black.png" time=900]
 Takada has a family... [l]
 [delay speed="90"]
-_ He has children?[p]
+He has children?[p]
 [resetdelay]
 
 For a moment, Takumi was speechless.[p]
