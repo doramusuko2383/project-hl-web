@@ -67,7 +67,7 @@ _ he could see Ayaka standing behind the register.[p]
 
 “There she is...”[p]
 
-So far, everything was going as expected.[r][l]It had been relatively easy to figure out Ayaka's shifts.[p]
+So far, everything was going as expected.[r][l]_ It had been relatively easy to figure out Ayaka's shifts.[p]
 
 She always worked the same days of the week.[p]
 
@@ -376,7 +376,7 @@ _ Takumi deliberately brushed his hand against hers.[p]
 [bg storage="black.png" time=300]
 [fadeoutbgm time=3000]
 [delay speed="120"]
-At that instant,[l]the world fell silent.[p]
+At that instant,[l]_ the world fell silent.[p]
 [resetdelay]
 [wait time=1000]
 
@@ -888,7 +888,7 @@ He wanted to tell her everything and be free of it.[p]
 [wait time=1000]
 
 [auto_chara name="拓海" face="level2_depressed"]
-“I did it.[l] It's exactly what you think.”[p]
+“I did it.[l]_ It's exactly what you think.”[p]
 
 The instant the words left his mouth,[r]
 _ the air in the room seemed to go still.[p]
@@ -1180,7 +1180,7 @@ Then he slowly opened his mouth.[p]
 [bg storage="ch3_karaoke_determination.webp" time=900]
 
 [delay speed="110"]
-“All right.[l] Let's save your mom.”[p]
+“All right.[l]_ Let's save your mom.”[p]
 [resetdelay]
 
 The moment he said those words,[r]
@@ -1286,7 +1286,7 @@ _ the cool air outside felt almost pleasant.[p]
 
 [auto_chara name="拓海" face="level2_normal"]
 
-“Yeah.[l] I didn't think we'd talk that long.”[p]
+“Yeah.[l]_ I didn't think we'd talk that long.”[p]
 
 [auto_chara name="恵" face="smile"]
 
@@ -1314,7 +1314,7 @@ _ ‘Use your mysterious power to save my mom.’”[p]
 
 [auto_chara name="恵" face="laugh"]
 
-“Ahaha.[l] When you put it that way, it does sound a little strange.”[p]
+“Ahaha.[l]_ When you put it that way, it does sound a little strange.”[p]
 
 [auto_chara name="拓海" face="level2_smile"]
 
