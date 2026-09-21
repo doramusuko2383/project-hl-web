@@ -148,7 +148,7 @@ One error in judgment could lead to consequences that could never be undone.[p]
 [playse storage=se/ringback_tone.ogg volume=100]
 [wait time=3000]
 
-“This is the father of Megumi Kikuchi in Class 2-1.[l]_ My daughter isn't feeling well, so she'll be absent this morning.[l]_ She plans to come to school this afternoon. Thank you.”[p]
+“This is the father of Megumi Kikuchi in Class 2-1. [l]My daughter isn't feeling well, so she'll be absent this morning. [l]She plans to come to school this afternoon. Thank you.”[p]
 
 Even after the call ended, Takumi kept the phone pressed to his ear for a while.[p]
 
@@ -539,7 +539,7 @@ I really had felt that way.[p]
 ...[p]
 
 [delay speed="95"]
-No,[l]_ was that really all there was to it?[p]
+No, [l]was that really all there was to it?[p]
 [resetdelay]
 
 I was a little happy that Megumi had turned to me for help.[p]
@@ -703,7 +703,7 @@ Every idea he came up with immediately hit a dead end.[p]
 
 “Maybe they'll think it was one of your mom's associates?”[p]
 [auto_chara name="恵" face="serious"]
-“Even then, they might retaliate, and more importantly, they could suspect that I did it.[l]_ After all, I've met Takada before.”[p]
+“Even then, they might retaliate, and more importantly, they could suspect that I did it. [l]After all, I've met Takada before.”[p]
 
 Megumi's words cut straight to the heart of the matter. Takumi had no choice but to agree.[p]
 “And even if his wife warned Takada, we don't know if he'd actually change his behavior, do we?”[p]
@@ -755,7 +755,7 @@ Even after leaving the family restaurant, Takada remained on Takumi's mind.[p]
 “No... I didn't really do anything.”[p]
 
 [auto_chara name="恵" face="normal"]
-“That's not true.[l]_ You've been with me all day, ever since this morning.”[p]
+“That's not true. [l]You've been with me all day, ever since this morning.”[p]
 
 [auto_chara name="拓海" face="level2_normal"]
 “I even made you miss school.”[p]
@@ -782,7 +782,7 @@ It felt as though he had undone the distance they had managed to close.[p]
 “Huh?”[p]
 
 [auto_chara name="恵" face="normal"]
-“About what happened today.[l]_ You've been worrying about it this whole time, haven't you?”[p]
+“About what happened today. [l]You've been worrying about it this whole time, haven't you?”[p]
 
 [wait time=500]
 
@@ -792,7 +792,7 @@ She had hit the nail on the head.[p]
 “...Yeah, I guess.”[p]
 
 [auto_chara name="恵" face="smile"]
-“It's not something you need to apologize for, Nagayama.[l]_ We decided on it together.”[p]
+“It's not something you need to apologize for, Nagayama. [l]We decided on it together.”[p]
 
 [auto_chara name="拓海" face="level2_normal"]
 “Yeah.”[p]
