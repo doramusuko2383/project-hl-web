@@ -44,7 +44,7 @@ She wanted them to worry about her. But she didn't want them to see her like thi
 
 The conflicting feelings collided in her chest, while her outstretched fingers closed aimlessly around the sheet.[p]
 Ayaka had never had anything to do with problem students like Ryuya and Shota.[p]
-If anything, she had been the kind of student who avoided people's eyes and quietly immersed herself in drawing.[p]
+If anything, she had been the kind of student who kept to herself and quietly immersed herself in drawing.[p]
 Her favorite place was the school rooftop.[p]
 It was off-limits according to school rules, but it was a secret place where she could sketch in peace without worrying about anyone watching.[p]
 [fadeoutbgm time=3000]
@@ -53,8 +53,8 @@ It was off-limits according to school rules, but it was a secret place where she
 [playbgm storage="memory_light.ogg" loop=true volume=50 fadein=true time=900]
 [playse storage=se/drawing.ogg volume=100]
 That day, as usual, she opened her sketchbook and drew the trees in the schoolyard swaying in the wind.[p]
-This space, where she couldn't hear footsteps or voices, was heaven to Ayaka.[p]
-But suddenly, men's voices echoed from the stairwell.[p]
+With no footsteps or voices to disturb her, the rooftop was blissfully peaceful.[p]
+But suddenly, two boys' voices echoed from the stairwell.[p]
 [playse storage=se/roof_door.ogg volume=30]
 [wait time=2000]
 She turned in surprise and saw Ryuya and Shota coming onto the rooftop.[p]
@@ -63,9 +63,9 @@ She turned in surprise and saw Ryuya and Shota coming onto the rooftop.[p]
 “...Oh, crap.”[p]
 
 Ayaka's chest tightened for a moment.[p]
-The instant the two entered her view, she froze.[p]
+The instant the two came into view, she froze.[p]
 She never expected the two notorious troublemakers to show up in a place like this.[p]
-Ryuya and Shota also stopped for a moment and met Ayaka's eyes.[p]
+Ryuya and Shota froze for a moment when their eyes met hers.[p]
 [bg storage="bg_rooftop_day2.webp" time=900]
 [auto_chara name="翔太" face="normal"]
 After a moment of awkward tension, Shota casually raised a hand and approached Ayaka.[p]
@@ -77,10 +77,10 @@ But the two didn't back down.[p]
 [auto_chara name="翔太" face="normal"]
 “What are you drawing?”[p]
 
-he asked, peering into Ayaka's sketchbook with interest.[p]
+Shota peered into Ayaka's sketchbook with interest.[p]
 “Whoa!”[p]
 
-Shota exclaimed in surprise.[p]
+Shota cried out in surprise.[p]
 “Wow, you're really good!”[p]
 
 Ayaka started to hide the sketchbook, then stopped with it held against her chest.[p]
@@ -98,14 +98,14 @@ Ryuya also looked into the sketchbook and muttered, “You sure know how to use 
 For some reason, those words stayed with Ayaka.[p]
 [cg storage="ch6_ayaka_memory.webp"]
 [bg storage="ch6_ayaka_memory.webp" time=800]
-From then on, Ayaka, Ryuya, and Shota began running into each other on the rooftop.[p]
-At first, it seemed like a coincidence, but gradually the three of them began spending more time together.[p]
+From then on, Ayaka, Ryuya, and Shota kept running into each other on the rooftop.[p]
+Before long, the three of them were spending more time together.[p]
 
 At first, Ayaka barely paid attention to them even when they came.[p]
 
-While Ayaka drew, the two of them talked as they pleased.[p]
+While Ayaka drew, the two of them chatted about whatever they felt like.[p]
 
-Even so, before long, their coming to the rooftop had become perfectly normal.[p]
+Even so, before long, Ayaka came to expect them on the rooftop.[p]
 
 [wait time=500]
 
@@ -263,7 +263,7 @@ Ryuya: “You like it, don't you?”[p]
 
 Ayaka didn't answer and turned her eyes back to the sketchbook.[p]
 
-Before her stretched a sky dyed by the setting sun.[p]
+The sunset-streaked sky stretched out before her.[p]
 
 It looked a little more beautiful than before.[p]
 
@@ -271,17 +271,17 @@ It looked a little more beautiful than before.[p]
 
 When the three of them were together, they didn't do anything special.[p]
 
-Ayaka drew, Shota talked about pointless things, and Ryuya gazed at the view as he pleased.[p]
+Ayaka drew, Shota talked about pointless things, and Ryuya idly gazed at the view.[p]
 
 That was all.[p]
 
-Even so, Ayaka didn't dislike spending time like that.[p]
+Even so, Ayaka didn't mind spending time that way.[p]
 
 [wait time=500]
 
 Before she knew it, the rooftop where she had once spent time alone[r]had become a place where the three of them gathered.[p]
 
-And as the time she spent with them increased,[r]the time she spent opening her sketchbook alone gradually decreased.[p]
+The more time she spent with them,[r]the less often she opened her sketchbook alone.[p]
 
 Laughing with them distracted her more than facing her drawings alone.[p]
 It wasn't that she had come to hate drawing.[p]
@@ -297,18 +297,18 @@ Her unopened sketchbook sat in the corner of her desk, slowly gathering dust.[p]
 Her mother had visited several times since Ayaka woke up three days earlier.[p]
 Ayaka hadn't asked her to come, but any parent would visit if their child were hospitalized, she thought.[p]
 From the hallway, she heard her mother thanking the nurse for taking care of her during her stay.[p]
-How ironic that her mother was so good at playing the role of a “good person.”[p]
+Her mother really was good at playing the “good person,” Ayaka thought bitterly.[p]
 [playbgm storage="tension_low.ogg" loop=true volume=20 fadein=true time=900]
 [auto_chara name="綾香の母" face="smile" time=500]
 “Oh, you're awake.”[p]
 
-The moment she heard that voice, Ayaka's back straightened on its own.[p]
+The moment she heard that voice, Ayaka's back stiffened instinctively.[p]
 
 The gentle voice her mother had used with the nurse lost all warmth the moment she entered the room.[p]
 [auto_chara name="綾香の母" face="normal"]
 “How are you feeling?”[p]
 
-The words sounded kind, but Ayaka already knew they weren't asked out of genuine concern.[p]
+The words sounded kind, but Ayaka already knew the concern behind them wasn't genuine.[p]
 ; 初登場後の会話切り替えは通常速度に戻す。
 [chara_hide_all time=300]
 [chara_show name="綾香" face="hospital" left=150 top=60 width=470 time=300 wait=false]
@@ -639,10 +639,10 @@ But when asked what he wanted to do after entering college, his answer suddenly 
 [auto_chara name="恵" face="normal"]
 “Yeah.”[p]
 
-For a while, only their footsteps continued.[p]
+For a while, the only sound was their footsteps.[p]
 [chara_hide_all]
 
-Until then, Takumi had thought of choosing a future based on his deviation score and mock-exam results.[p]
+Until then, Takumi had thought of choosing his future based on his grades and mock-exam results.[p]
 Which universities could he aim for? How much would he need to improve his grades? Those were things he could think about.[p]
 
 But he couldn't clearly imagine what he would be doing beyond that.[p]
@@ -650,20 +650,20 @@ But he couldn't clearly imagine what he would be doing beyond that.[p]
 [auto_chara name="恵" face="normal"]
 “What about you, Nagayama?”[p]
 
-Megumi spoke while thinking.[p]
+Megumi paused to think.[p]
 
 “Do you have a dream for the future?”[p]
 
 [auto_chara name="拓海" face="level2_normal"]
 “...The future?”[p]
 
-Takumi looked up at the sky without thinking.[p]
+Takumi instinctively looked up at the sky.[p]
 [chara_hide_all]
 
 It wasn't the kind of question he could answer immediately.[p]
 
 When he was a child, he felt he could have answered more easily.[p]
-But now that he was in high school, the names and deviation scores of universities felt real, while the image of himself beyond them remained blurred.[p]
+But now that he was in high school, university names and entrance requirements felt concrete, while the person he might become afterward remained a blur.[p]
 
 [auto_chara name="拓海" face="level2_normal"]
 “I don't know. I've thought about it, but I don't think there's anything specific I want to become yet.”[p]
@@ -707,7 +707,7 @@ It was obvious, yet he had never thought about it before.[p]
 [auto_chara name="恵" face="normal"]
 “Besides, we're only second-years.”[p]
 
-Megumi said it while looking ahead.[p]
+Megumi kept her eyes ahead.[p]
 
 [auto_chara name="恵" face="happy"]
 “We can find something from here on out.”[p]
@@ -731,14 +731,14 @@ Takumi nodded.[p]
 [auto_chara name="拓海" face="level2_smile"]
 “Really.”[p]
 
-Megumi looked at Takumi suspiciously, then smiled faintly.[p]
+Megumi gave Takumi a skeptical look, then smiled faintly.[p]
 [chara_hide_all]
 
-By the time they finished talking, they had reached the station.[p]
+Before they knew it, they had reached the station.[p]
 
-It usually felt as though it took a little longer.[p]
+The walk usually seemed to take a little longer.[p]
 
-It shouldn't have been any different, but today it seemed as though they had arrived unusually quickly.[p]
+The distance hadn't changed, but today it had felt surprisingly short.[p]
 
 [bg storage="bg_station_platform_evening.webp" time=700]
 
@@ -1568,7 +1568,7 @@ He only knew that Ayaka's expression had softened slightly.[p]
 
 [wait time=700]
 
-After that, the conversation somehow never stopped.[p]
+After that, the conversation flowed without another lull.[p]
 
 They talked about school.[p]
 
@@ -1582,7 +1582,7 @@ It was all trivial conversation.[p]
 
 Takumi never expected such an ordinary moment to make him so happy.[p]
 
-A peaceful atmosphere filled the room, and the tension from before gradually melted away.[p]
+The mood in the room settled into an easy calm, and the earlier tension gradually faded.[p]
 
 [wait time=1000]
 
@@ -1935,7 +1935,7 @@ why don't you take off your clothes—”[p]
 [auto_chara name="拓海" face="level2_normal"]
 Takumi touched Ryuya's arm.[p]
 
-At that instant, the air on the rooftop softened.[p]
+At that instant, the rooftop air seemed to soften.[p]
 The cold wind, the pain in his chest, and Ryuya's shouting all gradually faded into the distance.[p]
 
 [chara_hide_all]
@@ -1971,7 +1971,7 @@ Ayaka laughed and said, “Come on.”[p]
 
 Ryuya began walking toward the light.[p]
 
-Watching him, Takumi felt a small sense of relief spread through his chest.[p]
+Watching him, Takumi felt a small sense of relief stir in his chest.[p]
 This was right.[p]
 If Ryuya could be saved.[p]
 If the three of them could return to the way they were.[p]
@@ -2004,10 +2004,10 @@ But Ryuya slowly approached Takumi and grabbed him by the collar.[p]
 “That thing yesterday was amazing.”[p]
 
 Ryuya was smiling.[p]
-Nostalgically.[p]
-Happily.[p]
+There was nostalgia in his smile.[p]
+And happiness.[p]
 
-“You can show people dreams that convenient?”[p]
+“So you can show us whatever dream we want, huh?”[p]
 
 Shota shrugged.[p]
 Ayaka smiled awkwardly.[p]
@@ -2021,13 +2021,13 @@ Ryuya tightened his grip.[p]
 Only then did Takumi realize.[p]
 
 It hadn't been salvation.[p]
-What he had shown them was merely an escape.[p]
+What he had shown Ryuya was merely an escape.[p]
 
 Ryuya hadn't reflected on what he had done.[p]
 He had only missed what they had lost.[p]
 
-Without knowing pain.[p]
-Still embracing only the beautiful memories of the one who had caused the wounds.[p]
+Without understanding the pain he'd caused.[p]
+Still treasuring only his own happy memories—the memories of the one who had caused that pain.[p]
 
 “Hey, Takumi.”[p]
 
@@ -2066,7 +2066,7 @@ Takumi touched Ryuya's arm.[p]
 [fadeoutbgm time=3000]
 [delay speed="120"]
 At that instant,[l]the world fell silent.[p]
-Something inside Takumi[l]quietly came loose.[p]
+Something inside Takumi[l]quietly gave way.[p]
 [resetdelay]
 [chara_hide_all]
 [wait time=1000]
@@ -2094,20 +2094,20 @@ There was no end.[p]
 
 There was no forgiveness.[p]
 
-Only an endless hell continued.[p]
+Only an endless hell remained.[p]
 
 This was not understanding.[p]
 
 It was not salvation.[p]
 
-It was simply a hell Takumi had created.[p]
+It was a hell of Takumi's own making.[p]
 
 [wait time=700]
 
 [chara_hide_all]
 [bg storage="bg_rooftop_day.webp" time=500]
 [auto_chara name="龍也" face="hell" time=80]
-The instant he returned to reality, Ryuya collapsed with a scream that never became a voice.[p]
+The instant he returned to reality, Ryuya collapsed with a voiceless scream.[p]
 
 [auto_chara name="恵" face="pain"]
 “Ryuya!”[p]
@@ -2135,7 +2135,7 @@ And yet he understood that he had done something irreversible.[p]
 [chara_hide_all]
 [bg storage="bg_hallway_day.webp" time=800]
 That evening, an ambulance came to the school.[p]
-Ryuya was still confused in the nurse's office and apparently couldn't hold a normal conversation.[p]
+Ryuya remained so disoriented in the nurse's office that he apparently couldn't speak coherently.[p]
 
 Several days later.[p]
 
@@ -2153,7 +2153,7 @@ But that wasn't the end of it.[p]
 [bg storage="bg_classroom_day.webp" time=800]
 [auto_chara name="拓海" face="level2_depressed"]
 His classmates began looking at him differently.[p]
-The teachers' voices changed.[p]
+Even his teachers spoke to him differently.[p]
 [auto_chara name="恵" face="sad"]
 Even Megumi's expression gradually grew more distant.[p]
 
@@ -2165,8 +2165,8 @@ But her voice no longer held the warmth it once had.[p]
 
 Takumi finally understood.[p]
 
-You don't need a blade to destroy someone.[p]
-You don't need evidence.[p]
+It didn't take a blade to destroy someone.[p]
+It didn't take evidence.[p]
 He had the power to do it.[p]
 
 And he had chosen to use it.[p]
