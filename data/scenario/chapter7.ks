@@ -51,7 +51,7 @@ Running water.[p]
 
 And someone's footsteps.[p]
 
-Takumi almost called out, then closed his mouth.[l]_ If Megumi was hiding the call, he couldn't let his voice give her away.[p]
+Takumi almost called out, then closed his mouth. [l]If Megumi was hiding the call, he couldn't let his voice give her away.[p]
 
 “...”[p]
 
@@ -105,7 +105,7 @@ He ran straight up the stairs.[p]
 [wait time=1000]
 Reaching Megumi's front door on the fifth floor, Takumi grabbed the doorknob.[p]
 
-He turned it before catching his breath.[l]_ He wasn't even thinking about what he'd do if it was locked.[p]
+He turned it before catching his breath. [l]He wasn't even thinking about what he'd do if it was locked.[p]
 
 [bg storage="black.png" time=0]
 [wait time=80]
@@ -149,7 +149,7 @@ Takada stood facing her, trying to get her to lower it.[p]
 
 Ignoring Takada, Takumi hurried to Megumi and took the spray.[p]
 
-Her fingers didn't let go right away.[l]_ He waited for them to loosen one by one before easing the spray into his own hand.[p]
+Her fingers didn't let go right away. [l]He waited for them to loosen one by one before easing the spray into his own hand.[p]
 “Tell me what happened.”[p]
 
 [auto_chara name="恵" face="private_cry"]
@@ -217,7 +217,7 @@ Megumi's anguished cry lingered in the room.[p]
 
 Her voice checked his rising anger for just a moment.[p]
 
-He'd come to protect her, but now he was frightening her even more.[l]_ Taking that in, Takumi still didn't look away from Takada.[p]
+He'd come to protect her, but now he was frightening her even more. [l]Taking that in, Takumi still didn't look away from Takada.[p]
 
 [wait time=1000]
 [auto_chara name="拓海" face="private2_normal"]
@@ -291,14 +291,14 @@ Takumi wrung out a cleaning rag as he spoke.[p]
 [auto_chara name="恵" face="private_normal"]
 “Nagayama, you should wear gloves.”[p]
 [auto_chara name="拓海" face="private2_normal"]
-“It's fine. I'll be done soon.[l]_ I'll keep my hands clean.”[p]
+“It's fine. I'll be done soon. [l]I'll keep my hands clean.”[p]
 
 The two of them were cleaning the wooden floor.[p]
 They were cleaning up after Takada had wet himself.[p]
 
 Takada himself had practically fled.[p]
 
-Even after the front door closed, neither of them could move for a while.[l]_ Only when his footsteps had faded completely did Takumi put the shears back in his bag.[p]
+Even after the front door closed, neither of them could move for a while. [l]Only when his footsteps had faded completely did Takumi put the shears back in his bag.[p]
 
 Megumi sprayed alcohol cleaner on the floor.[p]
 
@@ -370,7 +370,7 @@ Maybe I wasn't thinking clearly then.”[p]
 
 Megumi quietly put the rag back into the bucket.[p]
 
-It splashed lightly as it hit the water, scattering cold drops onto their hands.[l]_ Still, Megumi didn't pull hers away.[p]
+It splashed lightly as it hit the water, scattering cold drops onto their hands. [l]Still, Megumi didn't pull hers away.[p]
 
 [auto_chara name="拓海" face="private2_normal"]
 “...”[p]
@@ -439,7 +439,7 @@ Megumi laughed in exasperation.[p]
 
 Takumi's expression grew serious.[p]
 
-Megumi stopped drying her hands.[l]_ The last drop falling from the tap sounded strangely loud.[p]
+Megumi stopped drying her hands. [l]The last drop falling from the tap sounded strangely loud.[p]
 
 [auto_chara name="恵" face="private_happy"]
 “Yeah, I know... Thank you for protecting me.”[p]
@@ -799,7 +799,7 @@ Megumi started to say something, then looked at him thoughtfully.[p]
 [auto_chara name="恵" face="normal"]
 “...Then, want to come?”[p]
 
-After speaking, she lowered her eyes to the lid of her cocoa.[l]_ Both thumbs traced the same spot over and over.[p]
+After speaking, she lowered her eyes to the lid of her cocoa. [l]Both thumbs traced the same spot over and over.[p]
 
 [auto_chara name="拓海" face="level3_surprise"]
 “Huh?”[p]
@@ -985,7 +985,7 @@ As those days repeated, the season passed.[p]
 The white flower pinned to the left breast of his uniform made him a little self-conscious.[p]
 Strangely, though, it didn't feel unpleasant.[p]
 
-As he touched the flower, his fingers felt his heartbeat through the fabric.[l]_ It was finally sinking in that after today, he'd have no reason to wear this uniform again.[p]
+As he touched the flower, his fingers felt his heartbeat through the fabric. [l]It was finally sinking in that after today, he'd have no reason to wear this uniform again.[p]
 
 Takumi suddenly remembered the day of the entrance ceremony.[p]
 
@@ -1153,7 +1153,7 @@ When Takumi echoed him in confusion, Ryuya lowered his eyes and bowed deeply.[p]
 
 Takumi was speechless.[p]
 
-He tried to say “It's okay” right away, but no sound came.[l]_ He silently watched Ryuya's bowed head—not to forgive him, but to make sure the apology wasn't brushed aside.[p]
+He tried to say “It's okay” right away, but no sound came. [l]He silently watched Ryuya's bowed head—not to forgive him, but to make sure the apology wasn't brushed aside.[p]
 The head he'd once only been able to look up at was now bowed low before him.[p]
 The sight matched none of his memories of Ryuya.[p]
 [chara_hide_all]
@@ -1163,7 +1163,7 @@ Eventually, Takumi managed a slightly awkward smile and spoke quietly.[p]
 [auto_chara name="拓海" face="level3_smile"]
 “Oh, that. It's okay. It doesn't bother me anymore.”[p]
 
-Once he'd said it, he realized that wasn't the whole truth.[l]_ He hadn't forgotten. Even so, he wanted to add today's Ryuya to those memories and move forward.[p]
+Once he'd said it, he realized that wasn't the whole truth. [l]He hadn't forgotten. Even so, he wanted to add today's Ryuya to those memories and move forward.[p]
 [auto_chara name="龍也" face="smile"]
 “Thanks.”[p]
 [wait time=1000]
@@ -1212,7 +1212,7 @@ Then he slowly held out his right hand.[p]
 [chara_hide_all]
 Takumi looked at it.[p]
 
-The hand before him overlapped with the memory of his own, once rejected.[l]_ For an instant, the pain returned deep in his chest, but this time he didn't look away.[p]
+The hand before him overlapped with the memory of his own, once rejected. [l]For an instant, the pain returned deep in his chest, but this time he didn't look away.[p]
 
 [wait time=1000]
 
@@ -1221,7 +1221,7 @@ The hand before him overlapped with the memory of his own, once rejected.[l]_ Fo
 
 Takumi held out his hand too, and they shook firmly.[p]
 [delay speed="90"]
-The handshake[l]_ they hadn't managed back then.[p]
+The handshake [l]they hadn't managed back then.[p]
 [resetdelay]
 This time, it felt as though the lingering resentment between them was fading.[p]
 “Now... you've got something to set right too.”[p]
@@ -1318,14 +1318,14 @@ Takumi quietly admired her resolve.[p]
 Megumi brushed it off.[p]
 [auto_chara name="拓海" face="level3_normal"]
 [delay speed="90"]
-“I wanted to be able to notice,[l]_ I guess.”[p]
+“I wanted to be able to notice, [l]I guess.”[p]
 [resetdelay]
 
 [wait time=1000]
 
 Takumi lowered his eyes, searching for the words.[p]
 
-Under the table, he clenched his hand once on his knee.[l]_ He didn't want it to sound like a polished application essay, but a wish that had begun with his own weakness.[p]
+Under the table, he clenched his hand once on his knee. [l]He didn't want it to sound like a polished application essay, but a wish that had begun with his own weakness.[p]
 
 [auto_chara name="恵" face="happy"]
 “...Who?”[p]
@@ -1410,7 +1410,7 @@ Takumi glanced down at her hands once.[p]
 [auto_chara name="恵" face="normal"]
 “Right. You couldn't use it on Takada that time.”[p]
 [auto_chara name="拓海" face="level3_normal"]
-“Yeah... But,[l]
+“Yeah... But, [l]
 [delay speed="90"]
 _ I wondered if it would work when I cared deeply about someone too.”[p]
 [resetdelay]
@@ -1434,7 +1434,7 @@ Takumi gently took Megumi's hand, enclosing it in both of his.[p]
 [cg storage="ch7_last1.webp"]
 [bg storage="ch7_last1.webp" time=900]
 
-At that moment,[l]
+At that moment, [l]
 [delay speed="110"]
 _ time seemed to slow to a stop around just the two of them.[p]
 [resetdelay]
@@ -1458,12 +1458,12 @@ Surprised, Megumi realized what Takumi meant to tell her, and felt a warmth deep
 When she returned to reality, tears welled up and blurred her vision.[p]
 Takumi was watching her quietly with a gentle smile.[p]
 
-His hands were still there.[l]_ When Megumi tightened her fingers, he returned the same pressure without rushing her.[p]
+His hands were still there. [l]When Megumi tightened her fingers, he returned the same pressure without rushing her.[p]
 Wiping her tears, she gave a small smile in return and whispered.[p]
 [cg storage="ch7_last2.webp"]
 [bg storage="ch7_last2.webp" time=900]
 [delay speed="100"]
-“Thank you...[l]_ Takumi.”[p]
+“Thank you... [l]Takumi.”[p]
 [resetdelay]
 
 [jump storage="ending.ks"]
