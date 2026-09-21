@@ -1661,11 +1661,11 @@ There was kindness in Ayaka's voice.[p]
 “We'll be waiting too. On the rooftop.”[p]
 
 Ryuya spoke under his breath.[p]
-Ayaka looked at Ryuya, a little embarrassed,[r][l]
+Ayaka looked at Ryuya.[r][l]
 [auto_chara name="綾香" face="private_smile"]
 “Yeah. I'll come to school.”[p]
 
-she answered.[p]
+She seemed a little embarrassed as she said it.[p]
 [chara_hide_all time=300]
 [fadeoutbgm time=3000]
 [bg storage="black.png" time=2000]
