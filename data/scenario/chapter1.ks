@@ -163,7 +163,7 @@ At some point, that had become the only way I answered them.[p]
 [auto_chara name="龍也" face="normal" left=50 time=700]
 “All right. Let's do the usual.”[p]
 
-Ryuya said this as he pulled on a pair of boxing gloves. I had no idea where he'd gotten them.[p]
+Ryuya said as he pulled on a pair of boxing gloves. I had no idea where he'd gotten them.[p]
 
 Using me as a punching bag was what Ryuya and the others called “training.”[p]
 
@@ -254,7 +254,7 @@ Shota took the gloves from Ryuya and bounced lightly in place, his permed brown 
 
 [wait time=500]
 
-He was playing boxer.[l] His punches weren't as heavy as Ryuya's.[p]
+He was imitating a boxer.[l] His punches weren't as heavy as Ryuya's.[p]
 
 [wait time=500]
 
