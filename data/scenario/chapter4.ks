@@ -165,13 +165,13 @@ he had grown completely used to being alone with Megumi.[p]
 “Me?”[p]
 
 [auto_chara name="恵" face="normal"]
-“Yeah.[l]_ You talk to people in class more than you used to.”[p]
+“Yeah. [l]You talk to people in class more than you used to.”[p]
 
 [auto_chara name="拓海" face="level2_normal"]
 “Do I?”[p]
 
 [auto_chara name="恵" face="smile"]
-“You do.[l]_ You used to be alone so much that I wondered if talking to you would bother you.”[p]
+“You do. [l]You used to be alone so much that I wondered if talking to you would bother you.”[p]
 
 [wait time=500]
 
@@ -210,7 +210,7 @@ Putting the two together, he felt as though something might click.[p]
 I have a feeling there's something here that can help us understand Ryuya.”[p]
 
 [auto_chara name="恵" face="normal"]
-“Okay.[l]_ I'll let you know if I find anything else.”[p]
+“Okay. [l]I'll let you know if I find anything else.”[p]
 
 [auto_chara name="拓海" face="level2_smile"]
 “Thanks.”[p]
@@ -265,7 +265,7 @@ Even after he closed the screen, the word lingered in his mind.[p]
 [playbgm storage="restaurant_ambience.ogg" loop=true volume=30 fadein=true time=1000]
 
 After exchanging contact information, they had discovered that they lived surprisingly close to each other.[p]
-Their nearest stations were different but sat along a shared stretch of two private railway lines,[r][l]_ and their homes were only about a kilometer apart.[p]
+Their nearest stations were different but sat along a shared stretch of two private railway lines,[r] [l]and their homes were only about a kilometer apart.[p]
 Meeting at the family restaurant halfway between them after going home had become a regular habit.[p]
 Strictly speaking, it was a little closer to Megumi's home.[p]
 
@@ -335,8 +335,8 @@ Takumi made his voice firm, as if reinforcing his own resolve.[p]
 Megumi nodded and took a sip of her drink.[p]
 
 [auto_chara name="拓海" face="private_normal"]
-“I'll let you know if I make any progress with that plan.[r][l]
-_ But... you had another reason for asking me here today, didn't you?”[p]
+“I'll let you know if I make any progress with that plan.[r] [l]
+But... you had another reason for asking me here today, didn't you?”[p]
 
 Takumi looked at the coffee on the table, prompting her to get to the point.[p]
 
@@ -359,7 +359,7 @@ Takumi looked at the coffee on the table, prompting her to get to the point.[p]
 
 [auto_chara name="恵" face="private_serious"]
 “My mom said she's having someone from work over this Saturday.”[p]
-“She told me not to be home that day.[r][l]_ She wants me to eat dinner somewhere else.”[p]
+“She told me not to be home that day.[r] [l]She wants me to eat dinner somewhere else.”[p]
 
 As she spoke, Megumi repeatedly folded the edge of a paper napkin.[p]
 
@@ -439,8 +439,8 @@ Megumi looked surprised, then gave a quiet laugh.[p]
 
 [auto_chara name="拓海" face="private_normal"]
 “I'm completely serious.”[p]
-“Your mom probably wants you out because she doesn't want to put you in danger.[l]
-_ But if you're with me... maybe she won't have to worry as much.”[p]
+“Your mom probably wants you out because she doesn't want to put you in danger. [l]
+But if you're with me... maybe she won't have to worry as much.”[p]
 
 The moment he finished, his words sounded more intimate than he had intended.[l][r]
 Takumi reached for his coffee and pretended not to watch Megumi's reaction.[p]
@@ -460,8 +460,8 @@ And if it really is him, we can assess the situation for ourselves.”[p]
 [auto_chara name="拓海" face="private_normal"]
 “Exactly.”[p]
 
-Takumi raised one finger.[r][l]
-_ “But I won't use my power while we're there.”[p]
+Takumi raised one finger.[r] [l]
+“But I won't use my power while we're there.”[p]
 
 [auto_chara name="恵" face="private_serious"]
 “Why not?”[p]
@@ -520,9 +520,9 @@ If a server hadn't announced last call, it might have gone on even longer.[p]
 [stopse fadeout=4000]
 [playse storage=se/shower.ogg volume=100]
 After returning home, Takumi soaked in the bath and felt pleasantly tired for the first time in ages.[p]
-He couldn't let himself believe that everything he was doing was good,[r][l]
-_ but the thought that it might help someone made him happy.[r][l]
-_ He had even enjoyed it.[p]
+He couldn't let himself believe that everything he was doing was good,[r] [l]
+but the thought that it might help someone made him happy.[r] [l]
+He had even enjoyed it.[p]
 
 He stared at his open right hand beneath the water.[l][r]
 The joy of perhaps saving someone and the thrill of a chance to test his power carried a very similar warmth.[p]
@@ -563,22 +563,22 @@ Takumi pulled a small canister from his bag.[p]
 “What's this? The label looks suspicious.”[p]
 
 [auto_chara name="拓海" face="private_normal"]
-“Bear spray.[l]_ I borrowed it from my dad's hiking gear.”[p]
+“Bear spray. [l]I borrowed it from my dad's hiking gear.”[p]
 
 [auto_chara name="恵" face="private_serious"]
 “Wait. Is it safe to use this on a person?”[p]
 
 [auto_chara name="拓海" face="private_normal"]
-“Probably not.[l]_ It specifically says, ‘Do not use on humans.’”[p]
+“Probably not. [l]It specifically says, ‘Do not use on humans.’”[p]
 
 [auto_chara name="恵" face="private_serious"]
 “Then we can't use it.”[p]
 
 [auto_chara name="拓海" face="private_normal"]
-“Not on a normal person.[l]_ But if we ever have to use it on someone, I don't think they count as human anymore.”[p]
+“Not on a normal person. [l]But if we ever have to use it on someone, I don't think they count as human anymore.”[p]
 
 [auto_chara name="恵" face="private_laugh"]
-“That's some impressive logic.[l] ...But I do feel a little safer.”[p]
+“That's some impressive logic. [l]...But I do feel a little safer.”[p]
 
 Megumi laughed, but she didn't put the spray back on the table.[l][r]
 She checked the safety catch with her thumb, then slipped it into her coat pocket.[p]
@@ -725,7 +725,7 @@ Despite her words, Megumi smiled.[p]
 For that brief moment, the tension seemed to leave her body.[p]
 
 [auto_chara name="拓海" face="private_normal"]
-“He didn't exactly look like a bad guy.[r][l]_ The two of them seemed distant.”[p]
+“He didn't exactly look like a bad guy.[r] [l]The two of them seemed distant.”[p]
 
 [auto_chara name="恵" face="private_serious"]
 “Really?”[p]
@@ -1185,7 +1185,7 @@ That fact struck Takumi more vividly than the name on the plate.[p]
 
 [wait time=800]
 [bg storage="black.png" time=900]
-Takada has a family...[l]
+Takada has a family... [l]
 [delay speed="90"]
 _ He has children?[p]
 [resetdelay]
