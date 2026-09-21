@@ -2,360 +2,358 @@
 
 *ch6_start
 *chapter6
-[scene_title title="第6章"]
+[scene_title title="Chapter 6"]
 
 [cm]
 [chara_hide_all]
 [clearfix]
 [start_keyconfig]
 [showmenubutton]
-[chapter_title number="第六章" title="赦し"]
+[chapter_title number="Chapter Six" title="Forgiveness"]
 [font speed=50]
 
 [bg storage="bg_hospital_room_day.webp" time=800]
 [playse storage=se/air_noise.ogg loop=true volume=30]
 
-病室は酷く殺風景で、何も描かれていない真っ白なキャンバスを彷彿とさせた。[p]
+The hospital room was stark and barren, like a perfectly white canvas with nothing painted on it.[p]
 [chara_show name="綾香" face="hospital" left=150 top=60 width=470 time=700 wait=false]
 [wait time=1000]
-綾香が目を開けると、天井の蛍光灯がぼんやりと目に入ってくる。[p]
-シーツは冷たく、何日経っても枕の固さがしっくりこない。[p]
-体が少し重くて気だるい。[p]
+When Ayaka opened her eyes, the ceiling's fluorescent lights swam hazily into view.[p]
+The sheets were cold, and even after several days, she still couldn't get used to the firm pillow.[p]
+Her body felt heavy and sluggish.[p]
 [wait time=1000]
-息を吸うと、消毒液の独特の匂いがする。[p]
-「ここに何か色を足すなら、何色にしようか……」[p]
+The sharp smell of disinfectant filled her nose when she breathed in.[p]
+“If I were to add some color here, what color would I choose...?”[p]
 
-答えを探すように、窓の外へ目を向ける。[p]
+She turned her eyes toward the window, as if searching for an answer.[p]
 
-けれど、晴れた空の青さえ、今の綾香にはひどく遠いものに見えた。[p]
+But even the blue of the clear sky seemed terribly far away to Ayaka now.[p]
 
-ぼんやりと考える。[p]
+Her thoughts drifted.[p]
 [chara_hide_all]
-絵の具のパレットを前にしているように、自分の存在が空虚なキャンバスの中に浮かんでいる気がする。[p]
-何も感じない、何もない――それが今の自分だ。[p]
+As if she were sitting before a painter's palette, she imagined herself adrift in the blank canvas.[p]
+Feeling nothing, having nothing—that was who she was now.[p]
 [wait time=1000]
-休みの間、龍也と翔太はどうしているだろうか。[p]
-私のことを心配しているだろうか。[p]
-二人のことが少し気になった。[p]
+What were Ryuya and Shota doing during her absence?[p]
+Were they worried about her?[p]
+She found herself thinking about them.[p]
 
-枕元のスマホへ手を伸ばしかけて、やめる。[p]
+She reached toward the phone beside her pillow, then stopped.[p]
 
-心配していてほしい。けれど、今の自分を見られたくない。[p]
+She wanted them to worry about her. But she didn't want them to see her like this.[p]
 
-相反する気持ちが胸の中でぶつかり、伸ばした指だけが所在なくシーツを掴んだ。[p]
-もともと綾香は、龍也や翔太のような問題児とは一切接点がなかった。[p]
-綾香は、どちらかと言えば人目を避け、静かに絵を描くことに没頭する生徒だった。[p]
-お気に入りの場所は、学校の屋上。[p]
-規則では立ち入り禁止だったが、そこは人目を気にせず、ゆっくりとスケッチを楽しむことができる秘密の場所だった。[p]
+The conflicting feelings collided in her chest, while her outstretched fingers closed aimlessly around the sheet.[p]
+Ayaka had never had anything to do with problem students like Ryuya and Shota.[p]
+If anything, she had been the kind of student who avoided people's eyes and quietly immersed herself in drawing.[p]
+Her favorite place was the school rooftop.[p]
+It was off-limits according to school rules, but it was a secret place where she could sketch in peace without worrying about anyone watching.[p]
 [fadeoutbgm time=3000]
 [stopse fadeout=700]
 [bg storage="bg_rooftop_day2.webp" time=900]
 [playbgm storage="memory_light.ogg" loop=true volume=50 fadein=true time=900]
 [playse storage=se/drawing.ogg volume=100]
-その日も、いつものようにスケッチブックを広げ、風に吹かれる校庭の木々を描いていた。[p]
-足音も話し声も聞こえないこの空間は、綾香にとって至福のひとときだった。[p]
-しかし、突然階段の方から男たちの声が響いてきた。[p]
+That day, as usual, she opened her sketchbook and drew the trees in the schoolyard swaying in the wind.[p]
+This space, where she couldn't hear footsteps or voices, was heaven to Ayaka.[p]
+But suddenly, men's voices echoed from the stairwell.[p]
 [playse storage=se/roof_door.ogg volume=30]
 [wait time=2000]
-驚いて振り向くと、龍也と翔太が屋上に上がり込んできた。[p]
+She turned in surprise and saw Ryuya and Shota coming onto the rooftop.[p]
 [cg storage="ch6_ayaka_episode.webp"]
 [bg storage="ch6_ayaka_episode.webp" time=800]
-「……やば」[p]
+“...Oh, crap.”[p]
 
-綾香の胸が一瞬締め付けられた。[p]
-二人が視界に入った瞬間、固まってしまった。[p]
-誰もが知る問題児の二人が、こんな場所に現れるなんて予想もしていなかったからだ。[p]
-龍也と翔太も一瞬動きを止め、綾香と目を合わせた。[p]
+Ayaka's chest tightened for a moment.[p]
+The instant the two entered her view, she froze.[p]
+She never expected the two notorious troublemakers to show up in a place like this.[p]
+Ryuya and Shota also stopped for a moment and met Ayaka's eyes.[p]
 [bg storage="bg_rooftop_day2.webp" time=900]
 [auto_chara name="翔太" face="normal"]
-微妙な緊張が流れたあと、翔太が「よお」と軽く手を上げ、綾香に近づいてきた。[p]
+After a moment of awkward tension, Shota casually raised a hand and approached Ayaka.[p]
 [auto_chara name="綾香" face="serious" left=0]
-「……」[p]
+“...”[p]
 [wait time=1000]
-平穏を乱されたことにいら立ちを感じた綾香は、無視を決め込む。[p]
-だが、二人は引き下がらなかった。[p]
+Irritated that they had disturbed her peace, Ayaka decided to ignore them.[p]
+But the two didn't back down.[p]
 [auto_chara name="翔太" face="normal"]
-「何描いてんだ？」[p]
+“What are you drawing?”[p]
 
-と興味深そうに綾香のスケッチブックを覗き込む。[p]
-「うわ！」[p]
+he asked, peering into Ayaka's sketchbook with interest.[p]
+“Whoa!”[p]
 
-と翔太が驚きの声を上げた。[p]
-「すっげえ、上手いな！」[p]
+Shota exclaimed in surprise.[p]
+“Wow, you're really good!”[p]
 
-とっさに隠そうとしたスケッチブックを、綾香は胸元で止めた。[p]
+Ayaka started to hide the sketchbook, then stopped with it held against her chest.[p]
 
-からかわれると思っていた。だから、まっすぐな声を受け取る準備ができていなかった。[p]
+She thought they would make fun of her. She wasn't prepared to hear such an earnest voice.[p]
 [chara_hide_all]
-その一言に、綾香は少し胸が高鳴った。[p]
-自分の描いた絵を褒められることが、こんなに嬉しいとは思わなかった。[p]
+That one comment made Ayaka's heart beat a little faster.[p]
+She never expected praise for her drawings to make her so happy.[p]
 [auto_chara name="龍也" face="smile"]
-龍也もスケッチブックを覗き込み、「お前、屋上の使い方、なかなか知ってんじゃん」と呟く。[p]
+Ryuya also looked into the sketchbook and muttered, “You sure know how to use the rooftop.”[p]
 [auto_chara name="綾香" face="serious" left=0]
-「……」[p]
+“...”[p]
 [chara_hide_all]
 [wait time=1000]
-その言葉がなぜか綾香の心に残った。[p]
+For some reason, those words stayed with Ayaka.[p]
 [cg storage="ch6_ayaka_memory.webp"]
 [bg storage="ch6_ayaka_memory.webp" time=800]
-それからというもの、綾香、龍也、翔太は屋上で顔を合わせるようになった。[p]
-最初は偶然のようだったが、次第に三人は一緒に過ごすことが増えた。[p]
+From then on, Ayaka, Ryuya, and Shota began running into each other on the rooftop.[p]
+At first, it seemed like a coincidence, but gradually the three of them began spending more time together.[p]
 
-最初のうちは、二人が来ても綾香はほとんど相手にしなかった。[p]
+At first, Ayaka barely paid attention to them even when they came.[p]
 
-綾香が絵を描いている横で、二人は勝手に喋っていた。[p]
+While Ayaka drew, the two of them talked as they pleased.[p]
 
-それでも、いつからか二人が屋上に来ることが当たり前になっていた。[p]
-
-[wait time=500]
-
-ある日の放課後。[p]
-
-西に傾いた太陽が、屋上を赤く染めていた。[p]
-
-綾香はいつもの場所に座り、スケッチブックに鉛筆を走らせていた。[p]
-
-少し離れたところでは、龍也がフェンスの向こうを眺め、翔太は壁際に座り込んでいる。[p]
+Even so, before long, their coming to the rooftop had become perfectly normal.[p]
 
 [wait time=500]
 
-翔太「なあ、それ何描いてんの？」[p]
+One afternoon after school.[p]
 
-綾香「見ればわかるでしょ」[p]
+The setting sun painted the rooftop red.[p]
 
-翔太「……街？」[p]
+Ayaka sat in her usual spot, moving her pencil across the page.[p]
 
-綾香「空」[p]
-
-翔太「空かよ」[p]
-
-綾香は呆れて顔を上げた。[p]
-
-綾香「本当に絵心ないのね」[p]
-
-翔太「いや、まだ全然描けてねえじゃん」[p]
-
-綾香「途中でも普通わかるでしょ」[p]
-
-翔太「龍也、これ何に見える？」[p]
-
-龍也「知らねえよ」[p]
-
-翔太「ほら、わかんねえじゃん」[p]
-
-綾香「興味ないだけでしょ」[p]
-
-翔太「じゃあ俺の勝ちだな」[p]
-
-綾香「何の勝負よ」[p]
+A short distance away, Ryuya gazed beyond the fence while Shota sat against the wall.[p]
 
 [wait time=500]
 
-翔太が笑う。[p]
+Shota: “Hey, what are you drawing?”[p]
 
-綾香も小さく息を漏らして、再びスケッチブックへ視線を落とした。[p]
+Ayaka: “You can tell by looking.”[p]
 
-しばらく、鉛筆が紙の上を滑る音だけが続いた。[p]
+Shota: “...The city?”[p]
+
+Ayaka: “The sky.”[p]
+
+Shota: “It's the sky?”[p]
+
+Ayaka looked up in exasperation.[p]
+
+Ayaka: “You really have no artistic sense.”[p]
+
+Shota: “You haven't even drawn enough to tell yet.”[p]
+
+Ayaka: “Anyone would be able to tell, even halfway through.”[p]
+
+Shota: “Ryuya, what does this look like to you?”[p]
+
+Ryuya: “How should I know?”[p]
+
+Shota: “See? You can't tell either.”[p]
+
+Ayaka: “You just don't care.”[p]
+
+Shota: “Then I win.”[p]
+
+Ayaka: “What kind of competition is this?”[p]
+
+[wait time=500]
+
+Shota laughed.[p]
+
+Ayaka let out a small breath of laughter too, then lowered her eyes to the sketchbook again.[p]
+
+For a while, the only sound was the pencil sliding across the paper.[p]
 
 [wait time=1000]
 
-翔太「でもさ」[p]
+Shota: “But still...”[p]
 
-綾香「何？」[p]
+Ayaka: “What?”[p]
 
-翔太「こういうの描けるの、普通にすげえよな」[p]
-
-[wait time=500]
-
-思いがけない言葉に、綾香の手が止まった。[p]
-
-綾香「……何よ急に」[p]
-
-翔太「いや、俺には絶対無理だし」[p]
-
-綾香「別に。好きで描いてるだけだから」[p]
-
-龍也「好きなもんがあるだけいいじゃん」[p]
+Shota: “Being able to draw like that is seriously amazing.”[p]
 
 [wait time=500]
 
-綾香は、フェンスの向こうを眺めている龍也に目を向けた。[p]
+Ayaka's hand stopped at the unexpected words.[p]
 
-夕日に照らされた横顔は、いつもより少しだけ大人びて見えた。[p]
+Ayaka: “...Why the sudden compliment?”[p]
 
-綾香「二人はないの？」[p]
+Shota: “I mean, I'd never be able to do it.”[p]
 
-翔太「何が？」[p]
+Ayaka: “It's nothing. I just draw because I like it.”[p]
 
-綾香「好きなこととか、やりたいこと」[p]
-
-翔太「俺？　ゲーム」[p]
-
-綾香「そういうんじゃなくて」[p]
-
-翔太「じゃあ寝ること」[p]
-
-綾香「もういい」[p]
-
-翔太「何でだよ」[p]
+Ryuya: “Having something you like is pretty great.”[p]
 
 [wait time=500]
 
-綾香は呆れながら、今度は龍也を見る。[p]
+Ayaka looked toward Ryuya, who was gazing beyond the fence.[p]
 
-綾香「龍也は？」[p]
+His profile lit by the setting sun looked slightly more mature than usual.[p]
+
+Ayaka: “What about you two?”[p]
+
+Shota: “What about us?”[p]
+
+Ayaka: “Anything you like, or want to do?”[p]
+
+Shota: “Me? Video games.”[p]
+
+Ayaka: “Not that kind of thing.”[p]
+
+Shota: “Then sleeping.”[p]
+
+Ayaka: “Forget it.”[p]
+
+Shota: “Why?”[p]
+
+[wait time=500]
+
+Still exasperated, Ayaka looked at Ryuya instead.[p]
+
+Ayaka: “What about you, Ryuya?”[p]
 
 [wait time=1000]
 
-龍也はすぐには答えなかった。[p]
+Ryuya didn't answer right away.[p]
 
-フェンスにもたれ、腕を組んだまま遠くの街を眺めている。[p]
+He leaned against the fence with his arms crossed, gazing at the distant city.[p]
 
-龍也「……別にねえかな」[p]
+Ryuya: “...Nothing, I guess.”[p]
 
-綾香「何も？」[p]
+Ayaka: “Nothing?”[p]
 
-龍也「思いつかねえ」[p]
+Ryuya: “I can't think of anything.”[p]
 
-翔太「お前、つまんねえ人生だな」[p]
+Shota: “What a boring life you have.”[p]
 
-龍也「お前にだけは言われたくねえよ」[p]
+Ryuya: “You're the last person I want to hear that from.”[p]
 
-翔太「俺はゲームがあるから」[p]
+Shota: “I've got video games.”[p]
 
-龍也「さっき却下されてただろ」[p]
-
-[wait time=500]
-
-綾香は思わず笑った。[p]
-
-けれど、龍也の答えが少しだけ気になった。[p]
-
-[wait time=1000]
-
-綾香「じゃあ、これから見つければいいじゃん」[p]
-
-龍也「何を？」[p]
-
-綾香「好きなこと」[p]
-
-龍也「そんな簡単に見つかるか？」[p]
-
-綾香「知らない。でも、何もないって決めつけるよりはいいでしょ」[p]
-
-[wait time=1000]
-
-龍也は何も答えなかった。[p]
-
-ただ、ほんの少しだけ綾香の方を振り返った。[p]
-
-龍也「……お前は絵なの？」[p]
-
-綾香「今のところはね」[p]
-
-龍也「じゃあ、続ければいいじゃん」[p]
-
-綾香「簡単に言わないでよ」[p]
-
-龍也「好きなんだろ？」[p]
+Ryuya: “You just got rejected.”[p]
 
 [wait time=500]
 
-綾香は答えず、スケッチブックに視線を戻した。[p]
+Ayaka couldn't help laughing.[p]
 
-目の前には、夕日に染まった空が広がっている。[p]
-
-さっきより少しだけ、綺麗に見えた。[p]
+Still, Ryuya's answer bothered her a little.[p]
 
 [wait time=1000]
 
-三人でいる時、何か特別なことをするわけではなかった。[p]
+Ayaka: “Then you can find something from now on.”[p]
 
-綾香は絵を描き、翔太はくだらないことを喋り、龍也は気ままに景色を眺めている。[p]
+Ryuya: “Find what?”[p]
 
-ただ、それだけだった。[p]
+Ayaka: “Something you like.”[p]
 
-それでも綾香は、そんな時間を嫌いではなかった。[p]
+Ryuya: “You think it's that easy?”[p]
+
+Ayaka: “I don't know. But it's better than deciding you have nothing, isn't it?”[p]
+
+[wait time=1000]
+
+Ryuya didn't answer.[p]
+
+He only glanced back at Ayaka ever so slightly.[p]
+
+Ryuya: “...Is drawing your thing?”[p]
+
+Ayaka: “For now.”[p]
+
+Ryuya: “Then keep doing it.”[p]
+
+Ayaka: “Don't make it sound so easy.”[p]
+
+Ryuya: “You like it, don't you?”[p]
 
 [wait time=500]
 
-いつの間にか、一人で過ごしていた屋上は、[r]
-三人で集まる場所になっていた。[p]
+Ayaka didn't answer and turned her eyes back to the sketchbook.[p]
 
-そして二人と過ごす時間が増えるにつれ、[r]
-一人でスケッチブックを開く時間は少しずつ減っていった。[p]
+Before her stretched a sky dyed by the setting sun.[p]
 
-二人と笑っている方が、一人で絵に向き合うよりも心を紛らわせられた。[p]
-絵が嫌いになったわけではない。[p]
-けれど、静かな場所で一人になると胸の奥の空虚さまで浮かび上がるようで、次第に鉛筆を持っても集中できなくなった。[p]
-そうしていつしか、絵を描くことは彼女の心から離れていった。[p]
+It looked a little more beautiful than before.[p]
 
-開かなくなったスケッチブックだけが、机の隅で少しずつ埃をかぶっていった。[p]
+[wait time=1000]
+
+When the three of them were together, they didn't do anything special.[p]
+
+Ayaka drew, Shota talked about pointless things, and Ryuya gazed at the view as he pleased.[p]
+
+That was all.[p]
+
+Even so, Ayaka didn't dislike spending time like that.[p]
+
+[wait time=500]
+
+Before she knew it, the rooftop where she had once spent time alone[r]had become a place where the three of them gathered.[p]
+
+And as the time she spent with them increased,[r]the time she spent opening her sketchbook alone gradually decreased.[p]
+
+Laughing with them distracted her more than facing her drawings alone.[p]
+It wasn't that she had come to hate drawing.[p]
+But whenever she was alone in a quiet place, it felt as though the emptiness inside her rose to the surface, and before long she couldn't concentrate even when she held a pencil.[p]
+And little by little, drawing slipped away from her.[p]
+
+Her unopened sketchbook sat in the corner of her desk, slowly gathering dust.[p]
 
 [wait time=1000]
 
 [fadeoutbgm time=4000]
 [bg storage="bg_hospital_room_day.webp" time=2000]
-三日前に目を覚ましてから、母親が何度か来ていた。[p]
-別に来てくれと頼んだわけでもないが、自分の子供が入院しているのだから、どんな親でも来るよな――と綾香は思った。[p]
-廊下から、看護師に入院中の世話への礼を言う母親の声が聞こえてきた。[p]
-本当に「良い人」を演じるのは得意な母だと、皮肉に思う。[p]
+Her mother had visited several times since Ayaka woke up three days earlier.[p]
+Ayaka hadn't asked her to come, but any parent would visit if their child were hospitalized, she thought.[p]
+From the hallway, she heard her mother thanking the nurse for taking care of her during her stay.[p]
+How ironic that her mother was so good at playing the role of a “good person.”[p]
 [playbgm storage="tension_low.ogg" loop=true volume=20 fadein=true time=900]
 [auto_chara name="綾香の母" face="smile" time=500]
-「起きてたのね」[p]
+“Oh, you're awake.”[p]
 
-その声を聞いた瞬間、綾香の背筋は勝手に伸びた。[p]
+The moment she heard that voice, Ayaka's back straightened on its own.[p]
 
-看護師へ向けていた柔らかな声は、病室へ入るなり温度を失った。[p]
+The gentle voice her mother had used with the nurse lost all warmth the moment she entered the room.[p]
 [auto_chara name="綾香の母" face="normal"]
-「体調はどうなの？」[p]
+“How are you feeling?”[p]
 
-言葉は優しいが、心からの問いかけではないことはもうわかっていた。[p]
+The words sounded kind, but Ayaka already knew they weren't asked out of genuine concern.[p]
 ; 初登場後の会話切り替えは通常速度に戻す。
 [chara_hide_all time=300]
 [chara_show name="綾香" face="hospital" left=150 top=60 width=470 time=300 wait=false]
-「普通」[p]
+“Fine.”[p]
 
-短い言葉なら、余計なものを悟られずに済む。[p]
+Short answers kept her from revealing anything extra.[p]
 
-そう思いながら、綾香はシーツの下で拳を握った。[p]
+Thinking that, Ayaka clenched her fists beneath the sheets.[p]
 [auto_chara name="綾香の母" face="normal"]
-「普通って何よ。ちゃんと自分の状態を伝えなさい」[p]
+“What does ‘fine’ mean? Tell me exactly how you're doing.”[p]
 
-母親はため息混じりに呆れた表情を見せる。[p]
+Her mother sighed and looked exasperated.[p]
 [chara_hide_all time=300]
 [chara_show name="綾香" face="hospital" left=150 top=60 width=470 time=300 wait=false]
-「別に、前と同じ。特に何も変わらない」[p]
+“Nothing. Same as before. Nothing's really changed.”[p]
 [chara_hide_all time=300]
-綾香は冷たいシーツを指先で握った。[p]
-でも、もうこんな会話には慣れてしまっていた。[p]
-中学の時に初めてリストカットをした。[p]
-その時も、最初こそ母親は心配してくれたけれど、結局「本気で死ぬ気がないならやめなさい」と怒鳴られただけだった。[p]
-父親は仕事が忙しいのか、ほとんど家に帰ってこないし、母親はいつも勉強の話ばかりしてくる。[p]
-それに応えるために、自分は良い子を演じようとした。[p]
-だが、もうそんな努力さえ無駄だと悟った。[p]
+Ayaka gripped the cold sheets with her fingertips.[p]
+But she had grown used to conversations like this.[p]
+She had first cut herself in middle school.[p]
+Her mother had worried at first then too, but in the end all she had done was yell, “Stop it if you're not seriously trying to die.”[p]
+Her father was always busy with work and rarely came home, while her mother did nothing but talk about studying.[p]
+To satisfy them, Ayaka had tried to play the role of a good girl.[p]
+But she had finally realized that even those efforts were pointless.[p]
 [chara_hide_all time=300]
 [chara_show name="綾香" face="hospital" left=150 top=60 width=470 time=300 wait=false]
-「どうせ、遅れていく一方だし、何も変わらないよ」[p]
+“I'm only going to fall further behind anyway. Nothing's going to change.”[p]
 
-そう言ったあと、母親は不満そうに眉をひそめた。[p]
+Her mother frowned in displeasure.[p]
 [auto_chara name="綾香の母" face="normal"]
-「そんなこと言ってると、本当に遅れていくわよ。[l]ちゃんと取り戻さないと」[p]
+“If you keep talking like that, you'll really fall behind.[l]You need to catch up properly.”[p]
 [chara_hide_all time=300]
-母親は、体調を心配しているというよりは、授業の進度が遅れることだけを心配しているように言う。[p]
-私の心がどう感じているかなんて、母には興味がない。[p]
+Her mother sounded less concerned about Ayaka's health than about her falling behind in class.[p]
+Her mother didn't care how she felt.[p]
 [auto_chara name="綾香の母" face="normal"]
-「もう、変な幻覚は見てないんでしょ？」[p]
+“You aren't seeing those strange hallucinations anymore, are you?”[p]
 [chara_hide_all time=300]
 [chara_show name="綾香" face="hospital" left=150 top=60 width=470 time=300 wait=false]
-「……」
+“...”
 [wait time=1000]
-母親の言葉に、綾香は少しだけ顔をしかめた。[p]
+Ayaka frowned slightly at her mother's words.[p]
 [chara_hide_all time=300]
-幻覚――あれは本当に幻だったのだろうか？[p]
+Hallucinations—had they really been hallucinations?[p]
 [playse storage=se/heartbeat.ogg loop=true volume=100 fadein=true time=500]
 [wait time=1000]
-あのコンビニでの出来事。[p]
+What happened at the convenience store.[p]
 [playse storage=se/white_noise.ogg volume=100]
 [bg storage="white.png" time=50]
 [wait time=500]
@@ -364,658 +362,657 @@
 [bg storage="white.png" time=30]
 [wait time=500]
 [bg storage="black.png" time=300]
-恐ろしい光景がフラッシュバックする。[p]
-あの瞬間、私は確かに何かを見た。[p]
-それは現実だったようにも思えるが、記憶が曖昧で繋がらない。[p]
-「幻覚じゃなかった。あれは私の脳が体験したんだ」[p]
+A terrifying scene flashed back into her mind.[p]
+Ayaka knew she had seen something at that moment.[p]
+It had felt real, but her memories were hazy and fragmented.[p]
+“It wasn't a hallucination. My brain experienced it.”[p]
 
-綾香は自分自身にそう言い聞かせるように、心の中で繰り返す。[p]
-けれど、周りの大人たちは誰も信じてくれない。[p]
-両親はただ「娘が気を引こうとして騒いでいるだけ」と決めつけた。[p]
-警察沙汰になってしまったことで、事態の収束を急いだようにも思えた。[p]
-以前のリストカットの時と同じだ。[p]
-心配してくれるのは最初だけ。[p]
-すぐに「いつものこと」と片付けられる。[p]
-そうやって綾香の声は、何度もかき消されてきた。[p]
-睡眠薬を一気に飲んで倒れた夜。[p]
-夢の中で男が私の体に覆いかぶさり、何度もその悪夢を見るうちに、もう現実との区別がつかなくなっていった。[p]
-私は狂ってしまったのだろうか？[p]
-それとも、狂わされたのだろうか？[p]
+Ayaka repeated those words silently, as if trying to convince herself.[p]
+But none of the adults around her believed her.[p]
+Her parents simply decided that their daughter was making a fuss to get attention.[p]
+Because the police had become involved, they seemed eager to bring the situation to an end.[p]
+It was the same as when she had cut herself before.[p]
+They worried at first.[p]
+Then they quickly dismissed it as “the usual.”[p]
+That was how Ayaka's voice had been drowned out again and again.[p]
+The night she took a large dose of sleeping pills and collapsed.[p]
+In her dreams, a man covered her body, and after seeing that nightmare over and over, she could no longer tell it apart from reality.[p]
+Had she gone insane?[p]
+Or had someone driven her insane?[p]
 
 [chara_hide_all]
 [bg storage="bg_hospital_room_day.webp" time=800]
 [chara_show name="綾香" face="hospital" left=150 top=60 width=470 time=700 wait=false]
-「幻覚はもう見てないよ」[p]
+“I haven't seen any more hallucinations.”[p]
 
-母の肩から、目に見えて力が抜ける。[p]
+The tension visibly drained from her mother's shoulders.[p]
 
-信じてもらえた安堵ではない。[l]もう面倒を起こさない娘に戻ったと、そう安心されたように見えた。[p]
+It wasn't relief at having believed her.[l]It looked more like relief that her daughter had returned to being someone who wouldn't cause trouble anymore.[p]
 
-母親に返す言葉は淡々としていた。[p]
-でも、自分の中には何かがまだ燻っている気がしてならなかった。[p]
+Ayaka answered her mother flatly.[p]
+But she couldn't shake the feeling that something was still smoldering inside her.[p]
 [chara_hide_all]
 [bg storage="black.png" time=2000]
 [wait time=500]
 [fadeoutbgm time=4000]
 [bg storage="bg_school_gate_evening.webp" time=800]
 [playbgm storage="likeadate.ogg" loop=true volume=80 fadein=true time=4000]
-綾香が入院した事実を知ってから、何日か時間が過ぎた。[p]
-放課後、拓海はいつも通り一人で校門を出て歩いていた。[p]
-少し進んだところで、恵の姿が目に入った。[p]
-恵も一人で歩いている。[p]
-そういえば、家が近いのに、一緒に帰ったことはなかったな、と拓海はふと思う。[p]
-距離が微妙に近すぎず遠すぎない。[p]
-追い越そうかどうか悩むが、なんとなく追い越せない。[p]
-少しずつ距離を詰め、横断歩道で恵が信号待ちで止まると、ついに追いついた。[p]
-拓海が隣に並ぶと、ふと目が合う。[p]
+Several days passed after Takumi learned that Ayaka had been hospitalized.[p]
+After school, Takumi left the school grounds alone as usual.[p]
+A short distance ahead, he spotted Megumi.[p]
+She was walking alone too.[p]
+It occurred to Takumi that, despite living close to each other, they had never gone home together.[p]
+She was at an awkward distance—not quite close, but not far away either.[p]
+He considered passing her, but somehow couldn't bring himself to.[p]
+He slowly caught up, finally reaching her when she stopped at a crosswalk to wait for the light.[p]
+When Takumi came alongside her, their eyes met.[p]
 [auto_chara name="拓海" face="level2_smile"]
-「やあ」[p]
+“Hey.”[p]
 
-と拓海が軽く声をかけると、恵は柔らかく微笑んだ。[p]
+Takumi greeted her casually, and Megumi smiled warmly.[p]
 [auto_chara name="恵" face="laugh"]
-「永山君じゃない」[p]
+“Well, if it isn't Nagayama.”[p]
 [auto_chara name="拓海" face="level2_smile"]
-「あれ、今日は友達と一緒じゃないんだ？」[p]
+“Hey, you're not with your friends today?”[p]
 [auto_chara name="恵" face="normal"]
-「うん、今日は部活の日なんだよね。だから一人で」[p]
+“No, today is a club day, so I'm on my own.”[p]
 [auto_chara name="拓海" face="level2_smile"]
-「そっか。意外と一人で帰ることもあるんだね」[p]
+“I see. I guess you do go home alone sometimes.”[p]
 [auto_chara name="恵" face="laugh"]
-「まあ、たまにはね」[p]
+“Sometimes.”[p]
 
-恵は少し笑みを浮かべながら答える。[p]
+Megumi answered with a faint smile.[p]
 [chara_hide_all]
 
-信号が青に変わり、二人は自然に並んで歩き出した。[p]
+The light turned green, and the two of them naturally began walking side by side.[p]
 
-拓海は無意識に歩幅を緩め、恵の足音に自分の歩調を合わせた。[p]
+Without realizing it, Takumi shortened his stride to match Megumi's footsteps.[p]
 
 [auto_chara name="恵" face="normal"]
-「そういえば、こうやって一緒に帰るのって初めてだよね」[p]
+“You know, this is the first time we've gone home together, isn't it?”[p]
 
-恵に言われて、拓海はこれまでのことを思い返した。[p]
-ファミレスで何度も顔を合わせ、最近では学校の外で会うことも珍しくなくなった。[p]
-それなのに、放課後に二人で並んで駅まで歩いたことは一度もない。[p]
+Megumi's words made Takumi think back over everything.[p]
+They had met many times at the family restaurant, and recently it had become normal to see each other outside school too.[p]
+Even so, they had never walked side by side to the station after school.[p]
 
 [auto_chara name="拓海" face="level2_smile"]
-「確かに。家もそんなに遠くないのに、不思議だね」[p]
+“That's true. It's strange, since we don't live that far apart.”[p]
 
 [auto_chara name="恵" face="normal"]
-「永山君、いつもすぐ帰っちゃうもんね」[p]
+“You always leave right away, Nagayama.”[p]
 
 [auto_chara name="拓海" face="level2_normal"]
-「菊池さんは友達と帰ってることが多いでしょ。声かけるタイミングもないし」[p]
+“You're usually going home with your friends, Kikuchi. I never get the chance to say anything.”[p]
 
-何気なく答えると、恵が少し意外そうな顔をした。[p]
+Megumi looked slightly surprised by his casual answer.[p]
 
 [auto_chara name="恵" face="normal"]
-「ちゃんと見てるんだ」[p]
+“So you do pay attention.”[p]
 
-何気ない一言なのに、見透かされたようで拓海は視線を逸らした。[p]
+It was an offhand comment, but Takumi looked away as if she had seen right through him.[p]
 
 [auto_chara name="拓海" face="level2_smile"]
-「いや、同じクラスなんだから、それくらいはわかるよ」[p]
+“We're in the same class. Of course I notice things like that.”[p]
 
 [auto_chara name="恵" face="laugh"]
-「そっか」[p]
+“I see.”[p]
 
-恵はどこか楽しそうに笑った。[p]
+Megumi laughed, seeming amused by something.[p]
 
-何がおかしかったのかはわからなかったが、拓海もつられて少し笑った。[p]
+Takumi didn't know what was so funny, but he found himself smiling too.[p]
 [chara_hide_all]
 
-考えてみれば、二人で話すようになってから、それなりに時間が経っている。[p]
-それでも、話題のほとんどは例の力のことや、高田のことだった。[p]
+Come to think of it, quite some time had passed since the two of them began talking.[p]
+Even so, most of what they discussed was that power or Takada.[p]
 
-同じクラスにいるのに、恵が普段何をしているのか、何が好きなのか。拓海はほとんど知らない。[p]
+Although they were in the same class, Takumi knew almost nothing about what Megumi usually did or what she liked.[p]
 
 [auto_chara name="拓海" face="level2_normal"]
-「菊池さんって、休みの日は何してるの？」[p]
+“What do you do on your days off, Kikuchi?”[p]
 
 [auto_chara name="恵" face="normal"]
-「え、急にどうしたの？」[p]
+“Huh? Why are you asking all of a sudden?”[p]
 
 [auto_chara name="拓海" face="level2_smile"]
-「いや。そういえば知らないなと思って」[p]
+“I just realized I didn't know.”[p]
 
-恵は少し考えるように視線を上げた。[p]
+Megumi looked up as if thinking.[p]
 
 [auto_chara name="恵" face="normal"]
-「普通だよ。友達と買い物に行ったり、家で動画見たり。あとは、お母さんと出掛けることもあるかな」[p]
+“Nothing special. I go shopping with friends, watch videos at home, and sometimes go out with my mom.”[p]
 
 [auto_chara name="拓海" face="level2_smile"]
-「へえ。お母さんと仲いいんだね」[p]
+“You're close with your mom?”[p]
 
 [auto_chara name="恵" face="happy"]
-「うん。二人しかいないからね」[p]
+“Yeah. It's just the two of us.”[p]
 
-恵はそう言ってから、少しだけ表情を曇らせた。[p]
+Megumi's expression clouded slightly after she said that.[p]
 
-拓海は高田のことを思い出したが、今日はその話をしたくなかった。[p]
-せっかく今までとは違う話をしているのだから、もう少しくらい、この時間を続けてもいい気がした。[p]
+Takumi thought of Takada, but he didn't want to talk about him today.[p]
+Since they were finally talking about something different, he felt they could let the moment continue a little longer.[p]
 
 [auto_chara name="恵" face="normal"]
-「永山君は？」[p]
+“What about you, Nagayama?”[p]
 
 [auto_chara name="拓海" face="level2_surprise"]
-「俺？」[p]
+“Me?”[p]
 
 [auto_chara name="恵" face="tease"]
-「人に聞いておいて、自分は答えないの？」[p]
+“You asked me, but you won't answer?”[p]
 
 [auto_chara name="拓海" face="level2_smile"]
-「ああ、ごめん。俺は……映画を見ることが多いかな」[p]
+“Oh, sorry. I guess I watch a lot of movies.”[p]
 
 [auto_chara name="恵" face="normal"]
-「映画？　なんか意外」[p]
+“Movies? That's unexpected.”[p]
 
 [auto_chara name="拓海" face="level2_surprise"]
-「そう？」[p]
+“Really?”[p]
 
 [auto_chara name="恵" face="normal"]
-「うん。永山君って、あんまりそういう話しないから」[p]
+“Yeah. You don't really talk about things like that.”[p]
 
-言われてみれば、学校で映画の話をした記憶はほとんどなかった。[p]
-そもそも自分の好きなものについて誰かに話すこと自体、最近は少なくなっていた。[p]
+Now that she mentioned it, Takumi could hardly remember ever discussing movies at school.[p]
+He had rarely talked to anyone about the things he liked lately.[p]
 
 [auto_chara name="拓海" face="level2_smile"]
-「サスペンスとか、そういうのが好きなんだ。最後に全部ひっくり返るようなやつ」[p]
+“I like suspense movies, especially ones where everything gets turned upside down at the end.”[p]
 
 [auto_chara name="恵" face="happy"]
-「ああ、好きそう」[p]
+“Yeah, that sounds like you.”[p]
 
 [auto_chara name="拓海" face="level2_surprise"]
-「なんで？」[p]
+“Why?”[p]
 
 [auto_chara name="恵" face="tease"]
-「なんとなく。ずっと犯人とか考えながら見てそうだもん」[p]
+“Just a feeling. You seem like the kind of person who spends the whole movie trying to figure out who the culprit is.”[p]
 
 [auto_chara name="拓海" face="level2_smile"]
-「まあ、それは考えるけど」[p]
+“Well, I do.”[p]
 
-図星だったので、拓海は苦笑した。[p]
+Since she had hit the mark, Takumi gave an awkward laugh.[p]
 
-「でも、途中で犯人がわかるとちょっと嬉しくない？」[p]
+“But isn't it kind of fun when you figure out who the culprit is halfway through?”[p]
 
 [auto_chara name="恵" face="normal"]
-「私は嫌だなあ。当てちゃったら最後に驚けないじゃん」[p]
+“I don't like it. If you guess right, you can't be surprised at the end.”[p]
 
 [auto_chara name="拓海" face="level2_smile"]
-「いや、当たった時が楽しいんだよ。ちゃんと伏線を見つけられたってことだから」[p]
+“No, getting it right is the fun part. It means you noticed the clues.”[p]
 
 [auto_chara name="恵" face="tease"]
-「じゃあ永山君と一緒に映画見たくないな。途中で『こいつが犯人だと思う』とか言いそう」[p]
+“Then I don't want to watch a movie with you, Nagayama. You'd probably say, ‘I think that guy's the culprit.’”[p]
 
 [auto_chara name="拓海" face="level2_panic"]
-「言わないよ。さすがにそれくらいの常識はあるよ」[p]
+“I wouldn't. Even I have that much common sense.”[p]
 
-恵が声を出して笑った。[p]
+Megumi burst out laughing.[p]
 
 [auto_chara name="恵" face="laugh"]
-「よかった」[p]
+“Good.”[p]
 
 [auto_chara name="拓海" face="level2_panic"]
-「俺、そんなに面倒な人だと思われてた？」[p]
+“Did you really think I was that annoying?”[p]
 
 [auto_chara name="恵" face="happy"]
-「そこまでは言ってないよ」[p]
+“I didn't say that.”[p]
 
-否定している割には、まだ笑っている。[p]
+She was still laughing despite denying it.[p]
 
-拓海もつられて笑いながら、妙な感覚を覚えた。[p]
+Takumi laughed along and felt something strange.[p]
 
-こんな話をしたのはいつ以来だろう。[p]
+How long had it been since he last had a conversation like this?[p]
 
-映画の話をしている間だけは、自分の手が誰かを傷つけられることを忘れていられた。[p]
+While talking about movies, he could forget that his hands were capable of hurting someone.[p]
 
-誰かと好きな映画の話をして、くだらないことで笑う。それだけのことなのに、最近の自分には随分遠いものになっていた。[p]
+Talking about favorite movies with someone and laughing over something silly—those things were simple, but lately they had felt impossibly distant.[p]
 
 [auto_chara name="拓海" face="level2_smile"]
-「じゃあ、菊池さんはどんな映画見るの？」[p]
+“What kind of movies do you watch, Kikuchi?”[p]
 
 [auto_chara name="恵" face="happy"]
-「私は何でも見るよ。恋愛ものも見るし、コメディも好きだし」[p]
+“I watch everything. Romance, comedy... I like all kinds of movies.”[p]
 
 [auto_chara name="拓海" face="level2_normal"]
-「サスペンスは？」[p]
+“What about suspense?”[p]
 
 [auto_chara name="恵" face="troubled_smile"]
-「見るけど、怖いやつはちょっと苦手」[p]
+“I watch it, but I'm not great with really scary ones.”[p]
 
 [auto_chara name="拓海" face="level2_surprise"]
-「サスペンスとホラーは別じゃない？」[p]
+“Isn't suspense different from horror?”[p]
 
 [auto_chara name="恵" face="laugh"]
-「でも永山君、普通のサスペンスじゃ物足りないとか言いそう」[p]
+“But you seem like the type to say ordinary suspense isn't exciting enough.”[p]
 
 [auto_chara name="拓海" face="level2_smile"]
-「そんなことないよ」[p]
+“I don't say things like that.”[p]
 
 [auto_chara name="恵" face="laugh"]
-「本当に？　人がいっぱい死ぬやつとか好きそうだけど」[p]
+“Really? You look like you'd enjoy movies where lots of people die.”[p]
 
 [auto_chara name="拓海" face="level2_smile"]
-「……まあ、嫌いではないかな」[p]
+“...I don't hate them.”[p]
 
 [auto_chara name="恵" face="tease"]
-「ほら」[p]
+“See?”[p]
 
-なぜか勝ち誇ったような顔をされてしまった。[p]
+For some reason, she looked triumphant.[p]
 [chara_hide_all]
 
-しばらく歩くと、駅前へ続く大通りが見えてきた。いつも一人で歩いている道なのに、今日は少し短く感じる。[p]
+After walking a while, they could see the main street leading to the station. The road felt a little shorter than usual.[p]
 
 [auto_chara name="恵" face="normal"]
-「そういえばさ」[p]
+“Speaking of which...”[p]
 
-今度は恵の方から話しかけてきた。[p]
+This time, Megumi was the one to start a conversation.[p]
 
-「永山君って、大学で何を勉強したいとか、もう決めてる？」[p]
+“What do you want to study in college, Nagayama? Have you decided yet?”[p]
 
 [auto_chara name="拓海" face="level2_surprise"]
-「大学？」[p]
+“College?”[p]
 
-突然話題が変わり、拓海は少し考えた。[p]
+The sudden change of subject made Takumi think.[p]
 [chara_hide_all]
 
-黒森学園では、二年生になると進路について聞かれる機会が一気に増える。[p]
-志望校については拓海もある程度考えていたし、成績から現実的な候補も絞り始めていた。[p]
+At Kuromori Academy, students were asked about their plans for the future much more often once they reached their second year.[p]
+Takumi had given some thought to schools he wanted to apply to, and had begun narrowing down realistic options based on his grades.[p]
 
-ただ、大学に入って何をしたいのかと聞かれると、途端に答えが曖昧になる。[p]
+But when asked what he wanted to do after entering college, his answer suddenly became vague.[p]
 
 [auto_chara name="拓海" face="level2_normal"]
-「まだ、はっきりとは決めてないかな。志望校はいくつか考えてるけど、学部は迷ってる」[p]
+“I haven't decided yet. I have a few schools in mind, but I'm still unsure about my major.”[p]
 
 [auto_chara name="恵" face="surprise"]
-「意外。永山君なら、もう全部決めてるのかと思ってた」[p]
+“Really? I thought you'd have everything figured out by now, Nagayama.”[p]
 
 [auto_chara name="拓海" face="level2_smile"]
-「そんなことないよ。菊池さんこそ、ちゃんと決めてそうだけど」[p]
+“Not at all. What about you, Kikuchi? You seem like you'd have it all planned out.”[p]
 
 [auto_chara name="恵" face="normal"]
-「私も同じ。大学は何となく考えてるけど、その先は全然」[p]
+“I'm the same. I have a vague idea about college, but nothing beyond that.”[p]
 
 [auto_chara name="拓海" face="level2_normal"]
-「そっか」[p]
+“I see.”[p]
 
 [auto_chara name="恵" face="normal"]
-「うん」[p]
+“Yeah.”[p]
 
-少しの間、二人の足音だけが続いた。[p]
+For a while, only their footsteps continued.[p]
 [chara_hide_all]
 
-これまで拓海にとって進路とは、偏差値や模試の判定を見ながら選ぶものだった。[p]
-どの大学なら狙えるのか。どこまで成績を上げればいいのか。そういうことなら考えられる。[p]
+Until then, Takumi had thought of choosing a future based on his deviation score and mock-exam results.[p]
+Which universities could he aim for? How much would he need to improve his grades? Those were things he could think about.[p]
 
-けれど、その先に自分が何をしているのかは、うまく想像できなかった。[p]
+But he couldn't clearly imagine what he would be doing beyond that.[p]
 
 [auto_chara name="恵" face="normal"]
-「永山君はさ」[p]
+“What about you, Nagayama?”[p]
 
-恵が少し考えながら言った。[p]
+Megumi spoke while thinking.[p]
 
-「将来、何になりたいとかある？」[p]
+“Do you have a dream for the future?”[p]
 
 [auto_chara name="拓海" face="level2_normal"]
-「……将来か」[p]
+“...The future?”[p]
 
-拓海は思わず空を見上げた。[p]
+Takumi looked up at the sky without thinking.[p]
 [chara_hide_all]
 
-すぐに答えが浮かんでくるような質問ではなかった。[p]
+It wasn't the kind of question he could answer immediately.[p]
 
-子供の頃なら、もっと簡単に答えられた気がする。[p]
-けれど高校生になった今は、大学の名前や偏差値ばかりが現実味を持って、その先にいる自分の姿はぼんやりと霞んでいる。[p]
-
-[auto_chara name="拓海" face="level2_normal"]
-「わからないな。考えたことはあるけど、これになりたいっていうのは、まだないかも」[p]
-
-[auto_chara name="恵" face="normal"]
-「そっか」[p]
+When he was a child, he felt he could have answered more easily.[p]
+But now that he was in high school, the names and deviation scores of universities felt real, while the image of himself beyond them remained blurred.[p]
 
 [auto_chara name="拓海" face="level2_normal"]
-「菊池さんは？」[p]
+“I don't know. I've thought about it, but I don't think there's anything specific I want to become yet.”[p]
 
 [auto_chara name="恵" face="normal"]
-「私もわからない」[p]
+“I see.”[p]
 
-恵はあっさり答えた。[p]
+[auto_chara name="拓海" face="level2_normal"]
+“What about you, Kikuchi?”[p]
+
+[auto_chara name="恵" face="normal"]
+“I don't know either.”[p]
+
+Megumi answered matter-of-factly.[p]
 
 [auto_chara name="拓海" face="level2_smile"]
-「人に聞いておいて？」[p]
+“After asking me?”[p]
 
-拓海が笑うと、恵も笑った。[p]
+Takumi laughed, and Megumi laughed too.[p]
 
 [auto_chara name="恵" face="laugh"]
-「だから聞いたの。みんなちゃんと決めてるのかなって、ちょっと気になって」[p]
+“That's why I asked. I was wondering whether everyone else had already decided.”[p]
 
 [auto_chara name="拓海" face="level2_smile"]
-「なんだ。菊池さんも同じなんだね」[p]
+“I see. So you're just like me, Kikuchi.”[p]
 
 [auto_chara name="恵" face="troubled_smile"]
-「同じだよ。私だって、そんな何でもちゃんとしてるわけじゃないから」[p]
+“I am. It's not like I have everything figured out.”[p]
 
-恵は笑っていたが、その言葉だけが妙に拓海の耳に残った。[p]
+Megumi was smiling, but those words lingered strangely in Takumi's ears.[p]
 
-拓海は恵のことを、何となく自分とは違う人間だと思っていた。[p]
-成績が良くて、友達もいて、誰とでも自然に話すことができる。困っている人を見つければ迷わず手を差し伸べる。[p]
+Takumi had always thought of Megumi as someone different from him.[p]
+She got good grades, had friends, and could talk naturally with anyone. If she saw someone in trouble, she reached out without hesitation.[p]
 
-自分よりずっと迷いなく生きているように見えていた。[p]
+She seemed to live with far fewer doubts than he did.[p]
 
-けれど、そんな彼女にも、わからないことや迷っていることがあるらしい。[p]
+But apparently even she had things she didn't know and questions she was struggling with.[p]
 
-当たり前のことなのに、今まで考えたことがなかった。[p]
+It was obvious, yet he had never thought about it before.[p]
 
 [auto_chara name="恵" face="normal"]
-「まあ、まだ二年生だしね」[p]
+“Besides, we're only second-years.”[p]
 
-恵が前を向いたまま言った。[p]
+Megumi said it while looking ahead.[p]
 
 [auto_chara name="恵" face="happy"]
-「これから見つければいいんじゃない？」[p]
+“We can find something from here on out.”[p]
 
 [auto_chara name="拓海" face="level2_smile"]
-「そうだね」[p]
+“Yeah.”[p]
 
-拓海も頷いた。[p]
+Takumi nodded.[p]
 
-「菊池さんが言うと、なんか大丈夫な気がする」[p]
+“When you say it, Kikuchi, it somehow feels like everything will be okay.”[p]
 
 [auto_chara name="恵" face="laugh"]
-「何それ」[p]
+“What does that mean?”[p]
 
 [auto_chara name="拓海" face="level2_shysmile"]
-「いや、褒めてるよ」[p]
+“I mean it as a compliment.”[p]
 
 [auto_chara name="恵" face="tease"]
-「本当に？」[p]
+“Really?”[p]
 
 [auto_chara name="拓海" face="level2_smile"]
-「本当に」[p]
+“Really.”[p]
 
-恵は疑うように拓海を見たあと、少しだけ笑った。[p]
+Megumi looked at Takumi suspiciously, then smiled faintly.[p]
 [chara_hide_all]
 
-話しているうちに、いつの間にか駅まで来ていた。[p]
+By the time they finished talking, they had reached the station.[p]
 
-普段ならもう少し時間がかかっている気がする。[p]
+It usually felt as though it took a little longer.[p]
 
-そんなはずはないのだが、今日は随分早く着いたように感じた。[p]
+It shouldn't have been any different, but today it seemed as though they had arrived unusually quickly.[p]
 
 [bg storage="bg_station_platform_evening.webp" time=700]
 
 [playse storage=se/station_noise.ogg loop=true volume=100]
-駅のホームは黒森学園の生徒たちでごった返している。[p]
-二人は無意識のうちにホームの端まで歩き、少し離れた場所で電車を待った。[p]
-ここなら、同じ学校の生徒も少ない。[p]
+The station platform was crowded with students from Kuromori Academy.[p]
+Without thinking, the two of them walked to the far end of the platform and waited for the train a short distance apart.[p]
+There were fewer students from their school there.[p]
 [auto_chara name="恵" face="normal"]
-「そういえばさ」[p]
+“Speaking of which...”[p]
 
-と恵が口を開く。[p]
-「綾香の病院、わかったよ。聖ルカ病院に入院しているらしい」[p]
+Megumi began.[p]
+“I found out which hospital Ayaka is in. Apparently she's at St. Luke's Hospital.”[p]
 [auto_chara name="拓海" face="level2_smile"]
-「そっか、意外と近いところなんだね。[l]調べてくれてありがとう」[p]
+“I see. That's closer than I expected.[l]Thanks for looking into it.”[p]
 
-拓海は礼を言う。[p]
+Takumi thanked her.[p]
 [auto_chara name="恵" face="sad"]
-「でも、面会謝絶なんだって」[p]
+“But she isn't accepting visitors.”[p]
 [auto_chara name="拓海" face="level2_normal"]
-「面会謝絶……それってどういうこと。[l]感染症対策？」[p]
+“Not accepting visitors... What does that mean?[l]Is it because of infection-control measures?”[p]
 [auto_chara name="恵" face="sad"]
-「うーん、それもあるかもだけど。[l]本人が家族以外と会いたくないって言ってる可能性もあるかもね」[p]
+“Maybe, but...[l]She might have said she doesn't want to see anyone except family.”[p]
 [auto_chara name="拓海" face="level2_normal"]
-「そうか……それじゃ仕方ないね」[p]
+“I see... Then there's nothing we can do.”[p]
 
-詰めていた息が、先に抜けた。[p]
-それに気づいた拓海は、自分を嫌悪して恵から目を逸らした。[p]
+The breath he had been holding escaped first.[p]
+Realizing it, Takumi hated himself and looked away from Megumi.[p]
 [auto_chara name="恵" face="serious"]
-「早く退院できるように祈ろう」[p]
+“Let's pray she can leave the hospital soon.”[p]
 
-恵が静かに言う。[p]
+Megumi spoke quietly.[p]
 [auto_chara name="拓海" face="level2_normal"]
-「そうだね、祈ろう」[p]
+“Yeah. Let's pray.”[p]
 
-拓海も頷く。[p]
+Takumi nodded.[p]
 [auto_chara name="恵" face="normal"]
-「退院したら、家に会いに行けばいいよ」[p]
+“Once she's discharged, you can go see her at home.”[p]
 [auto_chara name="拓海" face="level2_normal"]
-「それもそうだね」[p]
+“That's true.”[p]
 [chara_hide_all]
 
 [playse storage=se/train_coming2.ogg volume=100]
 [wait time=3000]
-男子生徒たちが大きな声で談笑しているのがホームに響いている。[p]
+The loud conversation of some male students echoed across the platform.[p]
 [wait time=2000]
-しばらくの沈黙の後、恵が躊躇いがちに口を開いた。[p]
+After a brief silence, Megumi hesitantly began to speak.[p]
 [wait time=500]
 [auto_chara name="恵" face="serious"]
-「ねえ、永山君に聞きたいことがあるんだけど……」[p]
+“Hey, there's something I want to ask you, Nagayama...”[p]
 [auto_chara name="拓海" face="level2_normal"]
-「何？」[p]
+“What?”[p]
 [auto_chara name="恵" face="serious"]
 [stopbgm]
 [stopse]
-「綾香のこと、こうなるって予想してた？」[p]
+“Did you expect something like this to happen to Ayaka?”[p]
 
-胸の奥を直接指で押されたように、拓海の呼吸が浅くなる。[p]
+Takumi's breathing grew shallow, as if someone had pressed a finger directly into his chest.[p]
 
-恵は言葉を選ぶように慎重に問いかけた。[p]
+Megumi asked cautiously, choosing her words carefully.[p]
 [wait time=2000]
 [auto_chara name="拓海" face="level2_panic"]
 [playse storage=se/station_noise.ogg loop=true volume=60]
-「そんなわけないだろ！」[p]
+“Of course not!”[p]
 
-拓海は思わず声が大きくなってしまい、周りを気にして少し声を落とす。[p]
-「ごめん、大きな声が出た」[p]
+Takumi's voice rose before he could stop it, and he lowered it as he glanced around.[p]
+“Sorry. I didn't mean to raise my voice.”[p]
 [auto_chara name="恵" face="normal"]
-「それを聞いて、少し安心したよ」[p]
+“Hearing that makes me feel a little better.”[p]
 
-恵は微笑む。[p]
+Megumi smiled.[p]
 [auto_chara name="恵" face="laugh"]
-「人を自殺に追い込むほど冷たい人には見えないから」[p]
+“You don't look cold enough to drive someone to suicide.”[p]
 
-拓海はすぐには笑い返せなかった。[p]
+Takumi couldn't smile back right away.[p]
 
-電車がホームへ滑り込み、開いたドアから人の波が吐き出される。[l][r]
-肩が触れそうになるたびに半歩ずつ避けながら、恵だけはその場を動かなかった。[p]
+The train slid into the platform, and a wave of people poured through the open doors.[l][r]
+Megumi stayed where she was, taking half a step aside whenever someone nearly brushed her shoulder.[p]
 
-その姿が、自分の答えを待ってくれているように見えた。[p]
+She looked as though she were waiting for his answer.[p]
 [auto_chara name="拓海" face="level2_panic"]
-「それ、褒められてるんだよね？」[p]
+“That was a compliment, right?”[p]
 
-拓海は複雑な表情を浮かべる。[p]
+Takumi made a complicated face.[p]
 [auto_chara name="拓海" face="level2_depressed"]
-「あのときは自分がやられたことを仕返ししてやるって気持ちだった。[l][r]
-翔太の時みたいに、何日か休んでまた学校に来るかなって考えてた。[p]
-でもそうじゃなかった。[p]
-自殺未遂なんてしてしまうくらいならやらなかったよ。[l][r]
-結果的に綾香を追い詰めたのは俺だ。反省してる」[p]
+“At the time, I just wanted to get back at them for what they'd done to me.[l][r]
+I thought they might stay home for a few days like Shota and then come back to school.[p]
+But that didn't happen.[p]
+If I'd known it would push Ayaka that far, I never would've done it.[l][r]
+I was the one who drove her to that point. I regret it.”[p]
 [auto_chara name="恵" face="sad"]
-恵は静かに頷いて、拓海の言葉を受け止めた。[p]
+Megumi nodded quietly and accepted Takumi's words.[p]
 
-責めることも、簡単に許すこともしない。[l]その沈黙が、拓海にはかえってありがたかった。[p]
-「そうね……[l]でもやらなければもっと酷い目にあっていたかもしれないもんね」[p]
+She didn't blame him, but she didn't offer him easy forgiveness either.[l]That silence was more comforting to Takumi than it should have been.[p]
+“You're right...[l]But if you hadn't done it, they might have hurt you even worse.”[p]
 [auto_chara name="拓海" face="level2_normal"]
-「うん。翔太のことで二人とも俺を疑ってたから」[p]
+“Yeah. They both suspected me because of what happened with Shota.”[p]
 [auto_chara name="恵" face="serious"]
-「どうするのが最善だったんだろう」[p]
+“What would have been the best thing to do?”[p]
 [auto_chara name="拓海" face="level2_normal"]
-「俺もずっとそれで悩んでいたんだけど」[p]
+“I've been struggling with that too.”[p]
 [auto_chara name="恵" face="serious"]
-「龍也くんはまだ疑ったままだもんね」[p]
+“Ryuya still suspects you, doesn't he?”[p]
 [auto_chara name="拓海" face="level2_normal"]
-「そうなんだよ。それで……ひとつお願いがあるんだ」[p]
+“He does. So... I have a favor to ask.”[p]
 
-拓海は少し息を整えながら話し出した。[p]
+Takumi began speaking after taking a moment to steady his breathing.[p]
 [chara_hide_all]
 [bg storage="black.png" time=2000]
 [stopse fadeout=3000]
 [wait time=1000]
 [bg storage="bg_rooftop_day.webp" time=600]
 [playse storage=se/wind_rooftop.ogg volume=30]
-次の日の放課後、拓海は龍也を屋上に呼び出した。[p]
+The next day after school, Takumi called Ryuya to the rooftop.[p]
 [chara_show name="拓海" face="level2_normal" left=-100 time=300]
-恵も一緒だ。[p]
+Megumi was with him.[p]
 [chara_show name="恵" face="serious" left=400 time=300]
-二人でこの場に臨む覚悟を固めていた。[p]
-呼び出しに応じ、龍也はすぐに現れた。[p]
-扉の音を待ちながら、今度は自分が龍也を呼び出したのだと実感する。[p]
+The two of them had steeled themselves to face what was coming.[p]
+Ryuya answered the summons and soon appeared.[p]
+As he waited for the door to open, Takumi realized that this time, he was the one who had called Ryuya there.[p]
 [auto_chara name="龍也" face="angry" time=150]
 [playbgm storage="tension_low.ogg" loop=true volume=100 fadein=true time=1500]
-「俺を呼び出すとは、いい度胸だな」[p]
+“Got some nerve calling me out here.”[p]
 
-龍也の苛立ちは隠せない。声が荒々しい。[p]
+Ryuya made no effort to hide his irritation. His voice was rough.[p]
 [auto_chara name="拓海" face="level2_normal"]
-「綾香の自殺未遂について話があるんだ。龍也も気になってたでしょ？」[p]
-「それに関して、事実を知っている菊池さんにも来てもらったんだ」[p]
+“I want to talk about Ayaka's suicide attempt. You were worried about her too, weren't you?”[p]
+“I also asked Kikuchi to come because she knows what happened.”[p]
 
-拓海は冷静に話し始める。[p]
+Takumi began speaking calmly.[p]
 [auto_chara name="龍也" face="angry"]
-「ほう……やっぱりお前が関係してたんだな。[l]ようやく口を割る気になったのかよ？」[p]
+“Huh... So you were involved after all.[l]Finally ready to confess?”[p]
 
-龍也は顔を歪める。[p]
+Ryuya's face twisted.[p]
 [auto_chara name="拓海" face="level2_normal"]
-「その前に、まず知ってほしいことがあるんだ」[p]
+“Before that, there's something I want you to know.”[p]
 
-拓海は少し間を取って言葉を選んだ。[p]
+Takumi paused briefly, choosing his words.[p]
 [auto_chara name="龍也" face="angry"]
-「もったいぶらずに、さっさと喋れよ！」[p]
+“Quit dragging it out and talk!”[p]
 
-龍也が一歩前に詰め寄る。[p]
+Ryuya stepped toward him.[p]
 
 [auto_chara name="拓海" face="level2_normal"]
-「俺には……不思議な力がある。[l]人に狙った通りの幻を見させることができる」[p]
+“I have... a strange power.[l]I can make people see whatever hallucination I want.”[p]
 
-拓海は両手を龍也から見える位置に置いた。[p]
+Takumi held both hands where Ryuya could see them.[p]
 
-何もしていないと示す仕草そのものが、もう脅しになり得ることに気づいて、指先が震えた。[p]
+His fingers trembled as he realized that even a gesture meant to show he wasn't doing anything could now come across as a threat.[p]
 [chara_hide_all]
 
-拓海は短く、はっきりと言った。[p]
-龍也は一瞬呆気に取られたようだったが、すぐに笑い出す。[p]
-その笑いはじわじわと大きくなり、やがて嘲笑へと変わる。[p]
+Takumi stated it briefly and clearly.[p]
+Ryuya seemed stunned for a moment, but soon began to laugh.[p]
+His laughter gradually grew louder before turning into open ridicule.[p]
 [auto_chara name="龍也" face="smile"]
-「何を言い出すかと思ったら。お前、頭大丈夫か？[l]とんだイカレ野郎だな」[p]
+“I was wondering what you'd say. Are you out of your mind?[l]What a total nutcase.”[p]
 
-龍也は笑いながら自分の頭を指差して回すジェスチャーをした。[p]
+Laughing, Ryuya pointed at his head and made a circling gesture.[p]
 [auto_chara name="恵" face="serious"]
-「北川君、これは本当なの。私も最初は信じられなかったけど、嘘じゃないのよ」[p]
+“Kitagawa, it's true. I didn't believe it at first either, but he's not lying.”[p]
 
-恵が穏やかにフォローを入れた。[p]
-龍也は少しだけその言葉に反応する。[p]
+Megumi calmly backed him up.[p]
+Ryuya reacted slightly to her words.[p]
 [auto_chara name="拓海" face="level2_normal"]
-拓海は龍也の反応を気にせず、続けた。[p]
-「この力に初めて気づいたのは夏休み明けの頃だった。覚えてるかな？[l]俺が学校をしばらく休んでいた時があったでしょ」[p]
-「あの時、自分自身にこの力を使ってしまったんだ」[p]
-「自分が飛び降り、地面でぐちゃぐちゃになった姿を……[l]体験したんだよ」[p]
+Takumi continued without worrying about Ryuya's reaction.[p]
+“I first noticed this power around the end of summer vacation. Do you remember?[l]There was a period when I stopped coming to school.”[p]
+“Back then, I used this power on myself.”[p]
+“I experienced myself jumping and hitting the ground,[l]my body smashed to pieces...”[p]
 [auto_chara name="龍也" face="angry"]
-龍也は目を細め、じっと拓海を見つめる。[p]
-「そんな話、信じられるかよ」[p]
+Ryuya narrowed his eyes and stared at Takumi.[p]
+“You expect me to believe that?”[p]
 
-吐き捨てるように言う。[p]
+He spat the words out.[p]
 [auto_chara name="拓海" face="level2_normal"]
-「そして、翔太にもこの力を使った」[p]
+“And I used this power on Shota.”[p]
 [auto_chara name="龍也" face="angry"]
-「やっぱりお前が絡んでたんだな！」[p]
+“So you were behind it after all!”[p]
 
-龍也は怒りに震え、拳を握りしめる。[p]
+Ryuya trembled with anger and clenched his fists.[p]
 [auto_chara name="拓海" face="level2_normal"]
-「翔太には……龍也が目の中にタバコを押し付ける幻を見せた。[l]あれで翔太は混乱して……」[p]
+“I made Shota see a hallucination of you pressing a cigarette into his eye.[l]It confused him...”[p]
 
-拓海は一瞬言葉を詰まらせる。[p]
-重たい沈黙が流れた。[p]
-拓海の心臓の鼓動が耳に届くようだった。[p]
+Takumi faltered for a moment.[p]
+A heavy silence fell.[p]
+He could hear his heartbeat in his ears.[p]
 [fadeoutbgm time=3000]
 [playbgm storage="tension_high.ogg" loop=true volume=50 fadein=true time=1500]
 [auto_chara name="拓海" face="level2_depressed"]
 [wait time=2000]
-「そして、綾香には……[l]バイト先の店長にレイプされる幻を見せたんだ」[p]
+“And for Ayaka...[l]I made her see the manager at her part-time job raping her.”[p]
 
-口にした途端、言葉が現実の重さを持って足元へ落ちた。[p]
+Once he said it aloud, the words took on a crushing reality.[p]
 
-その言葉に、龍也は一瞬凍りついたかのように見えた。[p]
-だが、すぐに顔をしかめ、嘲笑を浮かべる。[p]
+Ryuya seemed to freeze for an instant.[p]
+But he soon frowned and sneered.[p]
 [auto_chara name="龍也" face="smile"]
-「ふざけるな。そんなことができるわけないだろう！」[p]
+“Don't be ridiculous. There's no way you can do that!”[p]
 [auto_chara name="恵" face="serious"]
-「でも、実際に起こったの」[p]
-「私もその直後、綾香と話したわ。店長にレイプされたってパニック状態だった。[l]
-警察まで来て大騒ぎになったんだよ」[p]
+“But it happened.”[p]
+“I spoke to Ayaka right afterward. She was panicking and saying the manager had raped her.[l]The police even came, and it turned into a huge commotion.”[p]
 
-恵が真剣な表情で龍也に伝える。[p]
+Megumi explained seriously.[p]
 [auto_chara name="龍也" face="angry"]
-「……」[p]
+“...”[p]
 [wait time=1000]
-龍也は顔をしかめたまま、無言で立ち尽くしていた。[p]
-話の筋が自分の記憶と合致していることに気づき、龍也は次第に冷静になっていった。[p]
-信じたくはない。だが、翔太と綾香に起きた異変を説明できるのも、目の前の話だけだった。[p]
-否定する言葉を探しながらも、確かめずにはいられなかった。[p]
+Ryuya stood there silently, still frowning.[p]
+As he realized that the story matched what he remembered, Ryuya gradually regained his composure.[p]
+He didn't want to believe it. But this was the only explanation for what had happened to Shota and Ayaka.[p]
+He searched for some way to deny it, yet couldn't stop himself from asking.[p]
 [auto_chara name="龍也" face="normal"]
-「なるほど、話は……筋が通ってるな。でも一体どうやってそんなことができるって言うんだよ」[p]
+“All right, the story... makes sense. But how the hell do you do something like that?”[p]
 [auto_chara name="拓海" face="level2_normal"]
-「残酷な想像をして、手を触れて念じるんだ」[p]
+“I picture something horrible, touch them, and focus on it.”[p]
 [auto_chara name="龍也" face="normal"]
-「なんだそれ。触れるだけだと？」[p]
+“What, just by touching them?”[p]
 [auto_chara name="拓海" face="level2_normal"]
-「手を触れたときに時間が止まったみたいにスローモーションになるんだ」[p]
+“When I touch someone, time seems to slow down like it's stopped.”[p]
 [auto_chara name="龍也" face="normal"]
-「ますます信じ難いな……」[p]
+“That makes it even harder to believe...”[p]
 [auto_chara name="拓海" face="level2_normal"]
-「俺にも、まだよく分かっていないところがあるんだ」[p]
+“There are still things I don't understand about it myself.”[p]
 [auto_chara name="龍也" face="normal"]
 *ch6_retry_context_illusion_judgment
-「まあいい。お前はそうやって、あいつらに復讐をしたわけだろ」[p]
+“So you used it to get revenge on those two, right?”[p]
 [auto_chara name="拓海" face="level2_depressed"]
-「復讐……そう言われたら、そうだったのかもしれない。[l]あの時は……やり返してやるって気持ちだったよ」[p]
+“Revenge... I guess that's what it was.[l]Back then... I wanted to get back at them.”[p]
 [auto_chara name="龍也" face="angry"]
-「次は俺の番か？ナイフで切り刻む幻でも見せる気か？」[p]
+“Am I next? Are you going to make me see a hallucination of being carved up with a knife?”[p]
 
-龍也は拓海の目の前まで詰め寄る。[p]
+Ryuya moved right up in front of Takumi.[p]
 [playse storage=se/tie.ogg volume=100]
-彼の手が拓海のネクタイを掴み、ぐいっと引き上げた。[p]
+He grabbed Takumi's tie and yanked it upward.[p]
 [auto_chara name="拓海" face="level2_panic"]
-「違うんだ。なぜこんなことをしなくてはならなかったのかを知ってもらいたいだけなんだ」[p]
+“No. I just want you to understand why I had to do those things.”[p]
 [auto_chara name="龍也" face="angry"]
-「教えてくれよ、その理由をよ！」[p]
+“Then tell me why!”[p]
 
-そのまま拓海の胸倉を掴んで激しく揺さぶる。[p]
-息が荒く、顔には怒りと憎悪が浮かんでいる。[p]
+Still gripping Takumi's collar, he shook him violently.[p]
+His breathing was ragged, and his face was filled with anger and hatred.[p]
 [auto_chara name="恵" face="serious"]
-恵がその様子に驚いて後ろに一歩下がった。[p]
+Megumi took a startled step back.[p]
 [auto_chara name="拓海" face="level2_normal"]
 [delay speed="100"]
-「……わかった。[l]見せるよ」[p]
+“...All right.[l]I'll show you.”[p]
 [resetdelay]
 
-拓海の声はかすかだが、力強い決意がこもっていた。[p]
-この展開を待っていたのだった。[p]
-その異様な落ち着きが龍也の神経を逆撫でした。[p]
+Takumi's voice was faint but filled with firm resolve.[p]
+This was the outcome he had been waiting for.[p]
+His strange calm only aggravated Ryuya further.[p]
 [auto_chara name="龍也" face="angry"]
-「見せるだと？どうせ幻かなんかだろうが、そんなもんに騙されるかよ！」[p]
+“You'll show me? It's just some hallucination, isn't it? You think I'll fall for that?”[p]
 
-拓海は龍也の腕を見つめた。[p]
-触れれば、見せられる。[p]
-自分が望んだものを。[p]
+Takumi looked at Ryuya's arm.[p]
+If he touched it, he could show him.[p]
+Whatever he wanted.[p]
 
-龍也を救うこともできる。[p]
-真実を伝えることもできる。[p]
-あるいは――。[p]
+He could save Ryuya.[p]
+He could show him the truth.[p]
+Or—[p]
 
-胸の奥で、冷たい感情がまだ息をしていた。[p]
-復讐は終わったはずなのに、完全には消えていなかった。[p]
+A cold feeling still lived inside his chest.[p]
+His revenge should have ended, but it hadn't disappeared completely.[p]
 
-拓海は静かに息を吸った。[p]
-何を見せるべきなのか。[p]
-それを選ぶのは、今この瞬間の自分だった。[p]
+Takumi quietly inhaled.[p]
+What should he show him?[p]
+The choice belonged to him at this very moment.[p]
 [wait time=1000]
 
-何を見せる……
+What should I show him...
 
 *ch6_show_illusion_choice
 [choice_start count=3]
-[choice name="choice_ch6_show_salvation" text="救済を見せる" target="*ch6_show_salvation_bad"]
-[choice name="choice_ch6_show_truth" text="真実を見せる" target="*ch6_show_truth"]
-[choice name="choice_ch6_show_hell" text="地獄を見せる" target="*ch6_show_hell_bad"]
+[choice name="choice_ch6_show_salvation" text="Show him salvation" target="*ch6_show_salvation_bad"]
+[choice name="choice_ch6_show_truth" text="Show him the truth" target="*ch6_show_truth"]
+[choice name="choice_ch6_show_hell" text="Show him hell" target="*ch6_show_hell_bad"]
 [s]
 
 *ch6_show_illusion_choice_retry
@@ -1027,136 +1024,136 @@
 [cm]
 [wait time=500]
 [chara_hide_all]
-拓海はゆっくりと両手を挙げ、龍也の腕を両手で包むようにして触れた。[p]
+Takumi slowly raised both hands and touched Ryuya's arm, enclosing it between his palms.[p]
 [cg storage="ch6_takumi_ryuya.webp"]
 [bg storage="ch6_takumi_ryuya.webp" time=600]
 [chara_hide_all]
 [fadeoutbgm time=3000]
 [stopse fadeout=500]
 [delay speed="120"]
-手が触れるその瞬間、[l]空気が変わった――。[p]
+The instant their hands touched,[l] the air changed—[p]
 [resetdelay]
 [bg storage="black.png" time=400]
 [wait time=1000]
 [playbgm storage="nature_wind.ogg" loop=true volume=100 fadein=true time=1500]
 
-空気が一瞬で重くなり、周囲の音が遠のいていく。[p]
-龍也の視界がぐにゃりと歪み、意識が拓海の記憶の中へ沈んでいく。[p]
-気が付くと、龍也は拓海の視点で屋上に立っていた。[p]
-次に見えたのは、拳が顔に向かって飛んでくる光景だった。[p]
-グローブをはめた大きな男――龍也が、俺を殴っている！[p]
-「何なんだ、これ……！」[p]
+The air grew heavy in an instant, and the sounds around them receded.[p]
+Ryuya's vision warped, and his consciousness sank into Takumi's memories.[p]
+When he came to, Ryuya was standing on the rooftop, seeing everything through Takumi's eyes.[p]
+The next thing he saw was a fist flying toward his face.[p]
+A huge man wearing boxing gloves—Ryuya—was punching me![p]
+“What the hell is this...!”[p]
 
-拳が何度も、何度も俺の体にめり込む。[p]
-痛みとともに、恐怖と絶望が押し寄せる。[p]
-わけも分からないままでいると、今度は翔太が拳を振り下ろす。[p]
-楽しげな笑顔を浮かべ、俺を殴り続ける。[p]
-この光景には見覚えがある。[p]
-いつもの「トレーニング」と称した、拓海への一方的な暴力だ。[p]
-そうか……俺は今、拓海が見た景色を、拓海として体験しているんだ。[p]
+Fists slammed into my body again and again.[p]
+Pain surged through me, followed by fear and despair.[p]
+Before I could understand what was happening, Shota brought his fist down next.[p]
+He kept punching me with a gleeful smile.[p]
+I knew this scene.[p]
+It was the same one-sided violence they always called “training.”[p]
+I get it... I'm experiencing what Takumi saw, as Takumi.[p]
 
-怯えている拓海へ浴びせられる声が、自分の声だと分かる。[p]
+The abuse raining down on the terrified Takumi came in my own voice—Ryuya's voice.[p]
 
-そのたびに龍也は耳を塞ぎたくなったが、借り物の身体は言うことをきかなかった。[p]
-翔太への「こいつが憎い。やり返してやりたい」という感情まで、自分のもののように流れ込んでくる。[p]
-視界が揺れるたびに、痛みが走り、心の中で叫んでも体は動かない。[p]
-逃げたい。でも、逃げられない。[p]
-その場にうずくまる俺を、綾香は冷たい目で見下ろす。[p]
-汚いものを見るような目にプライドを傷つけられ、胸が苦しくなっていく。[p]
+I wanted to cover my ears, but this borrowed body wouldn't obey me.[p]
+Even Takumi's hatred of Shota—“I hate him. I want to get back at him”—flowed into me until it felt like my own.[p]
+Every time my vision shook, pain shot through me, and no matter how much I screamed inside, my body wouldn't move.[p]
+I wanted to escape. But I couldn't.[p]
+Ayaka looked down at me curled up on the ground with cold eyes.[p]
+The contempt in her eyes wounded my pride and made my chest tighten.[p]
 
 [wait time=500]
-誰も[p]
+No one[p]
 [wait time=500]
-助けてくれない。[p]
+would help me.[p]
 [wait time=1000]
 
-そして、俺の手がフェンスに伸び、体がよじ登り始める。[p]
-屋上の縁に立ち、下を見下ろす。[p]
-「やめろ……！やめてくれ！」[p]
+Then my hand reached for the fence, and my body began to climb.[p]
+I stood at the edge of the rooftop and looked down.[p]
+“Stop...! Please stop!”[p]
 
-心の中で叫んでも、俺の足は止まらない。[p]
-勢いよく前に飛び出した。[p]
-「いやだ……！死にたくない……！」[p]
+No matter how much I screamed inside, my feet wouldn't stop.[p]
+I leaped forward with all my strength.[p]
+“No...! I don't want to die...!”[p]
 
-体が地面に叩きつけられる衝撃をゆっくり感じ、ただ恐怖だけが心を埋め尽くしていく。[p]
+In agonizing slow motion, I felt my body slam into the ground. Terror swallowed everything else.[p]
 [bg storage="bg_rooftop_day.webp" time=800]
 [playbgm storage="memory_light.ogg" loop=true volume=50 fadein=true time=2000]
-現実に戻ったとき、龍也は地面に膝をつき、震えていた。[p]
+When he returned to reality, Ryuya was on his knees, trembling.[p]
 
-拓海は反射的に駆け寄りかけ、踏みとどまる。[p]
+Takumi instinctively started toward him, then stopped.[p]
 
-今の龍也にとって、自分の手は助けではなく、幻を押しつけた凶器かもしれなかった。[p]
+To Ryuya, Takumi's hands might not seem helpful at all, but like weapons that had forced a hallucination on him.[p]
 [auto_chara name="龍也" face="sad"]
-顔には涙が流れている。[p]
+Tears streamed down Ryuya's face.[p]
 
-そんな龍也の姿を見て、拓海は気づいた。[p]
-この力は、他人を痛めつけるためだけではなく、他人の痛みを想像するきっかけを与えるためにも使えるのかもしれない、と。[p]
-座り込む龍也に向かって、拓海はゆっくりと話し始めた。[p]
+Seeing him like that, Takumi realized something.[p]
+This power might not only be used to hurt others, but also to help them imagine someone else's pain.[p]
+Takumi slowly began speaking to Ryuya, who was still on the ground.[p]
 [auto_chara name="拓海" face="level3_normal"]
-「本当は……龍也にも復讐する方法を考えていたんだ」[p]
+“The truth is... I'd been thinking of a way to get revenge on you too.”[p]
 
-正直にそう打ち明けた。[p]
-「でも、綾香の件があって、考えが変わった」[p]
-「自分がされて嫌だったことを人にやり返してはいけないって、当たり前のことに気づいたんだ」[p]
-「話し合いや交渉で、人を傷つけずに済むならそれが一番いいんだ」[p]
-「だから、[l]
+He confessed honestly.[p]
+“But what happened to Ayaka changed my mind.”[p]
+“I realized something obvious: I shouldn't do to other people what I hated having done to me.”[p]
+“If talking things out means no one gets hurt, that's always better.”[p]
+“So...[l]
 [delay speed="95"]
-もう終わりにしよう。[l]暴力も復讐も」[p]
+let's end this.[l]The violence and revenge.”[p]
 [resetdelay]
 
-拓海は静かに語った。[p]
+Takumi spoke quietly.[p]
 
-そして、ゆっくりと龍也へ手を差し伸べた。[p]
+Then he slowly held out a hand to Ryuya.[p]
 
-龍也はその手を見つめたまま、動かない。[p]
+Ryuya stared at the hand without moving.[p]
 
-震える手が、ほんの少しだけ持ち上がる。[p]
+His trembling hand rose just slightly.[p]
 
-――だが。[p]
+—But.[p]
 
-龍也は息を呑み、弾かれたように手を引っ込めた。[p]
+Ryuya drew a sharp breath and pulled his hand back as if jolted.[p]
 
-一歩。[p]
+One step.[p]
 
-また一歩。[p]
+Then another.[p]
 
-後ずさる。[p]
+He backed away.[p]
 
 [auto_chara name="拓海" face="level3_surprise"]
-「そんなつもりはないんだ……」[p]
+“I didn't mean it like that...”[p]
 
-拓海は行き場を失った手を、ゆっくり下ろした。[p]
+Takumi slowly lowered his hand, now with nowhere to go.[p]
 
-分かってもらえたという安堵は、指先から冷えていくように消えた。[l][r]
-痛みを伝えることと、許されることは同じではない。[p]
+The relief of being understood vanished from his fingertips, replaced by a creeping cold.[l][r]
+Showing someone your pain and being forgiven were not the same thing.[p]
 
-その当たり前の距離だけが、二人の間に残っていた。[p]
+Only that obvious distance remained between them.[p]
 
-それでも龍也は何も答えない。[p]
+Even so, Ryuya said nothing.[p]
 
-ただ拓海を見つめたまま、小さく肩を震わせていた。[p]
+He only stared at Takumi, his shoulders trembling faintly.[p]
 
 [chara_hide_all]
 
-拓海と恵は龍也を屋上に残し、静かにその場を離れた。[p]
+Takumi and Megumi left Ryuya on the rooftop and quietly walked away.[p]
 [wait time=1000]
 [bg storage="bg_rooftop_door.webp" time=600]
 [auto_chara name="恵" face="sad"]
-「大丈夫かな……」[p]
+“Do you think he'll be okay...?”[p]
 [wait time=1000]
 
 [auto_chara name="拓海" face="level3_normal"]
-「大丈夫だよ」[p]
+“He'll be okay.”[p]
 [wait time=1000]
 
-「きっと、あいつなら」[p]
+“If anyone can get through this, he can.”[p]
 [fadeoutbgm time=4000]
 [wait time=1000]
 [chara_hide_all]
 [bg storage="black.png" time=2000]
 [wait time=700]
 
-それから数週間後――[p]
+A few weeks later—[p]
 
 [chara_hide_all]
 [wait time=1000]
@@ -1165,762 +1162,762 @@
 [bg storage="bg_ayaka_entrance_day.webp" time=700]
 [playbgm storage="daily_warm.ogg" loop=true volume=80 fadein=true time=1200]
 [auto_chara name="綾香の母" face="smile"]
-「あら、いらっしゃい。随分大勢で来たのね」[p]
+“Oh, welcome. You came with quite a crowd.”[p]
 
-綾香の母親は、少し驚いた表情を浮かべながらも、優しく拓海たちを招き入れた。[p]
+Ayaka's mother looked slightly surprised, but warmly invited Takumi and the others inside.[p]
 [auto_chara name="恵" face="normal"]
-「すみません、大勢で押しかけてしまって」[p]
+“Sorry for showing up with so many people.”[p]
 
-恵が申し訳なさそうに頭を下げる。[p]
+Megumi bowed apologetically.[p]
 [auto_chara name="綾香の母" face="smile"]
-「こんなに友達が来てくれて嬉しいわ。綾香も元気になると思うわ」[p]
+“I'm happy Ayaka has so many friends coming to visit. I think it'll help her feel better.”[p]
 
-母親は笑みを浮かべ、リビングへと案内した。[p]
+Her mother smiled and led them into the living room.[p]
 [chara_hide_all time=300]
 [bg storage="bg_ayaka_living_day.webp" time=900]
 [chara_hide_all time=300]
-綾香の家は、白を基調とした洗練された一軒家で、清潔感が溢れていた。[p]
-大きな窓からは、冬の柔らかな日差しが差し込み、リビング全体を穏やかな光で包み込んでいる。[p]
-大きなダイニングテーブルには、大勢で腰掛けても余裕があるほどのスペースがあり、落ち着いた雰囲気が漂っていた。[p]
+Ayaka's house was a sophisticated white-based home, immaculate and spotless.[p]
+Soft winter sunlight streamed through the large windows, bathing the entire living room in a peaceful glow.[p]
+The large dining table had enough room for everyone to sit comfortably, and the room had a calm atmosphere.[p]
 
-今日は期末テストの最終日。[p]
-部活も休みで早く学校が終わった。[p]
-この日に綾香の家にお見舞いに行くことを計画したのは恵だった。[p]
-そして――[p]
-恵の提案で龍也と翔太も一緒に来ることになった。[p]
-拓海は少し緊張していた。[p]
-龍也とはこの前の件以来、顔を合わせていないからだ。[p]
-屋上での一件から数日後、恵が龍也に連絡を取り、綾香に会いに行こうと根気強く誘ってくれた。[p]
-龍也から返ってきたのは、「綾香の前では揉めない」という短い返事だけだった。[p]
-拓海とのことを許したわけではない。それでも綾香のためなら同じ場所に行くと、龍也は決めたらしい。[p]
-翔太とは、そのあと恵に同席をしてもらって、話をする機会があった。[p]
-翔太は前よりもずっと友好的になっているようで、まるで別人のように感じた。[p]
-翔太に力のことを打ち明けて謝罪したときのことを思い出す。[p]
+Today was the last day of final exams.[p]
+Clubs were canceled, so school ended early.[p]
+Megumi had been the one to plan their visit to Ayaka's house that day.[p]
+And—[p]
+At Megumi's suggestion, Ryuya and Shota had decided to come too.[p]
+Takumi was a little nervous.[p]
+He hadn't seen Ryuya since what happened before.[p]
+A few days after the rooftop incident, Megumi contacted Ryuya and persistently encouraged him to visit Ayaka.[p]
+Ryuya's brief reply had been, “I won't cause a scene in front of Ayaka.”[p]
+He hadn't forgiven Takumi. Even so, he had apparently decided to go if it was for Ayaka.[p]
+After that, Megumi sat in on a conversation between Takumi and Shota.[p]
+Shota seemed much friendlier than before, almost like a different person.[p]
+Takumi remembered confessing the truth about his power to Shota and apologizing.[p]
 [wait time=1000]
 [bg storage="bg_family_restaurant_evening.webp" time=900]
 [playse storage=se/restaurant_ambience.ogg loop=true volume=30 fadein=true time=1000]
 [auto_chara name="翔太" face="normal"]
-「知ってたよ、お前の力だって」[p]
+“I knew it was your power.”[p]
 
-そうあっけらかんと翔太が言うので拓海は呆気にとられた。[p]
-「しかし、手で触れて念じないといけないのか。[l][r]
-遠隔でやられると思ってたから龍也たちからも逃げ回ってたぜ」[p]
+Shota said it so casually that Takumi was stunned.[p]
+“But you have to touch someone and concentrate?[l][r]
+I thought you could do it remotely, so I kept running from Ryuya and the others.”[p]
 [auto_chara name="拓海" face="level3_surprise"]
-「ごめん……」[p]
+“I'm sorry...”[p]
 [auto_chara name="翔太" face="normal"]
-「いやあ。最初俺に未来予知の力が発現したのかと期待したんだけどな。[l]そのあと何も起きねえし。状況から考えても、お前の力だと思ったんだ」[p]
+“Honestly, at first I got excited and thought I'd developed the power to see the future.[l]But then nothing else happened. Considering the situation, I figured it was your power.”[p]
 [auto_chara name="拓海" face="level3_surprise"]
-「それだけで気づいたの？」[p]
+“You figured it out from that alone?”[p]
 [auto_chara name="翔太" face="normal"]
-「いやいや。知ってた？龍也ってめちゃくちゃ意思が強いんだぜ」[p]
+“No, no. Did you know Ryuya has an insanely strong will?”[p]
 [auto_chara name="拓海" face="level3_normal"]
-「そんな感じは確かに伝わってくるけど」[p]
+“I can believe that.”[p]
 [auto_chara name="翔太" face="serious"]
-「自分で言い出したことは絶対に守るしな。[l]前に『タバコは俺が嫌いな人間が吸っているから一生吸わない』って言ってたんだわ」[p]
+“He always keeps his word once he says something.[l]He once told me, ‘I don't smoke because people I hate smoke, so I'll never smoke.’”[p]
 [auto_chara name="拓海" face="level3_normal"]
-「うん」[p]
+“Right.”[p]
 
-何の話をしているんだろうと拓海は思った。[p]
+Takumi wondered what any of that had to do with the subject.[p]
 [auto_chara name="翔太" face="serious"]
-「そんでさ、お前の見せた幻。[l]あれはすげえよくできてるよ。[l]俺も驚いた」[p]
+“Anyway, that hallucination you showed me.[l]It was really well made.[l]I was seriously impressed.”[p]
 [auto_chara name="拓海" face="level3_normal"]
-「そっか」[p]
+“I see.”[p]
 [auto_chara name="翔太" face="serious"]
-「だけどあれはダメだ。[l]龍也が二回目のタバコに火をつける時に、タバコを深く吸って空に向かって吹いたんだよ。[l]あいつは絶対にそんなことはしない」[p]
+“But there was one problem.[l]When Ryuya lit the second cigarette, he took a deep drag and blew the smoke toward the sky.[l]He'd never do that.”[p]
 [auto_chara name="拓海" face="level3_normal"]
-「……なるほど」[p]
+“...I see.”[p]
 
-あの状況でよく冷静に見ていたなと思う。[p]
+Takumi couldn't believe Shota had observed that so calmly in the middle of everything.[p]
 [auto_chara name="翔太" face="serious"]
-「俺の未来予知の力だとしたら起こりえないことだなって思ったんだ」[p]
-「多分、『龍也はこういうことをするだろう』っていう、お前の想像なんだろうなって。そこで気づいたんだ」[p]
-急に訪れた深い洞察に不意をつかれる。[p]
-翔太は見た目以上に頭の回転が早いタイプなのだろう。[p]
+“I thought that couldn't happen if it were really my power to see the future.”[p]
+“I figured it was probably your imagination of what Ryuya would do. That's when I realized.”[p]
+The sudden flash of insight caught Takumi off guard.[p]
+Shota must have been much quicker-witted than he looked.[p]
 [auto_chara name="翔太" face="normal"]
-「めちゃくちゃ怖かったけどな。すぐにお前の力って気づけて良かったよ。[l]龍也が俺にあんなことするわけないしな」[p]
+“It was terrifying, though. I'm glad I figured out right away that it was your power.[l]Ryuya would never do something like that to me.”[p]
 [auto_chara name="拓海" face="level3_surprise"]
-「本当に、申し訳ない。ごめんなさい」[p]
+“I'm really sorry. I mean it.”[p]
 [auto_chara name="翔太" face="normal"]
-「いやいや、謝んなって。[l]言ってくれて安心したよ。お陰で目が覚めたっつうか。[l]お互い様だって。俺の方こそ今まで悪かったよ」[p]
+“Hey, don't apologize.[l]I was relieved when you told me. It kind of woke me up.[l]We're even. I was awful to you too.”[p]
 [chara_hide_all time=300]
-謝られるとは思っていなかった拓海は、返す言葉を失ったまま肩の力を抜いた。[p]
-そうした和解が、今ここにいる理由でもあった。[p]
+Takumi hadn't expected Shota to apologize, and he relaxed his shoulders, at a loss for words.[p]
+That reconciliation was one reason they were all here now.[p]
 [stopse fadeout=1000]
 [bg storage="bg_ayaka_living_day.webp" time=900]
 [auto_chara name="翔太" face="normal"]
-「ここ、すげー家だな」[p]
+“This is one hell of a house.”[p]
 
-翔太が龍也に囁く。[p]
-拓海も、リビングの美しさに驚いていた。[p]
-綾香が気だるそうにリビングに入ってくると、場が少し緊張した。[p]
+Shota whispered to Ryuya.[p]
+Takumi was surprised by how beautiful the living room was too.[p]
+When Ayaka entered the living room looking tired, the mood grew tense.[p]
 
-全員が一斉に姿勢を正し、それをごまかすように視線を散らす。[p]
+Everyone straightened at once, then scattered their gazes as if to hide it.[p]
 
-綾香はその不自然さに気づいた様子だったが、何も言わずに空いた場所へ腰を下ろした。[p]
+Ayaka seemed to notice the awkwardness, but said nothing and sat in the open seat.[p]
 [auto_chara name="綾香" face="private_serious" time=700 wait=false]
-しかし、綾香は恵を見るなり、微笑んだ。[p]
+But the instant Ayaka saw Megumi, she smiled.[p]
 [auto_chara name="綾香" face="private_normal"]
-「……あ」[p]
+“...Oh.”[p]
 [wait time=1000]
 [auto_chara name="恵" face="serious"]
-「綾香！」[p]
+“Ayaka!”[p]
 
-思わず恵が立ち上がる。[p]
+Megumi stood without thinking.[p]
 [auto_chara name="龍也" face="smile"]
-「元気そうだな」[p]
+“You look good.”[p]
 
-龍也が少し嬉しそうな顔をする。[p]
-龍也のこんな顔を見たのは初めてだな、と拓海は思った。[p]
+Ryuya looked a little happy.[p]
+Takumi thought it was the first time he had ever seen Ryuya make that expression.[p]
 [auto_chara name="翔太" face="normal"]
-「長いこと休んだな。超大作でも描いてたんじゃないの？」[p]
+“You were out for a while. Did you draw some epic masterpiece?”[p]
 
-翔太が軽く冗談を言うと、綾香は「バカ！」と言いながらも、少しだけ笑顔を見せた。[p]
-その笑顔に、拓海は少し救われた気がした。[p]
-その時、綾香の視線が拓海に向いた。[p]
+Shota made a light joke, and Ayaka called him an idiot while showing the faintest smile.[p]
+That smile made Takumi feel a little saved.[p]
+At that moment, Ayaka's eyes turned toward Takumi.[p]
 [auto_chara name="綾香" face="private_serious"]
-「あんたも……来てくれたんだ……」[p]
+“You came too...”[p]
 
-綾香の反応に、拓海は少し胸を痛めた。[p]
-綾香が席に着くと、恵が優しく微笑みかけた。[p]
+Ayaka's reaction caused a small ache in Takumi's chest.[p]
+Once Ayaka sat down, Megumi smiled gently at her.[p]
 [auto_chara name="恵" face="normal"]
-「久しぶりだね」[p]
+“It's good to see you again.”[p]
 
-と、その声には安心感が滲んでいた。[p]
-綾香もゆっくりと顔を上げ、小さく笑みを返した。[p]
+Her voice carried a sense of relief.[p]
+Ayaka slowly raised her face and returned a small smile.[p]
 [chara_hide_all time=300]
 [wait time=1000]
 
 [bg storage="ch6_5members.webp" time=900]
-やがて、五人で他愛もない話を始めた。[p]
+Before long, the five of them began chatting about nothing important.[p]
 
 [wait time=500]
 
-恵「今回の数学難しくなかった？」[p]
+Megumi: “Wasn't this math test hard?”[p]
 
-翔太「俺、最初の問題で終わった」[p]
+Shota: “I was done after the first question.”[p]
 
-綾香「最初って名前書くところ？」[p]
+Ayaka: “You mean the part where you write your name?”[p]
 
-翔太「おい！そこは書けたわ！」[p]
+Shota: “Hey! I could do that!”[p]
 
-綾香「威張るところじゃないでしょ」[p]
+Ayaka: “That's not something to brag about.”[p]
 
-龍也「……威張るな」[p]
+Ryuya: “...Don't brag.”[p]
 
-二人の言葉が重なった。[p]
+Their words overlapped.[p]
 
-これには思わず全員笑った。[p]
+Everyone burst out laughing.[p]
 
 [wait time=600]
 
-翔太「でも今回マジで難しかったって。龍也、お前何点？」[p]
+Shota: “But seriously, that test was hard. What did you get, Ryuya?”[p]
 
-龍也「八十四」[p]
+Ryuya: “Eighty-four.”[p]
 
-翔太「は？」[p]
+Shota: “Huh?”[p]
 
-龍也「八十四」[p]
+Ryuya: “Eighty-four.”[p]
 
-翔太「聞こえてるよ。聞き返したんじゃなくて、ムカついてんだよ」[p]
+Shota: “I heard you. I wasn't asking again—I was pissed.”[p]
 
-綾香「理不尽すぎるでしょ」[p]
+Ayaka: “That's so unfair.”[p]
 
-龍也「お前が聞いたんだろ」[p]
+Ryuya: “You asked.”[p]
 
-翔太「俺と一緒に赤点を取るっていう友情はないのかよ」[p]
+Shota: “Don't you have any sense of friendship? You could've gotten a failing grade with me.”[p]
 
-龍也「ねえよ」[p]
+Ryuya: “No.”[p]
 
 [wait time=500]
 
-恵「でも、北川君って勉強できるんだね」[p]
+Megumi: “Kitagawa, you're good at studying.”[p]
 
-龍也「まあ、それなりには」[p]
+Ryuya: “I'm decent.”[p]
 
-翔太「こいつ昔から要領いいんだよ。テスト前も全然勉強してねえ顔して、普通に点取るから腹立つ」[p]
+Shota: “He's always been good at this stuff. He acts like he never studies before a test, then gets a normal score anyway. It pisses me off.”[p]
 
-龍也「お前が勉強しなさすぎなんだよ」[p]
+Ryuya: “You just don't study enough.”[p]
 
-翔太「拓海、こいつムカつくだろ？」[p]
+Shota: “Takumi, doesn't this guy piss you off?”[p]
 
 [wait time=400]
 
-突然話を振られ、拓海は少し戸惑った。[p]
+The sudden question caught Takumi off guard.[p]
 
-拓海「いや、俺に聞かれても……」[p]
+Takumi: “Why are you asking me...?”[p]
 
-翔太「お前は何点？」[p]
+Shota: “What did you get?”[p]
 
-拓海「八十六」[p]
+Takumi: “Eighty-six.”[p]
 
-翔太「敵が増えた」[p]
+Shota: “Now I have another enemy.”[p]
 
-拓海「勝手に敵にするなよ」[p]
-
-[wait time=500]
-
-恵「永山君、二点勝ったね」[p]
-
-拓海「その言い方、なんか嫌だな」[p]
-
-龍也「次は負けねえからな」[p]
-
-拓海「え、俺たち競ってたの？」[p]
-
-龍也「今決めた」[p]
+Takumi: “Don't make me your enemy.”[p]
 
 [wait time=500]
 
-翔太「いいなあ、頭いい奴らは余裕があって」[p]
+Megumi: “You beat him by two points, Nagayama.”[p]
 
-綾香「翔太は何点だったの？」[p]
+Takumi: “I don't like the way you put that.”[p]
 
-翔太「それ聞く？」[p]
+Ryuya: “I won't lose next time.”[p]
 
-綾香「聞く」[p]
+Takumi: “Wait, were we competing?”[p]
 
-翔太「……四十七」[p]
-
-綾香「思ったより取れてる」[p]
-
-翔太「お前、俺を何だと思ってんだよ！」[p]
+Ryuya: “We are now.”[p]
 
 [wait time=500]
 
-恵「ちなみに私は九十一点」[p]
+Shota: “Must be nice, being smart enough to have it easy.”[p]
 
-翔太「聞いてない」[p]
+Ayaka: “What did you get, Shota?”[p]
 
-恵「今の流れなら言うでしょ」[p]
+Shota: “You really want to know?”[p]
 
-翔太「もうこの話やめよう。俺に不利すぎる」[p]
+Ayaka: “I do.”[p]
 
-綾香「自分から始めたんじゃない」[p]
+Shota: “...Forty-seven.”[p]
+
+Ayaka: “That's higher than I expected.”[p]
+
+Shota: “What do you think I am?!”[p]
+
+[wait time=500]
+
+Megumi: “I got ninety-one, by the way.”[p]
+
+Shota: “Nobody asked.”[p]
+
+Megumi: “The flow of the conversation demanded it.”[p]
+
+Shota: “Let's stop talking about this. This is way too unfair to me.”[p]
+
+Ayaka: “You started it.”[p]
 
 [wait time=700]
 
-また笑い声が起きた。[p]
+They all laughed again.[p]
 
-最初にあったぎこちなさは、いつの間にか薄れていた。[p]
+The awkwardness from the beginning had faded before they realized it.[p]
 
 [wait time=600]
 
-翔太「そういや文化祭のバンド、見た？」[p]
+Shota: “Hey, did you see the band at the school festival?”[p]
 
-龍也「ああ、体育館の？」[p]
+Ryuya: “The one in the gym?”[p]
 
-翔太「そう。最後にやってたやつ。めちゃくちゃ上手くなかった？」[p]
+Shota: “Yeah, the last one. Weren't they insanely good?”[p]
 
-恵「見た見た。すごかったよね」[p]
+Megumi: “I saw them. They were great.”[p]
 
-綾香「ボーカルの子、同じ学年でしょ」[p]
+Ayaka: “The vocalist's in our year, right?”[p]
 
-翔太「マジで？」[p]
+Shota: “Seriously?”[p]
 
-綾香「知らなかったの？」[p]
+Ayaka: “You didn't know?”[p]
 
-翔太「知らねえ。俺、友達少ないから」[p]
+Shota: “No. I don't have many friends.”[p]
 
-龍也「どの口が言ってんだよ」[p]
-
-[wait time=500]
-
-翔太「拓海は見た？」[p]
-
-拓海「少しだけ。体育館の後ろから」[p]
-
-翔太「意外だな。お前、文化祭とか興味なさそうなのに」[p]
-
-拓海「どういうイメージなんだよ」[p]
-
-恵「あ、それちょっと分かるかも」[p]
-
-拓海「菊池さんまで？」[p]
-
-恵「あはは。だって永山君、前は教室でも一人でいること多かったし」[p]
-
-拓海「まあ……それは否定できないけど」[p]
-
-翔太「じゃあ今度は五人で回ればいいじゃん」[p]
+Ryuya: “Who are you trying to fool?”[p]
 
 [wait time=500]
 
-龍也「今度っていつだよ」[p]
+Shota: “What about you, Takumi?”[p]
 
-翔太「来年」[p]
+Takumi: “Only a little. I watched from the back of the gym.”[p]
 
-綾香「私たち三年なんだけど」[p]
+Shota: “Didn't expect that. You don't seem like the type to care about school festivals.”[p]
+
+Takumi: “What kind of image do you have of me?”[p]
+
+Megumi: “I kind of get it.”[p]
+
+Takumi: “You too, Kikuchi?”[p]
+
+Megumi: “Ahaha. You used to spend a lot of time alone in class, Nagayama.”[p]
+
+Takumi: “Well... I can't deny that.”[p]
+
+Shota: “Then next time, the five of us can go around together.”[p]
+
+[wait time=500]
+
+Ryuya: “When's next time?”[p]
+
+Shota: “Next year.”[p]
+
+Ayaka: “We'll be third-years.”[p]
 
 [wait time=400]
 
-翔太「あ」[p]
+Shota: “Oh.”[p]
 
-龍也「お前、本当に馬鹿だな」[p]
+Ryuya: “You really are an idiot.”[p]
 
-綾香「それは否定できないわね」[p]
+Ayaka: “I can't argue with that.”[p]
 
-翔太「さっきから俺への当たり強くない？」[p]
-
-[wait time=700]
-
-また、みんなが笑った。[p]
-
-拓海もその中で、自然に笑っていた。[p]
+Shota: “Why are you all ganging up on me?”[p]
 
 [wait time=700]
 
-ふと、以前見た光景を思い出した。[p]
+Everyone laughed again.[p]
 
-廊下の窓から見えた、龍也と翔太と綾香の姿。[p]
-
-三人でくだらないことを言って、楽しそうに笑っていた。[p]
-
-あの時の拓海は、それを遠くから眺めているだけだった。[p]
+Takumi laughed naturally along with them.[p]
 
 [wait time=700]
 
-今は、その輪の中に自分がいる。[p]
+Suddenly, Takumi remembered a scene he'd seen before.[p]
 
-隣には恵もいる。[p]
+Ryuya, Shota, and Ayaka, viewed through the hallway window.[p]
 
-少し前までなら、こんな光景は想像すらできなかった。[p]
+The three of them had been saying pointless things and laughing happily.[p]
+
+Back then, Takumi had only watched them from a distance.[p]
 
 [wait time=700]
 
-翔太「そういやさ、卒業したらみんな何すんの？」[p]
+Now he was part of that circle.[p]
 
-綾香「急に話変わったわね」[p]
+Megumi was beside him too.[p]
 
-翔太「文化祭もうないって言われたら、卒業するんだなって思って」[p]
+Until recently, he couldn't even have imagined a scene like this.[p]
 
-龍也「今さらかよ」[p]
+[wait time=700]
 
-恵「私は大学かな。まだ受験あるけど」[p]
+Shota: “So what are you all going to do after graduation?”[p]
 
-拓海「俺も」[p]
+Ayaka: “That was a sudden change of subject.”[p]
 
-翔太「お前らはそんな感じする」[p]
+Shota: “When they said there wouldn't be another festival, it hit me that we'd be graduating.”[p]
 
-綾香「何よ、そんな感じって」[p]
+Ryuya: “Only now?”[p]
 
-翔太「ちゃんと将来考えてそうな感じ」[p]
+Megumi: “I'll probably go to college. I still have to take the entrance exams, though.”[p]
 
-綾香「翔太は？」[p]
+Takumi: “Me too.”[p]
 
-翔太「俺？」[p]
+Shota: “That sounds about right for you two.”[p]
+
+Ayaka: “What does that mean?”[p]
+
+Shota: “You both seem like you've thought about the future properly.”[p]
+
+Ayaka: “What about you, Shota?”[p]
+
+Shota: “Me?”[p]
 
 [wait time=400]
 
-翔太「……何とかなるだろ」[p]
+Shota: “...I'll figure something out.”[p]
 
-綾香「一番ダメなやつじゃない」[p]
+Ayaka: “That's the worst answer.”[p]
 
-翔太「十八歳で人生決めろって方がおかしいんだよ」[p]
+Shota: “It's weird to expect an eighteen-year-old to decide their whole life.”[p]
 
-龍也「それはちょっと分かる」[p]
-
-[wait time=500]
-
-綾香「龍也は？」[p]
-
-龍也「俺も大学」[p]
-
-翔太「お前なら普通に受かるだろ」[p]
-
-龍也「どうだかな」[p]
-
-翔太「またそういうこと言う」[p]
-
-[wait time=600]
-
-龍也はそれ以上何も言わなかった。[p]
-
-拓海も、何となくそれ以上聞く気にはなれなかった。[p]
-
-[wait time=700]
-
-綾香「私は……まだわかんない」[p]
-
-恵「絵は？」[p]
+Ryuya: “I kind of get that.”[p]
 
 [wait time=500]
 
-綾香が少しだけ目を伏せた。[p]
+Ayaka: “What about you, Ryuya?”[p]
 
-綾香「……最近、描いてないから」[p]
+Ryuya: “College.”[p]
 
-龍也「また描けばいいじゃん」[p]
+Shota: “You'd get in without a problem.”[p]
+
+Ryuya: “Who knows?”[p]
+
+Shota: “There you go again.”[p]
 
 [wait time=600]
 
-綾香「簡単に言うわね」[p]
+Ryuya said nothing more.[p]
 
-龍也「前にも言っただろ」[p]
+Takumi didn't feel like asking any further either.[p]
 
 [wait time=700]
 
-綾香は一瞬きょとんとしたあと、小さく笑った。[p]
+Ayaka: “I... don't know yet.”[p]
 
-綾香「……そうだったね」[p]
+Megumi: “What about drawing?”[p]
+
+[wait time=500]
+
+Ayaka lowered her eyes slightly.[p]
+
+Ayaka: “...I haven't drawn lately.”[p]
+
+Ryuya: “Then start drawing again.”[p]
+
+[wait time=600]
+
+Ayaka: “You make it sound so easy.”[p]
+
+Ryuya: “I told you that before.”[p]
+
+[wait time=700]
+
+Ayaka looked surprised for a moment, then smiled faintly.[p]
+
+Ayaka: “...You did.”[p]
 
 [wait time=800]
 
-拓海には二人が何の話をしているのか分からなかった。[p]
+Takumi didn't understand what the two of them were talking about.[p]
 
-ただ、綾香の表情がほんの少し柔らかくなったことだけは分かった。[p]
-
-[wait time=700]
-
-そのあとは、不思議と会話が途切れることはなかった。[p]
-
-学校のこと。[p]
-
-テストのこと。[p]
-
-卒業した後のこと。[p]
-
-そんな他愛もない話ばかりだった。[p]
+He only knew that Ayaka's expression had softened slightly.[p]
 
 [wait time=700]
 
-こんな何気ない時間が、こんなにも嬉しいものだとは思わなかった。[p]
+After that, the conversation somehow never stopped.[p]
 
-部屋の中には穏やかな時間が流れ、かつての緊張感は少しずつ溶けていった。[p]
+They talked about school.[p]
+
+Their tests.[p]
+
+What they would do after graduation.[p]
+
+It was all trivial conversation.[p]
+
+[wait time=700]
+
+Takumi never expected such an ordinary moment to make him so happy.[p]
+
+A peaceful atmosphere filled the room, and the tension from before gradually melted away.[p]
 
 [wait time=1000]
 
 [bg storage="bg_ayaka_living_day.webp" time=900]
 
-30分ほどが過ぎたころ、綾香の母親が買い物へ出かけ、リビングには五人だけが残された。[p]
+After about thirty minutes, Ayaka's mother went shopping, leaving only the five of them in the living room.[p]
 
-すると恵が拓海に目で合図する。[p]
+Megumi gave Takumi a meaningful look.[p]
 
-拓海は冷めたお茶の入ったカップを置いた。[p]
+Takumi set down his cup of cold tea.[p]
 
-楽しい空気を自分の言葉で壊すのが怖くて、指がすぐには離れなかった。[p]
-拓海は小さく頷き、綾香に向き合った。[p]
+He was afraid of ruining the pleasant atmosphere with his own words, and his fingers didn't let go right away.[p]
+Takumi nodded faintly and faced Ayaka.[p]
 [fadeoutbgm time=3000]
 [auto_chara name="拓海" face="level3_normal"]
-「綾香……ちょっといいかな」[p]
+“Ayaka... can I talk to you?”[p]
 
-彼はあの日のコンビニで起きた事件の経緯を話した。[p]
+He explained what had happened at the convenience store that day.[p]
 [auto_chara name="綾香" face="private_serious"]
-「そうか、あれはあんたが」[p]
+“So you were the one who did that.”[p]
 
-綾香は意外にも冷静だった。[p]
+Ayaka was unexpectedly calm.[p]
 [auto_chara name="綾香" face="private_stunned"]
-「よくもまあ、そんな酷いこと思いつくわね。でも……」[p]
+“How could you even think of something so horrible? But...”[p]
 [auto_chara name="拓海" face="level3_surprise"]
-「……」[p]
+“...”[p]
 [wait time=1000]
-拓海が深く頭を下げると、綾香は続けた。[p]
+When Takumi bowed deeply, Ayaka continued.[p]
 [auto_chara name="綾香" face="private_shy"]
-「私、そのときのこと、ほとんど覚えてないの。[l]けど、あの恐怖感だけは体に残ってる。[l]今でも、夜になるとあの夢を見るの……」[p]
-綾香の声は、かすかに震えていた。[p]
-頭を下げたままその震えを聞き、自分が残した傷は今も続いているのだと思い知った。[p]
+“I barely remember what happened.[l]But the fear is still in my body.[l]I still have that dream at night...”[p]
+Ayaka's voice trembled faintly.[p]
+Still bowing his head, Takumi heard the tremor and realized that the wound he had left behind was still there.[p]
 [playbgm storage="memory_light.ogg" loop=true volume=50 fadein=true time=900]
 [auto_chara name="綾香" face="private_normal"]
-「でもね、拓海がやったって聞いて、少し安心した。[l]あれが現実じゃなくて、ただの幻覚だったんだって。[l]……話してくれたことだけは、ありがとう」[p]
+“But when I heard you were the one who did it, I felt a little relieved.[l]It wasn't real. It was only a hallucination.[l]...Thank you for telling me.”[p]
 [auto_chara name="拓海" face="level3_surprise"]
-「綾香、本当にごめん」[p]
+“Ayaka, I'm really sorry.”[p]
 
-拓海は再び頭を下げた。[p]
+Takumi bowed his head again.[p]
 [auto_chara name="綾香" face="private_normal"]
-「許せるかどうかは、まだ分からない。[l]すぐに前みたいに話せるとも思わない。[l]それに、私だって酷いことをしてたから……お互い、なかったことにはしないでおこう」[p]
+“I don't know if I can forgive you yet.[l]I don't think I can talk to you like before right away.[l]And I did horrible things too... So let's not pretend any of it never happened.”[p]
 
-拓海は頷いた。[p]
+Takumi nodded.[p]
 
-今ここで許されて楽になることを、どこかで望んでいた自分が恥ずかしかった。[p]
+He was ashamed that some part of him had hoped being forgiven right then would make him feel better.[p]
 
-答えを急がせないこと。それも、自分にできる償いなのだと思った。[p]
+Not rushing her answer—that was another form of atonement he could offer.[p]
 [auto_chara name="翔太" face="serious"]
-「俺もかなり酷いことをしてたしな」[p]
+“I did some pretty awful things too.”[p]
 
-翔太はバツの悪そうな顔をする。[p]
+Shota looked uncomfortable.[p]
 
 [wait time=1000]
 
 [auto_chara name="拓海" face="level3_normal"]
-許してほしいのではない。[l][r]
-もう二度と綾香を失いたくない――その一心で、言葉にする。[p]
-「俺、学校で待ってるからさ」[p]
+He wasn't asking her to forgive him.[l][r]
+He spoke because he never wanted to lose Ayaka again.[p]
+“I'll be waiting at school.”[p]
 
-少し迷ってから、続けた。[p]
+After hesitating, he continued.[p]
 
-「……もう、あんなこと……しないでよ」[p]
+“...Just... don't ever do that again.”[p]
 
-綾香は返事をせず、膝の上で袖口をつまんだ。[l][r]
-何度も洗ったのか、布の端だけが少し毛羽立っている。[p]
+Ayaka didn't answer. She pinched the cuff of her sleeve on her lap.[l][r]
+The edge of the fabric was slightly frayed, as if it had been washed many times.[p]
 
-拓海はその指先から目を逸らせなかった。[l][r]
-自分の謝罪が届いたかどうかを確かめる資格など、今の自分にはないと思った。[p]
+Takumi couldn't look away from her fingertips.[l][r]
+He didn't feel he had the right to check whether his apology had reached her.[p]
 
-そして、必死で泣くのを堪えた。[p]
+And he fought desperately to hold back his tears.[p]
 [auto_chara name="綾香" face="private_shy"]
-「あれは、何ていうか……うちの家庭の問題だからね。あんたには関係ないよ」[p]
+“That was... a problem with my family. It has nothing to do with you.”[p]
 
-綾香の声には優しさがあった。[p]
+There was kindness in Ayaka's voice.[p]
 [auto_chara name="龍也" face="normal"]
-「俺たちも待ってる。屋上でな」[p]
+“We'll be waiting too. On the rooftop.”[p]
 
-龍也がぼそっと言った。[p]
-綾香は、龍也を見て、少しだけ恥ずかしそうに[r][l]
+Ryuya spoke under his breath.[p]
+Ayaka looked at Ryuya, a little embarrassed,[r][l]
 [auto_chara name="綾香" face="private_smile"]
-「うん。行くよ、学校」[p]
+“Yeah. I'll come to school.”[p]
 
-と答えた。[p]
+she answered.[p]
 [chara_hide_all time=300]
 [fadeoutbgm time=3000]
 [bg storage="black.png" time=2000]
 [wait time=500]
 [bg storage="bg_street_winter_morning.webp" time=900]
 [playbgm storage="winter_morning.ogg" loop=true volume=100 fadein=true time=1200]
-12月になった。[p]
-今日もなんてことのない晴れの日だが、拓海には太陽の光が色鮮やかに美しく感じられる。[p]
-酷い目に遭うのが日常になっていた頃は、生きた心地がしなかった。[p]
-学校に来るのも辛かったし、明日のことを考えるのが憂鬱だった。[p]
-今は、明日も明後日も、きっと何も起きない。[p]
-何も起きない退屈な日常が何より愛おしい。[p]
-そう思えるのだ。[p]
-朝、学校までの道のりを、前を向いて歩けている。[p]
+December arrived.[p]
+It was another ordinary sunny day, but the sunlight looked vivid and beautiful to Takumi.[p]
+When terrible things had become part of his daily life, he had barely felt alive.[p]
+Going to school had been painful, and thinking about the next day had filled him with dread.[p]
+Now, surely nothing would happen tomorrow or the day after.[p]
+He treasured those boring, uneventful days more than anything.[p]
+He could feel that way now.[p]
+That morning, he walked toward school with his eyes facing forward.[p]
 
-背後の足音を数えずに歩けることが、以前なら想像もできないほど嬉しかった。[p]
+Being able to walk without counting the footsteps behind him made him happier than he could ever have imagined before.[p]
 [auto_chara name="恵" face="smile"]
-「おはよう」[p]
+“Good morning.”[p]
 
-後ろから呼び掛けられる。[p]
-恵だ。[p]
-「今日は寒いね」[p]
+Someone called out from behind him.[p]
+It was Megumi.[p]
+“It's cold today.”[p]
 
-首元のマフラーが季節の移り変わりを感じさせる。[p]
+The scarf around her neck reminded him that the seasons were changing.[p]
 [auto_chara name="拓海" face="level3_smile"]
-「寒いね。俺もマフラーしてくれば良かった」[p]
+“It is. I should've worn a scarf too.”[p]
 [auto_chara name="恵" face="smile"]
-「これしてみる？暖かいよ」[p]
+“Want to try mine? It's warm.”[p]
 [auto_chara name="拓海" face="level3_surprise"]
-「いやいや、いいよ」[p]
+“No, no, I'm fine.”[p]
 
-拓海はどぎまぎする。[p]
-「ところでお母さんの様子はどう？」[p]
+Takumi grew flustered.[p]
+“By the way, how's your mom doing?”[p]
 
-拓海はいじめから解放されたが、恵の母親の問題が解決していないことが気に掛かった。[p]
-恵は顔には出さないが、早く何とかした方が良いだろう。[p]
-ただし、もう幻覚で誰かを追い詰めるつもりはない。[p]
-まず恵と母親の意思を確かめ、必要なら信頼できる大人や相談窓口に頼る――今度は人を傷つけない方法を一緒に考えなくては。[p]
+Takumi had escaped the bullying, but Megumi's mother's situation still worried him.[p]
+Megumi didn't show it on her face, but they needed to do something soon.[p]
+He had no intention of driving anyone into a corner with hallucinations anymore.[p]
+First, they needed to understand what Megumi and her mother wanted, then seek help from a trusted adult or counseling service if necessary—this time, they had to find a way to solve it without hurting anyone.[p]
 [auto_chara name="恵" face="serious"]
-「うーん」[p]
+“Hmm.”[p]
 
-恵は遠くを見つめた。[p]
-「相変わらずかな。元気はなさそう」[p]
+Megumi gazed into the distance.[p]
+“She still seems about the same. She doesn't look well.”[p]
 [auto_chara name="拓海" face="level3_normal"]
-「そっか」[p]
+“I see.”[p]
 
-微妙な沈黙が流れる。[p]
+An awkward silence followed.[p]
 [auto_chara name="恵" face="normal"]
-「あ、そうそう。今週の土曜日の夜って空いてる？」[p]
+“Oh, right. Are you free this Saturday night?”[p]
 [auto_chara name="拓海" face="level3_smile"]
-「ええと、空いてるけど」[p]
+“Uh, yeah, I am.”[p]
 [auto_chara name="恵" face="normal"]
-「お母さん帰りが遅くなるって。だから一緒にご飯食べない？」[p]
+“My mom's going to be home late. Want to have dinner together?”[p]
 [auto_chara name="拓海" face="level3_smile"]
-「うん。いいよ」[p]
+“Sure.”[p]
 [chara_hide_all]
-まだやらなくてはいけないことが残ってはいるが、たまにはこんな日があってもいいのだ。[p]
+There were still things they needed to do, but it was okay to have a day like this once in a while.[p]
 [fadeoutbgm time=3000]
 [bg storage="black.png" time=2000]
 [wait time=500]
 [bg storage="bg_megumi_living_night.webp" time=800]
 [playse storage=se/interphone.ogg volume=100]
-土曜日の夜、インターホンが鳴った。[p]
-約束の時間よりは大分早い。[p]
-19時に駅前で待ち合わせる予定だった。[p]
-拓海が迎えに来てくれたのだろうか。[p]
-恵は小走りで玄関に向かった。[p]
+On Saturday night, the intercom rang.[p]
+It was much earlier than the appointed time.[p]
+They were supposed to meet at the station at seven.[p]
+Perhaps Takumi had come to pick her up.[p]
+Megumi hurried toward the entrance.[p]
 
-恵の表情がほころび、確かめもせず解錠しかけた指が止まる。[p]
+Her expression brightened, but the finger she had raised to unlock the door stopped before she could check who it was.[p]
 
 [auto_chara name="高田" face="normal"]
-「こんばんは」[p]
+“Good evening.”[p]
 
 [auto_chara name="恵" face="private_serious" left=0]
-「……」[p]
-彼女はその顔にギョッとした。[p]
-高田だ。[p]
+“...”[p]
+She recoiled at the sight of his face.[p]
+It was Takada.[p]
 [auto_chara name="高田" face="normal"]
-「こんばんは、恵ちゃん」[p]
+“Good evening, Megumi.”[p]
 [playbgm storage="tension_low.ogg" loop=true volume=100 fadein=true time=2000]
-「いや、突然ごめんね。お母さんに家で待っていてくれって頼まれてさ。[l]入れてくれる？」[p]
+“Sorry for dropping by without warning. Your mother asked me to wait here for her.[l]Will you let me in?”[p]
 [auto_chara name="恵" face="private_serious" left=0]
-「そうだったんですね」[p]
-「ちょっとこのあと友達と会う約束してて。[l]出掛けないといけないんです」[p]
+“I see.”[p]
+“I have plans to meet a friend soon.[l]I need to go out.”[p]
 [auto_chara name="高田" face="normal"]
-「ああ。家で仕事して待つように言われてるから大丈夫だよ」[p]
+“That's fine. Your mother told me to work here while I waited.”[p]
 [chara_hide_all]
-高田は明るくそう答えた。[p]
-響子からは何も聞いていないが、こんなことがあるのだろうか。[p]
-何か仕事の大事な話があるのだろうか。[p]
+Takada answered brightly.[p]
+Kyoko hadn't said anything about this, but could something like that really happen?[p]
+Was there some important work matter he needed to discuss?[p]
 [wait time=1000]
-不安が消えず、恵はその場で母に電話をかけた。[p]
-呼び出し音は続いたが、母は出ない。[p]
+Still uneasy, Megumi called her mother from the entrance.[p]
+The phone rang, but her mother didn't answer.[p]
 
-静かな部屋では、途切れるたびの電子音ばかりが大きく響いた。[p]
-高田が母との業務連絡の画面を示したことで、少なくとも仕事で関わりがあることは確認できた。[p]
-恵は気が進まなかったが、玄関の鍵をすぐ開けられるようにしたまま、高田をリビングに入れて待たせることにした。[p]
-そしてスマホに指を滑らせ、拓海に一言メッセージを入れた。[p]
+In the quiet room, the electronic ringing echoed loudly each time it stopped.[p]
+Takada showed her the screen of his work messages with her mother, confirming that they did at least have a professional connection.[p]
+Megumi didn't want to, but she left the front door unlocked for a quick escape and let Takada wait in the living room.[p]
+Then she slid her finger across her phone and sent Takumi a brief message.[p]
 [wait time=1000]
 [auto_chara name="恵" face="private_serious" left=0]
-「すみません、こんなものしかないのですが」[p]
+“Sorry, but this is all I have.”[p]
 
-お湯で淹れたインスタントのお茶と、冷蔵庫にあったお菓子を出す。[p]
+She brought out instant tea made with hot water and some snacks from the refrigerator.[p]
 
-恵はテーブルを挟んだ向かい側に座った。[l]高田の前のお茶からは湯気が上がったままで、彼は一度も手をつけなかった。[p]
+Megumi sat across the table from him.[l]Steam still rose from the tea in front of Takada, but he hadn't touched it once.[p]
 [auto_chara name="高田" face="normal"]
-「悪いね、気を遣わせちゃって」[p]
+“Sorry for making you go to the trouble.”[p]
 
-二人で向かい合って座るには、やや大き過ぎるリビングのテーブルに高田はついている。[p]
-スーツ姿の高田は、一見すると仕事の話をしに来ただけのようにも見える。[p]
-それでも、母からは何も聞いていない。[p]
-一体、何の用なんだろう。[p]
+The living-room table was a little too large for just the two of them sitting across from each other.[p]
+In his suit, Takada looked at first as though he had simply come to discuss work.[p]
+Even so, her mother hadn't told her anything.[p]
+What could he possibly want?[p]
 [auto_chara name="高田" face="serious"]
-「ちょっと大事な話があるんだけど」[p]
+“There is something important I need to discuss.”[p]
 [auto_chara name="恵" face="private_serious" left=0]
-「え？」[p]
+“Huh?”[p]
 [auto_chara name="高田" face="normal"]
-「そこに座りなよ」[p]
+“Sit over there.”[p]
 
-高田は向かいの席を手で示した。[p]
+Takada gestured toward the seat across from him.[p]
 [auto_chara name="恵" face="private_serious" left=0]
-「はい」[p]
+“Yes.”[p]
 
-何のことかと疑問に思いながらも、指示に従って座る。[p]
+She wondered what this was about, but followed his instruction and sat down.[p]
 [auto_chara name="高田" face="normal"]
-「この後の予定は？」[p]
+“What are your plans after this?”[p]
 [auto_chara name="恵" face="private_serious" left=0]
-「友人と、食事をする予定です」[p]
+“I was going to have dinner with a friend.”[p]
 [auto_chara name="高田" face="normal"]
-「そうか」[p]
-「お母さんは好きかい？」[p]
+“I see.”[p]
+“Do you love your mother?”[p]
 
-世間話には聞こえない問いだった。[p]
+It didn't sound like small talk.[p]
 
-恵は膝の上でスマホを握り直し、画面を伏せた。[p]
+Megumi tightened her grip on the phone in her lap and turned the screen facedown.[p]
 [auto_chara name="恵" face="private_serious" left=0]
-「はい」[p]
+“Yes.”[p]
 [auto_chara name="高田" face="normal"]
-「そうか。それはいいね」[p]
+“I see. That's good.”[p]
 [chara_hide_all]
-途切れがちな会話の後、沈黙が流れる。[p]
-ほぼ初対面の年上の男性と、何を話せばよいか分からなかった。[p]
+Silence followed their halting conversation.[p]
+She didn't know what to talk about with an older man she had barely met.[p]
 [auto_chara name="高田" face="normal"]
-「響子さんは本当によく働いてくれてるよ」[p]
+“Kyoko works very hard.”[p]
 [auto_chara name="恵" face="private_serious" left=0]
-「そうですか」[p]
+“She does.”[p]
 [auto_chara name="高田" face="normal"]
-「私の方が助けられてるくらいだよ」[p]
+“She helps me as much as I help her.”[p]
 [auto_chara name="恵" face="private_serious" left=0]
-「いえいえ、そんなことは」[p]
+“Oh, I'm sure that's not true.”[p]
 
-裏では母に酷い態度をとっていることを知っている。[p]
-腹が立ってくるが、調子を合わせる。[p]
-「いつも、母がお世話になっております」[p]
+She knew how cruelly he treated her mother behind closed doors.[p]
+Anger rose inside her, but she played along.[p]
+“My mother has always been grateful for your help.”[p]
 [auto_chara name="高田" face="serious"]
-「実は、恵ちゃんには言いづらい話なんだけど」[p]
-高田は真剣な顔つきになった。[p]
+“There is something difficult to tell you, Megumi.”[p]
+Takada's expression grew serious.[p]
 [wait time=1000]
-「お母さん、会社で不正を働いたんだ」[p]
+“Your mother committed fraud at the company.”[p]
 [playbgm storage="tension_high.ogg" loop=true volume=60 fadein=true time=1500]
 [auto_chara name="恵" face="private_anxiety" left=0]
-「え？どういうことですか……」[p]
+“What? What do you mean...?”[p]
 [auto_chara name="高田" face="serious"]
-「簡単に言うと会社のお金に手を付けたんだ」[p]
+“To put it simply, she misappropriated company funds.”[p]
 
-母がそんなことをするなんて信じられなかった。[p]
+Megumi couldn't believe her mother would do something like that.[p]
 [auto_chara name="恵" face="private_anxiety" left=0]
-「本当なんですか――」[p]
+“Is that really true—?”[p]
 [auto_chara name="高田" face="serious"]
-「ああ、本当だよ」[p]
+“Yes. It is.”[p]
 
-高田は目を落とした。[p]
+Takada lowered his eyes.[p]
 [auto_chara name="高田" face="sad"]
-「私も信じたくなかったんだけどね――」[p]
-「この事実が明るみに出れば、会社を解雇されるだろうね」[p]
-「最悪の場合、逮捕されるかもしれない」[p]
+“I didn't want to believe it either—”[p]
+“If the truth comes to light, she'll probably be fired.”[p]
+“In the worst case, she might be arrested.”[p]
 [auto_chara name="恵" face="private_scared" left=0]
-「そんな……」[p]
+“No...”[p]
 
-恵は心臓の鼓動が早くなっていくのがわかった。[p]
-不安に押しつぶされそうになる。[p]
+Megumi felt her heart begin to race.[p]
+Anxiety threatened to crush her.[p]
 [auto_chara name="高田" face="sad"]
-「結構お金に困っていたみたいだね」[p]
-「そんな素振りはなかった？」[p]
+“It seems she was in serious financial trouble.”[p]
+“Did you notice anything unusual?”[p]
 
 [chara_hide_all]
-口にするのを聞いたことはなかったが、黒森学園の学費はかなり高額だという。[p]
-まさか、それに充てたのかと、考え始める。[p]
+She had never heard her mother mention it, but tuition at Kuromori Academy was apparently extremely expensive.[p]
+She began to wonder if that was what the money had been used for.[p]
 
-授業料。制服。毎日の食事。[l]思い当たるものが増えるたび、指先から熱が失われていった。[p]
-高田は恵の反応を待ってから話し始めた。[p]
+Tuition. Uniforms. Daily meals.[l]With every possibility that came to mind, warmth drained from her fingertips.[p]
+Takada waited for Megumi's reaction before continuing.[p]
 [auto_chara name="高田" face="sad"]
-「今、内部調査が進んでいてね。このままいけば、不正の発覚は時間の問題かもしれない」[p]
-彼は下唇を噛んだ。[p]
+“An internal investigation is underway. At this rate, it may only be a matter of time before the fraud is discovered.”[p]
+He bit his lower lip.[p]
 [auto_chara name="高田" face="serious"]
-「でも、まだ手遅れじゃない」[p]
-「私が動けば、なんとかできるかもしれないんだ」[p]
+“But it's not too late yet.”[p]
+“I may be able to fix this.”[p]
 
-その声は自信に満ちていた。[p]
-「私には上層部との繋がりがあるし、今ならもみ消すこともできる」[p]
-「お母さんのことは私に任せれば、大丈夫だよ」[p]
+His voice was full of confidence.[p]
+“I have connections with upper management, and I might still be able to make this disappear.”[p]
+“Leave your mother to me, and she'll be fine.”[p]
 
 [chara_hide_all]
-その言葉は、恵にとっては天から差した希望の光だった。[p]
+To Megumi, those words felt like a lifeline.[p]
 [auto_chara name="恵" face="private_cry" left=0]
-「お母さん、助かりますか……」[p]
+“Can you save my mother...?”[p]
 [auto_chara name="高田" face="serious"]
-「何とかする。何とかしたいんだ」[p]
+“I'll find a way. I want to help.”[p]
 
-高田はゆっくりと椅子から立ち上がった。[p]
-「ただ、私にもリスクがあってね」[p]
-「お母さんのために動くには、私自身が危険を冒すことになる。[l]それを理解してほしい」[p]
+Takada slowly rose from his chair.[p]
+“But there is a risk for me too.”[p]
+“Helping your mother means putting myself in danger.[l]I need you to understand that.”[p]
 
 [auto_chara name="恵" face="private_anxiety" left=0]
-母を救えるというのなら、願ってもない話だった。[p]
-「でも、なんでこんな話を？」[p]
+If he could save her mother, it was more than Megumi could have hoped for.[p]
+“But why are you telling me this?”[p]
 [auto_chara name="高田" face="serious"]
-「君に協力してもらう必要があるんだ」[p]
+“Because I need your cooperation.”[p]
 
-高田は少しずつ近づいてきた。[p]
+Takada began moving closer.[p]
 
-椅子の脚が床を擦る音に、恵の肩が跳ねる。[p]
+The scrape of the chair legs against the floor made Megumi's shoulders jump.[p]
 
-玄関までの距離を測ろうとしても、高田の身体が視界を塞いでいた。[p]
+Even when she tried to judge the distance to the entrance, Takada's body blocked her view.[p]
 [auto_chara name="恵" face="private_anxiety" left=0]
-「協力……？」[p]
+“My cooperation...?”[p]
 [auto_chara name="高田" face="nastysmile"]
-「お母さんを救いたいなら――わかるだろ？」[p]
+“If you want to save your mother—you understand, don't you?”[p]
 
-そう言って恵の肩に手を置いた。[p]
+He placed a hand on Megumi's shoulder.[p]
 
-振り払わなければと思うのに、身体が命令を聞かない。[p]
+She knew she had to pull away, but her body wouldn't obey.[p]
 
-肩に置かれた手の重さだけが、服越しにはっきり伝わってきた。[p]
-その湿った生暖かい手の感触は、本能的に恵に悪意を感じ取らせた。[p]
-おぞましい感覚と恐怖に体が支配されて動かない。喉がカラカラに乾いてくる。[p]
-「もし君が協力してくれなければ、お母さんはどうなるか分からない」[p]
-「ニュースになって、世間に晒されるかもしれない。それだけは避けたいよね？」[p]
-テレビで報じられるところを想像すると、ぞっとする。[p]
+She could clearly feel the weight of the hand through her clothes.[p]
+The damp warmth of his hand told Megumi instinctively that he meant her harm.[p]
+Revulsion and fear took over, leaving her unable to move. Her throat went dry.[p]
+“If you don't cooperate, I don't know what will happen to your mother.”[p]
+“It could become news and expose her to the whole world. You don't want that, do you?”[p]
+The thought of seeing it reported on television made her shudder.[p]
 [auto_chara name="恵" face="private_cry" left=0]
-「どうすればいいんですか……」[p]
+“What do I have to do...?”[p]
 
-かすれた声で絞り出した。[p]
+She forced the words out in a hoarse voice.[p]
 [wait time=1000]
 
 [auto_chara name="高田" face="nastysmile"]
-「簡単な話だよ。[l]そうだな。[p]
+“It's simple.[l]Let's see.[p]
 [font size=52]
 [delay speed="90"]
-じゃあまずは、[l]
+First, [l]
 [stopbgm]
-服を脱ごうか――」[p]
+why don't you take off your clothes—”[p]
 [playse storage=se/clock_reverb.ogg volume=100]
 [resetdelay]
 [resetfont]
@@ -1936,107 +1933,107 @@
 [chara_hide_all]
 [bg storage="bg_rooftop_day.webp" time=600]
 [auto_chara name="拓海" face="level2_normal"]
-拓海は、龍也の腕に触れた。[p]
+Takumi touched Ryuya's arm.[p]
 
-その瞬間、屋上の空気が柔らかくほどけていく。[p]
-冷たい風も、胸の痛みも、龍也の怒鳴り声も、少しずつ遠ざかっていった。[p]
+At that instant, the air on the rooftop softened.[p]
+The cold wind, the pain in his chest, and Ryuya's shouting all gradually faded into the distance.[p]
 
 [chara_hide_all]
 [bg storage="bg_rooftop_day_hallucination.webp" time=800]
-龍也が見たのは、屋上だった。[p]
+Ryuya saw the rooftop.[p]
 
-ただし、そこにあるのは今の屋上ではない。[p]
-もっと明るく、もっと穏やかで、どこか懐かしい場所だった。[p]
+But it wasn't the rooftop as it was now.[p]
+It was brighter, calmer, and somehow nostalgic.[p]
 
 [auto_chara name="翔太" face="normal"]
-翔太が笑っている。[p]
+Shota was laughing.[p]
 [auto_chara name="綾香" face="smile"]
-綾香がスケッチブックを抱えて、呆れたように笑っている。[p]
+Ayaka hugged her sketchbook and laughed in exasperation.[p]
 [auto_chara name="龍也" face="smile"]
-龍也自身も、フェンスにもたれかかりながら、何でもない冗談に声を上げて笑っていた。[p]
+Ryuya himself leaned against the fence and laughed out loud at some pointless joke.[p]
 
-誰も壊れていない。[p]
-誰も泣いていない。[p]
-誰も誰かを恨んでいない。[p]
+No one was broken.[p]
+No one was crying.[p]
+No one hated anyone else.[p]
 
-三人は、ただそこにいた。[p]
-何も失っていなかった頃のように。[p]
+The three of them were simply there.[p]
+Like they were before they lost anything.[p]
 
-「なんだよ……」[p]
+“What the hell...”[p]
 
-龍也の声が震えた。[p]
+Ryuya's voice trembled.[p]
 
-「戻れるじゃねえか」[p]
+“We can go back.”[p]
 [chara_hide_all]
 
-幻の中で、翔太が手を振った。[p]
-綾香が「早く来なよ」と笑った。[p]
+In the hallucination, Shota waved.[p]
+Ayaka laughed and said, “Come on.”[p]
 
-龍也は、その光に向かって歩き出した。[p]
+Ryuya began walking toward the light.[p]
 
-拓海はその様子を見ながら、胸の奥に小さな安堵が広がるのを感じた。[p]
-これでいい。[p]
-龍也が救われるなら。[p]
-三人がもう一度、元に戻れるなら。[p]
+Watching him, Takumi felt a small sense of relief spread through his chest.[p]
+This was right.[p]
+If Ryuya could be saved.[p]
+If the three of them could return to the way they were.[p]
 
-そう思いたかった。[p]
+He wanted to believe that.[p]
 
 [fadeoutbgm time=1000]
 [wait time=800]
 
 [bg storage="black.png" time=1500]
 [wait time=500]
-翌日。[p]
+The next day.[p]
 
 [bg storage="bg_rooftop_day2.webp" time=800]
 [auto_chara name="拓海" face="level2_normal"]
-拓海は屋上に呼び出された。[p]
+Takumi was called to the rooftop.[p]
 
 [chara_hide_all]
 [chara_show name="龍也" face="smile" left=-300 time=300]
-扉を開けると、そこには龍也と翔太と綾香がいた。[p]
+When he opened the door, Ryuya, Shota, and Ayaka were there.[p]
 [chara_show name="翔太" face="normal" left=150 time=300]
 [chara_show name="綾香" face="normal" left=600 time=300]
-三人とも、以前と同じように並んでいた。[p]
+The three of them stood together just as they had before.[p]
 [chara_hide_all]
-一瞬、拓海は胸を撫で下ろした。[p]
-本当に、戻れたのかもしれない。[p]
+For a moment, Takumi felt relieved.[p]
+Maybe they really had returned to normal.[p]
 
-だが、龍也はゆっくりと拓海に近づき、胸倉を掴んだ。[p]
+But Ryuya slowly approached Takumi and grabbed him by the collar.[p]
 [auto_chara name="龍也" face="smile"]
-「昨日のあれ、すげえな」[p]
+“That thing yesterday was amazing.”[p]
 
-龍也は笑っていた。[p]
-懐かしそうに。[p]
-楽しそうに。[p]
+Ryuya was smiling.[p]
+Nostalgically.[p]
+Happily.[p]
 
-「お前、あんな都合のいい夢を見せられるんだな」[p]
+“You can show people dreams that convenient?”[p]
 
-翔太が肩をすくめる。[p]
-綾香も、困ったように笑っていた。[p]
+Shota shrugged.[p]
+Ayaka smiled awkwardly.[p]
 
-「じゃあさ」[p]
+“So...”[p]
 
-龍也の手に力がこもる。[p]
+Ryuya tightened his grip.[p]
 
-「俺たちが楽しかった頃も、また見せてくれよ」[p]
+“Show us the good times again.”[p]
 
-拓海は、そこでようやく気づいた。[p]
+Only then did Takumi realize.[p]
 
-救済なんかではなかった。[p]
-自分が見せたのは、ただの逃げ道だった。[p]
+It hadn't been salvation.[p]
+What he had shown them was merely an escape.[p]
 
-龍也は反省したのではない。[p]
-失ったものを懐かしんだだけだった。[p]
+Ryuya hadn't reflected on what he had done.[p]
+He had only missed what they had lost.[p]
 
-痛みを知らないまま。[p]
-傷つけた側の記憶だけを、綺麗なものとして抱きしめたまま。[p]
+Without knowing pain.[p]
+Still embracing only the beautiful memories of the one who had caused the wounds.[p]
 
-「なあ、拓海」[p]
+“Hey, Takumi.”[p]
 
-龍也が耳元で囁いた。[p]
+Ryuya whispered into his ear.[p]
 
-「今日も、いつものやつやろうぜ」[p]
+“Let's do the usual again today.”[p]
 
 [stopbgm time=1000]
 [chara_hide_all]
@@ -2055,7 +2052,7 @@
 [chara_hide_all]
 [bg storage="bg_rooftop_day.webp" time=600]
 [auto_chara name="拓海" face="level2_depressed"]
-拓海は、龍也の腕に触れた。[p]
+Takumi touched Ryuya's arm.[p]
 [chara_hide_all]
 
 
@@ -2068,113 +2065,113 @@
 [bg storage="black.png" time=300]
 [fadeoutbgm time=3000]
 [delay speed="120"]
-その瞬間、[l]世界から音が消えた。[p]
-拓海の中で、[l]何かが静かに外れた。[p]
+At that instant,[l]the world fell silent.[p]
+Something inside Takumi[l]quietly came loose.[p]
 [resetdelay]
 [chara_hide_all]
 [wait time=1000]
 
 [playbgm storage="ability_theme.ogg" loop=true volume=80 fadein=true time=1500]
-本当は、こんなものを見せるべきではない。[p]
+He shouldn't show anyone something like this.[p]
 
-それでも、拓海は止めなかった。[p]
+Even so, Takumi didn't stop.[p]
 
-龍也の視界が暗転する。[p]
+Ryuya's vision went black.[p]
 
-次に目に入ったのは、赤黒い空だった。[p]
+The next thing he saw was a dark red sky.[p]
 
-ただ、無数の人影が龍也を見つめている。[p]
+Countless silhouettes stared at Ryuya.[p]
 
-誰も声を上げない。[p]
+No one spoke.[p]
 
-その中には翔太がいた。[p]
+Shota was among them.[p]
 
-綾香がいた。[p]
+Ayaka was there.[p]
 
-そして──今まで龍也が傷つけてきた人間たちがいた。[p]
+And so were all the people Ryuya had hurt.[p]
 
-終わりはなかった。[p]
+There was no end.[p]
 
-許しもなかった。[p]
+There was no forgiveness.[p]
 
-ただ、終わることのない地獄だけが続いていた。[p]
+Only an endless hell continued.[p]
 
-これは理解ではない。[p]
+This was not understanding.[p]
 
-救済でもない。[p]
+It was not salvation.[p]
 
-拓海が作り出した、ただの地獄だった。[p]
+It was simply a hell Takumi had created.[p]
 
 [wait time=700]
 
 [chara_hide_all]
 [bg storage="bg_rooftop_day.webp" time=500]
 [auto_chara name="龍也" face="hell" time=80]
-現実に戻った瞬間、龍也は声にならない叫びを上げて崩れ落ちた。[p]
+The instant he returned to reality, Ryuya collapsed with a scream that never became a voice.[p]
 
 [auto_chara name="恵" face="pain"]
-「龍也くん！」[p]
+“Ryuya!”[p]
 [chara_hide_all]
-恵が駆け寄ろうとしたが、拓海は動けなかった。[p]
+Megumi tried to run to him, but Takumi couldn't move.[p]
 
-龍也は屋上の床に膝をつき、何かから逃げるように後ずさった。[p]
-目の焦点が合っていない。[p]
-拓海を見ているのに、拓海を見ていない。[p]
+Ryuya dropped to his knees on the rooftop and backed away as if fleeing from something.[p]
+His eyes were unfocused.[p]
+He was looking at Takumi, but he wasn't seeing him.[p]
 
-「来るな……来るな……」[p]
+“Don't come near me... Don't come near me...”[p]
 
-龍也は震えながら、何度も同じ言葉を繰り返した。[p]
+Trembling, Ryuya repeated the same words again and again.[p]
 
-拓海は、自分の手を見た。[p]
-何も汚れていない。[p]
-血もついていない。[p]
-傷ひとつない。[p]
+Takumi looked at his own hands.[p]
+They were clean.[p]
+There was no blood.[p]
+Not a single wound.[p]
 
-それなのに、自分が取り返しのつかないことをしたのだと分かった。[p]
+And yet he understood that he had done something irreversible.[p]
 
 [fadeoutbgm time=3000]
 [wait time=800]
 
 [chara_hide_all]
 [bg storage="bg_hallway_day.webp" time=800]
-その日の夕方、学校に救急車が来た。[p]
-龍也は保健室でも混乱したまま、まともに会話ができなかったらしい。[p]
+That evening, an ambulance came to the school.[p]
+Ryuya was still confused in the nurse's office and apparently couldn't hold a normal conversation.[p]
 
-数日後。[p]
+Several days later.[p]
 
-警察から事情を聞かれた。[p]
+The police questioned Takumi.[p]
 
-何を聞かれても、拓海は何も答えられなかった。[p]
+No matter what they asked, Takumi couldn't answer.[p]
 
-証拠はない。[p]
+There was no evidence.[p]
 
-だから、誰も裁けなかった。[p]
+So no one could punish him.[p]
 
-けれど、それで終わりではなかった。[p]
+But that wasn't the end of it.[p]
 
 [chara_hide_all]
 [bg storage="bg_classroom_day.webp" time=800]
 [auto_chara name="拓海" face="level2_depressed"]
-クラスメイトたちの視線が変わった。[p]
-教師たちの声色が変わった。[p]
+His classmates began looking at him differently.[p]
+The teachers' voices changed.[p]
 [auto_chara name="恵" face="sad"]
-恵の表情も、少しずつ遠くなっていった。[p]
+Even Megumi's expression gradually grew more distant.[p]
 
-「永山君は、悪くないよ」[p]
+“Nagayama isn't at fault.”[p]
 
-恵はそう言ってくれた。[p]
-でも、その声には、以前のような温かさがなかった。[p]
+Megumi said that to him.[p]
+But her voice no longer held the warmth it once had.[p]
 [chara_hide_all]
 
-拓海はようやく理解した。[p]
+Takumi finally understood.[p]
 
-人を壊すのに、刃物はいらない。[p]
-証拠もいらない。[p]
-自分には、そのための力があった。[p]
+You don't need a blade to destroy someone.[p]
+You don't need evidence.[p]
+He had the power to do it.[p]
 
-そして、自分はそれを選んだ。[p]
+And he had chosen to use it.[p]
 
-もう二度と、元の自分には戻れなかった。[p]
+He could never return to who he had been.[p]
 
 [stopbgm time=1000]
 [bg storage="black.png" time=1000]
