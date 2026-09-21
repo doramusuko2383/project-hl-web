@@ -606,7 +606,7 @@ Even so, he felt as though the faint boundary between them had suddenly been mad
 The words “someone else” sounded as though they had drawn a line between Megumi and him, too.[p]
 
 Instinctively, he wanted to cross to the other side of that line.[l][r]
-But Takumi still didn't know what kind of relationship would mean they were no longer strangers.[p]
+But Takumi still didn't know what kind of relationship would mean he was no longer just someone else to her.[p]
 Takumi's shoulders slumped as he lowered his head.[p]
 When Megumi saw him, her eyes widened in realization, and she hurriedly waved her hands.[p]
 [auto_chara name="恵" face="surprise"]
@@ -1048,7 +1048,7 @@ Megumi came closer and crouched beside him.[p]
 When she reached out her hand, Takumi recoiled for just a moment.[l][r]
 He could still feel Ryuya’s grip on his collar.[p]
 
-Megumi didn’t force herself to touch him. She simply waited at his level.[p]
+Megumi didn’t try to touch him again. She stayed crouched at eye level with him and waited.[p]
 [auto_chara name="拓海" face="level2_depressed"]
 “Thanks. You came because you were worried about me.”[p]
 
@@ -1082,7 +1082,7 @@ She drew the hand left hanging in the air back to her chest and waited for him t
 
 [auto_chara name="拓海" face="level2_depressed"]
 “When Ryuya called Ayaka’s cell, her mother answered.”[p]
-“Apparently, she took a massive dose of sleeping pills and has been in the hospital since yesterday.”[p]
+“Apparently, she took a large amount of sleeping pills and has been in the hospital since yesterday.”[p]
 [fadeoutbgm time=4000]
 Neither of them could find the words.[p]
 
@@ -1194,10 +1194,10 @@ When he looked toward the gallery, he saw Shota, Ayaka, and Megumi among the spe
 Angry jeers erupted from the gallery: “He's the one who did it!” “Make him suffer the same way!”[p]
 Apparently, Takumi was on trial for multiple assaults.[p]
 At a signal from the judge, footage appeared on a massive screen.[p]
-It showed Takumi straddling Shota and pressing a lit cigarette into his eye.[p]
+It showed Takumi straddling Shota and pressing a cigarette against Shota's eye.[p]
 The jeering grew louder and louder, curses echoing throughout the courtroom.[p]
 The image changed, this time showing footage captured by a convenience store's security camera.[p]
-It showed Takumi forcing his way behind the register, tearing off Ayaka's clothes, and pinning her down beneath him.[p]
+It showed Takumi forcing his way behind the register, tearing at Ayaka's clothes and forcing himself on top of her.[p]
 Screams rose from the gallery, and the eyes all around Takumi were filled with hatred.[p]
 When the judge solemnly pronounced him guilty, men in black surrounded Takumi and moved to take him away again.[p]
 “I didn’t do anything like that! I didn’t do anything!”[p]
