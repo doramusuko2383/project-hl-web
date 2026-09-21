@@ -325,7 +325,7 @@ Takumi's heart seemed to stop,[r]
 and the rest of his words died in his throat.[p]
 
 [auto_chara name="龍也" face="angry"]
-“You're a real pain in the ass.[l]_ You'll pay for this later.”[p]
+“You're a real pain in the ass. [l]You'll pay for this later.”[p]
 
 With those parting words, Ryuya left the restroom.[p]
 
@@ -526,7 +526,7 @@ He had no strength left to reach for the weakness he'd glimpsed in Ryuya.[p]
 
 [wait time=400]
 
-“Something's wrong with Shota.[l]_ He's avoiding us.”[p]
+“Something's wrong with Shota. [l]He's avoiding us.”[p]
 
 For a moment, Ryuya looked lonely and lowered his eyes.[p]
 
@@ -542,7 +542,7 @@ Takumi desperately tried to steady his breathing.[p]
 “Do you have proof?”[p]
 
 [auto_chara name="龍也" face="angry"]
-“I don't have proof you did it,[l]_ but you don't have proof you didn't!”[p]
+“I don't have proof you did it, [l]but you don't have proof you didn't!”[p]
 
 [playse storage=se/punch3.ogg volume=100]
 [quake time=260 hmax=2 vmax=10]
@@ -654,7 +654,7 @@ And the power had one major advantage.[p]
 [resetdelay]
 
 [auto_chara name="拓海" face="level1_normal"]
-“Even if it's only simulated, I can hurt them...[l]_ and do it without breaking the law.”[p]
+“Even if it's only simulated, I can hurt them... [l]and do it without breaking the law.”[p]
 
 He told himself that,[r]
 but somewhere inside, the thought made him shudder.[p]
@@ -681,7 +681,7 @@ It had to feel real enough—[p]
 He would also need to discover what his enemies thought and where they were vulnerable.[p]
 
 [auto_chara name="拓海" face="level1_smile"]
-“How ironic...[l]_ I have to study people I don't even want to know.”[p]
+“How ironic... [l]I have to study people I don't even want to know.”[p]
 
 Takumi gave a bitter laugh.[p]
 
@@ -943,7 +943,7 @@ He could hear the stiffness in his voice,[r]
 but tried not to let it show on his face.[p]
 
 [auto_chara name="恵" face="normal"]
-“I do.[l]_ I figured it was about time I started preparing seriously now that we're second-years,[r]
+“I do. [l]I figured it was about time I started preparing seriously now that we're second-years,[r]
 so I started in April.”[p]
 
 Megumi answered calmly.[p]
@@ -958,7 +958,7 @@ He wasn't truly interested in Megumi's cram school.[p]
 It was only a way to keep the conversation going.[p]
 
 [auto_chara name="恵" face="normal"]
-“Not really.[l]_ Some people have been going since their first year.”[p]
+“Not really. [l]Some people have been going since their first year.”[p]
 
 [auto_chara name="拓海" face="level2_surprise"]
 “Really?”[p]
@@ -968,12 +968,12 @@ Takumi leaned back slightly, putting on a mildly surprised expression.[p]
 He nodded without making it look forced,[r]
 waiting for a chance to bring up the real subject.[p]
 [auto_chara name="拓海" face="level2_smile"]
-“I haven't been able to focus on studying lately,[l]_ so I was thinking it might be time to try one.”[p]
+“I haven't been able to focus on studying lately, [l]so I was thinking it might be time to try one.”[p]
 
 Only the first part was true.[p]
 
 [auto_chara name="恵" face="normal"]
-“It's amazing that you keep your grades that high without going to one,[l]_ Nagayama.”[p]
+“It's amazing that you keep your grades that high without going to one, [l]Nagayama.”[p]
 
 Megumi sounded impressed.[p]
 
@@ -990,10 +990,10 @@ His classmates almost never complimented him this way.[p]
 [wait time=400]
 
 [auto_chara name="拓海" face="level2_smile"]
-“No, it's nothing like that.[l]_ I panic before every test and pull all-nighters just to get through it.”[p]
+“No, it's nothing like that. [l]I panic before every test and pull all-nighters just to get through it.”[p]
 
 [auto_chara name="恵" face="surprise"]
-“What?[l]_ You never look stressed at all.”[p]
+“What? [l]You never look stressed at all.”[p]
 
 [auto_chara name="拓海" face="level2_smile"]
 “I'm just hiding it because I'd be embarrassed if anyone knew how desperate I was.”[p]
@@ -1004,12 +1004,12 @@ His classmates almost never complimented him this way.[p]
 Megumi laughed cheerfully.[p]
 
 [auto_chara name="恵" face="normal"]
-“Still, I'm a little surprised.[l]_ I always pictured you quietly handling everything on your own.”[p]
+“Still, I'm a little surprised. [l]I always pictured you quietly handling everything on your own.”[p]
 
 [auto_chara name="拓海" face="level2_normal"]
 “That's how I looked to you?”[p]
 
-“Yeah.[l]_ Like you'd never ask anyone for help.”[p]
+“Yeah. [l]Like you'd never ask anyone for help.”[p]
 
 Takumi hesitated for a moment at that.[p]
 
@@ -1063,8 +1063,8 @@ he finally resolved to bring up the real subject.[p]
 
 He tried to sound as natural as possible.[p]
 
-“Are you friends with Ueda from Class Five?[l]
-_ I saw you two going home together yesterday.”[p]
+“Are you friends with Ueda from Class Five? [l]
+I saw you two going home together yesterday.”[p]
 
 The moment he asked, he caught himself searching Megumi's face for a reaction.[l][r]
 He was already treating someone he'd just shared a normal conversation with as a source of information.[p]
@@ -1072,11 +1072,11 @@ He was already treating someone he'd just shared a normal conversation with as a
 He hated that, but couldn't take the question back.[p]
 
 [auto_chara name="恵" face="normal"]
-“Ayaka? Yeah, we just happened to go home together yesterday.[l]
-_ We went to the same cram school in middle school.”[p]
+“Ayaka? Yeah, we just happened to go home together yesterday. [l]
+We went to the same cram school in middle school.”[p]
 
 [auto_chara name="拓海" face="level2_normal"]
-“I see.[l]_ I know her, so I was just curious.”[p]
+“I see. [l]I know her, so I was just curious.”[p]
 
 Takumi suppressed his eagerness[r]
 and chose his words carefully.[p]
@@ -1099,7 +1099,7 @@ Takumi returned to the cram school conversation and looked for a chance to end i
 If he pushed for more, she would surely grow suspicious.[p]
 
 [auto_chara name="拓海" face="level2_smile"]
-“Okay, thanks.[l]_ I'll keep that cram school in mind.”[p]
+“Okay, thanks. [l]I'll keep that cram school in mind.”[p]
 
 [chara_hide_all time=300]
 [fadeoutbgm time=4000]
