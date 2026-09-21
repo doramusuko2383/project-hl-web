@@ -131,7 +131,7 @@ Ryuya and Shota went especially far back.[r]
 Apparently, they had started hanging out in their first year.[p]
 
 Ryuya hadn't always been a troublemaker, either.[r]
-When he first enrolled, he had trained seriously as a promising ace on the soccer team.[p]
+When he first enrolled, he had trained seriously as one of the soccer team's most promising players.[p]
 
 He wasn't always well-behaved,[r]
 but apparently he wasn't bad enough to be called a delinquent.[p]
