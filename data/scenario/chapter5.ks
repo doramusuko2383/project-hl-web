@@ -16,14 +16,14 @@
 [playse storage=se/teroren.ogg volume=80]
 [playbgm storage="room_noise.ogg" loop=true volume=100 fadein=true time=1000]
 
-“He’s the worst. An enemy to women everywhere.”[p]
+“He's the worst. An enemy to women everywhere.”[p]
 
 When Takumi messaged Megumi about what had happened the night before, she replied almost immediately.[p]
 [playse storage="se/pon.ogg" volume=100]
 [wait time=180]
-“He’s married with kids, and he still tried to make a move on Mom. He must think we’re pushovers.”[p]
+“He's married with kids, and he still tried to make a move on Mom. He must think we're pushovers.”[p]
 Another message followed.[p]
-“We’ve found out where he lives, so let’s teach him a lesson already.”[p]
+“We've found out where he lives, so let's teach him a lesson already.”[p]
 
 The words “teach him a lesson” seemed oddly forceful on the screen.[p]
 
@@ -31,9 +31,9 @@ Not long ago, I would have agreed without hesitation.[l][r]
 But now, something felt faintly off about reading those words from Megumi.[p]
 
 Takumi thought for a moment before replying.[p]
-His fingers didn’t move right away.[p]
+His fingers didn't move right away.[p]
 A faint thrill at Megumi relying on him tickled his chest, but he also felt that if he got carried away here, there would be no taking it back.[p]
-“Even if we’re going to teach him a lesson, we still don’t know enough yet.”[p]
+“Even if we're going to teach him a lesson, we still don't know enough yet.”[p]
 “What exactly are you planning to do?”[p]
 
 Her reply came immediately.[p]
@@ -42,24 +42,24 @@ Her reply came immediately.[p]
 “Like making him dream about getting into a car accident?”[p]
 
 It was an uncharacteristically harsh suggestion from Megumi.[p]
-But she probably wasn’t taking pleasure in revenge.[p]
-Takumi knew she’d simply lost her composure because she cared so deeply about her mother.[p]
-“I don’t think getting into a car accident would be enough to make him change his ways.”[p]
+But she probably wasn't taking pleasure in revenge.[p]
+Takumi knew she'd simply lost her composure because she cared so deeply about her mother.[p]
+“I don't think getting into a car accident would be enough to make him change his ways.”[p]
 “Besides, it has nothing to do with what happened to your mother.”[p]
 
 There was a brief pause.[p]
 [wait time=700]
 [playse storage="se/pon.ogg" volume=100]
 [wait time=180]
-“...You’re right about that.”[p]
+“...You're right about that.”[p]
 “But I want to save Mom as soon as possible.”[p]
-“I can’t stand watching this anymore.”[p]
+“I can't stand watching this anymore.”[p]
 
 Even through the screen, Takumi could tell just how frantic Megumi was.[p]
 He chose his words carefully as he replied.[p]
 “I feel the same way.”[p]
-“So I understand why you’re anxious.”[p]
-“But if we rush and fail, it’ll all be for nothing.”[p]
+“So I understand why you're anxious.”[p]
+“But if we rush and fail, it'll all be for nothing.”[p]
 
 After the message was marked as read, no reply came for a while.[p]
 [wait time=900]
@@ -73,43 +73,43 @@ Eventually, another message arrived.[p]
 Takumi let out a quiet breath.[p]
 He understood how Megumi felt.[p]
 But if they failed, they might put Kyoko in even greater danger.[p]
-Even so, Megumi’s words—as soon as possible—pressed hard against something deep in Takumi’s chest.[p]
+Even so, Megumi's words—as soon as possible—pressed hard against something deep in Takumi's chest.[p]
 She needed him.[p]
 That realization spread through the cracks in his reasoning that told him he had to be cautious, filling him with warmth.[p]
 As if to suppress that warmth, Takumi stared at the screen again.[p]
 “Okay.”[p]
-“Let’s make it look like some random attack, rough him up, and give him a warning letter.”[p]
-“One that says, ‘Don’t lay a hand on Kyoko Kikuchi.’”[p]
+“Let's make it look like some random attack, rough him up, and give him a warning letter.”[p]
+“One that says, ‘Don't lay a hand on Kyoko Kikuchi.’”[p]
 
 After sending the messages, Takumi reread what he had written.[p]
 
 They were supposed to be discussing how to stop him, but somewhere along the way, “roughing him up” had become a given.[l][r]
-Even after realizing that, he couldn’t bring himself to type a correction.[p]
+Even after realizing that, he couldn't bring himself to type a correction.[p]
 
-“Wow, that’s a great idea!”[p]
+“Wow, that's a great idea!”[p]
 Megumi replied almost immediately.[p]
 
-“Let’s type the letter up on a computer.”[p]
-“We’ll make sure there’s no handwriting to trace and print it at a convenience store.”[p]
-“Let’s wear gloves while we’re working on it.”[p]
-“And make absolutely sure we don’t leave any fingerprints.”[p]
+“Let's type the letter up on a computer.”[p]
+“We'll make sure there's no handwriting to trace and print it at a convenience store.”[p]
+“Let's wear gloves while we're working on it.”[p]
+“And make absolutely sure we don't leave any fingerprints.”[p]
 
-“Then I’ll get the letter ready.”[p]
+“Then I'll get the letter ready.”[p]
 “Thanks.”[p]
-“But isn’t tomorrow too soon?”[p]
+“But isn't tomorrow too soon?”[p]
 
 A short while later, Megumi replied.[p]
-“Can’t we do it tomorrow?”[p]
+“Can't we do it tomorrow?”[p]
 “I want to help her as soon as possible.”[p]
 
 Takumi checked the time.[p]
 It was still only ten Sunday morning.[p]
-It wasn’t as if they had no time to prepare at all.[p]
+It wasn't as if they had no time to prepare at all.[p]
 If they were going to act on Monday, they might be ready in time if they worked out every detail starting now.[p]
 But being ready in time and succeeding were two different things.[p]
 As if reminding himself of that distinction, Takumi slowly typed his reply.[p]
 “It might not be completely impossible.”[p]
-“I’ll start working out a plan now.”[p]
+“I'll start working out a plan now.”[p]
 “Until then, please get the letter ready.”[p]
 
 The messages were marked as read.[p]
@@ -126,11 +126,11 @@ He clicked the folder labeled “Hallucination.”[p]
 Files named Shota, Ayaka, and Takada were lined up on the screen.[l][r]
 The names looked like entries on a list of completed and planned operations.[p]
 
-Takumi moved the cursor away for a moment, but quickly opened Takada’s file.[p]
+Takumi moved the cursor away for a moment, but quickly opened Takada's file.[p]
 He organized the information and procedures required to carry out the plan, identifying each factor that might lead to failure.[p]
 [playse storage=se/keyboard_typing.ogg volume=100]
 [wait time=2000]
-He couldn’t afford to rush. Failure was not an option.[p]
+He couldn't afford to rush. Failure was not an option.[p]
 Staring at the screen, Takumi considered his next move.[p]
 One error in judgment could lead to consequences that could never be undone.[p]
 [stopse fadeout=500]
@@ -148,12 +148,12 @@ One error in judgment could lead to consequences that could never be undone.[p]
 [playse storage=se/ringback_tone.ogg volume=100]
 [wait time=3000]
 
-“This is the father of Megumi Kikuchi in Class 2-1.[l]My daughter isn’t feeling well, so she’ll be absent this morning.[l]She plans to come to school this afternoon. Thank you.”[p]
+“This is the father of Megumi Kikuchi in Class 2-1.[l]My daughter isn't feeling well, so she'll be absent this morning.[l]She plans to come to school this afternoon. Thank you.”[p]
 
 Even after the call ended, Takumi kept the phone pressed to his ear for a while.[p]
 
-The voice that had claimed to be Megumi’s father lingered in his ears as though it belonged to someone else.[l][r]
-He felt as though his lie had taken him one step into the private world of a family he didn’t even know.[p]
+The voice that had claimed to be Megumi's father lingered in his ears as though it belonged to someone else.[l][r]
+He felt as though his lie had taken him one step into the private world of a family he didn't even know.[p]
 
 [chara_hide_all time=300]
 
@@ -175,7 +175,7 @@ Megumi was carrying a large duffel bag.[p]
 
 [auto_chara name="恵" face="private_laugh"]
 
-“This kind of feels like we’re skipping school to go on a trip.”[p]
+“This kind of feels like we're skipping school to go on a trip.”[p]
 
 [auto_chara name="拓海" face="private_smile"]
 
@@ -248,7 +248,7 @@ Takumi spoke, sounding a little hesitant.[p]
 [auto_chara name="拓海" face="private_normal"]
 “I'm not trying to defend Takada, but...”[p]
 
-“Your mom’s really beautiful, Kikuchi.”[p]
+“Your mom's really beautiful, Kikuchi.”[p]
 
 “That may be why he's so obsessed with her.”[p]
 
@@ -324,14 +324,14 @@ Megumi cried out.[p]
 “That gray suit!”[p]
 
 [auto_chara name="拓海" face="private_normal"]
-“That’s Takada.”[p]
+“That's Takada.”[p]
 
 There was no mistaking him.[p]
 
 Still looking half asleep, Takada walked toward the ticket gates.[p]
 
 [auto_chara name="拓海" face="private_normal"]
-“I’m going.”[p]
+“I'm going.”[p]
 
 [playse storage=se/run.ogg volume=100]
 
@@ -354,7 +354,7 @@ The yellow line marking the edge of the platform ran just in front of their toes
 Takada let out a small yawn as he looked at his phone.[l][r]
 He looked like any other sleepy office worker on his morning commute.[p]
 
-No matter how hard Takumi tried, the sight of Takada’s back and the vision of death he had prepared for him refused to come together in his mind.[p]
+No matter how hard Takumi tried, the sight of Takada's back and the vision of death he had prepared for him refused to come together in his mind.[p]
 
 Takada kept his eyes fixed straight ahead.[p]
 
@@ -648,26 +648,26 @@ Takumi took a sip of his coffee.[p]
 
 “So why not tell his family everything?”[p]
 
-“If we send them proof that he’s been pressuring a woman at work to sleep with him, even Takada won’t be able to make a move.”[p]
+“If we send them proof that he's been pressuring a woman at work to sleep with him, even Takada won't be able to make a move.”[p]
 
-As he spoke, Takumi’s voice grew steadily more impassioned.[p]
+As he spoke, Takumi's voice grew steadily more impassioned.[p]
 
-“That’s it...!”[p]
+“That's it...!”[p]
 
-“Maybe we don’t need to use the power anymore!”[p]
+“Maybe we don't need to use the power anymore!”[p]
 
 Once the words were out, Takumi finally let the tension leave his shoulders.[l][r]
-He could still be useful without his ability. Clinging to that possibility, he leaned forward and waited for Megumi’s response.[p]
+He could still be useful without his ability. Clinging to that possibility, he leaned forward and waited for Megumi's response.[p]
 
 [auto_chara name="恵" face="serious"]
 “I see...”[p]
 
-There was little emotion in Megumi’s voice.[p]
+There was little emotion in Megumi's voice.[p]
 “So how exactly are you planning to show them this proof?”[p]
 [auto_chara name="拓海" face="level2_normal"]
 “Well, we could print it out at a convenience store like we did last time, turn it into a letter—and then just put it in their mailbox, right?”[p]
 
-Takumi continued excitedly, but Megumi’s question suddenly made the plan feel far less realistic.[p]
+Takumi continued excitedly, but Megumi's question suddenly made the plan feel far less realistic.[p]
 [auto_chara name="恵" face="serious"]
 “But what if Takada finds it before his wife does and gets rid of it?”[p]
 [auto_chara name="拓海" face="level2_panic"]
@@ -746,22 +746,22 @@ When they stepped outside, the cold night breeze brushed their cheeks.[p]
 
 They began walking side by side toward the station.[p]
 
-Even after leaving the family restaurant, Takada remained on Takumi’s mind.[p]
+Even after leaving the family restaurant, Takada remained on Takumi's mind.[p]
 
 [auto_chara name="恵" face="normal"]
 “Thanks for today.”[p]
 
 [auto_chara name="拓海" face="level2_normal"]
-“No... I didn’t really do anything.”[p]
+“No... I didn't really do anything.”[p]
 
 [auto_chara name="恵" face="normal"]
-“That’s not true.[l]You’ve been with me all day, ever since this morning.”[p]
+“That's not true.[l]You've been with me all day, ever since this morning.”[p]
 
 [auto_chara name="拓海" face="level2_normal"]
 “I even made you miss school.”[p]
 
 [auto_chara name="恵" face="smile"]
-“Then I’m just as guilty, aren’t I?”[p]
+“Then I'm just as guilty, aren't I?”[p]
 
 [auto_chara name="拓海" face="level2_smile"]
 “True.”[p]
@@ -776,13 +776,13 @@ When Takumi instinctively pulled away, Megumi silently put half a step of space 
 It felt as though he had undone the distance they had managed to close.[p]
 
 [auto_chara name="恵" face="normal"]
-“So you don’t need to worry about it so much.”[p]
+“So you don't need to worry about it so much.”[p]
 
 [auto_chara name="拓海" face="level2_surprise"]
 “Huh?”[p]
 
 [auto_chara name="恵" face="normal"]
-“About what happened today.[l]You’ve been worrying about it this whole time, haven’t you?”[p]
+“About what happened today.[l]You've been worrying about it this whole time, haven't you?”[p]
 
 [wait time=500]
 
@@ -792,7 +792,7 @@ She had hit the nail on the head.[p]
 “...Yeah, I guess.”[p]
 
 [auto_chara name="恵" face="smile"]
-“It’s not something you need to apologize for, Nagayama.[l]We decided on it together.”[p]
+“It's not something you need to apologize for, Nagayama.[l]We decided on it together.”[p]
 
 [auto_chara name="拓海" face="level2_normal"]
 “Yeah.”[p]
@@ -968,10 +968,10 @@ There was unmistakable sadness mixed in with his anger.[p]
 [wait time=500]
 He was crying.[p]
 
-Even Ryuya, who always seemed so cold and merciless, stood there with his fist trembling for Ayaka’s sake.[p]
+Even Ryuya, who always seemed so cold and merciless, stood there with his fist trembling for Ayaka's sake.[p]
 
 [wait time=500]
-The words caught in Takumi’s throat.[p]
+The words caught in Takumi's throat.[p]
 
 Ryuya's voice trembled.[p]
 
@@ -986,7 +986,7 @@ Ryuya raised his head.[p]
 “Ayaka—!”[p]
 
 The instant Takumi heard her name, he saw Ayaka's face as she'd lain motionless in the convenience store.[l][r]
-Guilt seized Takumi by the chest before the pain of Ryuya’s punch even had a chance to.[p]
+Guilt seized Takumi by the chest before the pain of Ryuya's punch even had a chance to.[p]
 
 Ryuya's large hand grabbed Takumi by the collar and slammed him hard against the rooftop door.[p]
 
@@ -1046,20 +1046,20 @@ Spitting out the words, Ryuya finally left the rooftop.[p]
 Megumi came closer and crouched beside him.[p]
 
 When she reached out her hand, Takumi recoiled for just a moment.[l][r]
-He could still feel Ryuya’s grip on his collar.[p]
+He could still feel Ryuya's grip on his collar.[p]
 
-Megumi didn’t try to touch him again. She stayed crouched at eye level with him and waited.[p]
+Megumi didn't try to touch him again. She stayed crouched at eye level with him and waited.[p]
 [auto_chara name="拓海" face="level2_depressed"]
 “Thanks. You came because you were worried about me.”[p]
 
 Takumi spoke as he steadied his breathing.[p]
-“But I didn’t want to drag you into this.”[p]
+“But I didn't want to drag you into this.”[p]
 [auto_chara name="恵" face="sad"]
-“Don’t worry about that.”[p]
+“Don't worry about that.”[p]
 
-Megumi peered anxiously into Takumi’s face, but he wouldn’t meet her eyes.[p]
+Megumi peered anxiously into Takumi's face, but he wouldn't meet her eyes.[p]
 [auto_chara name="拓海" face="level2_depressed"]
-“Really, you’d be better off staying away from me from now on.”[p]
+“Really, you'd be better off staying away from me from now on.”[p]
 
 Takumi lowered his head and spoke weakly.[p]
 [auto_chara name="恵" face="serious"]
@@ -1074,14 +1074,14 @@ After a brief pause, Takumi answered in a trembling voice.[p]
 [auto_chara name="恵" face="surprise"]
 “...Really?”[p]
 
-Megumi’s hand started to reach for Takumi’s cheek, then stopped.[p]
+Megumi's hand started to reach for Takumi's cheek, then stopped.[p]
 
-Before she could even tend to the marks where he’d been hit, she seemed to lose all sense of what she should reach for.[p]
+Before she could even tend to the marks where he'd been hit, she seemed to lose all sense of what she should reach for.[p]
 
 She drew the hand left hanging in the air back to her chest and waited for him to continue.[p]
 
 [auto_chara name="拓海" face="level2_depressed"]
-“When Ryuya called Ayaka’s cell, her mother answered.”[p]
+“When Ryuya called Ayaka's cell, her mother answered.”[p]
 “Apparently, she took a large amount of sleeping pills and has been in the hospital since yesterday.”[p]
 [fadeoutbgm time=4000]
 Neither of them could find the words.[p]
@@ -1113,7 +1113,7 @@ After a long silence, Megumi murmured quietly.[p]
 [auto_chara name="拓海" face="level2_surprise"]
 “What?”[p]
 [auto_chara name="恵" face="serious"]
-“Let’s go see Ayaka in the hospital.”
+“Let's go see Ayaka in the hospital.”
 
 *ch5_choice_visit_ayaka
 [choice_start count=2]
@@ -1200,13 +1200,13 @@ The image changed, this time showing footage captured by a convenience store's s
 It showed Takumi forcing his way behind the register, tearing at Ayaka's clothes and forcing himself on top of her.[p]
 Screams rose from the gallery, and the eyes all around Takumi were filled with hatred.[p]
 When the judge solemnly pronounced him guilty, men in black surrounded Takumi and moved to take him away again.[p]
-“I didn’t do anything like that! I didn’t do anything!”[p]
+“I didn't do anything like that! I didn't do anything!”[p]
 
 Takumi cried out desperately, but his voice was drowned out by the jeers.[p]
 
 His resistance was futile as they dragged him away by force.[p]
 
-Through a gap between the men, he saw Megumi’s face.[p]
+Through a gap between the men, he saw Megumi's face.[p]
 
 He stared at her, silently begging for help.[p]
 
@@ -1230,10 +1230,10 @@ Only his ragged breathing echoed through the dark room.[p]
 
 Cold sweat beaded across his entire body.[p]
 
-In the darkness, he raised both hands and made sure they weren’t gripping anything.[l][r]
+In the darkness, he raised both hands and made sure they weren't gripping anything.[l][r]
 Even so, his fingers still remembered the sensation of pinning Shota down in the dream.[p]
 
-Even though he was awake, the crushing pain in his chest wouldn’t go away.[p]
+Even though he was awake, the crushing pain in his chest wouldn't go away.[p]
 
 What he had done—[p]
 
@@ -1261,7 +1261,7 @@ And yet—[p]
 
 Another voice whispered deep inside him.[p]
 
-“You’ve been hurt too, haven’t you?”[p]
+“You've been hurt too, haven't you?”[p]
 
 He could not get that thought out of his head.[p]
 
@@ -1271,7 +1271,7 @@ Surely the thought had never even crossed their minds.[p]
 
 If so,[p]
 
-wasn’t it only natural that they should suffer the same pain—?[p]
+wasn't it only natural that they should suffer the same pain—?[p]
 
 [wait time=700]
 
