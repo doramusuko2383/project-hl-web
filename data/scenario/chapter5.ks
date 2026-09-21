@@ -299,7 +299,7 @@ Outside the window, commuters streamed endlessly through the ticket gates.[p]
 Nearly an hour had passed since they started waiting, and they were both getting a little tired of sitting there.[p]
 
 [auto_chara name="恵" face="private_serious"]
-“By the way, what kind of ‘illusion’ are you planning to show him today?”[p]
+“By the way, what kind of hallucination are you planning to show him today?”[p]
 
 Megumi asked.[p]
 [fadeoutbgm time=3000]
@@ -1249,7 +1249,7 @@ So he kept telling himself there was nothing wrong with it.[p]
 
 But the heart is far more fragile and easily wounded than the body.[p]
 
-The cruel illusion he had shown Ayaka[p]
+The cruel hallucination he had shown Ayaka[p]
 
 had wounded her heart beyond repair.[p]
 
@@ -1288,7 +1288,7 @@ Had he really done the right thing?[p]
 No answer came.[p]
 
 Even as the sky outside the window began to brighten, Takumi couldn't bring himself to lie down.[l][r]
-He felt that if he fell asleep, he would be forced to see the rest of the illusion he had created.[p]
+He felt that if he fell asleep, he would be forced to see the rest of the hallucination he had created.[p]
 
 After inflicting nightmares on others, he now found himself afraid to sleep.[p]
 
