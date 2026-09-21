@@ -104,7 +104,11 @@ window.__hlCleanupBadEnd();
 
 *bad_end_to_title
 [iscript]
-window.__hlCleanupBadEnd();
+if (window.__hlPrepareForTitle) {
+    window.__hlPrepareForTitle();
+} else {
+    window.__hlCleanupBadEnd();
+}
 [endscript]
 [showmenubutton]
 [free layer="fix" name="bad_end_bg"]
@@ -115,4 +119,4 @@ window.__hlCleanupBadEnd();
 [free layer="fix" name="bad_end_retry"]
 [free layer="fix" name="bad_end_title_return"]
 [stopbgm time=0 buf_all="true"]
-[jump storage="first.ks" target="*title_menu"]
+[jump storage="title.ks"]
