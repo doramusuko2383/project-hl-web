@@ -1679,7 +1679,7 @@ Going to school had been painful, and thinking about the next day had filled him
 Now, surely nothing would happen tomorrow or the day after.[p]
 He treasured those boring, uneventful days more than anything.[p]
 He could feel that way now.[p]
-That morning, he walked toward school with his eyes facing forward.[p]
+That morning, he walked toward school looking straight ahead.[p]
 
 Being able to walk without counting the footsteps behind him made him happier than he could ever have imagined before.[p]
 [auto_chara name="恵" face="smile"]
