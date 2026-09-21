@@ -51,7 +51,7 @@ The bullying had started sometime around the beginning of my second year of high
 
 [font speed=60]
 
-Again and again, I’d grown sick of my own weakness—[r]
+Again and again, I'd grown sick of my own weakness—[r]
 of being unable to change anything.
 [p]
 
@@ -70,7 +70,7 @@ how much longer would this go on?
 
 [font speed=40]
 
-Trapped in a reality I couldn’t escape,[r]
+Trapped in a reality I couldn't escape,[r]
 I didn't know how much more I could take.
 [p]
 [wait time=1000]
@@ -85,9 +85,9 @@ The chime announced lunch break. I dreaded that sound.
 
 [wait time=500]
 
-I’d been ordered to go to the school rooftop every lunch break.[p]
+I'd been ordered to go to the school rooftop every lunch break.[p]
 
-This “routine” took place out of sight of both teachers and classmates,[r]and I couldn’t tell anyone about it.[p]
+This “routine” took place out of sight of both teachers and classmates,[r]and I couldn't tell anyone about it.[p]
 [wait time=1000]
 
 ...[p]
