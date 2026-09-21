@@ -435,6 +435,33 @@
         clearTransientVisuals();
     }
 
+    // Keep every route back to the title on the same teardown path.  Scenario
+    // files, EXTRA, and the menu confirmation can all call this before jumping;
+    // repeated calls are intentionally harmless because title.ks is the final
+    // safety net for less common return routes.
+    window.__hlPrepareForTitle = function () {
+        var kag = window.TYRANO && TYRANO.kag;
+
+        if (kag && kag.menu && kag.menu.flushLastPlayedSnapshot) {
+            kag.menu.flushLastPlayedSnapshot();
+        }
+        resetRuntimeBeforeSceneSwitch();
+
+        if (!kag) return;
+        if (kag.cancelStrongStop) kag.cancelStrongStop();
+        if (kag.cancelWeakStop) kag.cancelWeakStop();
+        if (kag.stat) {
+            kag.stat.is_stop = false;
+            kag.stat.is_wait = false;
+            kag.stat.is_skip = false;
+            kag.stat.is_auto = false;
+            kag.stat.visible_menu_button = false;
+        }
+        $(".remodal-wrapper, .remodal-overlay").hide();
+        $(".button_menu, .role_button, .quiet_system_button").hide();
+        window.__hlSuppressNextScenarioClick = 0;
+    };
+
 
     function installLastPlayedSnapshotEvents(menu) {
         if (menu.__hl_last_played_events_installed) return;

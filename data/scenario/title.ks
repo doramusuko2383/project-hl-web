@@ -1,6 +1,9 @@
 ; タイトル復帰用エントリ。
 ; 本編メニューからのタイトル復帰時はスプラッシュを挟まず、タイトルメニューへ直接戻す。
 [cm]
+[iscript]
+if (window.__hlPrepareForTitle) window.__hlPrepareForTitle();
+[endscript]
 @clearstack
 @hidemenubutton
 @stop_bgmovie time=0 wait=true

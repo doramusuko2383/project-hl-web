@@ -131,7 +131,8 @@
     function backToTitle() {
         clickSound();
         root().remove();
-        TYRANO.kag.ftag.startTag("jump", { storage: "first.ks", target: "*title_menu" });
+        if (window.__hlPrepareForTitle) window.__hlPrepareForTitle();
+        TYRANO.kag.ftag.startTag("jump", { storage: "title.ks" });
     }
 
     window.HLExtra = {

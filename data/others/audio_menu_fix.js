@@ -147,13 +147,7 @@
             }
             $.confirm($.lang("go_title"), function () {
                 var currentKag = getKag();
-                if (currentKag.menu && currentKag.menu.flushLastPlayedSnapshot) {
-                    currentKag.menu.flushLastPlayedSnapshot();
-                }
-                if (window.__hlCleanupBadEnd) window.__hlCleanupBadEnd();
-                currentKag.layer.getMenuLayer().hide().empty();
-                $(".button_menu").hide();
-                currentKag.stat.visible_menu_button = false;
+                if (window.__hlPrepareForTitle) window.__hlPrepareForTitle();
                 currentKag.ftag.startTag("jump", { storage: "title.ks" });
             }, restoreAfterTitleCancel);
         };
