@@ -2,14 +2,14 @@
 
 *ch7_start
 *chapter7
-[scene_title title="第7章"]
+[scene_title title="Chapter 7"]
 
 [cm]
 [chara_hide_all]
 [clearfix]
 [start_keyconfig]
 [showmenubutton]
-[chapter_title number="第七章" title="未来"]
+[chapter_title number="Chapter Seven" title="The Future"]
 [font speed=50]
 ; chapter_title が再表示したメッセージ枠を、雷鳴後の背景が出るまで隠しておく。
 ; ここで隠さないと、章タイトル直後の黒画面にメッセージ枠だけが一瞬描画される。
@@ -20,42 +20,42 @@
 [layopt layer=message0 visible=true]
 
 [playse storage=se/smartphone_vibrate.ogg volume=100 buf="1"]
-ワックスで髪を整えていた、その時だった。[p]
+He was styling his hair with wax when it happened.[p]
 
-スマホが震えた。[p]
+His phone vibrated.[p]
 
-恵だ。[p]
+It was Megumi.[p]
 
-『家に高田が来た』[p]
+“Takada's here at my place.”[p]
 
 [wait time=1000]
 
-整えていた前髪から手が落ちた。[p]
+His hand fell away from his bangs.[p]
 
-画面の短い一文が、待ち合わせを楽しみにしていた数秒前までの気分を一息に消し去った。[p]
+The short sentence on the screen wiped away the anticipation he'd felt just seconds ago about meeting her.[p]
 
-拓海はバッグに園芸バサミを放り込んだ。[p]
+Takumi tossed his pruning shears into his bag.[p]
 
 [playse storage=se/smartphone_vibrate.ogg volume=100]
 [wait time=1000]
 
-今度は着信。[p]
+This time, a call.[p]
 
-恵だった。[p]
+It was Megumi.[p]
 
-「……」[p]
+“...”[p]
 
-耳に届くのは、食器の音。[p]
+All he could hear was the clink of dishes.[p]
 
-水道の音。[p]
+Running water.[p]
 
-誰かの足音だけだった。[p]
+And someone's footsteps.[p]
 
-呼びかけそうになって、拓海は口を閉じた。[l]恵が通話を隠しているのなら、自分の声で気づかせてはいけない。[p]
+Takumi almost called out, then closed his mouth.[l]If Megumi was hiding the call, he couldn't let his voice give her away.[p]
 
-「……」[p]
+“...”[p]
 
-そういうことか。[p]
+So that was it.[p]
 [playse storage=se/run.ogg volume=100]
 [wait time=1000]
 [cg storage="ch7_hurrying_bicycle.webp"]
@@ -63,49 +63,49 @@
 [wait time=500]
 [playbgm storage="chase.ogg" loop=true volume=40 fadein=true time=1000]
 
-間に合え――。[p]
-自転車で急げば5分程度の距離だ。[p]
-車を追い越す勢いでペダルを漕いだ。[p]
+Please, let me make it—[p]
+It was about five minutes away if he hurried on his bike.[p]
+He pedaled hard enough to overtake cars.[p]
 
-冷たい風で目が潤んでも、瞬きをする時間さえ惜しかった。[p]
+Even as the cold wind made his eyes water, he couldn't spare the time to blink.[p]
 
-その間も、ずっと会話のやりとりを聞いていた。[p]
+All the while, he kept listening to their conversation.[p]
 [bg storage="bg_megumi_mansion_back.webp" time=700]
-会話の内容を聞いて、陳腐なドラマみたいだな、と拓海は思った。[p]
+Listening to what they were saying, Takumi thought it sounded like some clichéd TV drama.[p]
 
-詐欺師の常套手段だ。[p]
-相手を不安にさせて心を揺さぶり、自分が救いの手を差し伸べる。[p]
+A con artist's standard tactic.[p]
+Make the other person anxious, unsettle them, then offer to save them.[p]
 
-しかも会社の不正が発覚した場合、それは個人レベルで処理できる問題ではない。[p]
-法律の問題になれば、外部の監査や警察が関与するのが通常だ。[p]
+Besides, if misconduct at a company came to light, it wasn't something an individual could handle.[p]
+If it became a legal matter, outside auditors or the police would normally get involved.[p]
 
-上司であるだけの高田がそれを抑えることができるとは思えなかった。[p]
+He couldn't imagine Takada could suppress all that just by being her boss.[p]
 
 [wait time=1000]
-しかし、高田があからさまに恵を思い通りにしようとし始めたため、拓海は焦った。[p]
+But when Takada began openly trying to force Megumi to do what he wanted, Takumi grew anxious.[p]
 
-拓海はこのやりとりを客観的な立場から聞くことができるが、恵はどうだろう。[p]
+Takumi could listen to the exchange objectively, but what about Megumi?[p]
 
-母親の話を出されて、その場の雰囲気で正常な判断ができなくなっている可能性がある。[p]
+With her mother brought into it, the pressure of the situation might be clouding her judgment.[p]
 
-そうなってくると高田の思う通りになってしまうかもしれない。[p]
+If that happened, things might go exactly as Takada wanted.[p]
 [wait time=1000]
-それだけは防がなければ！[p]
+He had to stop that![p]
 
 [bg storage="bg_megumi_mansion_back_entrance.webp" time=500]
 
 [playse storage=se/bicycle_brake.ogg volume=100]
 [wait time=2000]
 [playse storage=se/bicycle_stand.ogg volume=100]
-拓海は恵のマンションの駐輪場に自転車を乗り捨て、壁をよじ登り、裏からマンションに侵入した。[p]
+Takumi abandoned his bike in the apartment building's bicycle parking area, scaled the wall, and slipped in through the back.[p]
 
-人目を気にしている場合ではない。[p]
-そのまま階段を駆け上がる。[p]
+There was no time to worry about being seen.[p]
+He ran straight up the stairs.[p]
 [playse storage=se/run.ogg volume=100]
 [wait time=1000]
-五階にある恵の部屋の玄関に着くと、拓海はドアノブに手をかけた。[p]
+Reaching Megumi's front door on the fifth floor, Takumi grabbed the doorknob.[p]
 
-息を整えるより先に回す。[l]鍵がかかっていたらどうするかは、もう考えていなかった。[p]
+He turned it before catching his breath.[l]He wasn't even thinking about what he'd do if it was locked.[p]
 
 [bg storage="black.png" time=0]
 [wait time=80]
@@ -114,172 +114,172 @@
 [wait time=1000]
 [bg storage="bg_megumi_living_night.webp" time=1000]
 
-拓海はドアを勢いよく開けた。[p]
+Takumi flung the door open.[p]
 
-幸いカギはされていなかった。[p]
-玄関からリビングを見渡すが誰もいない！[p]
+Luckily, it wasn't locked.[p]
+He looked into the living room from the entrance, but no one was there![p]
 [playse storage=se/dush.ogg volume=100]
-拓海は靴を脱ぎ捨てて家に上がる。[r]
-恵はどこだ？[p]
+Takumi kicked off his shoes and rushed inside.[r]
+Where was Megumi?[p]
 [fadeoutbgm time=4000]
 [playbgm storage="tension_high.ogg" loop=true volume=50 fadein=true time=600]
 [wait time=500]
 [auto_chara name="拓海" face="private2_shout" time=150]
-「菊池さん！」[p]
+“Kikuchi!”[p]
 [chara_hide_all]
 ;[auto_chara name="恵" face="private_help"]
-「永山君！助けて！」[p]
+“Nagayama! Help!”[p]
 
-恵の部屋からだ。[p]
+It came from Megumi's room.[p]
 
 [cg storage="ch7_battle.webp"]
 [bg storage="ch7_battle.webp" time=800]
 [playse storage=se/door_open_suddenly.ogg volume=100]
-玄関のすぐ隣の部屋のドアを開けた。[p]
-恵は部屋の隅に座り込んで、何かを手に持って構えている。[p]
+He opened the door right beside the entrance.[p]
+Megumi was sitting in the corner of the room, holding something at the ready.[p]
 
-拓海が渡したクマ撃退用スプレーだ。[p]
-そのスプレーを下ろさせようと、高田が恵に向き合っていた。[p]
+It was the bear spray Takumi had given her.[p]
+Takada stood facing her, trying to get her to lower it.[p]
 
-「誰だお前は！」[p]
+“Who the hell are you?!”[p]
 
 [bg storage="bg_megumi_room_night_dark.webp" time=500]
 [auto_chara name="拓海" face="private2_anxiety"]
-「菊池さん、いったんそれを下ろそうか」[p]
+“Kikuchi, let's put that down for now.”[p]
 
-拓海は高田を無視して恵に駆け寄り、スプレーを引き受けた。[p]
+Ignoring Takada, Takumi hurried to Megumi and took the spray.[p]
 
-受け取るとき、恵の指はすぐには開かなかった。[l]一本ずつ力が抜けるのを待ってから、拓海はスプレーを自分の手へ移した。[p]
-「何があったのか教えて」[p]
+Her fingers didn't let go right away.[l]He waited for them to loosen one by one before easing the spray into his own hand.[p]
+“Tell me what happened.”[p]
 
 [auto_chara name="恵" face="private_cry"]
-「えっと、急に、襲われそうになって……それで」[p]
+“Um, he suddenly tried to attack me... and then...”[p]
 
-恵はかろうじて声を出した。[p]
+Megumi could barely get the words out.[p]
 [auto_chara name="拓海" face="private2_anxiety"]
-「怪我はない？何かされた？」[p]
+“Are you hurt? Did he do anything to you?”[p]
 [auto_chara name="恵" face="private_cry"]
-「服は脱がされそうになったけど……大丈夫だった」[p]
+“He tried to take my clothes off... but I'm okay.”[p]
 
-そう答えながらも、恵は襟元を片手で押さえたままだった。[p]
+Even as she answered, Megumi kept one hand pressed to her collar.[p]
 
-拓海が一歩近づくと、肩がわずかに跳ねる。[l][r]
-拓海は足を止め、その反応を見なかったふりをして、高田へ向き直った。[p]
+When Takumi stepped closer, her shoulders gave a slight jerk.[l][r]
+He stopped, pretended he hadn't noticed, and turned to Takada.[p]
 
 [wait time=500]
 [auto_chara name="拓海" face="private2_angry" time=80]
-恵のかすれた声に、スプレーを握る手が軋んだ。[p]
-「どういうことだ」[p]
+At the sound of Megumi's hoarse voice, his grip tightened painfully around the spray.[p]
+“What the hell is going on?”[p]
 
-高田に詰め寄る。[p]
+He advanced on Takada.[p]
 
 [auto_chara name="高田" face="anxious"]
-「ちょっと待て、俺は何もしていない」[p]
+“Hold on. I haven't done anything.”[p]
 
-高田は手を前に突き出して否定した。[p]
+Takada thrust his hands out in denial.[p]
 [auto_chara name="拓海" face="private2_angry"]
-「聞いてたぞ」[p]
+“I heard you.”[p]
 
 [auto_chara name="高田" face="confuse"]
-「何だって？」[p]
+“What?”[p]
 [auto_chara name="拓海" face="private2_angry"]
-「お前が嘘出任せで、『協力』しろとか言ってたのも聞いていた」[p]
+“I heard you making up lies and telling her to ‘cooperate.’”[p]
 
 [auto_chara name="高田" face="badmood"]
-「何の話だそれは」[p]
+“What are you talking about?”[p]
 
-彼はシラを切り通すつもりだ。[p]
+He intended to deny everything.[p]
 
 [playse storage=se/writer.ogg volume=100]
 [auto_chara name="拓海" face="private2_angry"]
-「響子さんだけじゃなく、菊池さんにも……」[p]
+“Not just Kyoko, but Kikuchi too...”[p]
 
-拓海はカバンからハサミを出して高田に向けた。[p]
+Takumi pulled the shears from his bag and pointed them at Takada.[p]
 
 [wait time=1000]
 ;後ずさる音
 [auto_chara name="高田" face="pale"]
-「なっ……やめろ！」[p]
+“Wh—Stop!”[p]
 
-高田は叫んで後ずさった。[p]
+Takada shouted and backed away.[p]
 
 [auto_chara name="拓海" face="private2_angry"]
-「刺したりはしない」[p]
-「これは俺のお気に入りの園芸バサミだ」[p]
-「ご覧の通り刃渡りも短いし、刺すのには向いていない」[p]
+“I'm not going to stab you.”[p]
+“These are my favorite pruning shears.”[p]
+“As you can see, the blades are short. They're not much good for stabbing.”[p]
 
-「枝とか幹をちょん切るのは、得意なんだがな」[p]
+“They're good at snipping off branches and stems, though.”[p]
 
 [auto_chara name="恵" face="private_scream"]
-「永山君……やめてっ」[p]
+“Nagayama... stop!”[p]
 
-恵の悲痛な叫びが部屋にじんわり響いた。[p]
+Megumi's anguished cry lingered in the room.[p]
 
-その声に、振り上げかけた怒りが一瞬だけ止まる。[p]
+Her voice checked his rising anger for just a moment.[p]
 
-守りに来たはずの自分が、今は恵をさらに怯えさせている。[l]その事実を飲み込みながらも、拓海は高田から目を逸らさなかった。[p]
+He'd come to protect her, but now he was frightening her even more.[l]Taking that in, Takumi still didn't look away from Takada.[p]
 
 [wait time=1000]
 [auto_chara name="拓海" face="private2_normal"]
-「このハサミ、こんなに気に入っているのに、残念だな」[p]
+“I really like these shears. What a shame.”[p]
 [wait time=1000]
-「汚れてしまうなんて」[p]
+“To get them dirty.”[p]
 
 [auto_chara name="高田" face="angry"]
-「おまえっ！」[p]
+“You little—!”[p]
 [auto_chara name="拓海" face="private2_normal"]
-「おっと、動くな」[p]
+“Don't move.”[p]
 
-高田が動こうとしたので、スプレーを顔に向ける。[p]
-「これは、クマ撃退用スプレーだ」[p]
-「人に使うものじゃないから、どうなるか保証できない」[p]
+When Takada tried to move, he aimed the spray at his face.[p]
+“This is bear spray.”[p]
+“It's not meant for people, so I can't guarantee what it'll do.”[p]
 
 [auto_chara name="高田" face="anxious"]
-「くっ……」[p]
+“Ghh...”[p]
 
-彼は動くのを諦めた。[p]
-「どうして欲しいんだ」[p]
+He gave up trying to move.[p]
+“What do you want?”[p]
 
 [auto_chara name="拓海" face="private2_normal"]
 [wait time=1000]
-「今後一切、菊池家に関わるのをやめろ」[p]
-「それから、響子さんの仕事にも一切影響が出ないようにしろ。[r]いいな」[p]
+“Stay away from the Kikuchi family from now on.”[p]
+“And make sure this doesn't affect Kyoko's job in any way.[r]Got it?”[p]
 
 [auto_chara name="高田" face="sad"]
-「わかった。約束しよう」[p]
+“All right. I promise.”[p]
 
-高田はうなだれた。[p]
+Takada hung his head.[p]
 
-恵の方をちらっと見ると、まだ恐怖に脅えた顔をしている。[p]
+Takumi glanced at Megumi. Her face was still full of fear.[p]
 
-約束を取りつけても、恵の指先の震えは収まっていない。[p]
+Even with that promise, her fingers hadn't stopped trembling.[p]
 
 [auto_chara name="拓海" face="private2_normal"]
-拓海は怒りのやり場を失っていた。[p]
-徹底的に、やらないといけない。[p]
+Takumi had nowhere to put his anger.[p]
+He had to see this through.[p]
 [chara_hide_all]
 [playse storage=se/heartbeat.ogg loop=true volume=100 fadein=true time=400]
-これも計画通りだ。[p]
+This was part of the plan too.[p]
 
 [wait time=800]
 
-拓海はハサミを握る手に力を込めた。[p]
+Takumi tightened his grip on the shears.[p]
 [wait time=700]
 
-そして――[p]
+Then—[p]
 
 [wait time=1000]
 [stopse]
 [stopbgm]
-拓海は、その手を思いきり振りかぶった。[p]
+Takumi raised that hand high above his head.[p]
 
 [wait time=500]
 [bg storage="black.png" time=400]
 [wait time=3000]
 
-「まったく、最後まで迷惑かけやがって」[p]
+“Making trouble right to the end.”[p]
 
-拓海は雑巾を固く絞りながら言った。[p]
+Takumi wrung out a cleaning rag as he spoke.[p]
 
 [playse storage=se/dust_cloth.ogg volume=100 buf="0"]
 [wait time=1000]
@@ -289,900 +289,900 @@
 [bg storage="bg_megumi_room_night.webp" time=700]
 [playse storage=se/room_noise.ogg loop=true volume=30]
 [auto_chara name="恵" face="private_normal"]
-「永山君、手袋した方がいいよ」[p]
+“Nagayama, you should wear gloves.”[p]
 [auto_chara name="拓海" face="private2_normal"]
-「いいって、すぐ終わるから。[l]汚さないようにやるし」[p]
+“It's fine. I'll be done soon.[l]I'll keep my hands clean.”[p]
 
-二人はフローリングを掃除している。[p]
-失禁した高田の後片付けをしているのだ。[p]
+The two of them were cleaning the wooden floor.[p]
+They were cleaning up after Takada had wet himself.[p]
 
-その高田は、逃げるように帰っていった。[p]
+Takada himself had practically fled.[p]
 
-玄関の扉が閉まっても、二人はしばらく動けなかった。[l]足音が完全に聞こえなくなってから、ようやく拓海はハサミをバッグへ戻した。[p]
+Even after the front door closed, neither of them could move for a while.[l]Only when his footsteps had faded completely did Takumi put the shears back in his bag.[p]
 
-恵は床にアルコールスプレーを吹きかけた。[p]
+Megumi sprayed alcohol cleaner on the floor.[p]
 
 [auto_chara name="恵" face="private_normal"]
-「永山君、その雑巾貸して」[p]
+“Nagayama, give me that rag.”[p]
 
-拓海は黙って雑巾を手渡した。[p]
+Takumi handed it over without a word.[p]
 
 [auto_chara name="恵" face="private_anxiety"]
-「本当にこれで良かったのかな」[p]
+“Was this really the right thing to do?”[p]
 
-恵がポツリと漏らす。[p]
+Megumi murmured.[p]
 
-問いかけというより、自分が無事だったことを確かめるための独り言のようだった。[p]
+It sounded less like a question than something she said to reassure herself that she was safe.[p]
 
-玄関の外でエレベーターの到着音が鳴り、恵の肩が跳ねた。[l][r]
-雑巾を動かす手も止まっている。[p]
+The elevator chimed outside the front door, and Megumi's shoulders jerked.[l][r]
+Her hand stopped wiping too.[p]
 
-拓海は何も指摘せず、わざと水道の蛇口を大きくひねった。[l][r]
-ありふれた水音で、この部屋を少しでも日常に戻したかった。[p]
+Without pointing it out, Takumi deliberately turned the tap on full.[l][r]
+He wanted the ordinary sound of running water to bring even a little normality back to the room.[p]
 
 [auto_chara name="拓海" face="private2_normal"]
-「ああ……いいんだよこれで。[r]
-あいつが約束を守る保証もどこにもなかったし」[p]
+“Yeah... it was.[r]
+There was no guarantee he'd keep his promise anyway.”[p]
 
-拓海は雑巾をバケツですすぐ。[p]
+Takumi rinsed the rag in the bucket.[p]
 
-濁った水がゆっくり揺れた。[p]
+The cloudy water rippled slowly.[p]
 
-恵は新しい水へ入れ替えた。[p]
+Megumi replaced it with fresh water.[p]
 
-雑巾を固く絞り、再び床を拭き始める。[p]
+She wrung out the rag and began wiping the floor again.[p]
 
 [auto_chara name="恵" face="private_anxiety"]
-「そうだけど……見せたんでしょ？」[p]
+“I know, but... you showed him, didn't you?”[p]
 
 [auto_chara name="拓海" face="private2_normal"]
-「うん。見せたよ」[p]
+“Yeah. I did.”[p]
 [auto_chara name="恵" face="private_anxiety"]
-「大丈夫かな」[p]
+“Will he be okay?”[p]
 
 [auto_chara name="拓海" face="private2_smile"]
-「大丈夫だよ。今回は違うから」[p]
+“He'll be fine. This time's different.”[p]
 [auto_chara name="恵" face="private_anxiety"]
-「違う？」[p]
+“Different?”[p]
 [auto_chara name="拓海" face="private2_normal"]
-「綾香の時みたいに、精神的に追い詰めるようなことはしてない」[p]
+“I didn't push him to a breaking point like I did with Ayaka.”[p]
 [auto_chara name="恵" face="private_question"]
-「そうなの？」[p]
+“You didn't?”[p]
 [auto_chara name="拓海" face="private2_smile"]
-「うん。もう二度と『こんなこと』ができないようにしただけ」[p]
-拓海は言いながら、チョキで挟むジェスチャーをした。[p]
+“No. I just made sure he'd never be able to do ‘that’ again.”[p]
+As he spoke, Takumi made a snipping gesture with his fingers.[p]
 
 [auto_chara name="恵" face="private_confuse"]
-「うわあ」[p]
+“Oh...”[p]
 
-恵は眉をひそめた。[p]
+Megumi frowned.[p]
 [auto_chara name="拓海" face="private2_angry"]
-「あいつは菊池さんに酷いことをした」[p]
+“What he did to you was awful, Kikuchi.”[p]
 [auto_chara name="恵" face="private_anxiety"]
-「そうね」[p]
+“Yes.”[p]
 [auto_chara name="拓海" face="private2_normal"]
-「本当は、あんな残酷な幻を見せたくはなかったけど……[p]
-あのときは冷静じゃなかったのかもしれない」[p]
+“I didn't really want to show him something so cruel, but...[p]
+Maybe I wasn't thinking clearly then.”[p]
 [auto_chara name="恵" face="private_angry"]
-「もう……本当に怖かった」[p]
+“Honestly... I was so scared.”[p]
 
-「永山君まで壊れちゃったのかと思った」[p]
+“I thought you'd broken down too, Nagayama.”[p]
 
-恵は拭き終えた雑巾を静かにバケツへ戻した。[p]
+Megumi quietly put the rag back into the bucket.[p]
 
-水面に落ちた雑巾が小さく跳ね、二人の手に冷たい雫がかかった。[l]それでも恵は手を引かなかった。[p]
+It splashed lightly as it hit the water, scattering cold drops onto their hands.[l]Still, Megumi didn't pull hers away.[p]
 
 [auto_chara name="拓海" face="private2_normal"]
-「……」[p]
+“...”[p]
 
-「あれは演技だよ」[p]
+“It was an act.”[p]
 
-拓海は片手を上げる。[p]
-「直接対峙することもあるだろうと思って、シミュレーションしてたから」[p]
+Takumi raised one hand.[p]
+“I thought I might end up facing him directly, so I'd run through it in my head.”[p]
 [auto_chara name="恵" face="private_question"]
-「え？ああなるって予想してたの？」[p]
+“What? You expected that to happen?”[p]
 
-恵が目を丸くする。[p]
+Megumi's eyes widened.[p]
 [auto_chara name="拓海" face="private2_normal"]
-拓海は頷く。[p]
+Takumi nodded.[p]
 [auto_chara name="拓海" face="private2_smile"]
-「確率はかなり低いと思ってたけど。一応脅しのセリフとかも考えてた」[p]
+“I thought the chances were pretty low. But I'd thought up some threats, just in case.”[p]
 
-拓海は悪い顔をした。[p]
-「想定通りにいくもんで驚いたよ」[p]
+Takumi gave a wicked look.[p]
+“I was surprised how closely it went to plan.”[p]
 [auto_chara name="恵" face="private_surprise"]
-「それは……驚いたな」[p]
+“Well... that's a surprise.”[p]
 
-恵は言葉を失う。[p]
+Megumi was lost for words.[p]
 [auto_chara name="拓海" face="private2_normal"]
-「前から嫌な予感はしてた」[p]
+“I'd had a bad feeling for a while.”[p]
 [auto_chara name="恵" face="private_surprise"]
-「そういえば前に言ってたね。あの時は……冗談だと思ってた」[p]
+“You did say that before. Back then... I thought you were joking.”[p]
 [auto_chara name="拓海" face="private2_sorry"]
 [wait time=500]
-「それに関してなんだけど……本当にごめん」[p]
+“About that... I'm really sorry.”[p]
 [auto_chara name="恵" face="private_question"]
-「何が？」[p]
+“For what?”[p]
 [auto_chara name="拓海" face="private2_sorry"]
-「高田が最初に家に来た日だよ」[p]
-「響子さんは外に出てろって言ったでしょ」[p]
-「だけど、俺が家にあがって高田に会うことを提案した」[p]
+“The first day Takada came here.”[p]
+“Kyoko told you to stay out, remember?”[p]
+“But I suggested going inside and meeting him.”[p]
 [auto_chara name="恵" face="private_question"]
-「うん」[p]
+“Yeah.”[p]
 [auto_chara name="拓海" face="private2_sorry"]
-「それで高田が菊池さんの存在を知ったから、今回みたいな危険な目にあったんだよ」[p]
-「だから俺のせいなんだ」[p]
+“That's how Takada found out about you, Kikuchi. It's why you ended up in danger like this.”[p]
+“So it's my fault.”[p]
 
 [auto_chara name="恵" face="private_normal"]
-「いいよ、そんなこと。結局色々上手くいったし」[p]
+“Don't worry about that. Things worked out in the end.”[p]
 [auto_chara name="拓海" face="private2_sorry"]
-「まあ……ね。一度失敗してるから上手くいくかわからなかったけど」[p]
+“Well... yeah. I'd failed once already, so I wasn't sure it would work.”[p]
 
-二人は掃除を終え、並んで洗面所で手を洗った。[p]
+They finished cleaning and washed their hands side by side at the sink.[p]
 
-拓海は蛇口を閉めながら言った。[p]
+As Takumi turned off the tap, he spoke.[p]
 
 [auto_chara name="拓海" face="private_surprise"]
-「あれ？」[p]
+“Huh?”[p]
 
 [auto_chara name="恵" face="private_question"]
-「どうかした？」[p]
+“What is it?”[p]
 [auto_chara name="拓海" face="private2_smile"]
-「そういえば……力、使えたなと思って。」[p]
-「ほら、『他人事』じゃなかった」[p]
+“I just realized... I was able to use my power.”[p]
+“See? It wasn't ‘someone else's problem.’”[p]
 [auto_chara name="恵" face="private_laugh"]
-「それ……まだ気にしてたんだ」[p]
+“You were... still worried about that?”[p]
 
-恵が呆れて笑う。[p]
+Megumi laughed in exasperation.[p]
 [auto_chara name="拓海" face="private2_normal"]
-「今は、他人だなんて思ってないよ」[p]
+“I don't think of you as just someone else now.”[p]
 
-拓海が真剣な顔をする。[p]
+Takumi's expression grew serious.[p]
 
-恵は手を拭く動きを止めた。[l]蛇口から落ちる最後の一滴だけが、やけに大きく響いた。[p]
+Megumi stopped drying her hands.[l]The last drop falling from the tap sounded strangely loud.[p]
 
 [auto_chara name="恵" face="private_happy"]
-「うん、分かってるよ……守ってくれてありがとう」[p]
+“Yeah, I know... Thank you for protecting me.”[p]
 
-恵がタオルで手を拭きながら恥ずかしそうに言う。[p]
+Megumi spoke shyly as she dried her hands on the towel.[p]
 
 [auto_chara name="拓海" face="private2_smile"]
-何となく照れくさくなった拓海は、間を埋めるように口を開いた。[p]
-「なんかお腹空いてきたな」[p]
+Feeling a little embarrassed himself, Takumi spoke to fill the silence.[p]
+“I'm getting hungry.”[p]
 
 [fadeoutbgm time=3000]
 [auto_chara name="恵" face="private_normal"]
-「ほんとだね。でも今から出掛けるとちょっと遅いよね」[p]
+“Me too. But it's a bit late to go out now.”[p]
 
-時計の針は20時を過ぎたところだった。[p]
+The clock showed a little past eight.[p]
 [auto_chara name="拓海" face="private2_smile"]
-「そうだね」[p]
+“Yeah.”[p]
 [auto_chara name="恵" face="private_normal"]
-「冷蔵庫にあるもので何か作れるかもしれない」[p]
+“I might be able to make something with what's in the fridge.”[p]
 [auto_chara name="拓海" face="private2_smile"]
-「え、菊池さん料理できたんだ」[p]
+“Oh, you can cook, Kikuchi?”[p]
 [auto_chara name="恵" face="private_normal"]
-「実は……そうなんです」[p]
+“As a matter of fact... I can.”[p]
 
-恵は得意気だ。[p]
-「食べてく？」[p]
+Megumi looked pleased with herself.[p]
+“Want to stay for dinner?”[p]
 [auto_chara name="拓海" face="private2_smile"]
-「そうだね。お言葉に甘えて」[p]
+“Sure. Thanks for offering.”[p]
 [chara_hide_all]
 [bg storage="bg_megumi_living_night.webp" time=2000]
 [playse storage=se/cooking.ogg volume=100]
 [wait time=3000]
 [playse storage=se/dinner.ogg volume=100]
 [wait time=3000]
-いつものファミレス以外のところで一緒に食事をしたのは、初めてのことだった。[p]
+It was the first time they'd eaten together somewhere other than their usual family restaurant.[p]
 
-目の前では、恵が何かを話している。[p]
-その内容はほとんど頭に入ってこなかった。[p]
+Across from him, Megumi was talking about something.[p]
+He barely took in what she was saying.[p]
 
-食器の触れ合う音。[p]
-時折聞こえる恵の笑い声。[p]
-湯気の立つ料理を口に運ぶたび、張り詰めていた身体から少しずつ力が抜けていく。[p]
+The clink of dishes.[p]
+Megumi's occasional laughter.[p]
+With every bite of the steaming food, the tension slowly drained from his body.[p]
 
-さっきまでのことが、ずいぶん遠くに感じられた。[p]
+What had happened earlier felt far away.[p]
 
 [wait time=500]
 
-ふと顔を上げると、恵と目が合った。[p]
+He happened to look up and met Megumi's eyes.[p]
 
 [auto_chara name="恵" face="private_normal"]
-「どうしたの？」[p]
+“What is it?”[p]
 
 [auto_chara name="拓海" face="private2_smile"]
-「いや、何でもない」[p]
+“No, nothing.”[p]
 [chara_hide_all]
-拓海はもう一口、料理を口に運んだ。[p]
+Takumi took another bite.[p]
 
 [wait time=500]
 
-ただ二人で食事をしている。[p]
-それだけのことが、今は妙にありがたかった。[p]
+They were simply eating together.[p]
+Right now, that alone felt strangely precious.[p]
 
-恵が箸を取り落とす音に一度だけ肩を揺らしたが、次の瞬間には二人とも顔を見合わせて笑っていた。[p]
+Takumi flinched once when Megumi dropped her chopsticks, but a moment later, they looked at each other and laughed.[p]
 [fadeoutse time=2000]
 [bg storage="black.png" time=3000]
 [wait time=500]
 
-高田の一件から、数日が過ぎた。[p]
+Several days passed after the incident with Takada.[p]
 
-放課後、拓海は恵と並んで駅へ向かっていた。[p]
+After school, Takumi walked beside Megumi toward the station.[p]
 
 [playbgm storage="likeadate.ogg" loop=true volume=80 fadein=true time=1000]
 [bg storage="bg_school_gate_evening.webp" time=700]
 
-冬の低い日差しが、通学路を斜めに照らしている。[p]
-風が吹くたび、制服の隙間から冷たい空気が入り込んできた。[p]
+The low winter sun slanted across the road from school.[p]
+Every gust sent cold air through the gaps in their uniforms.[p]
 
 [wait time=500]
 
 [auto_chara name="恵" face="pain"]
-「寒っ……」[p]
+“So cold...”[p]
 
-恵はそう呟くと、マフラーに顔を埋めるようにして肩をすくめた。[p]
-朝よりも風が強くなっている。日が傾いてから、さらに気温が下がった気がした。[p]
+Muttering, Megumi hunched her shoulders and buried her face in her scarf.[p]
+The wind was stronger than it had been that morning. It felt even colder now that the sun was sinking.[p]
 
 [auto_chara name="拓海" face="level3_normal"]
-「朝の天気予報で、今年一番の寒さって言ってたよ」[p]
+“The forecast this morning said it'd be the coldest day of the year.”[p]
 
 [auto_chara name="恵" face="pain"]
-「もうそんな時期かあ」[p]
+“That time of year already, huh?”[p]
 
-少し歩いたところで、恵が通り沿いのコンビニを指差した。[p]
+A little farther on, Megumi pointed to a convenience store along the street.[p]
 
 [auto_chara name="恵" face="normal"]
-「何か温かいの買っていかない？」[p]
+“Want to get something warm?”[p]
 
 [auto_chara name="拓海" face="level3_smile"]
-「いいね」[p]
+“Sounds good.”[p]
 [chara_hide_all]
-二人で店に入り、それぞれ温かい飲み物を買った。[p]
+They went inside and each bought a hot drink.[p]
 
 [wait time=500]
 
-店を出ると、恵は買ったばかりのココアを両手で包んだ。[p]
-温かいカップに指先を押しつけながら、ほっとしたように息を吐く。[p]
+Outside, Megumi wrapped both hands around her cocoa.[p]
+Pressing her fingertips against the warm cup, she let out a relieved breath.[p]
 
 [auto_chara name="恵" face="happy"]
-「あったかい……」[p]
+“That's warm...”[p]
 [wait time=500]
 [chara_hide_all]
 
-二人は再び駅へ向かって歩き始めた。[p]
-道沿いの店にはリースや小さなツリーが飾られ、少し先の街路樹にもイルミネーションが取り付けられている。[p]
-まだ空が明るいため灯りは点いていないが、街はすっかり年末の装いになっていた。[p]
+They started toward the station again.[p]
+The shops along the road had wreaths and little trees on display, and lights had been strung around the street trees up ahead.[p]
+It was still too light for them to be switched on, but the town was already dressed for the end of the year.[p]
 
 [auto_chara name="恵" face="normal"]
-「もうすぐクリスマスだね」[p]
+“It's almost Christmas.”[p]
 
 [auto_chara name="拓海" face="level3_normal"]
-「もうそんな時期か。」[p]
-「今年はサンタさん来るかな」[p]
+“That time of year already.”[p]
+“I wonder if Santa will come this year.”[p]
 
-真面目な顔で言ったせいか、恵が吹き出した。[p]
+Maybe it was his serious expression, but Megumi burst out laughing.[p]
 
 [auto_chara name="恵" face="laugh"]
-「急に面白いこと言わないでよ」[p]
+“Don't say something funny out of nowhere.”[p]
 
 [auto_chara name="拓海" face="level3_smile"]
-「いや、本当に来るかもしれないよ」[p]
+“No, he really might.”[p]
 
-もちろん、そんなことは思っていない。[p]
-ただ、サンタという言葉で、昔のことを一つ思い出した。[p]
+Of course, he didn't believe that.[p]
+But the word “Santa” had brought back a memory.[p]
 
 [auto_chara name="拓海" face="level3_question"]
-「ところで菊池さんって、いつまでサンタクロース信じてた？」[p]
+“By the way, Kikuchi, how long did you believe in Santa Claus?”[p]
 
 [auto_chara name="恵" face="normal"]
-「私？　結構遅かったよ。小学校の高学年くらいまで」[p]
+“Me? Pretty late. Until the last few years of elementary school.”[p]
 
 [auto_chara name="拓海" face="level3_surprise"]
-「へえ、結構信じてたんだ」[p]
+“Oh, you believed for quite a while.”[p]
 
 [auto_chara name="恵" face="troubled_smile"]
-「そうなの。周りの子に話したら、まだ信じてるのって驚かれて。それで初めて、もしかして私だけなのかなって」[p]
+“I did. When I told the other kids, they were surprised I still believed. That was the first time I wondered if it was just me.”[p]
 
-思い出したのか、恵は少し恥ずかしそうに笑った。[p]
+Megumi smiled a little sheepishly at the memory.[p]
 
-「あれは恥ずかしかったなあ」[p]
+“That was embarrassing.”[p]
 
 [auto_chara name="拓海" face="level3_smile"]
-「なんか菊池さんらしい話だね」[p]
+“That sounds like you, Kikuchi.”[p]
 
 [auto_chara name="恵" face="troubled_smile"]
-「何それ。どういう意味？」[p]
+“What's that supposed to mean?”[p]
 
 [auto_chara name="拓海" face="level3_smile"]
-「ピュアでいいなあと思って」[p]
+“I think it's nice how innocent you were.”[p]
 
 [auto_chara name="恵" face="tease"]
-「……一応、お礼は言っとくわね」[p]
+“...I'll take that as a compliment.”[p]
 
-褒めたつもりなのだが、微妙な反応だった。[p]
+He'd meant it as one, but her response was lukewarm.[p]
 
 [wait time=500]
 
 [auto_chara name="拓海" face="level3_normal"]
-「俺は小学一年生のときに、サンタがいるのか確かめようとしたことがあってさ」[p]
+“When I was in first grade, I tried to find out whether Santa was real.”[p]
 
 [auto_chara name="恵" face="surprise"]
-「一年生で？」[p]
+“In first grade?”[p]
 
 [auto_chara name="拓海" face="level3_normal"]
-「クリスマスの日に、サンタにサインをお願いしたんだよ。プレゼントと一緒に置いておいてくださいって」[p]
+“I asked Santa for his autograph at Christmas. Asked him to leave it with my present.”[p]
 
 [auto_chara name="恵" face="laugh"]
-「何その永山君らしいエピソード」[p]
+“That's such a Nagayama story.”[p]
 
-さっきと同じことを言い返された。[p]
-恵はすっかり興味を引かれたらしく、ココアを持ったままこちらを見ている。[p]
+She'd turned his own words back on him.[p]
+Apparently intrigued, Megumi watched him with her cocoa still in her hands.[p]
 
 [auto_chara name="拓海" face="level3_smile"]
-「そしたら次の日、本当に書いてあったんだよ。すごく綺麗な筆記体で」[p]
+“And the next day, it was really there. In beautiful cursive.”[p]
 
-小学一年生の拓海には、それが何と書いてあるのかまでは読めなかった。[p]
-ただ、自分には絶対に書けない文字だった。それだけで十分だった。[p]
+As a first grader, Takumi couldn't read what it said.[p]
+But it was writing he could never have produced himself. That was enough.[p]
 
 [auto_chara name="拓海" face="level3_smile2"]
-「本当にサンタが来たんだと思って、めちゃくちゃ喜んだ」[p]
+“I thought Santa really had come. I was so happy.”[p]
 
 [auto_chara name="恵" face="happy"]
-「ええ、素敵な話じゃん」[p]
+“Aw, that's a lovely story.”[p]
 
 [auto_chara name="拓海" face="level3_normal"]
-「俺もそう思ってたんだけどね」[p]
+“I thought so too, but...”[p]
 
 [auto_chara name="恵" face="surprise"]
-「……けど？」[p]
+“...But?”[p]
 
 [auto_chara name="拓海" face="level3_normal"]
-「隣の家に中学生のお兄ちゃんが住んでてさ。何て書いてあるのか気になったから、そのサイン持って見せに行ったんだよ」[p]
+“There was a boy in middle school living next door. I wanted to know what it said, so I took the autograph over to show him.”[p]
 
 [auto_chara name="恵" face="troubled_smile"]
-「わざわざ？」[p]
+“You went all that way?”[p]
 
 [auto_chara name="拓海" face="level3_question"]
-「だって気になるじゃん」[p]
+“Well, I wanted to know.”[p]
 
 [auto_chara name="恵" face="laugh"]
-「そういうところは昔から変わらないんだね」[p]
+“You haven't changed at all in that respect.”[p]
 
-否定はできなかった。[p]
-分からないものをそのままにしておくのが、昔からあまり得意ではなかったらしい。[p]
+He couldn't deny it.[p]
+Apparently, he'd never been good at leaving things he didn't understand alone.[p]
 
 [auto_chara name="拓海" face="level3_normal"]
-「それで読んでもらったら、『これ、拓海のお父さんの名前じゃない？』って」[p]
+“So he read it and said, ‘Isn't this your dad's name, Takumi?’”[p]
 
-一瞬、恵の足が止まりかけた。[p]
+For a moment, Megumi nearly stopped walking.[p]
 
 [auto_chara name="恵" face="happy"]
-「ちょっと。お父さん、なんで自分の名前書いちゃったのよ」[p]
+“Wait. Why did your dad write his own name?”[p]
 
-恵は手を叩いて笑っている。[p]
-そこまで笑われるとは思っていなかった。[p]
-
-[auto_chara name="拓海" face="level3_smile"]
-「俺が英語読めないと思ったんだろうね」[p]
-
-[auto_chara name="恵" face="laugh"]
-「そこまで綺麗に書いたのに、最後だけ適当すぎるでしょ」[p]
+Megumi clapped her hands, laughing.[p]
+He hadn't expected her to laugh that much.[p]
 
 [auto_chara name="拓海" face="level3_smile"]
-「隣に読める人がいるとは思わなかったんじゃない？」[p]
+“He probably figured I couldn't read English.”[p]
 
 [auto_chara name="恵" face="laugh"]
-「お父さんも惜しかったね」[p]
+“He made the writing so pretty, then got careless about the one thing that mattered.”[p]
+
+[auto_chara name="拓海" face="level3_smile"]
+“I guess he didn't think someone next door could read it.”[p]
+
+[auto_chara name="恵" face="laugh"]
+“He was so close.”[p]
 [chara_hide_all]
-確かに、もう少しだった。[p]
-あの日、隣の家に持っていかなければ、もう一年くらいは信じていたかもしれない。[p]
+He really had been.[p]
+If Takumi hadn't taken it next door that day, he might have believed for another year.[p]
 
 [wait time=500]
 
-笑いが収まった恵が、ココアを一口飲んだ。[p]
+Once her laughter subsided, Megumi took a sip of cocoa.[p]
 
 [auto_chara name="恵" face="normal"]
-「でも、ショックじゃなかった？」[p]
+“But weren't you upset?”[p]
 
 [auto_chara name="拓海" face="level3_normal"]
-「ショックだったよ。サンタいないんだって」[p]
+“I was. Finding out Santa wasn't real.”[p]
 
-あのときのことは、今でも意外なほどよく覚えている。[p]
-正体を知ってしまった寂しさと、綺麗な筆記体で書かれたサイン。[p]
+He still remembered it surprisingly well.[p]
+The sadness of learning the truth, and that signature in beautiful cursive.[p]
 
 [auto_chara name="拓海" face="level3_smile"]
-「でも、その字を父親が書いたんだって分かったら、それはそれで嬉しかったんだよね」[p]
+“But once I knew my dad had written it, that made me happy in its own way.”[p]
 
 [auto_chara name="恵" face="normal"]
-「嬉しかった？」[p]
+“Happy?”[p]
 
 [auto_chara name="拓海" face="level3_normal"]
-「うん。俺のために、わざわざあんな綺麗な字で書いてくれたんだなって」[p]
+“Yeah. He'd gone to the trouble of writing so beautifully just for me.”[p]
 
-サンタはいなかった。[p]
-けれど、自分を喜ばせようとしてくれた人はちゃんといた。[p]
-子供のころには、そこまでうまく言葉にできなかったと思う。[p]
+Santa wasn't real.[p]
+But someone who wanted to make him happy was.[p]
+He didn't think he could have put it that well as a child.[p]
 
-恵は少しだけ目を細めた。[p]
+Megumi's eyes softened slightly.[p]
 
 [auto_chara name="恵" face="happy"]
-「いい思い出だね」[p]
+“That's a nice memory.”[p]
 
 [auto_chara name="拓海" face="level3_smile"]
-「うん」[p]
+“Yeah.”[p]
 
-しばらくして、拓海はふと思った。[p]
+After a while, something occurred to Takumi.[p]
 
 [auto_chara name="拓海" face="level3_smile2"]
-「まあ、サンタのサインだから嘘は書いてないよね」[p]
+“Well, it was Santa's autograph, so he wasn't lying.”[p]
 
 [auto_chara name="恵" face="surprise"]
-「え？」[p]
+“Huh?”[p]
 
 [auto_chara name="拓海" face="level3_normal"]
-「その年のサンタ、父親だったんだから」[p]
+“My dad was Santa that year.”[p]
 
-恵は一瞬ぽかんとして、それからまた笑った。[p]
+Megumi stared blankly for a moment, then laughed again.[p]
 
 [auto_chara name="恵" face="laugh"]
-「せっかくいい話だったのに」[p]
+“And it was such a nice story.”[p]
 
 [auto_chara name="拓海" face="level3_question"]
-「いい話のままでしょ？」[p]
+“It still is, isn't it?”[p]
 
 [auto_chara name="恵" face="laugh"]
-「まあ、永山君らしくていいんじゃない？」[p]
+“Well, it's very you, Nagayama. That's nice enough.”[p]
 
-結局また、それを言われた。[p]
+She'd ended up saying it again.[p]
 
 [wait time=500]
 
-少し歩いたところで、恵が思い出したように口を開いた。[p]
+A little farther along, Megumi spoke as if remembering something.[p]
 
 [auto_chara name="恵" face="happy"]
-「そういえば、お母さんなんだけど。最近、すごく元気なんだ」[p]
+“Oh, about my mom. She's been doing really well lately.”[p]
 
-その言葉に、拓海は少し安心した。[p]
-以前の恵から母親の話を聞くときは、いつもどこか身構えていた気がする。[p]
+That brought Takumi some relief.[p]
+He felt he'd always braced himself whenever Megumi talked about her mother before.[p]
 
 [auto_chara name="拓海" face="level3_smile"]
-「そっか。よかった」[p]
+“Really? I'm glad.”[p]
 
 [auto_chara name="恵" face="laugh"]
-「昨日なんて、帰ってきてからずっと会社の愚痴言ってた」[p]
+“Yesterday, she spent the whole evening complaining about work.”[p]
 
 [auto_chara name="拓海" face="level3_question"]
-「……それ、元気なの？」[p]
+“...That's doing well?”[p]
 
 [auto_chara name="恵" face="happy"]
-「元気なの。前は何を聞いても『大丈夫』しか言わなかったから」[p]
+“It is. Before, all she'd say was ‘I'm fine,’ no matter what I asked.”[p]
 
-言われて、ようやく意味が分かった。[p]
-不満を口にできるということは、それだけ誰かに聞いてもらう余裕が戻ったということなのかもしれない。[p]
+Now he understood.[p]
+Perhaps being able to complain meant she'd recovered enough to let someone listen.[p]
 
 [auto_chara name="拓海" face="level3_normal"]
-「じゃあ、いい愚痴なんだ」[p]
+“So they're good complaints.”[p]
 
 [auto_chara name="恵" face="laugh"]
-「そう。聞いてる方は大変だけどね」[p]
+“Exactly. Though listening to them isn't easy.”[p]
 
-そう言いながらも、恵は嬉しそうだった。[p]
+Despite her words, Megumi looked happy.[p]
 
 [auto_chara name="恵" face="normal"]
-「それでね。今年は久しぶりにちゃんとクリスマスやろうって言ってて」[p]
+“And she said we should have a proper Christmas this year, for the first time in a while.”[p]
 
 [auto_chara name="拓海" face="level3_normal"]
-「家で？」[p]
+“At home?”[p]
 
 [auto_chara name="恵" face="happy"]
-「うん。ケーキ買って、料理も作って。昔は毎年やってたんだけどね」[p]
+“Yeah. Buy a cake, cook some food. We used to do it every year.”[p]
 
-恵は懐かしそうに言った。[p]
-母親が元気になったという話が、さっきよりも少し実感を伴って聞こえた。[p]
+Megumi sounded nostalgic.[p]
+Her mother's recovery felt a little more tangible now.[p]
 
 [auto_chara name="拓海" face="level3_smile"]
-「いいじゃん。久しぶりなら楽しみだね」[p]
+“Sounds nice. You must be looking forward to it after so long.”[p]
 
 [auto_chara name="恵" face="troubled_smile"]
-「ただ、お母さん張り切ると料理作りすぎるんだよね。二人しかいないのに」[p]
+“The thing is, my mom makes way too much food when she gets excited. Even though there are only two of us.”[p]
 
 [auto_chara name="拓海" face="level3_smile"]
-「余ったら俺が食べるよ」[p]
+“I'll eat the leftovers.”[p]
 
-口にしてから、拓海は少し笑った。[p]
-もちろん、他人の家のクリスマス料理をどうやって食べるのかまでは考えていない。[p]
+Takumi chuckled after saying it.[p]
+Of course, he hadn't thought about how he'd actually get to eat someone else's Christmas dinner.[p]
 
-恵は何か言いかけて、それから少し考えるように拓海を見た。[p]
+Megumi started to say something, then looked at him thoughtfully.[p]
 
 [auto_chara name="恵" face="normal"]
-「……じゃあ、来る？」[p]
+“...Then, want to come?”[p]
 
-言ってから、恵はココアの蓋へ視線を落とした。[l]両手の親指が、同じ場所を何度もなぞっている。[p]
+After speaking, she lowered her eyes to the lid of her cocoa.[l]Both thumbs traced the same spot over and over.[p]
 
 [auto_chara name="拓海" face="level3_surprise"]
-「え？」[p]
+“Huh?”[p]
 
 [auto_chara name="恵" face="troubled_smile"]
-「クリスマス。うちに来る？」[p]
+“For Christmas. Want to come over?”[p]
 
-思っていなかった誘いに、拓海は一瞬返事に迷った。[p]
-さっきまで昔のサンタクロースの話をしていただけなのに、いつの間にか今年のクリスマスの話になっている。[p]
+The unexpected invitation left Takumi unsure how to answer for a moment.[p]
+They'd only been talking about Santa Claus from years ago, and somehow it had turned into this year's Christmas plans.[p]
 
 [auto_chara name="恵" face="normal"]
-「どうせ二人だし、一人増えてもそんなに変わらないから。お母さんも、その方が張り切りがいあると思うし」[p]
+“It's just the two of us anyway. One more won't make much difference. And it'll give my mom more reason to go all out.”[p]
 
 [auto_chara name="拓海" face="level3_normal"]
-「俺が行っても大丈夫なの？」[p]
+“Are you sure it's okay for me to come?”[p]
 
 [auto_chara name="恵" face="happy"]
-「大丈夫だよ。永山君のこと知ってるし」[p]
+“Of course. She knows you, Nagayama.”[p]
 
-そういえば、恵の家には以前にも何度か上がっている。[p]
-今さら自分が行ったところで、驚かれることもないだろう。[p]
+Come to think of it, he'd been to Megumi's home several times already.[p]
+His coming over now probably wouldn't surprise her.[p]
 
 [auto_chara name="拓海" face="level3_smile"]
-「じゃあ、お邪魔しようかな」[p]
+“Then maybe I'll take you up on that.”[p]
 
-返事を聞いた恵の肩が、寒さとは違う理由でふっと緩んだ。[p]
+At his answer, Megumi's shoulders relaxed for a reason unrelated to the cold.[p]
 
 [auto_chara name="恵" face="happy"]
-「うん。じゃあ、お母さんに聞いてみるね」[p]
+“Okay. I'll ask my mom.”[p]
 
-まだ決まったわけでもないのに、恵は少し嬉しそうだった。[p]
+Nothing was decided yet, but Megumi looked a little pleased.[p]
 
 [auto_chara name="拓海" face="level3_normal"]
-「でも俺が増えたら、今度は料理足りなくならない？」[p]
+“But with me there, won't you run short of food?”[p]
 
-恵は一瞬考えてから、首を横に振った。[p]
+Megumi thought for a moment, then shook her head.[p]
 
 [auto_chara name="恵" face="laugh"]
-「それは絶対大丈夫」[p]
+“That definitely won't be a problem.”[p]
 
 [auto_chara name="拓海" face="level3_question"]
-「そんなに作るの？」[p]
+“She makes that much?”[p]
 
 [auto_chara name="恵" face="troubled_smile"]
-「去年なんて、次の日も同じもの食べてたから」[p]
+“Last year, we were eating the same food the next day.”[p]
 [chara_hide_all]
-それなら確かに、一人増えたところで問題はなさそうだった。[p]
+In that case, one extra person certainly didn't seem like a problem.[p]
 
 [wait time=500]
 
-高田の名前は出なかった。[p]
-もう、出す必要もないのかもしれない。[p]
+Takada's name hadn't come up.[p]
+Perhaps it no longer needed to.[p]
 
-以前は恵の母親の話をするだけで、自然とそこへ行き着いていた。[p]
-今は会社の愚痴を言うようになったとか、クリスマスに料理を作りすぎそうだとか、そんな話をしている。[p]
+Before, any mention of Megumi's mother had naturally led back to him.[p]
+Now they were talking about her complaints at work and how she'd probably cook too much for Christmas.[p]
 
-それだけで、母親が少しずつ元の生活を取り戻していることが分かった。[p]
+That alone told him she was gradually getting her old life back.[p]
 
 [wait time=500]
 
 [auto_chara name="恵" face="normal"]
-「永山君、何か食べたいものある？」[p]
+“Is there anything you'd like to eat, Nagayama?”[p]
 
 [auto_chara name="拓海" face="level3_question"]
-「もう俺が行く前提になってない？」[p]
+“Aren't you already assuming I'm coming?”[p]
 
 [auto_chara name="恵" face="surprise"]
-「あ」[p]
+“Oh.”[p]
 
-恵はそこで初めて気づいたようだった。[p]
-まだ母親に聞いてみると言っただけで、何も決まってはいない。[p]
+Megumi seemed to realize it only then.[p]
+She'd only said she would ask her mother. Nothing was decided.[p]
 
 [auto_chara name="恵" face="troubled_smile"]
-「……まあ、お母さんならたぶん大丈夫だと思う」[p]
+“...Well, knowing my mom, I'm sure it'll be fine.”[p]
 
 [auto_chara name="拓海" face="level3_smile"]
-「じゃあ、決まってから考えるよ」[p]
+“Then I'll think about it once it's settled.”[p]
 
 [auto_chara name="恵" face="happy"]
-「そうだね」[p]
+“Right.”[p]
 [chara_hide_all]
-そう言って、恵はまたココアを口にした。[p]
-もうだいぶ冷めているのか、今度は長めに飲んでいる。[p]
+With that, Megumi drank more cocoa.[p]
+It must have cooled quite a bit, because she took a longer sip this time.[p]
 
-拓海も自分の缶を傾けた。[p]
-こちらはいつの間にか空になっていた。[p]
+Takumi tipped his can too.[p]
+It had emptied without him noticing.[p]
 
 [wait time=500]
 
-駅が見えてきた。[p]
-話しながら歩いていると、いつもより早く着いたような気がする。[p]
+The station came into view.[p]
+Walking and talking made the trip feel shorter than usual.[p]
 
-少し前まで、クリスマスなんて自分にはあまり関係のない行事だった。[p]
-街が飾られて、テレビが騒がしくなって、気づけば終わっている。[p]
-今年も、たぶんそうなると思っていた。[p]
+Until recently, Christmas hadn't had much to do with him.[p]
+The town would put up decorations, television would get noisy, and before he knew it, it would be over.[p]
+He'd thought this year would probably be the same.[p]
 
-けれど、どうやら今年は少し違うらしい。[p]
+But apparently, this year would be a little different.[p]
 
 [wait time=500]
 
 [auto_chara name="恵" face="happy"]
-「じゃあ、お母さんに聞いたら連絡するね」[p]
+“I'll let you know once I've asked my mom.”[p]
 
 [auto_chara name="拓海" face="level3_smile"]
-「うん」[p]
+“Okay.”[p]
 
 [auto_chara name="恵" face="happy"]
-「じゃあ、また明日」[p]
+“See you tomorrow, then.”[p]
 
 [auto_chara name="拓海" face="level3_smile"]
-「また明日」[p]
+“See you tomorrow.”[p]
 
-恵は軽く手を振り、改札へ向かっていった。[p]
+Megumi gave a little wave and headed toward the ticket gates.[p]
 
 [chara_hide_all]
 
-拓海はその背中を少しだけ見送ってから、自分も歩き出す。[p]
+Takumi watched her go for a moment, then started walking himself.[p]
 
 [wait time=500]
 
-今年のクリスマスは、菊池さんの家で過ごすことになるかもしれない。[p]
+He might be spending this Christmas at Megumi's house.[p]
 
-ほんの少し前までなら、想像もしなかったことだ。[p]
+Not long ago, he couldn't have imagined it.[p]
 
-事件のことでもない。[p]
-能力のことでもない。[p]
-誰かをどうするかという相談でもない。[p]
+They weren't talking about the incident.[p]
+Or his power.[p]
+Or discussing what to do about someone.[p]
 
-昔のサンタクロースの話をして、笑って、今年のクリスマスの予定を話す。[p]
-そんな時間が、いつの間にか自分の日常になっていた。[p]
+They'd talked about Santa Claus, laughed, and made plans for Christmas.[p]
+Somehow, time like that had become part of his everyday life.[p]
 
 [wait time=500]
 
-「また明日」[p]
+“See you tomorrow.”[p]
 
-そんな言葉を交わして別れることも、もう珍しいことではない。[p]
+Even parting with those words wasn't unusual anymore.[p]
 
-少し前までなら、こんな毎日を退屈だと思っていたかもしれない。[p]
-けれど今は違う。[p]
+Not long ago, he might have found days like these boring.[p]
+But not now.[p]
 
-明日も学校へ行く。[p]
-その次の日も、そのまた次の日も。[p]
-そうしているうちにクリスマスが来て、冬休みが来て、今年が終わる。[p]
+He'd go to school tomorrow.[p]
+And the next day, and the day after that.[p]
+Then Christmas would come, followed by winter break, and the year would end.[p]
 
-何かが起きなくても、時間はちゃんと先へ進んでいく。[p]
+Even if nothing happened, time would keep moving forward.[p]
 
 [wait time=1000]
 
-それが、今の拓海にはたまらなく心地よかった。[p]
+To Takumi now, that felt wonderfully comforting.[p]
 
 [bg storage="black.png" time=3000]
 [wait time=1000]
 
-拓海は、自分の「超能力」に振り回された三か月間から解放されたが、新しい試練が待っていた。[p]
-受験勉強である。[p]
+Takumi was free of the three months he'd spent at the mercy of his “psychic power,” but a new trial awaited him.[p]
+Studying for entrance exams.[p]
 
-正直に言って、この三か月は勉強どころではなかった。[p]
-机に向かっても集中できない日が続き、成績も以前より落ちている。[p]
+To be honest, studying had been the last thing on his mind for those three months.[p]
+Day after day, he'd sat at his desk unable to concentrate, and his grades had slipped.[p]
 
-対して、恵は相変わらず上位を維持していた。[p]
-そのことを言うと、「私だって結構大変なんだから」と怒られた。[p]
+Megumi, meanwhile, still ranked near the top.[p]
+When he mentioned it, she snapped, “It's been hard for me too, you know.”[p]
 
 [wait time=1000]
 
-十二月は、あっという間に過ぎていった。[p]
+December flew by.[p]
 
-クリスマスには恵の家に招かれ、本当に食べきれないほどの料理が並んだ。[p]
-恵が言っていたことは、少しも大げさではなかったらしい。[p]
+He was invited to Megumi's home for Christmas, and there really was more food than they could eat.[p]
+Apparently, she hadn't exaggerated at all.[p]
 
-年が明けると、学校の空気も変わった。[p]
-休み時間に参考書を開く生徒が増え、放課後の自習室はいつも席が埋まっていた。[p]
+With the new year, the atmosphere at school changed.[p]
+More students opened study guides during breaks, and the study room was always full after school.[p]
 
-拓海も遅れを取り戻すように勉強した。[p]
-恵とは互いに励まし合ったが、一緒に勉強することはほとんどなかった。[p]
-一度試してみて、二人とも話してしまうことが分かったからだ。[p]
+Takumi studied hard to catch up.[p]
+He and Megumi encouraged each other, but they rarely studied together.[p]
+They'd tried it once and discovered that they both ended up talking.[p]
 
-そんな日々を繰り返しているうちに、季節は過ぎていった。[p]
+As those days repeated, the season passed.[p]
 [fadeoutbgm time=3000]
 [wait time=2000]
 [bg storage="bg_classroom_graduation_evening.webp" time=1000]
 [playse storage=se/school_chime.mp3 volume=80]
 [wait time=1000]
-制服の左胸に白い花を付けているのが、少し照れくさい。[p]
-でも不思議と嫌な気持ちはしなかった。[p]
+The white flower pinned to the left breast of his uniform made him a little self-conscious.[p]
+Strangely, though, it didn't feel unpleasant.[p]
 
-花へ触れた指に、布越しの鼓動が伝わる。[l]今日が終われば、この制服を着る理由もなくなるのだと、ようやく実感が追いついてきた。[p]
+As he touched the flower, his fingers felt his heartbeat through the fabric.[l]It was finally sinking in that after today, he'd have no reason to wear this uniform again.[p]
 
-拓海はふと、入学式の日を思い出した。[p]
+Takumi suddenly remembered the day of the entrance ceremony.[p]
 
-あの日は酷く冷たい雨が降っていた。[p]
-「これからの学園生活は、あまり良いことがないのかもしれない」と漠然と思ったものだ。[p]
+Bitterly cold rain had fallen that day.[p]
+He'd vaguely thought that his school life might not have much good in store.[p]
 [wait time=1000]
 [playbgm storage="graduate.ogg" loop=true volume=50 fadein=true time=1000]
-けれど、今こうして迎えた卒業式の日。[p]
-空は青く澄み、心を満たすような陽射しが降り注いでいる。[p]
+But now, on the day of his graduation ceremony,[p]
+the sky was clear blue, and the sunlight seemed to fill his heart.[p]
 
-悪いことばかりじゃなかった。[p]
-苦しみもあれば、救いもあった。[p]
-まるで、神様が最終的にバランスを取ってくれたかのようだ。[p]
+It hadn't all been bad.[p]
+There had been pain, but there had been solace too.[p]
+Almost as though God had balanced things out in the end.[p]
 
-今日の晴れ間を、有終の美を飾るためのご褒美として、素直に受け入れようと拓海は思った。[p]
+Takumi decided to simply accept today's clear skies as a reward to mark the end.[p]
 
 [bg storage="bg_graduation_hall_day.webp" time=1000]
-体育館に入ると、紅白の幕で飾られた広い空間が、ひんやりとした空気に包まれていた。[p]
+Inside the gym, the large space was draped in red and white curtains and filled with cool air.[p]
 
-正装をした教師たちが、普段とは違う厳粛な雰囲気を漂わせていた。[p]
-生徒たちは、きれいに並べられたパイプ椅子に腰を下ろしていく。[p]
+The formally dressed teachers carried an unusual air of solemnity.[p]
+Students settled into neat rows of folding chairs.[p]
 
-拓海も席に着くと、斜め前方の恵の姿が目に入った。[p]
-恵は自分の列から少し離れた右側に座っている。[p]
+As Takumi sat down, he caught sight of Megumi diagonally ahead.[p]
+She was sitting a few rows over to his right.[p]
 
-こんな時でも、拓海はつい「龍也たち」の姿を探してしまう。[p]
-これまでに何度も苦しめられたが、今はただ、龍也たちもまたここで卒業を迎えているという事実を、静かに受け止めたかった。[p]
+Even now, he found himself looking for Ryuya and the others.[p]
+They'd made him suffer so many times, but now he simply wanted to quietly accept that they too were graduating here today.[p]
 
-右前方に茶色い頭が見えた。[p]
-翔太のトレードマークの茶髪は相変わらずで、卒業式でも自分の信念を貫き通したようだ。[p]
+He spotted a brown-haired head ahead to the right.[p]
+Shota's trademark brown hair hadn't changed. Apparently, he'd stuck to his principles even for graduation.[p]
 
 [auto_chara name="翔太" face="normal"]
-彼は要領の良いタイプで、勉強もそこそこできた。[p]
-中堅の私立大学への進学を決めた。[p]
-翔太らしい選択だ、と拓海は静かに納得する。[p]
+He'd always known how to get by, and he was a decent student.[p]
+He'd decided on a mid-tier private university.[p]
+That seemed like Shota, Takumi thought quietly.[p]
 
 [chara_hide_all]
 
-目を左に移すと、小柄でセミロングの後ろ姿が見えた。[p]
-綾香だ。[p]
+Looking left, he saw a small figure with shoulder-length hair from behind.[p]
+Ayaka.[p]
 
 [auto_chara name="綾香" face="normal"]
-左胸に白い花を付けたその後ろ姿を見つけ、拓海はようやく息をついた。[p]
-綾香は一時、学校に通うことすら難しい状態だったが、少しずつ前を向けるようになった。[p]
+Spotting her there, with a white flower pinned to her left breast, Takumi finally let out a breath.[p]
+For a time, Ayaka had barely been able to attend school, but she'd gradually begun looking ahead again.[p]
 
-そして、あれから再び絵を描き始めた。[p]
+And since then, she'd started drawing again.[p]
 
-卒業後は絵の専門学校に通い、その先で美大を目指すことに決めたようだ。[p]
-当然、親は猛反対しているそうだ。[p]
+Apparently, she'd decided to attend an art vocational school after graduation, then aim for an art university.[p]
+Naturally, her parents were vehemently opposed.[p]
 
-それでも、今度はやめなかった。[p]
+Even so, this time she hadn't given up.[p]
 
 [chara_hide_all]
 
-生徒会長が卒業生代表として壇上に立ち、卒業証書を受け取った。[r]
-その後、校長の式辞が始まる。[p]
+The student council president took the stage on behalf of the graduating class and accepted the diploma.[r]
+Then the principal began his address.[p]
 
-拓海は話の内容をなんとなく頭の片隅で聞き流しつつ、脳内AIに要約させた。[p]
-「仲間と一緒に学んだ三年間を誇りに思いましょう」[p]
+Takumi half listened, letting the AI in his head summarize it.[p]
+“Take pride in the three years you've spent learning alongside your friends.”[p]
 
-……まあ、そんなことを言っていた。[p]
+...Something like that, anyway.[p]
 
-周りには涙ぐむ生徒の姿もあったが、拓海はどこか冷静にそれを眺めていた。[p]
+Some students around him were tearing up, but Takumi watched with a certain calm.[p]
 
-「自分はどうなんだろう？」と、ふと自分に問いかける。[p]
-卒業に対して、涙を流せるほどの特別な気持ちは無いかもしれない。[p]
+“How do I feel?” he wondered.[p]
+Perhaps graduation didn't mean enough to him to bring him to tears.[p]
 
-それでも、ひねくれるほど嫌な思い出ばかりだったわけでもない。[p]
-色んなことがあった――そう思うと、自然と胸が温かくなるのを感じた。[p]
+Still, his memories weren't so uniformly unpleasant that he felt bitter about it.[p]
+So much had happened—and at that thought, he felt a natural warmth in his chest.[p]
 [fadeoutbgm time=3000]
 [wait time=2000]
 [bg storage="bg_classroom_graduation_evening.webp" time=1000]
 [playbgm storage="classroom_buzzing.ogg" loop=true volume=100 fadein=true]
-卒業式が終わり、教室に戻ると、どこかそわそわした雰囲気が漂っていた。[p]
+After the ceremony, they returned to a classroom filled with a restless atmosphere.[p]
 
-最後の担任の話に耳を傾ける生徒たちからは、別れの空気が感じられる。[p]
+As the students listened to their homeroom teacher's final words, a sense of parting hung over them.[p]
 
 [wait time=1000]
-そんな中、スマホが震えた。[p]
+Then his phone vibrated.[p]
 [playse storage=se/smartphone_vibrate.ogg volume=100]
-「このあと屋上に来れるか」[p]
+“Can you come to the roof after this?”[p]
 
-龍也からだった。[p]
-この既視感が少し懐かしい。[p]
+It was from Ryuya.[p]
+The sense of déjà vu felt a little nostalgic.[p]
 
-けれど、画面を持つ手は昔のようには冷たくならなかった。[p]
-これは流石に拒否することはできないだろう。[p]
+But the hand holding his phone didn't turn cold as it once had.[p]
+This was one invitation he really couldn't refuse.[p]
 
-教室では、別れを惜しんで、思い出話があちらこちらから聞こえてくる。[p]
-「卒業おめでとう」「元気でな」[p]
+Around the classroom, students reluctant to part were sharing memories.[p]
+“Congratulations on graduating.” “Take care.”[p]
 
-なんて恥ずかしいセリフをお互い言い合ったりしている。[p]
+They were saying embarrassing things like that to one another.[p]
 
-拓海もそんな空気に包まれながら、席を立とうとすると、ふと背後から恵の声がした。[p]
+Surrounded by that atmosphere, Takumi was about to rise from his seat when he heard Megumi behind him.[p]
 
 [auto_chara name="恵" face="normal"]
-「どこにいくの？」[p]
+“Where are you going?”[p]
 
 [auto_chara name="拓海" face="level3_shysmile"]
-拓海は振り返り、恵に少し困ったような笑みを浮かべた。[p]
-「龍也に屋上に呼び出された」[p]
+Takumi turned and gave Megumi a slightly awkward smile.[p]
+“Ryuya asked me to come to the roof.”[p]
 [auto_chara name="恵" face="surprise"]
-恵は一瞬驚いた表情を見せるが、すぐに小さく微笑んで、[p]
+Megumi looked surprised for a moment, then gave a small smile.[p]
 [auto_chara name="恵" face="normal"]
-「じゃあ、私も一緒に行ってもいい？」[p]
+“Then, can I come too?”[p]
 
-と静かに尋ねた。[p]
+She asked quietly.[p]
 [chara_hide_all]
 
 [fadeoutbgm time=3000]
 [bg storage="bg_rooftop_day2.webp" time=900]
 [playse storage=se/wind_rooftop.ogg volume=20]
-拓海は屋上へと続く階段を一歩一歩上がっていた。[p]
-「もう久しくここを登ってないな」と思いながら、ふと懐かしさが込み上げてくる。[p]
+Takumi climbed the stairs to the roof, one step at a time.[p]
+It had been so long since he'd come this way, he thought, and a sudden nostalgia welled up.[p]
 
-この場所は、拓海にとっても、龍也にとっても様々な思いが交錯する場所だった。[p]
+This place held many conflicting feelings for both him and Ryuya.[p]
 
-扉を押し開けると、風がわずかに髪をなびかせ、少し先に立っている龍也の姿が見えた。[p]
+He pushed the door open. The wind stirred his hair, and he saw Ryuya standing a little way ahead.[p]
 
 [auto_chara name="龍也" face="normal"]
 
-「よう。来たか」[p]
+“Hey. You came.”[p]
 
-龍也が手を上げて挨拶する。[p]
-「……なんだお前、彼女も連れてきたのか？」[p]
+Ryuya raised a hand in greeting.[p]
+“...What, you brought your girlfriend too?”[p]
 
 [auto_chara name="恵" face="normal"]
-「ごめんね、龍也君」[p]
+“Sorry, Ryuya.”[p]
 
-恵が微笑んで応える。[p]
-「邪魔しないようにするから」[p]
+Megumi answered with a smile.[p]
+“I'll stay out of the way.”[p]
 
 [auto_chara name="拓海" face="level3_shysmile"]
-「彼女……っていうか、なんというか」[p]
+“Girlfriend... well, I don't know about that.”[p]
 
-拓海は少し照れたように視線を逸らす。[p]
-好きだとか、付き合っているとか、一度も言葉にしたことが無かった。[p]
+Takumi looked away, a little embarrassed.[p]
+They'd never once put it into words—liking each other, or being together.[p]
 [auto_chara name="龍也" face="smile"]
-「あれ、お前らって付き合ってるわけじゃなかったの？」[p]
+“Huh? You two aren't going out?”[p]
 
-龍也が不思議そうに尋ねると、恵は隣で吹き出している。[p]
+As Ryuya asked in puzzlement, Megumi burst into laughter beside Takumi.[p]
 [auto_chara name="恵" face="laugh"]
-「うーん、どうなんだろうね」[p]
+“Hmm, I wonder.”[p]
 
-恵が言いながら、少し楽しそうに笑う。[p]
+She smiled, sounding a little amused.[p]
 [auto_chara name="龍也" face="smile"]
-「なんだよそれ」[p]
+“What's that supposed to mean?”[p]
 
-龍也は少し呆れたように肩をすくめたが、どこかホッとした表情を浮かべる。[p]
-そして、真剣な顔に戻ると、ゆっくりと言葉を紡いだ。[p]
+Ryuya shrugged in mild exasperation, though he looked somewhat relieved.[p]
+Then his expression turned serious, and he spoke slowly.[p]
 [auto_chara name="龍也" face="normal"]
-「今日で卒業だからな。この場所で、ケジメをつけておきたいと思って」[p]
+“We're graduating today. I wanted to set things right here.”[p]
 [fadeoutse time=2000]
 
 [auto_chara name="拓海" face="level3_question"]
-「ケジメ……？」[p]
+“Set things right...?”[p]
 
-拓海が不思議そうに聞き返すと、龍也は視線を落とし、深く頭を下げた。[p]
+When Takumi echoed him in confusion, Ryuya lowered his eyes and bowed deeply.[p]
 [auto_chara name="龍也" face="apologize" time=700]
 [wait time=1000]
-「これまでお前にしてきたこと、許されるものじゃないって思ってる」[p]
+“I know what I've done to you isn't something you can forgive.”[p]
 [delay speed="95"]
-「本当に、すまなかった」[p]
+“I'm truly sorry.”[p]
 [resetdelay]
 
-拓海は言葉を失った。[p]
+Takumi was speechless.[p]
 
-すぐに「いい」と返そうとして、声が出なかった。[l]許すためではなく、謝罪をなかったことにしないために、拓海は黙ってその頭を見つめた。[p]
-かつて見上げることしかできなかった龍也の頭が、今は目の前で深く下がっている。[p]
-その姿は、どの記憶の中の龍也とも重ならなかった。[p]
+He tried to say “It's okay” right away, but no sound came.[l]He silently watched Ryuya's bowed head—not to forgive him, but to make sure the apology wasn't brushed aside.[p]
+The head he'd once only been able to look up at was now bowed low before him.[p]
+The sight matched none of his memories of Ryuya.[p]
 [chara_hide_all]
 [wait time=2000]
 
-やがて、拓海は少しぎこちない笑顔を浮かべ、静かに言った。[p]
+Eventually, Takumi managed a slightly awkward smile and spoke quietly.[p]
 [auto_chara name="拓海" face="level3_smile"]
-「なんだ、そんなこと。いいよ、もう気にしてないから」[p]
+“Oh, that. It's okay. It doesn't bother me anymore.”[p]
 
-口にしてから、それが全部ではないと気づいた。[l]忘れたわけではない。それでも、記憶に今日の龍也を加えて先へ進みたいと思えた。[p]
+Once he'd said it, he realized that wasn't the whole truth.[l]He hadn't forgotten. Even so, he wanted to add today's Ryuya to those memories and move forward.[p]
 [auto_chara name="龍也" face="smile"]
-「ありがとうな」[p]
+“Thanks.”[p]
 [wait time=1000]
-「……お前、本当に雰囲気変わったよな」[p]
+“...You've really changed, you know.”[p]
 
-龍也が拓海をじっと見つめ、ぽつりと言う。[p]
+Ryuya studied Takumi as he murmured it.[p]
 [auto_chara name="拓海" face="level3_smile"]
-「そうだね。……一回、死んだからかな」[p]
+“Yeah. ...Maybe because I died once.”[p]
 [auto_chara name="龍也" face="smile"]
-龍也は一瞬、沈黙したが、やがて「はは」と笑い、そのあと二人で笑った。[p]
-「お前がそんな冗談を言えるなんてな」[p]
+Ryuya fell silent for a moment, then laughed. Soon they were both laughing.[p]
+“Never thought you'd be able to joke about that.”[p]
 [auto_chara name="拓海" face="level3_smile2"]
-「謝ってくれて、嬉しいよ」[p]
+“I'm glad you apologized.”[p]
 [playbgm storage="shakehands.ogg" loop=true volume=50 fadein=true time=1000]
-胸の奥に残っていた固いものが、ようやくほどけていく気がした。[p]
+It felt as though something hard lodged deep in his chest was finally loosening.[p]
 [auto_chara name="龍也" face="smile"]
-「そうか」
+“I see.”
 
-龍也も少し照れくさそうに笑みを浮かべた。[p]
+Ryuya smiled a little bashfully too.[p]
 
 [chara_hide_all]
 
@@ -1190,66 +1190,66 @@
 
 [playse storage=se/wind_rooftop.ogg volume=20]
 
-二人とも何も言わなかった。[p]
+Neither of them spoke.[p]
 
-ただ、春の風だけが静かに屋上を吹き抜けていく。[p]
+Only the spring breeze passed quietly over the roof.[p]
 
 [auto_chara name="拓海" face="level3_smile"]
 
-ふと、拓海の口から[p]
-「卒業おめでとう」[p]
-という言葉がこぼれた。[p]
-自分でも驚いたが、それが本心だと思えた。[p]
+Then, almost without thinking, Takumi said,[p]
+“Congratulations on graduating.”[p]
+The words slipped out.[p]
+They surprised him, but he knew he meant them.[p]
 [auto_chara name="龍也" face="smile"]
-「おお、ありがとうな。お前も、卒業おめでとう」[p]
+“Oh, thanks. Congratulations to you too.”[p]
 
-龍也もぎこちない笑顔を返した。[p]
+Ryuya returned an awkward smile.[p]
 
-しばらく拓海を見つめる。[p]
+He looked at Takumi for a while.[p]
 
-そして、ゆっくり右手を差し出した。[p]
+Then he slowly held out his right hand.[p]
 
 [chara_hide_all]
-拓海はその手を見つめる。[p]
+Takumi looked at it.[p]
 
-かつて拒まれた自分の手と、目の前の手が重なる。[l]胸の奥に一瞬だけ痛みが戻ったが、今度はそこから目を逸らさなかった。[p]
+The hand before him overlapped with the memory of his own, once rejected.[l]For an instant, the pain returned deep in his chest, but this time he didn't look away.[p]
 
 [wait time=1000]
 
 [cg storage="ch7_shakehands.webp"]
 [bg storage="ch7_shakehands.webp" time=500]
 
-拓海も手を差し出し、二人は固く手を握り合った。[p]
+Takumi held out his hand too, and they shook firmly.[p]
 [delay speed="90"]
-あのとき、[l]できなかった握手。[p]
+The handshake[l]they hadn't managed back then.[p]
 [resetdelay]
-今度こそ、二人の間にあったわだかまりが消えていくようだった。[p]
-「じゃあ……お前もケジメつけないとな」[p]
+This time, it felt as though the lingering resentment between them was fading.[p]
+“Now... you've got something to set right too.”[p]
 
-龍也が小声で拓海に耳打ちした。[p]
-恵に聞こえないように配慮しているのが分かる。[p]
+Ryuya whispered into Takumi's ear.[p]
+He was clearly making sure Megumi couldn't hear.[p]
 [bg storage="bg_rooftop_day2.webp" time=900]
 [auto_chara name="拓海" face="level3_question"]
-「何を？」[p]
+“What?”[p]
 
-拓海が思わず問い返す。[p]
+Takumi couldn't help asking.[p]
 [auto_chara name="龍也" face="smile"]
-「お前らの関係性だよ」[p]
+“Your relationship.”[p]
 
-龍也はニヤリと笑った。[p]
+Ryuya grinned.[p]
 [auto_chara name="拓海" face="level3_surprise"]
-「ええ！」[p]
+“What?!”[p]
 
-拓海は思わず驚き、恵の方をチラリと見た。[p]
-何も知らない様子の恵は不思議そうにこちらを見返してくる。[p]
+Startled, Takumi glanced at Megumi.[p]
+Seemingly unaware, she looked back at him in puzzlement.[p]
 [auto_chara name="龍也" face="smile"]
-龍也は照れくさそうに片手を上げた。[p]
-「じゃあ、またな。大学で会おうぜ」[p]
+Ryuya raised a hand, looking a little embarrassed.[p]
+“See you around, then. See you at university.”[p]
 [playse storage=se/leather_shoes.ogg volume=100]
 [wait time=2000]
 [chara_hide_all]
-彼はそう言い残し、手を軽く振って去っていった。[p]
-拓海はその背中を、静かに見送った。[p]
+With those words and a small wave, he left.[p]
+Takumi quietly watched him go.[p]
 
 [stopse fadeout=800]
 [fadeoutbgm time=3000]
@@ -1259,211 +1259,211 @@
 [playbgm storage="restaurant_ambience.ogg" loop=true volume=30 fadein=true time=1000]
 
 [playse storage=se/kanpai.ogg volume=100]
-「卒業おめでとう！」[p]
+“Congratulations on graduating!”[p]
 
-卒業式の夜、拓海と恵はいつものファミレスに集まり、ドリンクバーのグラスで軽く乾杯を交わした。[p]
+That evening, Takumi and Megumi met at their usual family restaurant and lightly clinked their drink-bar glasses in a toast.[p]
 
 [auto_chara name="拓海" face="level3_smile"]
-「とは言っても、まだ全然実感が湧かないな」[p]
+“Though it still doesn't feel real at all.”[p]
 
-拓海は笑いながら呟く。[p]
+Takumi murmured with a laugh.[p]
 
 [auto_chara name="恵" face="normal"]
-「そうね……もう、この制服を着ることもないんだなって思うと、不思議な感じ」[p]
+“Yeah... It's strange to think we won't wear these uniforms again.”[p]
 
-恵は擦れて少しくたびれたブレザーの袖を眺めながら、懐かしそうに微笑んだ。[p]
+Megumi looked at the worn, slightly shabby sleeve of her blazer and smiled nostalgically.[p]
 [auto_chara name="拓海" face="level3_smile"]
-「そうだね。もう、あのクラスで一緒に授業を受けることもなくなる」[p]
+“Yeah. We won't be taking classes together in that room anymore.”[p]
 [auto_chara name="恵" face="happy"]
-「うん……そう考えると少し寂しいかもね」[p]
+“Yeah... When you think about it that way, it's a little sad.”[p]
 
-彼女はふと目を伏せ、しみじみと三年間の出来事に思いを馳せるようだった。[p]
+She lowered her eyes, seemingly reflecting on everything that had happened over the past three years.[p]
 [chara_hide_all]
 [wait time=2000]
-二人とも、何度も行き交った校舎や教室、そしてクラスメイトたちとの思い出が頭に浮かび、しばらく黙っていた。[p]
+They fell silent for a while, remembering the school building and classrooms they'd walked through so often, and the classmates they'd shared them with.[p]
 [auto_chara name="恵" face="normal"]
-「さっき龍也くん、大学で会おうって言ってたよね」[p]
+“Ryuya said he'd see you at university earlier.”[p]
 
-「同じ大学なんだ？」[p]
+“Are you going to the same one?”[p]
 
-恵が思い出したように話題を変える。[p]
+Megumi changed the subject as if she'd just remembered.[p]
 [auto_chara name="拓海" face="level3_smile"]
-「そうなんだよ。また腐れ縁になりそうだけどね」[p]
+“Yeah. Looks like we still can't get rid of each other.”[p]
 [auto_chara name="恵" face="laugh"]
-「ふふっ。そういう関係も、悪くないね」[p]
+“Hehe. That's not such a bad thing.”[p]
 
-彼女が微笑んだ。[p]
+She smiled.[p]
 [auto_chara name="拓海" face="level3_smile"]
-「恵はJ大学なんて、本当に頑張ったんだなって思うよ」[p]
+“Getting into J University, Megumi... You must have worked really hard.”[p]
 [auto_chara name="恵" face="normal"]
-「ありがとう。必死に勉強した甲斐があったよ」[p]
+“Thanks. All that studying paid off.”[p]
 
-彼女は少し照れくさそうに笑みを浮かべた。[p]
+She smiled a little shyly.[p]
 [auto_chara name="拓海" face="level3_smile"]
-「しかも法学部なんてさ」[p]
+“And the Faculty of Law, at that.”[p]
 
-拓海は感心したように続ける。[p]
+Takumi continued, impressed.[p]
 
-恵が法学部を目指すと話し始めたのは、高田の事件が一段落してからのことだった。[p]
-母親を守るために、そして大切な人たちを守るために、自分には法律の知識が必要だと強く思ったのだろう。[p]
+Megumi had started talking about applying to the Faculty of Law after the incident with Takada was settled.[p]
+She must have felt strongly that she needed legal knowledge to protect her mother and the people she cared about.[p]
 
-拓海は、そんな恵の決意に密かに尊敬の念を抱いていた。[p]
+Takumi quietly admired her resolve.[p]
 [auto_chara name="恵" face="normal"]
-「そうだ、拓海はどうして教育学部を選んだの？単位を取るのも大変そうだけど」[p]
+“Oh, Takumi, why did you choose education? Even getting the credits sounds hard.”[p]
 [auto_chara name="拓海" face="level3_question"]
-「やっぱり、発展途上国における貧困問題の根本的な解決には教育の水準をあげるのが必要不可欠であり……」[p]
+“Well, raising educational standards is essential to addressing the root causes of poverty in developing nations...”[p]
 [auto_chara name="恵" face="laugh"]
-「はいはい……いいからそういうのは。本当は？」[p]
+“Yes, yes... Enough of that. What's the real reason?”[p]
 
-恵に軽く流されてしまった。[p]
+Megumi brushed it off.[p]
 [auto_chara name="拓海" face="level3_normal"]
 [delay speed="90"]
-「気づいてあげたい、[l]と思ったんだよね」[p]
+“I wanted to be able to notice,[l]I guess.”[p]
 [resetdelay]
 
 [wait time=1000]
 
-拓海は少し言葉を探すように視線を落とした。[p]
+Takumi lowered his eyes, searching for the words.[p]
 
-テーブルの下で、膝の上に置いた手を一度握る。[l]綺麗な志望理由として話すのではなく、自分の弱さから始まった願いとして伝えたかった。[p]
+Under the table, he clenched his hand once on his knee.[l]He didn't want it to sound like a polished application essay, but a wish that had begun with his own weakness.[p]
 
 [auto_chara name="恵" face="happy"]
-「……誰に？」[p]
+“...Who?”[p]
 
 [auto_chara name="拓海" face="level3_normal"]
-「恵とか、俺みたいに辛い目にあってる生徒や、クラスで孤立してる生徒って、きっといると思うんだ。[p]
-そういう子たちに気づいて、少しでも力になれる先生になれたらなって」[p]
+“I'm sure there are students going through things like we did, Megumi. Kids who are isolated in class.[p]
+I'd like to be a teacher who notices them and can help, even a little.”[p]
 [auto_chara name="恵" face="happy"]
-「そっか……拓海なら、本当にいい先生になれると思う」[p]
+“I see... I think you'd make a really good teacher, Takumi.”[p]
 
-恵は優しい笑顔を浮かべ、しっかりと拓海を見つめて言った。[p]
+Megumi smiled gently, looking straight at him as she spoke.[p]
 [auto_chara name="拓海" face="level3_smile2"]
-「ありがとう。なんか、そう言ってもらえると自信が出てくるよ」[p]
+“Thanks. Hearing you say that makes me feel more confident.”[p]
 
-拓海も自然と笑顔がこぼれ、恵に感謝の気持ちを込めた視線を送った。[p]
+A smile came naturally to Takumi's face, and he looked at her with gratitude.[p]
 
 [auto_chara name="恵" face="normal"]
-「ところで……今日、龍也くんに謝ってもらえたね」[p]
+“By the way... Ryuya apologized to you today.”[p]
 
-恵が静かに切り出した。[p]
+Megumi brought it up quietly.[p]
 [auto_chara name="拓海" face="level3_smile"]
-「うん。高校生活の最後に、ケジメをつけるってさ」[p]
+“Yeah. He said he wanted to set things right before high school ended.”[p]
 
-拓海は、ふとあの時の龍也の真剣な表情を思い返し、少し微笑んだ。[p]
+Remembering Ryuya's serious expression, Takumi smiled slightly.[p]
 [auto_chara name="恵" face="normal"]
-「スッキリ終われて、本当に良かったね」[p]
+“I'm really glad you could end things on a good note.”[p]
 [auto_chara name="拓海" face="level3_smile2"]
-「ほんとにね」[p]
+“Me too.”[p]
 
-彼は恵の言葉で、今まで辛かったことが、綺麗に洗い流されたように思った。[p]
-その瞬間、卒業の寂しさが不意に込み上げ、胸が締めつけられた。[p]
+Her words made him feel as though all the pain he'd endured had been washed clean.[p]
+At that moment, the sadness of graduation suddenly welled up, tightening his chest.[p]
 [auto_chara name="拓海" face="level3_question"]
-「あれ……何かいま急に卒業の実感湧いてきた」[p]
+“Huh... It suddenly feels like I've really graduated.”[p]
 [auto_chara name="恵" face="laugh"]
-「何それ、急に湧いてくるものなの？」[p]
+“What? Does it just hit you like that?”[p]
 
-恵がくすっと笑うと、その笑い声が人も少なくなった店内に心地よく響いた。[p]
-しばらくして、恵が少し思わせぶりに尋ねた。[p]
+Megumi chuckled, her laughter pleasant in the now quieter restaurant.[p]
+After a while, she asked a slightly leading question.[p]
 [auto_chara name="恵" face="tease"]
-「ねえ、最後に龍也くんと何か話してなかった？」[p]
+“Hey, weren't you and Ryuya talking about something at the end?”[p]
 [auto_chara name="拓海" face="level3_shysmile"]
-「ああ……聞こえてた？」[p]
+“Oh... You heard that?”[p]
 
-拓海が少し驚いて尋ねる。[p]
+Takumi asked, a little surprised.[p]
 [auto_chara name="恵" face="tease"]
-「いや、ケジメがどうとか言ってたような気がしたんだけど」[p]
+“No, I just thought I heard something about setting things right.”[p]
 
-恵がいたずらっぽい顔で見つめる。[p]
+Megumi looked at him mischievously.[p]
 [auto_chara name="拓海" face="level3_smile"]
-（聞こえてるじゃないか）と拓海は心の中で苦笑するが、やがて少し照れくさそうに口を開いた。[p]
-「あはは……お前もケジメつけろって言われたんだよ」[p]
+So you did hear it, Takumi thought wryly. Then he spoke, looking a little embarrassed.[p]
+“Ahaha... He told me I had something to set right too.”[p]
 
 [auto_chara name="恵" face="laugh"]
-「何それ、どういう意味？教えてよ」[p]
+“What does that mean? Tell me.”[p]
 
-彼女は目を輝かせ、ますます興味津々の様子だった。[p]
+Her eyes shone with growing curiosity.[p]
 [auto_chara name="拓海" face="level3_shysmile"]
-「ちょっと……ファミレスでは恥ずかしいかな。人も見てるし」[p]
+“It's a little... embarrassing in a family restaurant. People are watching.”[p]
 
-拓海がモゴモゴと言葉を濁すと、恵は冗談めかして拗ねた顔をする。[p]
+As Takumi mumbled evasively, Megumi put on a playful pout.[p]
 
 [auto_chara name="恵" face="tease"]
-「なんだ、そんなことじゃ私の卒業の実感、まだ湧いてこないわね」[p]
+“Well, at this rate, graduation still isn't going to feel real for me.”[p]
 [auto_chara name="拓海" face="level3_smile2"]
-「うーん……」[p]
+“Hmm...”[p]
 
-拓海は少し考え込み、やがて決意したように顔を上げた。[p]
+Takumi thought for a moment, then looked up as if he'd made up his mind.[p]
 [auto_chara name="拓海" face="level3_smile"]
-「実は……一つ、試したくても試せなかったことがあって」[p]
+“Actually... there's something I've wanted to try, but haven't been able to.”[p]
 
 [auto_chara name="恵" face="laugh"]
-「え、何？」[p]
+“What is it?”[p]
 
-恵が少し身を乗り出す。[p]
+Megumi leaned forward a little.[p]
 
 [wait time=500]
-拓海は一度だけ恵の手元へ視線を落とした。[p]
+Takumi glanced down at her hands once.[p]
 
 [fadeoutbgm time=3000]
 [auto_chara name="拓海" face="level3_normal"]
-「俺のあの力。強い憎しみを抱いた相手にしか使えなかったじゃん」[p]
+“That power of mine. I could only use it on someone I really hated, right?”[p]
 [auto_chara name="恵" face="normal"]
-「そうね。高田のときに使えなかったもんね」[p]
+“Right. You couldn't use it on Takada that time.”[p]
 [auto_chara name="拓海" face="level3_normal"]
-「うん……でも、[l]
+“Yeah... But,[l]
 [delay speed="90"]
-相手を強く想ったときにも使えるのかなって」[p]
+I wondered if it would work when I cared deeply about someone too.”[p]
 [resetdelay]
 
-彼はそっと恵を見つめた。[p]
+He looked gently at Megumi.[p]
 
-恵も不思議そうに見つめ返す。
+She gazed back in puzzlement.
 
 [chara_hide_all]
 [wait time=1000]
 [choice_start count=1]
-[choice name="choice_ch7_next" text="前へ進む" target="*next"]
+[choice name="choice_ch7_next" text="Move forward" target="*next"]
 [s]
 
 *next
 [cm]
 [wait time=1000]
 [fadeoutbgm time=3000]
-拓海はそっと恵の手を両手で包み込むように握った。[p]
+Takumi gently took Megumi's hand, enclosing it in both of his.[p]
 
 [cg storage="ch7_last1.webp"]
 [bg storage="ch7_last1.webp" time=900]
 
-その瞬間、[l]
+At that moment,[l]
 [delay speed="110"]
-二人の周囲だけ、時間がゆっくりと止まっていく。[p]
+time seemed to slow to a stop around just the two of them.[p]
 [resetdelay]
-店内のBGMが遠のいていく。[p]
-そこには、拓海と恵だけの静かな空間が広がっていった。[p]
+The restaurant's background music faded into the distance.[p]
+A quiet world unfolded around them, with only Takumi and Megumi in it.[p]
 
-視界に浮かんでくるのは、拓海の記憶の中に刻まれた恵の姿だ。[p]
+Images of Megumi appeared before her eyes, drawn from Takumi's memories.[p]
 
-（……これは、私の顔？）[p]
-恵は戸惑いながらも、その記憶の中の自分をじっと見つめる。[p]
+(...Is that my face?)[p]
+Confused, Megumi stared at herself in those memories.[p]
 
-初めて拓海に話しかけられたときの、少しぎこちない笑顔を浮かべる自分。[p]
-西日が差し込む教室で、真剣に授業を受けているときの横顔。[p]
-通学路で不意に振り返った瞬間の、はにかむような表情……。[p]
+Her slightly awkward smile when Takumi first spoke to her.[p]
+Her profile as she listened intently in a classroom lit by the setting sun.[p]
+Her shy expression as she suddenly turned on the way to school...[p]
 
-駅のホームで、そしていつものファミレスで、拓海がそっと見つめていた自分の姿が、次々に映し出される。[p]
+On the station platform, and in their usual family restaurant, images of her as Takumi had quietly watched her appeared one after another.[p]
 
-拓海の思い出に映る自分が、こんなに「いい顔」をしているだなんて……[p]
-恵はそのことに驚き、拓海の真意を悟ると、胸の奥が温かくなるのを感じた。[p]
+She'd never imagined this was how she looked in his memories...[p]
+Surprised, Megumi realized what Takumi meant to tell her, and felt a warmth deep in her chest.[p]
 
-現実に戻ったとき、涙がこみ上げ、視界がぼやけていた。[p]
-拓海が穏やかな笑みを浮かべ、静かにこちらを見つめている。[p]
+When she returned to reality, tears welled up and blurred her vision.[p]
+Takumi was watching her quietly with a gentle smile.[p]
 
-拓海の手はまだそこにあった。[l]恵が指に力を込めると、急かさず、同じだけの強さで握り返してくれた。[p]
-恵は、涙をぬぐいながら小さく微笑み返し、静かに呟いた。[p]
+His hands were still there.[l]When Megumi tightened her fingers, he returned the same pressure without rushing her.[p]
+Wiping her tears, she gave a small smile in return and whispered.[p]
 [cg storage="ch7_last2.webp"]
 [bg storage="ch7_last2.webp" time=900]
 [delay speed="100"]
-「ありがとう……[l]拓海」[p]
+“Thank you...[l]Takumi.”[p]
 [resetdelay]
 
 [jump storage="ending.ks"]
