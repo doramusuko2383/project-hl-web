@@ -502,7 +502,7 @@ Takumi took another bite.[p]
 They were simply eating together.[p]
 Right now, that alone felt strangely precious.[p]
 
-Megumi's shoulders jerked once at the sound of her dropped chopsticks, but a moment later they looked at each other and laughed.[p]
+Takumi flinched once when Megumi dropped her chopsticks, but a moment later, they looked at each other and laughed.[p]
 [fadeoutse time=2000]
 [bg storage="black.png" time=3000]
 [wait time=500]
@@ -1180,7 +1180,7 @@ Ryuya fell silent for a moment, then laughed. Soon they were both laughing.[p]
 [playbgm storage="shakehands.ogg" loop=true volume=50 fadein=true time=1000]
 It felt as though something hard lodged deep in his chest was finally loosening.[p]
 [auto_chara name="龍也" face="smile"]
-“Yeah?”
+“I see.”
 
 Ryuya smiled a little bashfully too.[p]
 
@@ -1275,7 +1275,7 @@ Megumi looked at the worn, slightly shabby sleeve of her blazer and smiled nosta
 [auto_chara name="拓海" face="level3_smile"]
 “Yeah. We won't be taking classes together in that room anymore.”[p]
 [auto_chara name="恵" face="happy"]
-“No... When you think of it that way, it's a little sad.”[p]
+“Yeah... When you think about it that way, it's a little sad.”[p]
 
 She lowered her eyes, seemingly reflecting on everything that had happened over the past three years.[p]
 [chara_hide_all]
@@ -1318,7 +1318,7 @@ Takumi quietly admired her resolve.[p]
 Megumi brushed it off.[p]
 [auto_chara name="拓海" face="level3_normal"]
 [delay speed="90"]
-“I wanted to notice[l]when someone needs help.”[p]
+“I wanted to be able to notice,[l]I guess.”[p]
 [resetdelay]
 
 [wait time=1000]
@@ -1436,10 +1436,10 @@ Takumi gently took Megumi's hand, enclosing it in both of his.[p]
 
 At that moment,[l]
 [delay speed="110"]
-time slowly came to a stop around the two of them alone.[p]
+time seemed to slow to a stop around just the two of them.[p]
 [resetdelay]
 The restaurant's background music faded into the distance.[p]
-A quiet space opened around them, containing only Takumi and Megumi.[p]
+A quiet world unfolded around them, with only Takumi and Megumi in it.[p]
 
 Images of Megumi appeared before her eyes, drawn from Takumi's memories.[p]
 
@@ -1452,7 +1452,7 @@ Her shy expression as she suddenly turned on the way to school...[p]
 
 On the station platform, and in their usual family restaurant, images of her as Takumi had quietly watched her appeared one after another.[p]
 
-She'd never imagined she could look so happy in his memories...[p]
+She'd never imagined this was how she looked in his memories...[p]
 Surprised, Megumi realized what Takumi meant to tell her, and felt a warmth deep in her chest.[p]
 
 When she returned to reality, tears welled up and blurred her vision.[p]
