@@ -254,7 +254,7 @@ Shota took the gloves from Ryuya and bounced lightly in place, his permed brown 
 
 [wait time=500]
 
-He was imitating a boxer.[l] His punches weren't as heavy as Ryuya's.[p]
+He was imitating a boxer.[l]_ His punches weren't as heavy as Ryuya's.[p]
 
 [wait time=500]
 
@@ -409,7 +409,7 @@ For an instant, I felt the weightlessness of a roller coaster.[p]
 
 [wait time=500]
 
-Then I should have begun hurtling toward the ground.[l] Or so I expected.[p]
+Then I should have begun hurtling toward the ground.[l]_ Or so I expected.[p]
 
 [wait time=1000]
 
@@ -459,11 +459,11 @@ _ but my body had forgotten how.[p]
 
 [wait time=1000]
 
-Then[l] the ground seemed to rush closer.[p]
+Then[l]_ the ground seemed to rush closer.[p]
 
 [wait time=500]
 
-Yes—[l] my face was about to slam into it.[p]
+Yes—[l]_ my face was about to slam into it.[p]
 
 [wait time=1000]
 
@@ -472,7 +472,7 @@ My teeth scattered.[p]
 
 [wait time=700]
 
-Wet concrete[l] filled my vision.[p]
+Wet concrete[l]_ filled my vision.[p]
 
 [wait time=700]
 
@@ -643,7 +643,7 @@ Ayaka crouched to inspect the wet gloves and offered her unsolicited opinion.[p]
 [auto_chara name="龍也" face="angry" left=50]
 “What are you gonna do about this? Want us to go without gloves?”[p]
 
-Ryuya loomed over me.[l] Not being able to use the gloves had put him in a foul mood.[p]
+Ryuya loomed over me.[l]_ Not being able to use the gloves had put him in a foul mood.[p]
 
 The words “without gloves” left a deeper chill than the kick to my calf.[p]
 
@@ -667,7 +667,7 @@ Then I saw him pay Ayaka a fee when she handed some over, and the mystery was so
 Apparently, she got them from the convenience store where she worked.[p]
 [auto_chara name="綾香" face="anxiety" left=300]
 “Test our guts with a cigarette? You mean burn ourselves?[l]
-_ No way. That leaves a scar.”[l] Ayaka had caught on.[p]
+_ No way. That leaves a scar.”[l]_ Ayaka had caught on.[p]
 [auto_chara name="翔太" face="nastysmile" left=180]
 “Sharp as ever, Ayaka. That's exactly it![l]
 _ We'll take turns and see how many seconds each of us can stand it.”[p]
@@ -706,7 +706,7 @@ Not one of them looked at me.[p]
 They were discussing burning my skin right in front of me.[l][r]
 And yet I was the only one excluded from the conversation.[p]
 [auto_chara name="綾香" face="serious" left=300]
-“If I win, I'm raising my fee for buying your cigarettes.[l] Ringing them up while the manager isn't looking is a pain.”[p]
+“If I win, I'm raising my fee for buying your cigarettes.[l]_ Ringing them up while the manager isn't looking is a pain.”[p]
 [auto_chara name="翔太" face="sulk" left=180]
 “Come on. How can you be so cold?”[p]
 
@@ -725,7 +725,7 @@ Ryuya was losing patience.[p]
 “Let's see... Whoever gets closest to how many seconds it takes him to make a sound wins.”[p]
 
 Ayaka began laying out the rules.[p]
-“He'll cry out as soon as it touches him.[l] I'm betting he won't last even one second.”[p]
+“He'll cry out as soon as it touches him.[l]_ I'm betting he won't last even one second.”[p]
 
 She raised her right index finger as she declared her bet.[p]
 [auto_chara name="龍也" face="normal" left=50]
@@ -787,7 +787,7 @@ _ Now we've got a real bet.”[p]
 Ayaka showered Shota with exaggerated praise.[p]
 The two traded insults, but underneath it all, they got along well.[p]
 [auto_chara name="龍也" face="smile" left=50]
-“Hold on![l] Then I'm changing mine to five seconds too.”[p]
+“Hold on![l]_ Then I'm changing mine to five seconds too.”[p]
 
 At some point, Ryuya's mood had recovered.[p]
 [auto_chara name="綾香" face="normal" left=300]
@@ -902,13 +902,13 @@ Shota pinned my struggling arm and removed my watch.[p]
 
 Ayaka asked with genuine curiosity.[p]
 [auto_chara name="翔太" face="normal" left=180]
-“I figured the burn would stand out.[l] If we put it where his watch goes, he can hide it.”[p]
+“I figured the burn would stand out.[l]_ If we put it where his watch goes, he can hide it.”[p]
 [auto_chara name="綾香" face="normal" left=300]
 “Huh... You actually thought that far ahead.”[p]
 
 Ayaka sounded thoroughly impressed.[p]
 [auto_chara name="拓海" face="level1_shout" left=120]
-“Stop it![l] You piece of shit!”[p]
+“Stop it![l]_ You piece of shit!”[p]
 
 I struggled desperately.[p]
 [auto_chara name="翔太" face="nastysmile" left=180]
@@ -967,7 +967,7 @@ Ryuya spoke without letting me up.[p]
 
 He jerked his chin in command.[p]
 [auto_chara name="拓海" face="level1_shout" left=120]
-“Stop it![l] Let me go!”[p]
+“Stop it![l]_ Let me go!”[p]
 
 I screamed.[p]
 I'd had enough.[l]
@@ -976,7 +976,7 @@ _ but worse was discovering how deeply humiliating it was to have all control ov
 It forced me to confront my helplessness in the cruelest way.[p]
 I would never forgive them.[l]
 ;ここで挿絵入れたい。復讐を誓うシーン
-_ I'd make them suffer the same thing—[l] no, something worse.[l][r]
+_ I'd make them suffer the same thing—[l]_ no, something worse.[l][r]
 I swore it.[p]
 
 As I shouted, my freshly burned wrist scraped against the ground.[p]
@@ -1000,7 +1000,7 @@ _ he gripped my arm tightly with his dominant hand.[p]
 [bg storage="black.png" time=300]
 [fadeoutbgm time=3000]
 [delay speed="120"]
-At that moment,[l] all sound vanished from the world—[p]
+At that moment,[l]_ all sound vanished from the world—[p]
 [resetdelay]
 [wait time=1000]
 Ever since the incident on the rooftop, I had been thinking about that “vision.”[p]
@@ -1049,7 +1049,7 @@ _ and lowered the cigarette in his right.[p]
 What was he going to do?[p]
 The cigarette grew larger and larger,[l]
 _ coming too close for Shota's eyes to focus on it.[p]
-He realized[l] Ryuya was aiming for his eye.[p]
+He realized[l]_ Ryuya was aiming for his eye.[p]
 But he could neither fight back nor even close his eyes.[l]
 _ In the end, he was completely helpless.[p]
 [playse storage=se/fire.ogg volume=100]
@@ -1074,7 +1074,7 @@ _ The lit end of a cigarette can apparently reach nine hundred degrees Celsius.[
 Pain tore through Shota's skull.[p]
 The cornea is among the body's most pain-sensitive tissues.[p]
 Every part of him was consumed by the sensation of pain.[p]
-It hurt.[l] It was agony.[l] He couldn't bear it.[p]
+It hurt.[l]_ It was agony.[l]_ He couldn't bear it.[p]
 An incoherent moan escaped his lips.[p]
 He couldn't think.[p]
 [bg storage="bg_rooftop_day_hallucination.webp" time=300]
@@ -1118,7 +1118,7 @@ _ let out a terrible scream, and rolled across the ground.[p]
 Startled, Ryuya released me, stood, and moved toward him.[p]
 
 [auto_chara name="龍也" face="impatience" left=50]
-“Hey, what's wrong?[l] Are you hurt?”[p]
+“Hey, what's wrong?[l]_ Are you hurt?”[p]
 Ryuya frowned in confusion.[p]
 [chara_hide_all time=300]
 At the sound of Ryuya's voice, Shota yelped and scrambled backward,[l]
