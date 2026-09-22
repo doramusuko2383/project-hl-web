@@ -249,6 +249,47 @@
         })[0];
     }
 
+    // loadGame() normally resumes a manual save without advancing it.  Auto
+    // saves are snapshots taken while the autosave tag is running, so only
+    // those snapshots need auto_next in order to leave that tag.
+    function loadOptionsForData(data) {
+        var autoNext = data && data.is_auto ? "yes" : "no";
+        if (data && data.stat && data.stat.load_auto_next == 1) {
+            data.stat.load_auto_next = false;
+            autoNext = "yes";
+        }
+        return { auto_next: autoNext };
+    }
+
+    function armContinueInputGuard(kag) {
+        // CONTINUE is invoked from a glink click (or its keyboard-generated
+        // click).  Loading replaces the layers while that input is still being
+        // dispatched, which can make the restored event layer consume it as
+        // the next click.  Keep canClick() closed through restoration and, for
+        // Enter/Space, until the activating key has actually been released.
+        kag.tmp.__hl_continue_input_guard = true;
+        kag.once("load-beforemaking", function () {
+            var releaseAfter = Date.now() + 100;
+            var waitForRelease = function () {
+                var keyboard = kag.key_mouse && kag.key_mouse.keyboard;
+                var states = keyboard && keyboard.key_state_map;
+                var keyHeld = false;
+                if (states) {
+                    Object.keys(states).some(function (key) {
+                        keyHeld = !!states[key].pressed;
+                        return keyHeld;
+                    });
+                }
+                if (Date.now() < releaseAfter || keyHeld) {
+                    window.setTimeout(waitForRelease, 16);
+                    return;
+                }
+                kag.tmp.__hl_continue_input_guard = false;
+            };
+            window.setTimeout(waitForRelease, 0);
+        }, { system: true });
+    }
+
     function hasContinuableData(menu) {
         if (!menu) return false;
         return !!latest(getAutoSaveData(menu).concat(menu.getSaveData().data));
@@ -1242,6 +1283,15 @@
         menu.__hl_original_loadQuickSave = menu.loadQuickSave;
         menu.__hl_original_setQuickSave = menu.setQuickSave;
 
+        var keyMouseUtil = TYRANO.kag.key_mouse && TYRANO.kag.key_mouse.util;
+        if (keyMouseUtil && !keyMouseUtil.__hl_original_canClick) {
+            keyMouseUtil.__hl_original_canClick = keyMouseUtil.canClick;
+            keyMouseUtil.canClick = function () {
+                if (TYRANO.kag.tmp.__hl_continue_input_guard) return false;
+                return this.__hl_original_canClick.apply(this, arguments);
+            };
+        }
+
         menu.loadQuickSave = function () {
             resetRuntimeBeforeSceneSwitch();
             return this.__hl_original_loadQuickSave.call(this);
@@ -1319,7 +1369,8 @@
         menu.loadAutoSave = function () {
             var data = getAutoSaveData(this)[0];
             if (!data) return false;
-            this.loadGameData($.extend(true, {}, data), { auto_next: "yes" });
+            data = $.extend(true, {}, data);
+            this.loadGameData(data, loadOptionsForData(data));
         };
 
         menu.loadGameData = function (data, options) {
@@ -1333,7 +1384,10 @@
             resetRuntimeBeforeSceneSwitch();
             if (String(num).indexOf("auto:") === 0) {
                 var data = getAutoSaveData(this)[parseInt(String(num).split(":")[1], 10)];
-                if (data) this.loadGameData($.extend(true, {}, data), { auto_next: "yes" });
+                if (data) {
+                    data = $.extend(true, {}, data);
+                    this.loadGameData(data, loadOptionsForData(data));
+                }
                 return;
             }
             return this.__hl_original_loadGame.call(this, num);
@@ -1350,7 +1404,9 @@
         menu.loadLatestSave = function () {
             var newest = latest(getAutoSaveData(this).concat(this.getSaveData().data));
             if (newest) {
-                this.loadGameData($.extend(true, {}, newest), { auto_next: "yes" });
+                newest = $.extend(true, {}, newest);
+                armContinueInputGuard(this.kag);
+                this.loadGameData(newest, loadOptionsForData(newest));
                 return true;
             }
             return false;
