@@ -476,6 +476,87 @@
         clearTransientVisuals();
     }
 
+    function invalidateTextCallbacks(kag) {
+        if (!kag || !kag.tmp) return;
+        kag.tmp.__hl_text_generation = (kag.tmp.__hl_text_generation || 0) + 1;
+    }
+
+    function installTextCallbackGuard(kag) {
+        var textTag = kag && kag.ftag && kag.ftag.master_tag && kag.ftag.master_tag.text;
+        if (!textTag || textTag.__hl_text_callback_guard_installed) return;
+        textTag.__hl_text_callback_guard_installed = true;
+
+        var originalAddChars = textTag.addChars;
+        var originalAddOneChar = textTag.addOneChar;
+
+        function runWithGuardedTextTimeout(tag, generation, callback, args) {
+            var originalSetTimeout = $.setTimeout;
+            $.setTimeout = function (timerCallback, timeout) {
+                return originalSetTimeout(function () {
+                    if (tag.kag.tmp.__hl_text_generation !== generation) return;
+                    timerCallback();
+                }, timeout);
+            };
+            try {
+                return callback.apply(tag, args);
+            } finally {
+                $.setTimeout = originalSetTimeout;
+            }
+        }
+
+        textTag.addChars = function () {
+            invalidateTextCallbacks(this.kag);
+            var generation = this.kag.tmp.__hl_text_generation;
+            return runWithGuardedTextTimeout(this, generation, originalAddChars, arguments);
+        };
+
+        textTag.addOneChar = function () {
+            var generation = this.kag.tmp.__hl_text_generation;
+            return runWithGuardedTextTimeout(this, generation, originalAddOneChar, arguments);
+        };
+    }
+
+    function resetInputRuntimeForTitle(kag) {
+        if (!kag) return;
+
+        // addOneChar() recursively schedules itself and finishAddingChars()
+        // without retaining their timer IDs.  Move to a new generation before
+        // releasing is_adding_text so callbacks from the previous scenario can
+        // neither touch the title DOM nor call ftag.nextOrder().
+        invalidateTextCallbacks(kag);
+
+        // loadGameData restores stat wholesale.  A save made while text, a
+        // click, or a transition is being processed can therefore bring these
+        // transient flags back even though the restored scene is already
+        // usable.  They must not survive the *next* scene switch (notably the
+        // menu's return-to-title jump).
+        if (kag.stat) {
+            kag.stat.is_stop = false;
+            kag.stat.is_wait = false;
+            kag.stat.is_skip = false;
+            kag.stat.is_auto = false;
+            kag.stat.is_adding_text = false;
+            kag.stat.is_click_text = false;
+            kag.stat.is_hide_message = false;
+            kag.stat.is_wait_anim = false;
+            kag.stat.is_trans = false;
+            kag.stat.visible_menu_button = false;
+            kag.stat.enable_keyconfig = true;
+        }
+
+        if (kag.tmp) {
+            window.clearTimeout(kag.tmp.wait_id);
+            kag.tmp.wait_id = "";
+            // The CONTINUE guard belongs only to the input which initiated
+            // that load.  Never let it gate a later title or title-menu input.
+            kag.tmp.__hl_continue_input_guard = false;
+        }
+        if (kag.key_mouse) {
+            kag.key_mouse.is_swipe = false;
+            kag.key_mouse.is_keydown = false;
+        }
+    }
+
     // Keep every route back to the title on the same teardown path.  Scenario
     // files, EXTRA, and the menu confirmation can all call this before jumping;
     // repeated calls are intentionally harmless because title.ks is the final
@@ -491,13 +572,7 @@
         if (!kag) return;
         if (kag.cancelStrongStop) kag.cancelStrongStop();
         if (kag.cancelWeakStop) kag.cancelWeakStop();
-        if (kag.stat) {
-            kag.stat.is_stop = false;
-            kag.stat.is_wait = false;
-            kag.stat.is_skip = false;
-            kag.stat.is_auto = false;
-            kag.stat.visible_menu_button = false;
-        }
+        resetInputRuntimeForTitle(kag);
         $(".remodal-wrapper, .remodal-overlay").hide();
         $(".button_menu, .role_button, .quiet_system_button").hide();
         window.__hlSuppressNextScenarioClick = 0;
@@ -1259,6 +1334,7 @@
         installChoiceTags();
         installEndingTag();
         installScenarioTags();
+        installTextCallbackGuard(TYRANO.kag);
 
         if (!TYRANO.kag.__hl_bad_end_load_cleanup_installed) {
             TYRANO.kag.__hl_bad_end_load_cleanup_installed = true;
