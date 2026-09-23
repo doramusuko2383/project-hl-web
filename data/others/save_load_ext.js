@@ -478,6 +478,13 @@
 
     function invalidateTextCallbacks(kag) {
         if (!kag || !kag.tmp) return;
+        var textTag = kag.ftag && kag.ftag.master_tag && kag.ftag.master_tag.text;
+        // Use Tyrano's own lip-sync teardown: it clears every per-part timer,
+        // restores the closed-mouth frame, and removes the tmp target list.
+        // Unlike finishAddingChars(), this does not call ftag.nextOrder().
+        if (textTag && typeof textTag.stopLipSyncWithText === "function" && kag.tmp.text_lipsync_target_parts) {
+            textTag.stopLipSyncWithText();
+        }
         kag.tmp.__hl_text_generation = (kag.tmp.__hl_text_generation || 0) + 1;
     }
 
