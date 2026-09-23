@@ -573,7 +573,10 @@
         if (kag.cancelStrongStop) kag.cancelStrongStop();
         if (kag.cancelWeakStop) kag.cancelWeakStop();
         resetInputRuntimeForTitle(kag);
-        $(".remodal-wrapper, .remodal-overlay").hide();
+        // The confirmation callback runs before Remodal calls close().  Do not
+        // hide its wrapper here: a hidden closing animation never emits its
+        // completion event and leaves the reusable instance stuck in
+        // `closing`, so the next return-to-title confirmation cannot open.
         $(".button_menu, .role_button, .quiet_system_button").hide();
         window.__hlSuppressNextScenarioClick = 0;
     };
