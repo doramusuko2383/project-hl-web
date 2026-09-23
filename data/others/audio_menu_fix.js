@@ -100,7 +100,6 @@
         var kag = getKag();
         if (!kag) return false;
         if ($("body").hasClass("badend-active")) {
-            $(".remodal-wrapper, .remodal-overlay").hide();
             kag.layer.getMenuLayer().show();
             $(".button_menu, .role_button, .quiet_system_button").hide();
             kag.restoreFocusable && kag.restoreFocusable();
@@ -114,7 +113,6 @@
         kag.stat.is_wait = false;
         kag.stat.is_skip = false;
         kag.stat.is_auto = false;
-        $(".remodal-wrapper, .remodal-overlay").hide();
         kag.layer.getMenuLayer().show();
         $(".button_menu").hide();
         kag.restoreFocusable && kag.restoreFocusable();
