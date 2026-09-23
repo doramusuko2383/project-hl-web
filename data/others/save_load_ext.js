@@ -463,7 +463,8 @@
     }
 
     function clearTransientVisuals() {
-        hideChoiceBackdrop(true);
+        disposeChoiceBackdrop();
+        disposeActiveEnding();
         $("#chapter-title-overlay, #proyama-splash").remove();
         $(".tyrano-anim, .chara-mod-animation").stop(true, true);
         $(".layer_menu").hide().empty();
@@ -948,6 +949,11 @@
         }, DEFAULT_CHOICE_CONFIG.fadeTime);
     }
 
+    function disposeChoiceBackdrop() {
+        choiceBackdropDismissed = false;
+        hideChoiceBackdrop(true);
+    }
+
     function hasActiveStoryChoice() {
         return $(".hl-story-choice-group, .glink_button.hl-story-choice").filter(function () {
             // Tyrano temporarily hides the free layer while a system menu is
@@ -1139,12 +1145,21 @@
         hideChoiceBackdrop();
     }
 
+    var activeEnding = null;
+    var endingGeneration = 0;
+
+    function disposeActiveEnding() {
+        if (activeEnding) activeEnding.dispose();
+    }
+
     function installEndingTag() {
         TYRANO.kag.tag.hl_ending = {
             vital: [],
             pm: {},
             start: function () {
                 var kag = TYRANO.kag;
+                disposeActiveEnding();
+                var generation = ++endingGeneration;
                 var images = [
                     { storage: "ch01_sc01_rooftop_wait.webp", hold: 8500, sepia: true },
                     { storage: "ch2_ayaka_and_megumi.webp", hold: 8500, sepia: true },
@@ -1171,9 +1186,32 @@
                 var credit = $("<div></div>").addClass("hl-ending-credit");
                 var endText = $("<div></div>").addClass("hl-ending-end").text("END");
                 var timers = [];
+                var disposed = false;
+                var advanced = false;
+
+                function isCurrent() {
+                    return !disposed && activeEnding && activeEnding.generation === generation;
+                }
+
+                function dispose() {
+                    if (disposed) return;
+                    disposed = true;
+                    timers.forEach(clearTimeout);
+                    timers = [];
+                    photo.off(".hlEnding");
+                    ending.off(".hlEnding");
+                    ending.remove();
+                    if (activeEnding && activeEnding.generation === generation) activeEnding = null;
+                }
+
+                activeEnding = { generation: generation, dispose: dispose };
 
                 function later(ms, fn) {
-                    timers.push(setTimeout(fn, ms));
+                    var timer = setTimeout(function () {
+                        if (!isCurrent()) return;
+                        fn();
+                    }, ms);
+                    timers.push(timer);
                 }
                 function setCredit(index) {
                     if (index >= credits.length) {
@@ -1201,9 +1239,10 @@
                     shade.addClass("is-black");
                 }
                 function cleanupAndNext() {
+                    if (!isCurrent() || advanced) return;
+                    advanced = true;
                     var baseLayer = kag.layer.getLayer("base", "fore");
 
-                    timers.forEach(clearTimeout);
                     kag.setSkip(false);
                     kag.stat.is_skip = false;
                     baseLayer.empty();
@@ -1211,7 +1250,7 @@
                         "background-image": "none",
                         "background-color": "#000000"
                     });
-                    ending.remove();
+                    dispose();
                     kag.ftag.nextOrder();
                 }
                 function showImage(index) {
@@ -1236,7 +1275,10 @@
                     setShadeBlackInstant();
                     photo.addClass("is-hidden");
                     photo.removeClass("hl-ending-sepia hl-ending-sepia-to-color");
-                    photo.one("load.hlEnding error.hlEnding", function () { later(80, revealPreparedImage); });
+                    photo.one("load.hlEnding error.hlEnding", function () {
+                        if (!isCurrent()) return;
+                        later(80, revealPreparedImage);
+                    });
                     photo.attr("src", "./data/bgimage/" + item.storage);
                     if (item.sepia) {
                         photo.addClass("hl-ending-sepia");
@@ -1268,7 +1310,7 @@
                 $(".button_menu").hide();
                 kag.layer.hideMessageLayers();
                 kag.layer.getLayer("base", "fore").css("background-color", "#000");
-                ending.on("click mousedown mouseup touchstart touchend pointerdown pointerup wheel contextmenu", function (event) {
+                ending.on("click.hlEnding mousedown.hlEnding mouseup.hlEnding touchstart.hlEnding touchend.hlEnding pointerdown.hlEnding pointerup.hlEnding wheel.hlEnding contextmenu.hlEnding", function (event) {
                     event.preventDefault();
                     event.stopImmediatePropagation();
                     event.stopPropagation();
