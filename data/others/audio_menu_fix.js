@@ -7,13 +7,6 @@
         Howler.autoSuspend = false;
     }
 
-    document.addEventListener("visibilitychange", function (event) {
-        if (document.visibilityState === "hidden") {
-            event.stopImmediatePropagation();
-        }
-    }, true);
-
-
     function getKag() {
         return window.TYRANO && window.TYRANO.kag;
     }
