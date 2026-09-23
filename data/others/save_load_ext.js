@@ -471,6 +471,10 @@
     }
 
     function resetRuntimeBeforeSceneSwitch() {
+        // This is the single pre-switch boundary shared by title transitions
+        // and save-data restoration.  Retire the old scene's text work before
+        // audio/DOM teardown or loadGameData() can install the next state.
+        invalidateTextCallbacks(window.TYRANO && TYRANO.kag);
         cleanupBadEnd();
         stopTransientAudio();
         clearTransientVisuals();
@@ -525,12 +529,6 @@
 
     function resetInputRuntimeForTitle(kag) {
         if (!kag) return;
-
-        // addOneChar() recursively schedules itself and finishAddingChars()
-        // without retaining their timer IDs.  Move to a new generation before
-        // releasing is_adding_text so callbacks from the previous scenario can
-        // neither touch the title DOM nor call ftag.nextOrder().
-        invalidateTextCallbacks(kag);
 
         // loadGameData restores stat wholesale.  A save made while text, a
         // click, or a transition is being processed can therefore bring these
@@ -1379,7 +1377,6 @@
         }
 
         menu.loadQuickSave = function () {
-            resetRuntimeBeforeSceneSwitch();
             return this.__hl_original_loadQuickSave.call(this);
         };
 
@@ -1467,7 +1464,6 @@
 
 
         menu.loadGame = function (num) {
-            resetRuntimeBeforeSceneSwitch();
             if (String(num).indexOf("auto:") === 0) {
                 var data = getAutoSaveData(this)[parseInt(String(num).split(":")[1], 10)];
                 if (data) {
