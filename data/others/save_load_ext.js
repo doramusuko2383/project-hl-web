@@ -476,6 +476,41 @@
         clearTransientVisuals();
     }
 
+    function resetInputRuntimeForTitle(kag) {
+        if (!kag) return;
+
+        // loadGameData restores stat wholesale.  A save made while text, a
+        // click, or a transition is being processed can therefore bring these
+        // transient flags back even though the restored scene is already
+        // usable.  They must not survive the *next* scene switch (notably the
+        // menu's return-to-title jump).
+        if (kag.stat) {
+            kag.stat.is_stop = false;
+            kag.stat.is_wait = false;
+            kag.stat.is_skip = false;
+            kag.stat.is_auto = false;
+            kag.stat.is_adding_text = false;
+            kag.stat.is_click_text = false;
+            kag.stat.is_hide_message = false;
+            kag.stat.is_wait_anim = false;
+            kag.stat.is_trans = false;
+            kag.stat.visible_menu_button = false;
+            kag.stat.enable_keyconfig = true;
+        }
+
+        if (kag.tmp) {
+            window.clearTimeout(kag.tmp.wait_id);
+            kag.tmp.wait_id = "";
+            // The CONTINUE guard belongs only to the input which initiated
+            // that load.  Never let it gate a later title or title-menu input.
+            kag.tmp.__hl_continue_input_guard = false;
+        }
+        if (kag.key_mouse) {
+            kag.key_mouse.is_swipe = false;
+            kag.key_mouse.is_keydown = false;
+        }
+    }
+
     // Keep every route back to the title on the same teardown path.  Scenario
     // files, EXTRA, and the menu confirmation can all call this before jumping;
     // repeated calls are intentionally harmless because title.ks is the final
@@ -491,13 +526,7 @@
         if (!kag) return;
         if (kag.cancelStrongStop) kag.cancelStrongStop();
         if (kag.cancelWeakStop) kag.cancelWeakStop();
-        if (kag.stat) {
-            kag.stat.is_stop = false;
-            kag.stat.is_wait = false;
-            kag.stat.is_skip = false;
-            kag.stat.is_auto = false;
-            kag.stat.visible_menu_button = false;
-        }
+        resetInputRuntimeForTitle(kag);
         $(".remodal-wrapper, .remodal-overlay").hide();
         $(".button_menu, .role_button, .quiet_system_button").hide();
         window.__hlSuppressNextScenarioClick = 0;
