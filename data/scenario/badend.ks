@@ -88,7 +88,9 @@ $(".bad_end_title").updatePText(f.bad_end_title || "");
 
 *bad_end_retry
 [iscript]
-window.__hlCleanupBadEnd();
+if (window.__hlDisposeBadEndUi()) {
+    window.__hlRestoreBadEndControls();
+}
 [endscript]
 [showmenubutton]
 [free layer="fix" name="bad_end_bg"]
@@ -107,7 +109,7 @@ window.__hlCleanupBadEnd();
 if (window.__hlPrepareForTitle) {
     window.__hlPrepareForTitle();
 } else {
-    window.__hlCleanupBadEnd();
+    window.__hlDisposeBadEndUi();
 }
 [endscript]
 [showmenubutton]
