@@ -1,17 +1,26 @@
 (function () {
     "use strict";
 
-    function cleanupBadEnd() {
+    function disposeBadEndUi() {
+        var body = $("body");
+        if (!body.hasClass("badend-active")) return false;
+
         window.clearInterval(window.__badEndGlitchTimer);
         window.__badEndGlitchTimer = null;
-        $("body").removeClass("badend-active");
+        body.removeClass("badend-active");
         $(".badend-title-glitch").removeClass("badend-glitching");
         $(".bad_end_number").removeClass("badend-kicker-ready");
-        $(".button_menu, .role_button, .quiet_system_button").show();
+        return true;
+    }
+
+    function restoreControlsHiddenByBadEnd() {
+        // The scenario's [showmenubutton] tag restores .button_menu.
+        $(".role_button, .quiet_system_button").show();
     }
 
     // badend.ks can run before the asynchronous menu installer is ready.
-    window.__hlCleanupBadEnd = cleanupBadEnd;
+    window.__hlDisposeBadEndUi = disposeBadEndUi;
+    window.__hlRestoreBadEndControls = restoreControlsHiddenByBadEnd;
 
     var MANUAL_SLOT_COUNT = 100;
     var AUTO_SLOT_COUNT = 10;
@@ -476,7 +485,7 @@
         // and save-data restoration.  Retire the old scene's text work before
         // audio/DOM teardown or loadGameData() can install the next state.
         invalidateTextCallbacks(window.TYRANO && TYRANO.kag);
-        cleanupBadEnd();
+        disposeBadEndUi();
         stopTransientAudio();
         clearTransientVisuals();
     }
@@ -1388,7 +1397,7 @@
 
         if (!TYRANO.kag.__hl_bad_end_load_cleanup_installed) {
             TYRANO.kag.__hl_bad_end_load_cleanup_installed = true;
-            TYRANO.kag.on("load-beforemaking", cleanupBadEnd, { system: true });
+            TYRANO.kag.on("load-beforemaking", disposeBadEndUi, { system: true });
         }
 
         if (!TYRANO.kag.menu) {
