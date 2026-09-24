@@ -7,13 +7,6 @@
         Howler.autoSuspend = false;
     }
 
-    document.addEventListener("visibilitychange", function (event) {
-        if (document.visibilityState === "hidden") {
-            event.stopImmediatePropagation();
-        }
-    }, true);
-
-
     function getKag() {
         return window.TYRANO && window.TYRANO.kag;
     }
@@ -99,16 +92,20 @@
     function restoreAfterTitleCancel() {
         var kag = getKag();
         if (!kag) return false;
-        var isBadEnd = $("body").hasClass("badend-active");
-        if (!isBadEnd) {
-            kag.cancelStrongStop();
-            kag.cancelWeakStop();
-            kag.stat.is_stop = false;
-            kag.stat.is_wait = false;
-            kag.stat.is_skip = false;
-            kag.stat.is_auto = false;
+        if ($("body").hasClass("badend-active")) {
+            kag.layer.getMenuLayer().show();
+            $(".button_menu, .role_button, .quiet_system_button").hide();
+            kag.restoreFocusable && kag.restoreFocusable();
+            window.__hlSuppressNextScenarioClick = Date.now() + SUPPRESS_CLICK_MS;
+            unlockAudio();
+            return false;
         }
-        $(".remodal-wrapper, .remodal-overlay").hide();
+        kag.cancelStrongStop();
+        kag.cancelWeakStop();
+        kag.stat.is_stop = false;
+        kag.stat.is_wait = false;
+        kag.stat.is_skip = false;
+        kag.stat.is_auto = false;
         kag.layer.getMenuLayer().show();
         $(".button_menu").hide();
         kag.restoreFocusable && kag.restoreFocusable();
@@ -132,21 +129,16 @@
         kag.backTitle = function () {
             unlockAudio();
             if ("appJsInterface" in window) {
-                window.__hlPrepareForTitle();
                 appJsInterface.finishGame();
                 return;
             }
             if (typeof TyranoPlayer === "function") {
-                window.__hlPrepareForTitle();
                 webkit.messageHandlers.backHandler.postMessage("endgame");
                 return;
             }
             $.confirm($.lang("go_title"), function () {
                 var currentKag = getKag();
-                window.__hlPrepareForTitle();
-                currentKag.layer.getMenuLayer().hide().empty();
-                $(".button_menu").hide();
-                currentKag.stat.visible_menu_button = false;
+                if (window.__hlPrepareForTitle) window.__hlPrepareForTitle();
                 currentKag.ftag.startTag("jump", { storage: "title.ks" });
             }, restoreAfterTitleCancel);
         };
