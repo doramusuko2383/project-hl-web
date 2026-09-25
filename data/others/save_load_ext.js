@@ -1146,6 +1146,98 @@
         kag.on("click-tag-glink.hlChoiceBackdrop", handleAcceptedStoryChoiceSelection);
     }
 
+    // TEMPORARY QA DIAGNOSTICS: remove this function and its install() call
+    // after the post-choice MENU input lock has been captured on hardware.
+    // This observes runtime state only; it must not repair or normalize it.
+    function installPostChoiceInputDiagnostics(kag) {
+        if (kag.__hl_post_choice_input_diagnostics_installed) return;
+        kag.__hl_post_choice_input_diagnostics_installed = true;
+
+        var traceActive = false;
+        var awaitingFirstBranchText = false;
+
+        function dumpInputState(point) {
+            var eventLayer = kag.layer && kag.layer.layer_event;
+            var menuLayer = kag.layer && kag.layer.getMenuLayer ? kag.layer.getMenuLayer() : $();
+            var remodalOpened = $(".remodal-wrapper").hasClass("remodal-is-opened");
+            var keyMouseUtil = kag.key_mouse && kag.key_mouse.util;
+            var canClick = null;
+
+            if (keyMouseUtil && typeof keyMouseUtil.canClick === "function") {
+                canClick = keyMouseUtil.canClick();
+            }
+
+            console.log("[HL input diagnostic] " + point, {
+                is_stop: kag.stat.is_stop,
+                is_strong_stop: kag.stat.is_strong_stop,
+                is_wait: kag.stat.is_wait,
+                is_click_text: kag.stat.is_click_text,
+                is_adding_text: kag.stat.is_adding_text,
+                is_auto: kag.stat.is_auto,
+                is_skip: kag.stat.is_skip,
+                is_wait_auto: kag.stat.is_wait_auto,
+                layer_event_click_display: eventLayer && eventLayer.length ? eventLayer.css("display") : null,
+                layer_menu_display: menuLayer && menuLayer.length ? menuLayer.css("display") : null,
+                layer_menu_opacity: menuLayer && menuLayer.length ? menuLayer.css("opacity") : null,
+                remodal_opened: remodalOpened,
+                __hl_continue_input_guard: kag.tmp.__hl_continue_input_guard,
+                canClick: canClick,
+                current_order_index: kag.ftag.current_order_index,
+                current_scenario: kag.stat.current_scenario
+            });
+        }
+
+        kag.on("click-tag-glink.hlPostChoiceInputDiagnostic", function () {
+            traceActive = true;
+            awaitingFirstBranchText = false;
+            dumpInputState("1 glink accepted");
+        });
+
+        kag.on("tag-jump.hlPostChoiceInputDiagnostic", function () {
+            if (!traceActive) return;
+            awaitingFirstBranchText = true;
+            dumpInputState("2 jump start");
+        });
+
+        var originalWaitClick = kag.waitClick;
+        kag.waitClick = function (name) {
+            var result = originalWaitClick.apply(this, arguments);
+            if (traceActive && awaitingFirstBranchText && name === "text") {
+                awaitingFirstBranchText = false;
+                dumpInputState('3 first branch waitClick("text")');
+            }
+            return result;
+        };
+
+        document.addEventListener("click", function (event) {
+            if (!traceActive || !$(event.target).closest(".button_menu").length) return;
+            dumpInputState("4 MENU button click");
+        }, true);
+
+        document.addEventListener("click", function (event) {
+            if (!traceActive || !$(event.target).closest(".menu_close").length) return;
+            dumpInputState("5 menu_close click");
+
+            var startedAt = Date.now();
+            var waitForFadeOut = function () {
+                var menuLayer = kag.layer.getMenuLayer();
+                if (menuLayer.css("display") === "none") {
+                    dumpInputState("6 layer_menu fadeOut complete");
+                    window.setTimeout(function () {
+                        dumpInputState("7 500ms after fadeOut complete");
+                    }, 500);
+                    return;
+                }
+                if (Date.now() - startedAt < 2000) {
+                    window.requestAnimationFrame(waitForFadeOut);
+                } else {
+                    dumpInputState("6 layer_menu fadeOut timeout");
+                }
+            };
+            window.requestAnimationFrame(waitForFadeOut);
+        }, true);
+    }
+
     function handleAcceptedStoryChoiceSelection(event) {
         var choiceButton = $(event.target).closest(".glink_button.hl-story-choice");
         if (!choiceButton.length) return;
@@ -1391,6 +1483,7 @@
         installClickSoundEvents();
         installConfigOverlay();
         installChoiceTags();
+        installPostChoiceInputDiagnostics(TYRANO.kag);
         installEndingTag();
         installScenarioTags();
         installTextCallbackGuard(TYRANO.kag);
