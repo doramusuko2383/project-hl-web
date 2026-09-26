@@ -270,35 +270,6 @@
         return { auto_next: autoNext };
     }
 
-    function armContinueInputGuard(kag) {
-        // CONTINUE is invoked from a glink click (or its keyboard-generated
-        // click).  Loading replaces the layers while that input is still being
-        // dispatched, which can make the restored event layer consume it as
-        // the next click.  Keep canClick() closed through restoration and, for
-        // Enter/Space, until the activating key has actually been released.
-        kag.tmp.__hl_continue_input_guard = true;
-        kag.once("load-beforemaking", function () {
-            var releaseAfter = Date.now() + 100;
-            var waitForRelease = function () {
-                var keyboard = kag.key_mouse && kag.key_mouse.keyboard;
-                var states = keyboard && keyboard.key_state_map;
-                var keyHeld = false;
-                if (states) {
-                    Object.keys(states).some(function (key) {
-                        keyHeld = !!states[key].pressed;
-                        return keyHeld;
-                    });
-                }
-                if (Date.now() < releaseAfter || keyHeld) {
-                    window.setTimeout(waitForRelease, 16);
-                    return;
-                }
-                kag.tmp.__hl_continue_input_guard = false;
-            };
-            window.setTimeout(waitForRelease, 0);
-        }, { system: true });
-    }
-
     function hasContinuableData(menu) {
         if (!menu) return false;
         return !!latest(getAutoSaveData(menu).concat(menu.getSaveData().data));
@@ -562,9 +533,6 @@
         if (kag.tmp) {
             window.clearTimeout(kag.tmp.wait_id);
             kag.tmp.wait_id = "";
-            // The CONTINUE guard belongs only to the input which initiated
-            // that load.  Never let it gate a later title or title-menu input.
-            kag.tmp.__hl_continue_input_guard = false;
         }
         if (kag.key_mouse) {
             kag.key_mouse.is_swipe = false;
@@ -1418,15 +1386,6 @@
         menu.__hl_original_loadQuickSave = menu.loadQuickSave;
         menu.__hl_original_setQuickSave = menu.setQuickSave;
 
-        var keyMouseUtil = TYRANO.kag.key_mouse && TYRANO.kag.key_mouse.util;
-        if (keyMouseUtil && !keyMouseUtil.__hl_original_canClick) {
-            keyMouseUtil.__hl_original_canClick = keyMouseUtil.canClick;
-            keyMouseUtil.canClick = function () {
-                if (TYRANO.kag.tmp.__hl_continue_input_guard) return false;
-                return this.__hl_original_canClick.apply(this, arguments);
-            };
-        }
-
         menu.loadQuickSave = function () {
             return this.__hl_original_loadQuickSave.call(this);
         };
@@ -1536,13 +1495,14 @@
 
         menu.loadLatestSave = function () {
             var newest = latest(getAutoSaveData(this).concat(this.getSaveData().data));
-            if (newest) {
-                newest = $.extend(true, {}, newest);
-                armContinueInputGuard(this.kag);
-                this.loadGameData(newest, loadOptionsForData(newest));
-                return true;
-            }
-            return false;
+            if (!newest) return false;
+
+            var menu = this;
+            var num = newest.num;
+            window.setTimeout(function () {
+                menu.loadGame(num);
+            }, 0);
+            return true;
         };
 
         menu.displaySave = function (cb, cb_close) {
