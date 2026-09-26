@@ -270,28 +270,6 @@
         return { auto_next: autoNext };
     }
 
-    function armContinueInputGuard(kag) {
-        // CONTINUE is invoked from a glink click (or its keyboard-generated
-        // click).  Loading replaces the layers while that input is still being
-        // dispatched, which can make the restored event layer consume it as
-        // the next click.  Keep canClick() closed through restoration, then
-        // release it unconditionally after a short one-shot delay.  Do not wait
-        // on key_state_map: a stale pressed state must never make this guard
-        // permanent.
-        window.clearTimeout(kag.tmp.__hl_continue_input_guard_timer);
-        kag.tmp.__hl_continue_input_guard = true;
-        kag.tmp.__hl_continue_input_guard_expires_at = 0;
-        kag.once("load-beforemaking", function () {
-            var guardDelay = 100;
-            kag.tmp.__hl_continue_input_guard_expires_at = Date.now() + guardDelay;
-            kag.tmp.__hl_continue_input_guard_timer = window.setTimeout(function () {
-                kag.tmp.__hl_continue_input_guard = false;
-                kag.tmp.__hl_continue_input_guard_expires_at = 0;
-                kag.tmp.__hl_continue_input_guard_timer = 0;
-            }, guardDelay);
-        }, { system: true });
-    }
-
     function hasContinuableData(menu) {
         if (!menu) return false;
         return !!latest(getAutoSaveData(menu).concat(menu.getSaveData().data));
@@ -555,12 +533,6 @@
         if (kag.tmp) {
             window.clearTimeout(kag.tmp.wait_id);
             kag.tmp.wait_id = "";
-            // The CONTINUE guard belongs only to the input which initiated
-            // that load.  Never let it gate a later title or title-menu input.
-            window.clearTimeout(kag.tmp.__hl_continue_input_guard_timer);
-            kag.tmp.__hl_continue_input_guard = false;
-            kag.tmp.__hl_continue_input_guard_expires_at = 0;
-            kag.tmp.__hl_continue_input_guard_timer = 0;
         }
         if (kag.key_mouse) {
             kag.key_mouse.is_swipe = false;
@@ -1414,22 +1386,6 @@
         menu.__hl_original_loadQuickSave = menu.loadQuickSave;
         menu.__hl_original_setQuickSave = menu.setQuickSave;
 
-        var keyMouseUtil = TYRANO.kag.key_mouse && TYRANO.kag.key_mouse.util;
-        if (keyMouseUtil && !keyMouseUtil.__hl_original_canClick) {
-            keyMouseUtil.__hl_original_canClick = keyMouseUtil.canClick;
-            keyMouseUtil.canClick = function () {
-                var tmp = TYRANO.kag.tmp;
-                if (tmp.__hl_continue_input_guard) {
-                    if (!tmp.__hl_continue_input_guard_expires_at || Date.now() < tmp.__hl_continue_input_guard_expires_at) return false;
-                    window.clearTimeout(tmp.__hl_continue_input_guard_timer);
-                    tmp.__hl_continue_input_guard = false;
-                    tmp.__hl_continue_input_guard_expires_at = 0;
-                    tmp.__hl_continue_input_guard_timer = 0;
-                }
-                return this.__hl_original_canClick.apply(this, arguments);
-            };
-        }
-
         menu.loadQuickSave = function () {
             return this.__hl_original_loadQuickSave.call(this);
         };
@@ -1539,13 +1495,14 @@
 
         menu.loadLatestSave = function () {
             var newest = latest(getAutoSaveData(this).concat(this.getSaveData().data));
-            if (newest) {
-                newest = $.extend(true, {}, newest);
-                armContinueInputGuard(this.kag);
-                this.loadGameData(newest, loadOptionsForData(newest));
-                return true;
-            }
-            return false;
+            if (!newest) return false;
+
+            var menu = this;
+            var num = newest.num;
+            window.setTimeout(function () {
+                menu.loadGame(num);
+            }, 0);
+            return true;
         };
 
         menu.displaySave = function (cb, cb_close) {
