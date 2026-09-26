@@ -274,28 +274,21 @@
         // CONTINUE is invoked from a glink click (or its keyboard-generated
         // click).  Loading replaces the layers while that input is still being
         // dispatched, which can make the restored event layer consume it as
-        // the next click.  Keep canClick() closed through restoration and, for
-        // Enter/Space, until the activating key has actually been released.
+        // the next click.  Keep canClick() closed through restoration, then
+        // release it unconditionally after a short one-shot delay.  Do not wait
+        // on key_state_map: a stale pressed state must never make this guard
+        // permanent.
+        window.clearTimeout(kag.tmp.__hl_continue_input_guard_timer);
         kag.tmp.__hl_continue_input_guard = true;
+        kag.tmp.__hl_continue_input_guard_expires_at = 0;
         kag.once("load-beforemaking", function () {
-            var releaseAfter = Date.now() + 100;
-            var waitForRelease = function () {
-                var keyboard = kag.key_mouse && kag.key_mouse.keyboard;
-                var states = keyboard && keyboard.key_state_map;
-                var keyHeld = false;
-                if (states) {
-                    Object.keys(states).some(function (key) {
-                        keyHeld = !!states[key].pressed;
-                        return keyHeld;
-                    });
-                }
-                if (Date.now() < releaseAfter || keyHeld) {
-                    window.setTimeout(waitForRelease, 16);
-                    return;
-                }
+            var guardDelay = 100;
+            kag.tmp.__hl_continue_input_guard_expires_at = Date.now() + guardDelay;
+            kag.tmp.__hl_continue_input_guard_timer = window.setTimeout(function () {
                 kag.tmp.__hl_continue_input_guard = false;
-            };
-            window.setTimeout(waitForRelease, 0);
+                kag.tmp.__hl_continue_input_guard_expires_at = 0;
+                kag.tmp.__hl_continue_input_guard_timer = 0;
+            }, guardDelay);
         }, { system: true });
     }
 
@@ -564,7 +557,10 @@
             kag.tmp.wait_id = "";
             // The CONTINUE guard belongs only to the input which initiated
             // that load.  Never let it gate a later title or title-menu input.
+            window.clearTimeout(kag.tmp.__hl_continue_input_guard_timer);
             kag.tmp.__hl_continue_input_guard = false;
+            kag.tmp.__hl_continue_input_guard_expires_at = 0;
+            kag.tmp.__hl_continue_input_guard_timer = 0;
         }
         if (kag.key_mouse) {
             kag.key_mouse.is_swipe = false;
@@ -1422,7 +1418,14 @@
         if (keyMouseUtil && !keyMouseUtil.__hl_original_canClick) {
             keyMouseUtil.__hl_original_canClick = keyMouseUtil.canClick;
             keyMouseUtil.canClick = function () {
-                if (TYRANO.kag.tmp.__hl_continue_input_guard) return false;
+                var tmp = TYRANO.kag.tmp;
+                if (tmp.__hl_continue_input_guard) {
+                    if (!tmp.__hl_continue_input_guard_expires_at || Date.now() < tmp.__hl_continue_input_guard_expires_at) return false;
+                    window.clearTimeout(tmp.__hl_continue_input_guard_timer);
+                    tmp.__hl_continue_input_guard = false;
+                    tmp.__hl_continue_input_guard_expires_at = 0;
+                    tmp.__hl_continue_input_guard_timer = 0;
+                }
                 return this.__hl_original_canClick.apply(this, arguments);
             };
         }
