@@ -1359,7 +1359,7 @@
             TYRANO.kag.on("load-beforemaking", disposeBadEndUi, { system: true });
         }
 
-        if (!TYRANO.kag.menu) {
+        if (!TYRANO.kag.menu || !TYRANO.kag.menu.kag || !TYRANO.kag.menu.kag.ftag) {
             setTimeout(install, 50);
             return;
         }
