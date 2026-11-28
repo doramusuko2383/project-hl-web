@@ -70,7 +70,7 @@
             // 食い違う場合があるため、隣接するMENU自身の表示状態を正とする。
             var controlsVisible = menuButton.length > 0 && menuButton.css("display") !== "none";
             var isAuto = !!kag.stat.is_auto;
-            var isFullscreenSequence = $("body").hasClass("badend-active") || $("#hl-ending").length > 0;
+            var isFullscreenSequence = $("body").hasClass("demo-ending-active");
             // MENUが一時的に非表示でもAUTOの実行状態は変わらない。状態表示まで
             // 隠してしまわず、右下へ寄せて現在のAUTO状態を知らせる。ただし、
             // 操作UIを意図的に消す全画面演出には状態表示を重ねない。
@@ -106,17 +106,6 @@
         return String(value).replace(/<[^>]*>/g, "").replace(/\s+/g, " ").trim();
     }
 
-    function toJapaneseNumber(num) {
-        var ones = ["", "一", "二", "三", "四", "五", "六", "七", "八", "九"];
-        num = parseInt(num, 10);
-        if (!num) return "";
-        if (num < 10) return ones[num];
-        if (num === 10) return "十";
-        if (num < 20) return "十" + ones[num - 10];
-        if (num < 100) return ones[Math.floor(num / 10)] + "十" + ones[num % 10];
-        return String(num);
-    }
-
     function chapterInfoFromText(value) {
         var text = safeText(value);
         var match = text.match(/^第([0-9０-９一二三四五六七八九十百千]+)章\s*/);
@@ -124,7 +113,9 @@
         var rawNumber = match[1].replace(/[０-９]/g, function (ch) {
             return String.fromCharCode(ch.charCodeAt(0) - 0xFEE0);
         });
-        var chapter = /^\d+$/.test(rawNumber) ? "第" + toJapaneseNumber(rawNumber) + "章" : "第" + rawNumber + "章";
+        var legacyChapterNumbers = { "一": 1, "二": 2, "三": 3, "四": 4, "五": 5, "六": 6, "七": 7, "八": 8, "九": 9, "十": 10 };
+        var chapterNumber = /^\d+$/.test(rawNumber) ? parseInt(rawNumber, 10) : legacyChapterNumbers[rawNumber];
+        var chapter = chapterNumber ? "Chapter " + chapterNumber : "Chapter";
         return {
             chapter: chapter,
             rest: text.slice(match[0].length).replace(/^[\s　]+/, "")
@@ -237,13 +228,25 @@
         })[0];
     }
 
+    // loadGame() normally resumes a manual save without advancing it.  Auto
+    // saves are snapshots taken while the autosave tag is running, so only
+    // those snapshots need auto_next in order to leave that tag.
+    function loadOptionsForData(data) {
+        var autoNext = data && data.is_auto ? "yes" : "no";
+        if (data && data.stat && data.stat.load_auto_next == 1) {
+            data.stat.load_auto_next = false;
+            autoNext = "yes";
+        }
+        return { auto_next: autoNext };
+    }
+
     function hasContinuableData(menu) {
         if (!menu) return false;
         return !!latest(getAutoSaveData(menu).concat(menu.getSaveData().data));
     }
 
     function showNoContinueNotice() {
-        var message = "まだ続きから再開できるデータがありません。\nNEW GAMEから物語を始めてください。";
+        var message = "There is no save data to continue from yet.\nPlease start the story with NEW GAME.";
         if ($.inform) {
             $.inform(message);
             return;
@@ -410,7 +413,7 @@
     }
 
     function clearTransientVisuals() {
-        hideChoiceBackdrop(true);
+        disposeChoiceBackdrop();
         $("#chapter-title-overlay, #proyama-splash").remove();
         $(".tyrano-anim, .chara-mod-animation").stop(true, true);
         $(".layer_menu").hide().empty();
@@ -418,9 +421,116 @@
     }
 
     function resetRuntimeBeforeSceneSwitch() {
+        // This is the single pre-switch boundary shared by title transitions
+        // and save-data restoration.  Retire the old scene's text work before
+        // audio/DOM teardown or loadGameData() can install the next state.
+        invalidateTextCallbacks(window.TYRANO && TYRANO.kag);
         stopTransientAudio();
         clearTransientVisuals();
     }
+
+    function invalidateTextCallbacks(kag) {
+        if (!kag || !kag.tmp) return;
+        var textTag = kag.ftag && kag.ftag.master_tag && kag.ftag.master_tag.text;
+        // Use Tyrano's own lip-sync teardown: it clears every per-part timer,
+        // restores the closed-mouth frame, and removes the tmp target list.
+        // Unlike finishAddingChars(), this does not call ftag.nextOrder().
+        if (textTag && typeof textTag.stopLipSyncWithText === "function" && kag.tmp.text_lipsync_target_parts) {
+            textTag.stopLipSyncWithText();
+        }
+        kag.tmp.__hl_text_generation = (kag.tmp.__hl_text_generation || 0) + 1;
+    }
+
+    function installTextCallbackGuard(kag) {
+        var textTag = kag && kag.ftag && kag.ftag.master_tag && kag.ftag.master_tag.text;
+        if (!textTag || textTag.__hl_text_callback_guard_installed) return;
+        textTag.__hl_text_callback_guard_installed = true;
+
+        var originalAddChars = textTag.addChars;
+        var originalAddOneChar = textTag.addOneChar;
+
+        function runWithGuardedTextTimeout(tag, generation, callback, args) {
+            var originalSetTimeout = $.setTimeout;
+            $.setTimeout = function (timerCallback, timeout) {
+                return originalSetTimeout(function () {
+                    if (tag.kag.tmp.__hl_text_generation !== generation) return;
+                    timerCallback();
+                }, timeout);
+            };
+            try {
+                return callback.apply(tag, args);
+            } finally {
+                $.setTimeout = originalSetTimeout;
+            }
+        }
+
+        textTag.addChars = function () {
+            invalidateTextCallbacks(this.kag);
+            var generation = this.kag.tmp.__hl_text_generation;
+            return runWithGuardedTextTimeout(this, generation, originalAddChars, arguments);
+        };
+
+        textTag.addOneChar = function () {
+            var generation = this.kag.tmp.__hl_text_generation;
+            return runWithGuardedTextTimeout(this, generation, originalAddOneChar, arguments);
+        };
+    }
+
+    function resetInputRuntimeForTitle(kag) {
+        if (!kag) return;
+
+        // loadGameData restores stat wholesale.  A save made while text, a
+        // click, or a transition is being processed can therefore bring these
+        // transient flags back even though the restored scene is already
+        // usable.  They must not survive the *next* scene switch (notably the
+        // menu's return-to-title jump).
+        if (kag.stat) {
+            kag.stat.is_stop = false;
+            kag.stat.is_wait = false;
+            kag.stat.is_skip = false;
+            kag.stat.is_auto = false;
+            kag.stat.is_adding_text = false;
+            kag.stat.is_click_text = false;
+            kag.stat.is_hide_message = false;
+            kag.stat.is_wait_anim = false;
+            kag.stat.is_trans = false;
+            kag.stat.visible_menu_button = false;
+            kag.stat.enable_keyconfig = true;
+        }
+
+        if (kag.tmp) {
+            window.clearTimeout(kag.tmp.wait_id);
+            kag.tmp.wait_id = "";
+        }
+        if (kag.key_mouse) {
+            kag.key_mouse.is_swipe = false;
+            kag.key_mouse.is_keydown = false;
+        }
+    }
+
+    // Keep every route back to the title on the same teardown path.  Scenario
+    // files and the menu confirmation can all call this before jumping;
+    // repeated calls are intentionally harmless because title.ks is the final
+    // safety net for less common return routes.
+    window.__hlPrepareForTitle = function () {
+        var kag = window.TYRANO && TYRANO.kag;
+
+        if (kag && kag.menu && kag.menu.flushLastPlayedSnapshot) {
+            kag.menu.flushLastPlayedSnapshot();
+        }
+        resetRuntimeBeforeSceneSwitch();
+
+        if (!kag) return;
+        if (kag.cancelStrongStop) kag.cancelStrongStop();
+        if (kag.cancelWeakStop) kag.cancelWeakStop();
+        resetInputRuntimeForTitle(kag);
+        // The confirmation callback runs before Remodal calls close().  Do not
+        // hide its wrapper here: a hidden closing animation never emits its
+        // completion event and leaves the reusable instance stuck in
+        // `closing`, so the next return-to-title confirmation cannot open.
+        $(".button_menu, .role_button, .quiet_system_button").hide();
+        window.__hlSuppressNextScenarioClick = 0;
+    };
 
 
     function installLastPlayedSnapshotEvents(menu) {
@@ -611,7 +721,7 @@
                     '<style id="hl-config-overlay-style">' +
                     '#hl-config-overlay{position:absolute;inset:0;z-index:2147483647;pointer-events:auto;font-family:GenMin,serif;color:rgba(238,244,248,.94)}' +
                     '#hl-config-overlay .hl-config-backdrop{position:absolute;inset:0;background:rgba(0,0,0,.78)}' +
-                    '#hl-config-overlay .hl-config-panel{position:absolute;left:250px;top:96px;width:940px;min-height:520px;box-sizing:border-box;padding:36px 54px;border:1px solid rgba(220,235,245,.24);border-radius:8px;background:linear-gradient(180deg,rgba(5,8,13,.96),rgba(0,0,0,.92));box-shadow:0 24px 70px rgba(0,0,0,.55),0 0 30px rgba(120,160,190,.08)}' +
+                    '#hl-config-overlay .hl-config-panel{position:absolute;left:50%;transform:translateX(-50%);top:96px;width:940px;min-height:520px;box-sizing:border-box;padding:36px 54px;border:1px solid rgba(220,235,245,.24);border-radius:8px;background:linear-gradient(180deg,rgba(5,8,13,.96),rgba(0,0,0,.92));box-shadow:0 24px 70px rgba(0,0,0,.55),0 0 30px rgba(120,160,190,.08)}' +
                     '#hl-config-overlay h1{margin:0 0 28px;font-size:24px;letter-spacing:.18em;font-weight:600}' +
                     '#hl-config-overlay .hl-config-close{position:absolute;right:34px;top:24px}' +
                     '#hl-config-overlay .hl-config-row{display:grid;grid-template-columns:160px 500px 96px;align-items:center;gap:34px;margin:22px 0;letter-spacing:.12em}' +
@@ -782,6 +892,11 @@
             choiceBackdropRemovalTimer = null;
             $("#hl-choice-backdrop").remove();
         }, DEFAULT_CHOICE_CONFIG.fadeTime);
+    }
+
+    function disposeChoiceBackdrop() {
+        choiceBackdropDismissed = false;
+        hideChoiceBackdrop(true);
     }
 
     function hasActiveStoryChoice() {
@@ -975,160 +1090,6 @@
         hideChoiceBackdrop();
     }
 
-    function installEndingTag() {
-        TYRANO.kag.tag.hl_ending = {
-            vital: [],
-            pm: {},
-            start: function () {
-                var kag = TYRANO.kag;
-                var images = [
-                    { storage: "ch01_sc01_rooftop_wait.webp", hold: 8500, sepia: true },
-                    { storage: "ch2_ayaka_and_megumi.webp", hold: 8500, sepia: true },
-                    { storage: "ch3_karaoke_determination.webp", hold: 9500, sepia: true },
-                    { storage: "ch4_takumi_megumi.webp", hold: 9500, sepia: true },
-                    { storage: "ch5_rooftop_tatsuya_cry.webp", hold: 10500, sepia: true },
-                    { storage: "ch6_5members.webp", hold: 10500, sepia: true },
-                    { storage: "ch6_ayaka_episode.webp", hold: 9500, sepia: true },
-                    { storage: "ch6_ayaka_memory.webp", hold: 9500, sepia: true },
-                    { storage: "ch7_shakehands.webp", hold: 11500, sepia: true },
-                    { storage: "ch7_ending.webp", hold: 14500, sepia: true, final: true }
-                ];
-                var credits = [
-                    ["Scenario", "プロ山"],
-                    ["Direction", "プロ山"],
-                    ["Programming", "プロ山"],
-                    ["Illustration", "ChatGPT"],
-                    ["Music", "BGMer：http://bgmer.net"]
-                ];
-                var ending = $("<div></div>").attr("id", "hl-ending");
-                var photo = $("<img>").addClass("hl-ending-photo").attr("alt", "");
-                var shade = $("<div></div>").addClass("hl-ending-shade");
-                var introText = $("<div></div>").addClass("hl-ending-intro").text("思い出アルバム");
-                var credit = $("<div></div>").addClass("hl-ending-credit");
-                var endText = $("<div></div>").addClass("hl-ending-end").text("END");
-                var timers = [];
-
-                function later(ms, fn) {
-                    timers.push(setTimeout(fn, ms));
-                }
-                function setCredit(index) {
-                    if (index >= credits.length) {
-                        credit.removeClass("is-visible");
-                        return;
-                    }
-                    credit.html('<div class="hl-ending-credit-role"></div><div class="hl-ending-credit-name"></div>');
-                    credit.find(".hl-ending-credit-role").text(credits[index][0]);
-                    credit.find(".hl-ending-credit-name").text(credits[index][1]);
-                    credit.addClass("is-visible");
-                }
-                function setShadeBlackInstant() {
-                    shade.addClass("hl-ending-no-transition is-black");
-                    shade[0].offsetHeight;
-                    shade.removeClass("hl-ending-no-transition");
-                }
-                function revealImageInstant() {
-                    shade.addClass("hl-ending-no-transition");
-                    shade.removeClass("is-black");
-                    shade[0].offsetHeight;
-                    shade.removeClass("hl-ending-no-transition");
-                }
-                function fadeToBlack() {
-                    shade.removeClass("hl-ending-no-transition");
-                    shade.addClass("is-black");
-                }
-                function cleanupAndNext() {
-                    var baseLayer = kag.layer.getLayer("base", "fore");
-
-                    timers.forEach(clearTimeout);
-                    kag.setSkip(false);
-                    kag.stat.is_skip = false;
-                    baseLayer.empty();
-                    baseLayer.css({
-                        "background-image": "none",
-                        "background-color": "#000000"
-                    });
-                    ending.remove();
-                    kag.ftag.nextOrder();
-                }
-                function showImage(index) {
-                    var item = images[index];
-                    var revealed = false;
-
-                    function revealPreparedImage() {
-                        if (revealed) return;
-                        revealed = true;
-                        photo.off("load.hlEnding error.hlEnding");
-                        photo.removeClass("is-hidden");
-                        revealImageInstant();
-                        if (item.sepia) {
-                            later(120, function () { photo.addClass("hl-ending-sepia-to-color"); });
-                        }
-                        if (item.final) {
-                            credit.removeClass("is-visible");
-                            later(5000, function () { endText.addClass("is-visible"); });
-                        }
-                    }
-
-                    setShadeBlackInstant();
-                    photo.addClass("is-hidden");
-                    photo.removeClass("hl-ending-sepia hl-ending-sepia-to-color");
-                    photo.one("load.hlEnding error.hlEnding", function () { later(80, revealPreparedImage); });
-                    photo.attr("src", "./data/bgimage/" + item.storage);
-                    if (item.sepia) {
-                        photo.addClass("hl-ending-sepia");
-                    }
-                    if (photo.get(0).complete) {
-                        later(80, revealPreparedImage);
-                    }
-                    later(item.hold, function () {
-                        if (index < images.length - 1) {
-                            fadeToBlack();
-                            later(1050, function () { photo.addClass("is-hidden"); });
-                            later(1200, function () { showImage(index + 1); });
-                            return;
-                        }
-                        later(1000, function () {
-                            fadeToBlack();
-                            later(2000, function () {
-                                endText.removeClass("is-visible");
-                                later(2000, cleanupAndNext);
-                            });
-                        });
-                    });
-                }
-
-                kag.setSkip(false);
-                kag.stat.is_skip = false;
-                kag.setAuto(false);
-                $(document).trigger("mouseup");
-                $(".button_menu").hide();
-                kag.layer.hideMessageLayers();
-                kag.layer.getLayer("base", "fore").css("background-color", "#000");
-                ending.on("click mousedown mouseup touchstart touchend pointerdown pointerup wheel contextmenu", function (event) {
-                    event.preventDefault();
-                    event.stopImmediatePropagation();
-                    event.stopPropagation();
-                    return false;
-                });
-                ending.append(photo, shade, introText, credit, endText);
-                $("#tyrano_base").append(ending);
-                setShadeBlackInstant();
-                introText.addClass("is-visible");
-                credits.forEach(function (_, i) { later(i * 19000 + 7000, function () { setCredit(i); }); });
-                later(5000, function () {
-                    introText.removeClass("is-visible");
-                    showImage(0);
-                });
-            }
-        };
-        if (TYRANO.kag.ftag && TYRANO.kag.ftag.master_tag) {
-            TYRANO.kag.ftag.master_tag.hl_ending = $.extend(true, {}, TYRANO.kag.tag.hl_ending);
-            TYRANO.kag.ftag.master_tag.hl_ending.kag = TYRANO.kag;
-        }
-    }
-
-
-
     function installScenarioTags() {
         var kag = window.TYRANO && TYRANO.kag;
         if (!kag) return;
@@ -1176,10 +1137,10 @@
         installClickSoundEvents();
         installConfigOverlay();
         installChoiceTags();
-        installEndingTag();
         installScenarioTags();
+        installTextCallbackGuard(TYRANO.kag);
 
-        if (!TYRANO.kag.menu) {
+        if (!TYRANO.kag.menu || !TYRANO.kag.menu.kag) {
             setTimeout(install, 50);
             return;
         }
@@ -1198,7 +1159,6 @@
         menu.__hl_original_setQuickSave = menu.setQuickSave;
 
         menu.loadQuickSave = function () {
-            resetRuntimeBeforeSceneSwitch();
             return this.__hl_original_loadQuickSave.call(this);
         };
 
@@ -1217,17 +1177,6 @@
                 that.kag.layer.getMenuLayer().hide();
             });
         };
-
-        if (TYRANO.kag.backTitle && !TYRANO.kag.__hl_original_backTitle) {
-            TYRANO.kag.__hl_original_backTitle = TYRANO.kag.backTitle;
-            TYRANO.kag.backTitle = function () {
-                hideChoiceBackdrop(true);
-                if (TYRANO.kag.menu && TYRANO.kag.menu.flushLastPlayedSnapshot) {
-                    TYRANO.kag.menu.flushLastPlayedSnapshot();
-                }
-                return TYRANO.kag.__hl_original_backTitle.apply(this, arguments);
-            };
-        }
 
         menu.getSaveData = function () {
             return normalizeSaveData(this);
@@ -1285,7 +1234,8 @@
         menu.loadAutoSave = function () {
             var data = getAutoSaveData(this)[0];
             if (!data) return false;
-            this.loadGameData($.extend(true, {}, data), { auto_next: "yes" });
+            data = $.extend(true, {}, data);
+            this.loadGameData(data, loadOptionsForData(data));
         };
 
         menu.loadGameData = function (data, options) {
@@ -1296,10 +1246,12 @@
 
 
         menu.loadGame = function (num) {
-            resetRuntimeBeforeSceneSwitch();
             if (String(num).indexOf("auto:") === 0) {
                 var data = getAutoSaveData(this)[parseInt(String(num).split(":")[1], 10)];
-                if (data) this.loadGameData($.extend(true, {}, data), { auto_next: "yes" });
+                if (data) {
+                    data = $.extend(true, {}, data);
+                    this.loadGameData(data, loadOptionsForData(data));
+                }
                 return;
             }
             return this.__hl_original_loadGame.call(this, num);
@@ -1316,7 +1268,7 @@
         menu.loadLatestSave = function () {
             var newest = latest(getAutoSaveData(this).concat(this.getSaveData().data));
             if (newest) {
-                this.loadGameData($.extend(true, {}, newest), { auto_next: "yes" });
+                this.loadGame(newest.num);
                 return true;
             }
             return false;
