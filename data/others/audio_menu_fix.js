@@ -96,19 +96,38 @@
         if (document.visibilityState === "visible") unlockAudio();
     });
 
-    function restoreAfterTitleCancel() {
+    var TITLE_CONFIRM_STATE_KEYS = [
+        "is_strong_stop",
+        "is_weak_stop",
+        "is_wait",
+        "is_stop",
+        "is_click_text",
+        "is_skip",
+        "is_auto"
+    ];
+
+    function captureTitleConfirmState(kag) {
+        var state = {};
+        if (!kag || !kag.stat) return state;
+        TITLE_CONFIRM_STATE_KEYS.forEach(function (key) {
+            state[key] = kag.stat[key];
+        });
+        return state;
+    }
+
+    function restoreAfterTitleCancel(state) {
         var kag = getKag();
         if (!kag) return false;
-        kag.cancelStrongStop();
-        kag.cancelWeakStop();
-        kag.stat.is_stop = false;
-        kag.stat.is_wait = false;
-        kag.stat.is_skip = false;
-        kag.stat.is_auto = false;
-        $(".remodal-wrapper, .remodal-overlay").hide();
-        kag.layer.getMenuLayer().show();
-        $(".button_menu").hide();
-        kag.restoreFocusable && kag.restoreFocusable();
+        if (kag.stat) {
+            TITLE_CONFIRM_STATE_KEYS.forEach(function (key) {
+                if (Object.prototype.hasOwnProperty.call(state, key)) {
+                    kag.stat[key] = state[key];
+                }
+            });
+        }
+        // Let Remodal perform its standard close sequence.  In particular, do
+        // not rebuild menu/control visibility here: the confirmation is an
+        // overlay, so cancelling it should leave the underlying UI untouched.
         window.__hlSuppressNextScenarioClick = Date.now() + SUPPRESS_CLICK_MS;
         unlockAudio();
         return false;
@@ -127,6 +146,7 @@
         if (!kag || kag.__hlBackTitlePatched) return false;
         kag.__hlBackTitlePatched = true;
         kag.backTitle = function () {
+            var stateBeforeConfirm = captureTitleConfirmState(getKag());
             unlockAudio();
             if ("appJsInterface" in window) {
                 appJsInterface.finishGame();
@@ -138,11 +158,11 @@
             }
             $.confirm($.lang("go_title"), function () {
                 var currentKag = getKag();
-                currentKag.layer.getMenuLayer().hide().empty();
-                $(".button_menu").hide();
-                currentKag.stat.visible_menu_button = false;
+                if (window.__hlPrepareForTitle) window.__hlPrepareForTitle();
                 currentKag.ftag.startTag("jump", { storage: "title.ks" });
-            }, restoreAfterTitleCancel);
+            }, function () {
+                return restoreAfterTitleCancel(stateBeforeConfirm);
+            });
         };
         return true;
     }
